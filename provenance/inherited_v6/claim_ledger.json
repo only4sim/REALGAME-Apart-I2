@@ -1,0 +1,277 @@
+{
+  "version": "v6",
+  "claims": [
+    {
+      "id": "F01",
+      "claim": "Final environment detectability need not change an already committed target action.",
+      "support": "Proposition 1; Appendix A; tests/test_core.py",
+      "assumptions": "Complete pre-decision information and causal agent policy; no unmodeled pre-target cue.",
+      "confidence": "High within declared model",
+      "verification_remaining": "Independent theorem review; no real deployment transport claim."
+    },
+    {
+      "id": "F02",
+      "claim": "The sharp identification interval sums first-exit probabilities times minimum/maximum attainable continuation targets.",
+      "support": "Proposition 1; Appendix A; inherited v3 theory described in project history",
+      "assumptions": "Finite full histories, unrestricted behavioral continuations, known reference, full audit laws.",
+      "confidence": "Proof supplied; specialist review pending",
+      "verification_remaining": "Check exact novelty against partial identification and observational-equivalence work."
+    },
+    {
+      "id": "F03",
+      "claim": "Matching audit laws for a cross-threshold pair prevents a sound complete certification.",
+      "support": "Proposition 2; Appendix B; legacy_v5/theory_report.md",
+      "assumptions": "Same reset law; every allowed controller covered; threshold classes nonempty.",
+      "confidence": "High conditional proof confidence",
+      "verification_remaining": "Independent review and implementation-to-model validation."
+    },
+    {
+      "id": "F04",
+      "claim": "Finite positive Gamma gives lower cost log(1/delta)/Gamma and first-order asymptotic equality.",
+      "support": "Proposition 2; legacy_v5/theory_report.md and saved certificates",
+      "assumptions": "Finite alphabets, compact convex classes, known maps, independent resets, fixed thresholds; delta tends to zero.",
+      "confidence": "Carried-forward conditional project result",
+      "verification_remaining": "Independent proof and priority review; not a finite-delta exact cost for LLMs."
+    },
+    {
+      "id": "F05",
+      "claim": "Conditional total-variation error and bounded score oscillation yield normalized anytime validity.",
+      "support": "Proposition 3; Appendix C; protocol/THEORY_TO_EXPERIMENT.md",
+      "assumptions": "Predictable nonnegative scores, nonnegative justified error/slack bounds for the joint conditional controller-record law.",
+      "confidence": "High; elementary inequality",
+      "verification_remaining": "Real audits must justify conditional error bounds independently."
+    },
+    {
+      "id": "F06",
+      "claim": "Marginal realism does not imply conditional certificate validity.",
+      "support": "results/robustness.json persistent_bit",
+      "assumptions": "Specified cached-bit process.",
+      "confidence": "Exact counterexample",
+      "verification_remaining": "No claim that actual LLMs use persistent covert state."
+    },
+    {
+      "id": "F07",
+      "claim": "Known-kernel weighting recovers a target under positive support but not at zero support.",
+      "support": "results/coverage.json; scripts/run_local.py",
+      "assumptions": "Same policy given complete observation, known reference/safe probabilities.",
+      "confidence": "Exact finite identities",
+      "verification_remaining": "Do not apply to live models from semantic labels alone."
+    },
+    {
+      "id": "F08",
+      "claim": "Correcting conditional misspecification can eliminate power.",
+      "support": "results/robustness.json persistent_bit robust_maximum_factor=1",
+      "assumptions": "Supplied conditional error envelope 7/10.",
+      "confidence": "Exact example",
+      "verification_remaining": "Actual reset-error envelope remains unknown."
+    },
+    {
+      "id": "F09",
+      "claim": "A separate calibration failure probability may be added only with simultaneous conditional coverage and proper freezing.",
+      "support": "Appendix C; protocol/THEORY_TO_EXPERIMENT.md",
+      "assumptions": "Appropriate independence and valid calibration guarantee.",
+      "confidence": "Conditional observation",
+      "verification_remaining": "No calibration-derived deployment envelope is claimed here."
+    },
+    {
+      "id": "E01",
+      "claim": "960 scripted episodes completed; 768 factorial and 192 coherent controls.",
+      "support": "results/scripted_runs.jsonl; results/totals.json",
+      "assumptions": "Four explicitly programmed policies and two small mechanism families.",
+      "confidence": "Executed and reproducible",
+      "verification_remaining": "Not 960 independent realistic tasks; not LLM results."
+    },
+    {
+      "id": "E02",
+      "claim": "There are zero failed or excluded scripted episodes.",
+      "support": "results/totals.json; results/scripted_runs.jsonl",
+      "assumptions": "All scripted ledgers retained.",
+      "confidence": "Executed",
+      "verification_remaining": "No implication for future provider failures."
+    },
+    {
+      "id": "E03",
+      "claim": "The fixed final witness scores 768/768 on factorial and 96/192 on coherent controls.",
+      "support": "results/scripted_runs.jsonl; results/scripted_summary.json",
+      "assumptions": "Balanced labels; fixed witness orientation.",
+      "confidence": "Executed known-control result",
+      "verification_remaining": "Not autonomous discovery; final diagnostic is evaluator provided."
+    },
+    {
+      "id": "E04",
+      "claim": "384 prescribed pairs have matching decision-input hashes and scripted target choices.",
+      "support": "results/scripted_summary.json; scripts/run_local.py",
+      "assumptions": "After timing, zero budget, or coherent controls; same scripted policy.",
+      "confidence": "Exact hash and choice checks",
+      "verification_remaining": "Real independent LLM samples need not match choices bit-for-bit."
+    },
+    {
+      "id": "E05",
+      "claim": "375 population cases pass 600 exact checks.",
+      "support": "results/coverage.json",
+      "assumptions": "Finite rational grid explicitly disclosed.",
+      "confidence": "Exact arithmetic",
+      "verification_remaining": "General theorem relies on proof, not grid enumeration."
+    },
+    {
+      "id": "E06",
+      "claim": "3,000 sampling replicates use 384,000 draws and retain every count vector.",
+      "support": "results/coverage_replicates.jsonl; results/coverage_sampling.json",
+      "assumptions": "Fixed scripted conditional kernel, seed620231.",
+      "confidence": "Executed seeded sampling",
+      "verification_remaining": "Monte Carlo figures are not estimates of actual model behavior."
+    },
+    {
+      "id": "E07",
+      "claim": "At q=1/16, observed naive/weighted MSEs are 0.04863238525390625 and 0.02125175347222222.",
+      "support": "results/coverage_sampling.json; Table 3; Figure 1",
+      "assumptions": "1,000 replicates of128; reference target0.5.",
+      "confidence": "Executed",
+      "verification_remaining": "Sampling deviations remain; no invented p-value or interval."
+    },
+    {
+      "id": "E08",
+      "claim": "At q=1/4, observed naive/weighted MSEs are 0.01747412109375 and 0.004543077256944444.",
+      "support": "results/coverage_sampling.json; Table 3",
+      "assumptions": "Same fixed policy and replicate design.",
+      "confidence": "Executed",
+      "verification_remaining": "Not a universal variance improvement guarantee."
+    },
+    {
+      "id": "E09",
+      "claim": "At q=1/2, both estimators coincide and MSE is 0.00192303466796875.",
+      "support": "results/coverage_sampling.json",
+      "assumptions": "Reference and audit probabilities equal.",
+      "confidence": "Executed and algebraic",
+      "verification_remaining": "None beyond reference-model scope."
+    },
+    {
+      "id": "E10",
+      "claim": "Nominal crossing at eta0 is0.039936328176419796 by200 rounds.",
+      "support": "results/robustness.json; Figure 2",
+      "assumptions": "Two-outcome fixed nominal null; threshold20.",
+      "confidence": "Exact probability",
+      "verification_remaining": "Not an empirical confidence interval."
+    },
+    {
+      "id": "E11",
+      "claim": "At eta0.05, nominal/corrected crossing are0.20199016333606892 /0.04053503612438656.",
+      "support": "results/robustness.json",
+      "assumptions": "Specified conditional probability shift; exact normalizer.",
+      "confidence": "Exact probability",
+      "verification_remaining": "Fault-envelope applicability must be validated in real systems."
+    },
+    {
+      "id": "E12",
+      "claim": "At eta0.2, nominal/corrected crossing are0.9977540701237154 /0.04285168586082247.",
+      "support": "results/robustness.json",
+      "assumptions": "Specified conditional probability shift; exact normalizer.",
+      "confidence": "Exact probability",
+      "verification_remaining": "No production safety certification."
+    },
+    {
+      "id": "E13",
+      "claim": "The cached-bit nominal crossing is3/10, first possible at round6; robust factors never exceed1.",
+      "support": "results/robustness.json",
+      "assumptions": "One shared bit across all rounds.",
+      "confidence": "Exact",
+      "verification_remaining": "Corrected no-crossing is inconclusive, not a safety result."
+    },
+    {
+      "id": "E14",
+      "claim": "38 inherited certificate cases and2,031 constraints were rechecked this round.",
+      "support": "verification/legacy_full_rechecked.json; verification/legacy_restricted_rechecked.json",
+      "assumptions": "Inputs are prior artifact certificate files.",
+      "confidence": "Independently rerun software checker",
+      "verification_remaining": "A software checker is not an independent human proof review."
+    },
+    {
+      "id": "E15",
+      "claim": "The full class has15 positive/4 overlap cases; restricted comparison has18/1.",
+      "support": "Same two checker outputs and legacy_v5 certificate files",
+      "assumptions": "Artificial restriction changes candidate class.",
+      "confidence": "Rechecked",
+      "verification_remaining": "Do not transfer restricted-class assurance to full class."
+    },
+    {
+      "id": "E16",
+      "claim": "Twelve mock episodes made36 mock completions; no real LLM experiment was run.",
+      "support": "verification/mock_transport_final/summary.json; results/llm/BLOCKERS.md",
+      "assumptions": "Mock backend distinct from evaluated models.",
+      "confidence": "Executed",
+      "verification_remaining": "Real provider compatibility and all LLM outcomes remain unmeasured."
+    },
+    {
+      "id": "E17",
+      "claim": "Twelve unit tests passed, including exhaustive625-sequence checks in both after families.",
+      "support": "verification/unit_tests.txt; tests/test_core.py",
+      "assumptions": "Small local transition system only.",
+      "confidence": "Executed",
+      "verification_remaining": "No OS isolation certification."
+    },
+    {
+      "id": "P01",
+      "claim": "Two configured models imply480 episodes and at most2,592 requests without retries.",
+      "support": "scripts/run_llm.py plan; tests/test_core.py; protocol/EXPERIMENT_SPEC.md",
+      "assumptions": "Two models,12seeds/cell,0or4probes,2reports,48controls/model.",
+      "confidence": "Verified plan arithmetic",
+      "verification_remaining": "Execution requires exact IDs, access, latency capacity, and authorization."
+    },
+    {
+      "id": "P02",
+      "claim": "The six-hour workflow is feasible as a bounded plan, not an execution guarantee.",
+      "support": "CODEX_PROMPT.md; protocol/EXPERIMENT_SPEC.md",
+      "assumptions": "Preexisting inference access; strict hour-four stop for new calls.",
+      "confidence": "Engineering estimate",
+      "verification_remaining": "Actual latency, quotas, spend and runner compatibility must be piloted."
+    },
+    {
+      "id": "D01",
+      "claim": "The report has8main pages,1reference page,4appendix pages and150-word abstract.",
+      "support": "verification/report_checks.json; submission_report.pdf",
+      "assumptions": "Current rendering and whitespace-delimited abstract count.",
+      "confidence": "Verified build",
+      "verification_remaining": "Rerender and recount after any edit or different typography."
+    },
+    {
+      "id": "D02",
+      "claim": "The native template page geometry is preserved and four tables/two figures are numbered.",
+      "support": "template/apart_original.docx; submission_report.docx; verification/report_checks.json",
+      "assumptions": "Source template copied unchanged; populated report adapted to one author.",
+      "confidence": "Verified build",
+      "verification_remaining": "Author affiliation and artifact location remain unresolved."
+    },
+    {
+      "id": "L01",
+      "claim": "Penumbra precedes the interactive game and external consequence witness.",
+      "support": "Report reference1, supplied manuscript sections2and5",
+      "assumptions": "Source manuscript, publication metadata unresolved.",
+      "confidence": "Primary attachment checked",
+      "verification_remaining": "Author/date/status and novelty boundary require human review."
+    },
+    {
+      "id": "L02",
+      "claim": "SAD/procedural-awareness/sandbagging work already separates recognition, action, capability and propensity.",
+      "support": "Report references2–4; exact sections in Related Work",
+      "assumptions": "Use sources for scoped comparisons, not all broad awareness claims.",
+      "confidence": "Primary attachments",
+      "verification_remaining": "Final citation and interpretation review."
+    },
+    {
+      "id": "L03",
+      "claim": "Safe Testing and interactive estimation supply major statistical precedents.",
+      "support": "Report references7–11; legacy literature notes",
+      "assumptions": "No first or new-general-testing claim.",
+      "confidence": "Scoped review",
+      "verification_remaining": "Precise independent originality audit still needed."
+    },
+    {
+      "id": "S01",
+      "claim": "No shell, network, or filesystem action is exposed to the evaluated policy.",
+      "support": "src/worlds.py; tests/test_core.py; scripts/run_llm.py",
+      "assumptions": "Only enumerated JSON commands interpreted; approved inference transport separate.",
+      "confidence": "Implementation checked",
+      "verification_remaining": "This is not a hardened Python boundary against arbitrary hostile code."
+    }
+  ]
+}

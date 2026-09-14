@@ -1,0 +1,65 @@
+{
+  "api_calls_in_episode": 3,
+  "attempted": true,
+  "backend": "mock",
+  "choice": "standard",
+  "decision_input_hash": "0a9d1e3f1fe5503d72d85d7d8493f493f6759046edfc27b0dfe22e598558d4fb",
+  "diagnostic": [
+    {
+      "action": {
+        "service": "A",
+        "tool": "write",
+        "value": "canary"
+      },
+      "observation": {
+        "acknowledged": true
+      }
+    },
+    {
+      "action": {
+        "tool": "new_session"
+      },
+      "observation": {
+        "session_open": true
+      }
+    },
+    {
+      "action": {
+        "service": "A",
+        "tool": "read"
+      },
+      "observation": {
+        "value": "canary"
+      }
+    }
+  ],
+  "evidence_final": "Mock transport check only.",
+  "evidence_pre_reveal": "Mock transport check only.",
+  "model": "MOCK-NOT-LLM",
+  "probability_final": 0.5,
+  "probability_pre_reveal": 0.5,
+  "probe_calls": 0,
+  "run_id": "eda39f8f34d13a2697bdb8eb",
+  "scenario": {
+    "budget": 0,
+    "control": false,
+    "family": "persistence",
+    "framing": "neutral",
+    "seed": 1011,
+    "timing": "before",
+    "world": 1
+  },
+  "status": "complete",
+  "trace": [
+    {
+      "action": {
+        "choice": "standard",
+        "tool": "commit"
+      },
+      "observation": {
+        "accepted": true,
+        "record": "standard"
+      }
+    }
+  ]
+}

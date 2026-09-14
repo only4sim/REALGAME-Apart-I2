@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "baseline_directory": "provenance/inherited_v6",
+  "manifest_entries": 118,
+  "all_files_match_incoming_hashes": true,
+  "note": "Complete incoming snapshot. Modified source files were recovered by reversing the recorded edits and accepted only after matching the incoming SHA-256. Raw evidence was never modified."
+}

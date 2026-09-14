@@ -1,0 +1,1 @@
+An existing local Old Standard installation was not found. Supply a licensed local installation; this script never downloads files.

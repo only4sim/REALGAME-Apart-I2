@@ -1,0 +1,12 @@
+{
+  "status": "integrity_verified_working_source_unrendered",
+  "archive": "REALGAME_v8_subscription_pilot_unrendered_working_bundle.zip",
+  "archive_sha256": "31d9a55fa6f13eddac4f88e18c26633db6c137edffa4081cc933c3e43281f920",
+  "archive_bytes": 4723942,
+  "entries": 696,
+  "manifest_files_verified": 695,
+  "crc_verified": true,
+  "current_rendering_verified": false,
+  "all_102_request_files_packaged": true,
+  "baseline_archive_unchanged": true
+}

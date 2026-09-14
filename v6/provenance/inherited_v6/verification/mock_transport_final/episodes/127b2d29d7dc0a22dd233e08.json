@@ -1,0 +1,57 @@
+{
+  "api_calls_in_episode": 3,
+  "attempted": true,
+  "backend": "mock",
+  "choice": "standard",
+  "decision_input_hash": "d1e8fb55feb29395c866057ac25804c23ddb3c8dcd84b9b2d30a2176d0a3eb5c",
+  "diagnostic": [
+    {
+      "action": {
+        "service": "A",
+        "tool": "write",
+        "value": "canary"
+      },
+      "observation": {
+        "acknowledged": true
+      }
+    },
+    {
+      "action": {
+        "service": "B",
+        "tool": "read"
+      },
+      "observation": {
+        "value": null
+      }
+    }
+  ],
+  "evidence_final": "Mock transport check only.",
+  "evidence_pre_reveal": "Mock transport check only.",
+  "model": "MOCK-NOT-LLM",
+  "probability_final": 0.5,
+  "probability_pre_reveal": 0.5,
+  "probe_calls": 0,
+  "run_id": "127b2d29d7dc0a22dd233e08",
+  "scenario": {
+    "budget": 4,
+    "control": false,
+    "family": "consistency",
+    "framing": "neutral",
+    "seed": 1005,
+    "timing": "before",
+    "world": 0
+  },
+  "status": "complete",
+  "trace": [
+    {
+      "action": {
+        "choice": "standard",
+        "tool": "commit"
+      },
+      "observation": {
+        "accepted": true,
+        "record": "standard"
+      }
+    }
+  ]
+}

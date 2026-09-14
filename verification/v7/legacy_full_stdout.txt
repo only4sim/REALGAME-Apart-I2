@@ -1,0 +1,8 @@
+{
+  "status": "all_certificates_verified",
+  "case_count": 19,
+  "checked_constraints": 957,
+  "logarithms": "rational series with rigorous remainder and outward dyadic rounding",
+  "maximum_positive_gap": 0.00020901745753912536,
+  "llm_runs": 0
+}

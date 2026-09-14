@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "input": "{\"x\":1e400}",
+      "rejected": true
+    },
+    {
+      "input": "{\"x\":-1e400}",
+      "rejected": true
+    },
+    {
+      "input": "{\"nested\":[1e400]}",
+      "rejected": true
+    },
+    {
+      "input": "{\"a\":{\"b\":-9.9e999}}",
+      "rejected": true
+    }
+  ],
+  "tests_before": 17,
+  "tests_after": 18,
+  "new_scientific_observations": 0
+}

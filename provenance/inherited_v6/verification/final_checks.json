@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "current_release": "v6",
+  "main_pages": 8,
+  "reference_pages": 1,
+  "appendix_pages": 4,
+  "total_pdf_pages": 13,
+  "abstract_words": 150,
+  "visual_review": {
+    "all_pages_inspected": true,
+    "checks": [
+      "equation rendering",
+      "tables and captions",
+      "figure legibility",
+      "no clipped text",
+      "no blank padding page"
+    ]
+  },
+  "source_template_bytes_preserved": true,
+  "unit_tests": 12,
+  "unit_tests_passed": 12,
+  "cpu_reproduction_files": 7,
+  "cpu_files_byte_identical": true,
+  "mock_episodes": 12,
+  "mock_requests": 36,
+  "real_llm_runs": 0,
+  "real_api_requests": 0,
+  "report_numeric_ledger": "claim_ledger.json",
+  "claim_count": 34,
+  "credential_values_in_package": false,
+  "font_binaries_in_package": false,
+  "network_default": "disabled",
+  "human_review_complete": false,
+  "ready_for_automatic_submission": false,
+  "remaining_gates": [
+    "author affiliation",
+    "artifact public URL or accepted attachment",
+    "independent theorem and novelty review",
+    "human authorship approval",
+    "current submission eligibility",
+    "real-provider pilot and explicit budget for future LLM run"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "started_utc": "2026-09-14T08:26:33Z",
+  "initial_unit_tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "tests_run": 12,
+    "passed": 12,
+    "failures": 0,
+    "record_source": "Observed command output in this execution; original test log preserved separately."
+  },
+  "cpu_command": "python scripts/run_local.py --out results/reproduced",
+  "cpu_exit_code": 0,
+  "certificate_rechecks": [
+    "verification/rechecked_full.json",
+    "verification/rechecked_restricted.json"
+  ],
+  "initial_mock": {
+    "directory": "results/mock_new",
+    "planned": 12,
+    "requests": 36,
+    "llm_runs": 0
+  },
+  "network_inference_requests": 0
+}

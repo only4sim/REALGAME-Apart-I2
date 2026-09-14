@@ -1,0 +1,17 @@
+test_missingness_not_dropped (test_core.StatisticsTests.test_missingness_not_dropped) ... ok
+test_no_network_default (test_core.StatisticsTests.test_no_network_default) ... ok
+test_planned_counts (test_core.StatisticsTests.test_planned_counts) ... ok
+test_robust_factor_exact (test_core.StatisticsTests.test_robust_factor_exact) ... ok
+test_strict_json (test_core.StatisticsTests.test_strict_json) ... ok
+test_after_prefixes_exhaustive (test_core.WorldTests.test_after_prefixes_exhaustive) ... ok
+test_before_witness (test_core.WorldTests.test_before_witness) ... ok
+test_budget_consumed_by_invalid_calls (test_core.WorldTests.test_budget_consumed_by_invalid_calls) ... ok
+test_coherent_controls (test_core.WorldTests.test_coherent_controls) ... ok
+test_disallowed_execution (test_core.WorldTests.test_disallowed_execution) ... ok
+test_labels_not_exposed (test_core.WorldTests.test_labels_not_exposed) ... ok
+test_post_diagnostic_is_not_pre_evidence (test_core.WorldTests.test_post_diagnostic_is_not_pre_evidence) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.019s
+
+OK

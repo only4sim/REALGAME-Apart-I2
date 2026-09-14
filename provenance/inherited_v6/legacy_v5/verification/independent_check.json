@@ -1,0 +1,141 @@
+{
+  "status": "all_certificates_verified",
+  "case_count": 19,
+  "checked_constraints": 1074,
+  "logarithms": "rational series with rigorous remainder and outward dyadic rounding",
+  "maximum_positive_gap": 1.899318488414356e-07,
+  "llm_runs": 0,
+  "details": [
+    {
+      "name": "missing/first_action/1/10_1/5",
+      "kind": "positive_certificate",
+      "gamma_lower": 0.03669001403475058,
+      "information_upper": 0.03669001403475058,
+      "gap": 1.9189435949953723e-26
+    },
+    {
+      "name": "missing/first_action/1/4_3/4",
+      "kind": "positive_certificate",
+      "gamma_lower": 0.5493061443338275,
+      "information_upper": 0.5493061443340549,
+      "gap": 2.273736754435753e-13
+    },
+    {
+      "name": "missing/second_action/1/10_1/5",
+      "kind": "exact_overlap",
+      "gamma": "0"
+    },
+    {
+      "name": "missing/second_action/1/4_3/4",
+      "kind": "positive_certificate",
+      "gamma_lower": 0.005004172927758177,
+      "information_upper": 0.005004172927849127,
+      "gap": 9.094947017745618e-14
+    },
+    {
+      "name": "complementary/first_action/1/10_1/5",
+      "kind": "positive_certificate",
+      "gamma_lower": 0.03669001403475058,
+      "information_upper": 0.03669001403475058,
+      "gap": 1.9189435949953723e-26
+    },
+    {
+      "name": "complementary/first_action/1/4_3/4",
+      "kind": "positive_certificate",
+      "gamma_lower": 0.5493061443338275,
+      "information_upper": 0.5493061443340549,
+      "gap": 2.273736754435753e-13
+    },
+    {
+      "name": "complementary/second_action/1/10_1/5",
+      "kind": "positive_certificate",
+      "gamma_lower": 0.03669001403475058,
+      "information_upper": 0.03669001403475058,
+      "gap": 1.9189435949953723e-26
+    },
+    {
+      "name": "complementary/second_action/1/4_3/4",
+      "kind": "positive_certificate",
+      "gamma_lower": 0.5493059692339747,
+      "information_upper": 0.5493061443340549,
+      "gap": 1.7510008017616967e-07
+    },
+    {
+      "name": "overlap/first_action/1/10_1/5",
+      "kind": "positive_certificate",
+      "gamma_lower": 0.03669001403475058,
+      "information_upper": 0.03669001403475058,
+      "gap": 1.9189435949953723e-26
+    },
+    {
+      "name": "overlap/first_action/1/4_3/4",
+      "kind": "positive_certificate",
+      "gamma_lower": 0.5493061443338275,
+      "information_upper": 0.5493061443340549,
+      "gap": 2.273736754435753e-13
+    },
+    {
+      "name": "overlap/second_action/1/10_1/5",
+      "kind": "positive_certificate",
+      "gamma_lower": 0.023047721517156318,
+      "information_upper": 0.02304791144900516,
+      "gap": 1.899318488414356e-07
+    },
+    {
+      "name": "overlap/second_action/1/4_3/4",
+      "kind": "positive_certificate",
+      "gamma_lower": 0.43004383766336685,
+      "information_upper": 0.4300439211571246,
+      "gap": 8.349375770650506e-08
+    },
+    {
+      "name": "reactive/first_action/1/10_1/5",
+      "kind": "positive_certificate",
+      "gamma_lower": 0.03669001403475058,
+      "information_upper": 0.03669001403475058,
+      "gap": 1.9189435949953723e-26
+    },
+    {
+      "name": "reactive/first_action/1/4_3/4",
+      "kind": "positive_certificate",
+      "gamma_lower": 0.5493061443338275,
+      "information_upper": 0.5493061443340549,
+      "gap": 2.273736754435753e-13
+    },
+    {
+      "name": "reactive/second_action/1/10_1/5",
+      "kind": "positive_certificate",
+      "gamma_lower": 0.02304789594755028,
+      "information_upper": 0.023047911442677583,
+      "gap": 1.549512730431481e-08
+    },
+    {
+      "name": "reactive/second_action/1/4_3/4",
+      "kind": "positive_certificate",
+      "gamma_lower": 0.4300439139537718,
+      "information_upper": 0.43004392115712375,
+      "gap": 7.203351968274062e-09
+    },
+    {
+      "name": "logger/action_only",
+      "kind": "positive_certificate",
+      "gamma_lower": 0.0023995393491744272,
+      "information_upper": 0.002399539349242639,
+      "gap": 6.821210263302371e-14
+    },
+    {
+      "name": "logger/context_action",
+      "kind": "positive_certificate",
+      "gamma_lower": 0.0023995393491744272,
+      "information_upper": 0.002399539349242639,
+      "gap": 6.821210263302371e-14
+    },
+    {
+      "name": "logger/full_predecision",
+      "kind": "positive_certificate",
+      "gamma_lower": 0.0796581081934886,
+      "information_upper": 0.07965820824664965,
+      "gap": 1.0005316104832477e-07
+    }
+  ]
+}

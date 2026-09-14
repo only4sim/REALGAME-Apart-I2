@@ -1,0 +1,131 @@
+/mnt/data/realgame_v7/scripts/verify_report.py:39: UserWarning: style lookup by style_id is deprecated. Use style name as key instead.
+  assert doc.styles['Normal'].font.name=='Old Standard TT'
+/mnt/data/realgame_v7/scripts/verify_report.py:40: UserWarning: style lookup by style_id is deprecated. Use style name as key instead.
+  assert doc.styles['Normal'].font.size.pt>=11
+/mnt/data/realgame_v7/scripts/verify_report.py:58: UserWarning: style lookup by style_id is deprecated. Use style name as key instead.
+  'body_font_points':doc.styles['Normal'].font.size.pt,
+{
+  "status": "passed",
+  "main_pages": 8,
+  "references_start_page": 9,
+  "total_pdf_pages": 13,
+  "abstract_words": 150,
+  "main_page_word_counts": [
+    394,
+    377,
+    443,
+    398,
+    407,
+    294,
+    329,
+    392
+  ],
+  "page_rectangles": [
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ]
+  ],
+  "source_docx": "/mnt/data/realgame_v7/submission_report.docx",
+  "template_geometry_preserved": true,
+  "numbered_month_extensions": 4,
+  "visual_inspection_required": true,
+  "human_submission_gates": [
+    "author identity and affiliation",
+    "artifact location",
+    "theorem and source review",
+    "authorship approval",
+    "venue eligibility"
+  ],
+  "pdf_sha256": "5ca0d9b8a7963a349733156b75d68e9a830b96c15236a96e2929e960f44551d7",
+  "docx_sha256": "ff9724fb585aeb29f036bed50ed6225f5c2ab08398d5d10a22b9232b548c611a",
+  "blocks_sha256": "b84ec6c82f40ed9aac76798ebb67a73d70905ffdb6e7c8bbccaa707590eb05d5",
+  "markdown_sha256": "deed07c94c5c49798f60e18f0eb5b7e3672700495d0d5c5ebca24e8780140d48",
+  "template_sha256": "8c3ff735c44d6b1a2fb6a3af0a4a0316e02a4b98a01ea2cac41fbbed93671f3a",
+  "native_editable_equations": 50,
+  "rendered_fonts": [
+    "BAAAAA+LiberationSans",
+    "CAAAAA+OldStandardTT-Bold",
+    "DAAAAA+OldStandardTT-Regular",
+    "EAAAAA+LiberationSerif-Italic",
+    "FAAAAA+OpenSymbol",
+    "GAAAAA+NimbusRoman-Italic",
+    "HAAAAA+LiberationSerif"
+  ],
+  "body_font_points": 11.0,
+  "rendered_abstract_matches_source": true
+}

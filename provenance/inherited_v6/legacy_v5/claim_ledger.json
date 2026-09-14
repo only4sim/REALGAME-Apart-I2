@@ -1,0 +1,230 @@
+{
+  "version": "0.5",
+  "status": "research_draft",
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "Finite closed-loop audit laws are linear in agent realization plans.",
+      "support": "Report Section 2; finite_model.py; sequence-form background R9.",
+      "assumptions": "Complete world-correlated input model, fixed finite tree, same initialization law.",
+      "confidence": "Mathematical derivation; finite-model checks.",
+      "verification_remaining": "Independent review of application to a real harness."
+    },
+    {
+      "id": "C02",
+      "claim": "Cross-threshold equal-law pairs preclude complete sound certification under adaptive audits.",
+      "support": "Proposition 1.",
+      "assumptions": "All allowed controllers covered; no undeclared side channel.",
+      "confidence": "Complete elementary proof.",
+      "verification_remaining": "Independent proof review; class coverage."
+    },
+    {
+      "id": "C03",
+      "claim": "Population target ambiguity weights first-exit mass by remaining target continuation span.",
+      "support": "Section 3.1, equation (8); carried forward from v0.3.",
+      "assumptions": "Full logs and unrestricted continuation strategies.",
+      "confidence": "Prior project proof retained, not re-proved in all generalizations.",
+      "verification_remaining": "Independent review; do not transfer to compressed logs."
+    },
+    {
+      "id": "C04",
+      "claim": "High-risk is the null; soundness controls ever issuing a false certificate.",
+      "support": "Equations (3)-(6).",
+      "assumptions": "Declared thresholds and agent class.",
+      "confidence": "Definition.",
+      "verification_remaining": "Specify the actual target and acceptable thresholds externally."
+    },
+    {
+      "id": "C05",
+      "claim": "Gamma=0 is equivalent to an equal-law cross-threshold pair.",
+      "support": "Theorem 1; compactness and lower semicontinuity argument.",
+      "assumptions": "Finite alphabets; compact hypothesis classes.",
+      "confidence": "Complete proof.",
+      "verification_remaining": "Independent boundary-case review."
+    },
+    {
+      "id": "C06",
+      "claim": "Gamma>0 permits finite expected-cost certification.",
+      "support": "Theorem 1; Lemmas 1-3.",
+      "assumptions": "Finite resettable convex model with known maps and target.",
+      "confidence": "Complete constructive proof.",
+      "verification_remaining": "Review computational tractability for intended instance sizes."
+    },
+    {
+      "id": "C07",
+      "claim": "Every adaptive certifier costs at least log(1/delta)/Gamma in worst-case low-risk expectation.",
+      "support": "Equation (10); Section 5.2.",
+      "assumptions": "0<Gamma<infinity, eventual complete certification on low-risk class.",
+      "confidence": "Complete stopped chain-rule proof.",
+      "verification_remaining": "Independent check of truncation and minimax quantifiers."
+    },
+    {
+      "id": "C08",
+      "claim": "Regularized construction costs at most [log(1/delta)+log(dmax/epsilon)]/Gamma_epsilon.",
+      "support": "Equation (11); Lemma 2.",
+      "assumptions": "Positive Gamma_epsilon; iid resets; designed controller mixture.",
+      "confidence": "Complete proof.",
+      "verification_remaining": "Verify implementation score and overshoot bound."
+    },
+    {
+      "id": "C09",
+      "claim": "First-order minimax expected cost is log(1/delta)/Gamma.",
+      "support": "Equation (12); epsilon=exp(-sqrt(log(1/delta))).",
+      "assumptions": "Fixed model and thresholds; 0<Gamma<infinity.",
+      "confidence": "Complete proof conditional on stated assumptions.",
+      "verification_remaining": "Novelty comparison and independent specialist review."
+    },
+    {
+      "id": "C10",
+      "claim": "Joint saddle score has composite-null expectation at most one and uniform good log drift.",
+      "support": "Lemma 1; Safe Testing R4 supplies foundational composite e-variable argument.",
+      "assumptions": "Convex sets, positive finite laws for the intermediate lemma.",
+      "confidence": "Complete derivative argument; exact finite moment checks.",
+      "verification_remaining": "Do not claim controllerwise conditional validity."
+    },
+    {
+      "id": "C11",
+      "claim": "Virtual regularization pulls a score to unchanged raw records without altering agents.",
+      "support": "Lemma 2, equations (22)-(25).",
+      "assumptions": "Known stochastic uniform-replacement channel used only computationally.",
+      "confidence": "Complete expectation and Jensen proof.",
+      "verification_remaining": "Check raw logs and policy class remain unchanged in any implementation."
+    },
+    {
+      "id": "C12",
+      "claim": "Gamma_epsilon monotonically converges to extended Gamma.",
+      "support": "Lemma 3.",
+      "assumptions": "Compact pair class, finite alphabets.",
+      "confidence": "Complete compactness and data-processing proof.",
+      "verification_remaining": "Independent verification at zero-probability boundaries."
+    },
+    {
+      "id": "C13",
+      "claim": "Exact optimal alarm-only false-certification risk is (1-eta)(1-beta)^N.",
+      "support": "Theorem 2.",
+      "assumptions": "Only alarm data; zero-alarm clean agents; convex high-risk class; at most N runs.",
+      "confidence": "Complete minimax and all-zero-path proof.",
+      "verification_remaining": "Do not apply lower bound to full contextual traces."
+    },
+    {
+      "id": "C14",
+      "claim": "Uncovered target mass u gives beta=a[(tau-u)/(1-u)]_+.",
+      "support": "Section 7 gate-model corollary.",
+      "assumptions": "u<1; two unrestricted behavior coordinates; audit alarm=a*theta_visible.",
+      "confidence": "Complete minimization; exact budgets.",
+      "verification_remaining": "Independently justify u and a for an application."
+    },
+    {
+      "id": "C15",
+      "claim": "Zero-alarm budgets in the report are exact for the gate model.",
+      "support": "verification/boundary_checks.json.",
+      "assumptions": "delta=1/20 and the listed rational model inputs; no LLM inference.",
+      "confidence": "Exact integer/rational power comparisons.",
+      "verification_remaining": "None for arithmetic; target transport remains unresolved."
+    },
+    {
+      "id": "C16",
+      "claim": "Changing designed controller randomization can cause false certification with probability one.",
+      "support": "Section 9; exact score 5/3,5/7 and joint_randomization calculation.",
+      "assumptions": "Specific iid binary example; bad endpoint u=0.",
+      "confidence": "Analytic proof plus exact finite-horizon DP.",
+      "verification_remaining": "Do not generalize to correctly recomputed adaptive e-factors."
+    },
+    {
+      "id": "C17",
+      "claim": "200-step crossing probabilities are approximately 0.0399363282 and 0.9977540701.",
+      "support": "verification/boundary_checks.json, joint_randomization.",
+      "assumptions": "Evidence threshold 20; exact rational DP; example laws.",
+      "confidence": "Exact rational results displayed as decimals.",
+      "verification_remaining": "Not experimental estimates or real agents."
+    },
+    {
+      "id": "C18",
+      "claim": "Conditional e-moments can preserve soundness without iid observations.",
+      "support": "Proposition 2.",
+      "assumptions": "The conditional moment bound itself holds at every step under the null.",
+      "confidence": "Elementary supermartingale proof.",
+      "verification_remaining": "Must not infer future persistent-agent risk without temporal assumptions."
+    },
+    {
+      "id": "C19",
+      "claim": "TV model errors inflate null moments by at most sum w_j eta_j osc(f_j).",
+      "support": "Section 10.",
+      "assumptions": "Independently justified TV bounds; bounded factors.",
+      "confidence": "Elementary bounded-test inequality.",
+      "verification_remaining": "Acquire error bounds rather than assume them from model explanations."
+    },
+    {
+      "id": "C20",
+      "claim": "Full class has 15 positive certificates and 4 exact overlap witnesses.",
+      "support": "verification/full_class_certificates.json; full_class_check.json.",
+      "assumptions": "Nineteen explicit finite toy cases.",
+      "confidence": "Independent standard-library rational checker.",
+      "verification_remaining": "Not coverage of realistic environments."
+    },
+    {
+      "id": "C21",
+      "claim": "Restricted class has 18 positive certificates and 1 exact overlap witness.",
+      "support": "verification/certificates.json; independent_check.json.",
+      "assumptions": "Artificial coordinate floor is explicitly part of this comparison class.",
+      "confidence": "Independent standard-library rational checker.",
+      "verification_remaining": "Do not use restricted certificates for unrestricted agents."
+    },
+    {
+      "id": "C22",
+      "claim": "Checkers validated 2031 rational constraints across both suites.",
+      "support": "1074 restricted + 957 full; check JSON files.",
+      "assumptions": "The current finite cases and checker implementation.",
+      "confidence": "Executed.",
+      "verification_remaining": "Independent implementation would further improve assurance."
+    },
+    {
+      "id": "C23",
+      "claim": "All 128 depth-three deterministic adaptive alarm rules satisfy the example lower bound.",
+      "support": "verification/boundary_checks.json.",
+      "assumptions": "Two-controller local example.",
+      "confidence": "Exact enumeration.",
+      "verification_remaining": "Does not replace the general proof."
+    },
+    {
+      "id": "C24",
+      "claim": "Five core JSON outputs reproduce byte-for-byte in a clean directory.",
+      "support": "verification/build_verification.json.",
+      "assumptions": "Recorded Python, NumPy, SciPy environment.",
+      "confidence": "Executed clean-directory reproduction.",
+      "verification_remaining": "Cross-platform numerical proposer may differ; recheck certificates."
+    },
+    {
+      "id": "C25",
+      "claim": "Prior v0.4 checker passed 35 cases and 382 constraints.",
+      "support": "notes/v4_rechecked.json.",
+      "assumptions": "Only stored certificate checker rerun.",
+      "confidence": "Executed.",
+      "verification_remaining": "Full v0.4 experiment rerun not performed."
+    },
+    {
+      "id": "C26",
+      "claim": "No LLM experiments were run in this release.",
+      "support": "All result metadata and execution inventory.",
+      "assumptions": "No external model calls.",
+      "confidence": "Execution fact.",
+      "verification_remaining": "Implement preregistered agent experiment before empirical claims."
+    },
+    {
+      "id": "C27",
+      "claim": "Safe Testing already treats composite growth-optimal e-values via joint information projection.",
+      "support": "R4, arXiv:1906.07801v5, Section 3 Theorem 1 First Generalisation, p.12.",
+      "assumptions": "Source-specific prior-work claim, not our result.",
+      "confidence": "Primary PDF checked, including rendered page.",
+      "verification_remaining": "Final author citation review."
+    },
+    {
+      "id": "C28",
+      "claim": "Interactive estimation and controlled change-of-measure lower bounds predate this project.",
+      "support": "R8 Appendix E.2 Proposition E.4/Remark E.5; R7 Lemma 1.",
+      "assumptions": "Primary-source comparison.",
+      "confidence": "Exact locations checked.",
+      "verification_remaining": "Determine precise novelty of combined safety formulation."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "real_provider_pilot_requests": 0,
+  "real_confirmatory_requests": 0,
+  "evaluated_llm_episodes": 0,
+  "actual_models_configured": [],
+  "conceptual_two_model_design_episodes": 480,
+  "conceptual_two_model_max_requests_without_retries": 2592,
+  "provider_spending_authorized": false,
+  "total_inference_spend_usd": 0,
+  "saved_mock_cohorts": [
+    {
+      "cohort": "inherited",
+      "directory": "verification/mock_transport_final",
+      "backend": "mock",
+      "episodes": 12,
+      "saved_requests": 36,
+      "network_inference_requests": 0,
+      "estimated_inference_spend_usd": 0.0
+    },
+    {
+      "cohort": "current_transport_reproduction",
+      "directory": "results/mock_new",
+      "backend": "mock",
+      "episodes": 12,
+      "saved_requests": 36,
+      "network_inference_requests": 0,
+      "estimated_inference_spend_usd": 0.0
+    },
+    {
+      "cohort": "current_after_corrections",
+      "directory": "results/mock_verified",
+      "backend": "mock",
+      "episodes": 12,
+      "saved_requests": 36,
+      "network_inference_requests": 0,
+      "estimated_inference_spend_usd": 0.0
+    }
+  ],
+  "note": "Cohorts are separate; CPU reproduction and mock records do not increase the number of independent scientific observations. Unit-test fixtures are temporary offline transport controls."
+}

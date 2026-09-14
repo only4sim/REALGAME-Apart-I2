@@ -1,0 +1,21 @@
+{
+  "status": "gap_confirmed",
+  "cases": [
+    {
+      "input": "{\"x\": 1e400}",
+      "rejected": false,
+      "result_repr": "{'x': inf}"
+    },
+    {
+      "input": "{\"x\": -1e400}",
+      "rejected": false,
+      "result_repr": "{'x': -inf}"
+    },
+    {
+      "input": "{\"nested\": [1e400]}",
+      "rejected": false,
+      "result_repr": "{'nested': [inf]}"
+    }
+  ],
+  "scope": "Offline parser regression, not model inference."
+}

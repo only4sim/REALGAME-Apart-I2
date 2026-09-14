@@ -1,0 +1,99 @@
+{
+  "all_pages_inspected": true,
+  "pages": [
+    {
+      "page": 1,
+      "identical_to_previously_inspected_pass2": true,
+      "final_png_sha256": "967aadacda3b60908c64ebd17c65272aadbc918f589c8aec375cf0b60f9c43b7",
+      "visual_inspected": true,
+      "inspection": "Pass2 page inspected directly; final pass3 PNG byte-identical"
+    },
+    {
+      "page": 2,
+      "identical_to_previously_inspected_pass2": false,
+      "final_png_sha256": "f2c64b10629e801cb4f39a81ceecfbb4255cdb305e9839e16d50196aa8672089",
+      "visual_inspected": true,
+      "inspection": "Final pass3 page inspected directly"
+    },
+    {
+      "page": 3,
+      "identical_to_previously_inspected_pass2": true,
+      "final_png_sha256": "49d652727ab9959fe383d0c54391ac5a21c53662119983b27a978af819453d67",
+      "visual_inspected": true,
+      "inspection": "Pass2 page inspected directly; final pass3 PNG byte-identical"
+    },
+    {
+      "page": 4,
+      "identical_to_previously_inspected_pass2": false,
+      "final_png_sha256": "11ee383b12598559d926dcdc514e830bce10cdb575e257fce560a87c6201640f",
+      "visual_inspected": true,
+      "inspection": "Final pass3 page inspected directly"
+    },
+    {
+      "page": 5,
+      "identical_to_previously_inspected_pass2": true,
+      "final_png_sha256": "f6eebe10dc5c354ca391a8ac1b8524ba5e1fde424414820b44642f4ac9e6017e",
+      "visual_inspected": true,
+      "inspection": "Pass2 page inspected directly; final pass3 PNG byte-identical"
+    },
+    {
+      "page": 6,
+      "identical_to_previously_inspected_pass2": true,
+      "final_png_sha256": "362e4e64f1b616e9cfbd071f51a5aaed42ea0f57eaee4e3dad19356455a35e4a",
+      "visual_inspected": true,
+      "inspection": "Pass2 page inspected directly; final pass3 PNG byte-identical"
+    },
+    {
+      "page": 7,
+      "identical_to_previously_inspected_pass2": true,
+      "final_png_sha256": "e115feee26c12003dba45ba087d9b1a417fac43a8c60a68f991bba4f3af0800b",
+      "visual_inspected": true,
+      "inspection": "Pass2 page inspected directly; final pass3 PNG byte-identical"
+    },
+    {
+      "page": 8,
+      "identical_to_previously_inspected_pass2": true,
+      "final_png_sha256": "e4d3cfafa15bfea867590ea11c5ac95a3cebd62465753678042480196b66856c",
+      "visual_inspected": true,
+      "inspection": "Pass2 page inspected directly; final pass3 PNG byte-identical"
+    },
+    {
+      "page": 9,
+      "identical_to_previously_inspected_pass2": true,
+      "final_png_sha256": "330d3b1888f8e72a1a073ff7445745a60d1ddb6080db06987a60c5d305068c59",
+      "visual_inspected": true,
+      "inspection": "Pass2 page inspected directly; final pass3 PNG byte-identical"
+    },
+    {
+      "page": 10,
+      "identical_to_previously_inspected_pass2": true,
+      "final_png_sha256": "5bc323617437b68b30b1cce8f4890f5fdeab3ba2947d3d183c1977a1283799f0",
+      "visual_inspected": true,
+      "inspection": "Pass2 page inspected directly; final pass3 PNG byte-identical"
+    },
+    {
+      "page": 11,
+      "identical_to_previously_inspected_pass2": true,
+      "final_png_sha256": "07a4655e1d872475eacf725121b81e93e81af2b364e24a4e103265b70adbbd33",
+      "visual_inspected": true,
+      "inspection": "Pass2 page inspected directly; final pass3 PNG byte-identical"
+    },
+    {
+      "page": 12,
+      "identical_to_previously_inspected_pass2": true,
+      "final_png_sha256": "8d56c178a204b2001170d2fec65414aaa21de17ea0fc92e988e7476d50c76c43",
+      "visual_inspected": true,
+      "inspection": "Pass2 page inspected directly; final pass3 PNG byte-identical"
+    },
+    {
+      "page": 13,
+      "identical_to_previously_inspected_pass2": true,
+      "final_png_sha256": "642ed61722b657f3c2593fefc1a46045c78dd1b82660aa0010a5c09b873f790e",
+      "visual_inspected": true,
+      "inspection": "Pass2 page inspected directly; final pass3 PNG byte-identical"
+    }
+  ],
+  "total_pages": 13,
+  "findings": "No clipped text, tables, or images. Supremum inline rendering replaced by equivalent words. Author/affiliation placeholders remain intentional submission gates.",
+  "scope": "Visual/layout check, not independent theorem review"
+}

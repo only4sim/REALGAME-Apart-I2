@@ -1,0 +1,5258 @@
+{
+  "cases": 375,
+  "exact_checks": 600,
+  "note": "Population identities; no learned policy or real deployment.",
+  "rows": [
+    {
+      "corrected": null,
+      "identified_interval": [
+        "0",
+        "1/10"
+      ],
+      "naive": "0",
+      "p": "1/10",
+      "q": "0",
+      "reference": "0",
+      "theta0": "0",
+      "theta1": "0",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "0",
+        "1/10"
+      ],
+      "naive": "0",
+      "p": "1/10",
+      "q": "0",
+      "reference": "1/40",
+      "theta0": "0",
+      "theta1": "1/4",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "0",
+        "1/10"
+      ],
+      "naive": "0",
+      "p": "1/10",
+      "q": "0",
+      "reference": "1/20",
+      "theta0": "0",
+      "theta1": "1/2",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "0",
+        "1/10"
+      ],
+      "naive": "0",
+      "p": "1/10",
+      "q": "0",
+      "reference": "3/40",
+      "theta0": "0",
+      "theta1": "3/4",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "0",
+        "1/10"
+      ],
+      "naive": "0",
+      "p": "1/10",
+      "q": "0",
+      "reference": "1/10",
+      "theta0": "0",
+      "theta1": "1",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "9/40",
+        "13/40"
+      ],
+      "naive": "1/4",
+      "p": "1/10",
+      "q": "0",
+      "reference": "9/40",
+      "theta0": "1/4",
+      "theta1": "0",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "9/40",
+        "13/40"
+      ],
+      "naive": "1/4",
+      "p": "1/10",
+      "q": "0",
+      "reference": "1/4",
+      "theta0": "1/4",
+      "theta1": "1/4",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "9/40",
+        "13/40"
+      ],
+      "naive": "1/4",
+      "p": "1/10",
+      "q": "0",
+      "reference": "11/40",
+      "theta0": "1/4",
+      "theta1": "1/2",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "9/40",
+        "13/40"
+      ],
+      "naive": "1/4",
+      "p": "1/10",
+      "q": "0",
+      "reference": "3/10",
+      "theta0": "1/4",
+      "theta1": "3/4",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "9/40",
+        "13/40"
+      ],
+      "naive": "1/4",
+      "p": "1/10",
+      "q": "0",
+      "reference": "13/40",
+      "theta0": "1/4",
+      "theta1": "1",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "9/20",
+        "11/20"
+      ],
+      "naive": "1/2",
+      "p": "1/10",
+      "q": "0",
+      "reference": "9/20",
+      "theta0": "1/2",
+      "theta1": "0",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "9/20",
+        "11/20"
+      ],
+      "naive": "1/2",
+      "p": "1/10",
+      "q": "0",
+      "reference": "19/40",
+      "theta0": "1/2",
+      "theta1": "1/4",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "9/20",
+        "11/20"
+      ],
+      "naive": "1/2",
+      "p": "1/10",
+      "q": "0",
+      "reference": "1/2",
+      "theta0": "1/2",
+      "theta1": "1/2",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "9/20",
+        "11/20"
+      ],
+      "naive": "1/2",
+      "p": "1/10",
+      "q": "0",
+      "reference": "21/40",
+      "theta0": "1/2",
+      "theta1": "3/4",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "9/20",
+        "11/20"
+      ],
+      "naive": "1/2",
+      "p": "1/10",
+      "q": "0",
+      "reference": "11/20",
+      "theta0": "1/2",
+      "theta1": "1",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "27/40",
+        "31/40"
+      ],
+      "naive": "3/4",
+      "p": "1/10",
+      "q": "0",
+      "reference": "27/40",
+      "theta0": "3/4",
+      "theta1": "0",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "27/40",
+        "31/40"
+      ],
+      "naive": "3/4",
+      "p": "1/10",
+      "q": "0",
+      "reference": "7/10",
+      "theta0": "3/4",
+      "theta1": "1/4",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "27/40",
+        "31/40"
+      ],
+      "naive": "3/4",
+      "p": "1/10",
+      "q": "0",
+      "reference": "29/40",
+      "theta0": "3/4",
+      "theta1": "1/2",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "27/40",
+        "31/40"
+      ],
+      "naive": "3/4",
+      "p": "1/10",
+      "q": "0",
+      "reference": "3/4",
+      "theta0": "3/4",
+      "theta1": "3/4",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "27/40",
+        "31/40"
+      ],
+      "naive": "3/4",
+      "p": "1/10",
+      "q": "0",
+      "reference": "31/40",
+      "theta0": "3/4",
+      "theta1": "1",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "9/10",
+        "1"
+      ],
+      "naive": "1",
+      "p": "1/10",
+      "q": "0",
+      "reference": "9/10",
+      "theta0": "1",
+      "theta1": "0",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "9/10",
+        "1"
+      ],
+      "naive": "1",
+      "p": "1/10",
+      "q": "0",
+      "reference": "37/40",
+      "theta0": "1",
+      "theta1": "1/4",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "9/10",
+        "1"
+      ],
+      "naive": "1",
+      "p": "1/10",
+      "q": "0",
+      "reference": "19/20",
+      "theta0": "1",
+      "theta1": "1/2",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "9/10",
+        "1"
+      ],
+      "naive": "1",
+      "p": "1/10",
+      "q": "0",
+      "reference": "39/40",
+      "theta0": "1",
+      "theta1": "3/4",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "9/10",
+        "1"
+      ],
+      "naive": "1",
+      "p": "1/10",
+      "q": "0",
+      "reference": "1",
+      "theta0": "1",
+      "theta1": "1",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": "0",
+      "identified_interval": [
+        "0",
+        "0"
+      ],
+      "naive": "0",
+      "p": "1/10",
+      "q": "1/16",
+      "reference": "0",
+      "theta0": "0",
+      "theta1": "0",
+      "tv_cue": "3/80"
+    },
+    {
+      "corrected": "1/40",
+      "identified_interval": [
+        "1/40",
+        "1/40"
+      ],
+      "naive": "1/64",
+      "p": "1/10",
+      "q": "1/16",
+      "reference": "1/40",
+      "theta0": "0",
+      "theta1": "1/4",
+      "tv_cue": "3/80"
+    },
+    {
+      "corrected": "1/20",
+      "identified_interval": [
+        "1/20",
+        "1/20"
+      ],
+      "naive": "1/32",
+      "p": "1/10",
+      "q": "1/16",
+      "reference": "1/20",
+      "theta0": "0",
+      "theta1": "1/2",
+      "tv_cue": "3/80"
+    },
+    {
+      "corrected": "3/40",
+      "identified_interval": [
+        "3/40",
+        "3/40"
+      ],
+      "naive": "3/64",
+      "p": "1/10",
+      "q": "1/16",
+      "reference": "3/40",
+      "theta0": "0",
+      "theta1": "3/4",
+      "tv_cue": "3/80"
+    },
+    {
+      "corrected": "1/10",
+      "identified_interval": [
+        "1/10",
+        "1/10"
+      ],
+      "naive": "1/16",
+      "p": "1/10",
+      "q": "1/16",
+      "reference": "1/10",
+      "theta0": "0",
+      "theta1": "1",
+      "tv_cue": "3/80"
+    },
+    {
+      "corrected": "9/40",
+      "identified_interval": [
+        "9/40",
+        "9/40"
+      ],
+      "naive": "15/64",
+      "p": "1/10",
+      "q": "1/16",
+      "reference": "9/40",
+      "theta0": "1/4",
+      "theta1": "0",
+      "tv_cue": "3/80"
+    },
+    {
+      "corrected": "1/4",
+      "identified_interval": [
+        "1/4",
+        "1/4"
+      ],
+      "naive": "1/4",
+      "p": "1/10",
+      "q": "1/16",
+      "reference": "1/4",
+      "theta0": "1/4",
+      "theta1": "1/4",
+      "tv_cue": "3/80"
+    },
+    {
+      "corrected": "11/40",
+      "identified_interval": [
+        "11/40",
+        "11/40"
+      ],
+      "naive": "17/64",
+      "p": "1/10",
+      "q": "1/16",
+      "reference": "11/40",
+      "theta0": "1/4",
+      "theta1": "1/2",
+      "tv_cue": "3/80"
+    },
+    {
+      "corrected": "3/10",
+      "identified_interval": [
+        "3/10",
+        "3/10"
+      ],
+      "naive": "9/32",
+      "p": "1/10",
+      "q": "1/16",
+      "reference": "3/10",
+      "theta0": "1/4",
+      "theta1": "3/4",
+      "tv_cue": "3/80"
+    },
+    {
+      "corrected": "13/40",
+      "identified_interval": [
+        "13/40",
+        "13/40"
+      ],
+      "naive": "19/64",
+      "p": "1/10",
+      "q": "1/16",
+      "reference": "13/40",
+      "theta0": "1/4",
+      "theta1": "1",
+      "tv_cue": "3/80"
+    },
+    {
+      "corrected": "9/20",
+      "identified_interval": [
+        "9/20",
+        "9/20"
+      ],
+      "naive": "15/32",
+      "p": "1/10",
+      "q": "1/16",
+      "reference": "9/20",
+      "theta0": "1/2",
+      "theta1": "0",
+      "tv_cue": "3/80"
+    },
+    {
+      "corrected": "19/40",
+      "identified_interval": [
+        "19/40",
+        "19/40"
+      ],
+      "naive": "31/64",
+      "p": "1/10",
+      "q": "1/16",
+      "reference": "19/40",
+      "theta0": "1/2",
+      "theta1": "1/4",
+      "tv_cue": "3/80"
+    },
+    {
+      "corrected": "1/2",
+      "identified_interval": [
+        "1/2",
+        "1/2"
+      ],
+      "naive": "1/2",
+      "p": "1/10",
+      "q": "1/16",
+      "reference": "1/2",
+      "theta0": "1/2",
+      "theta1": "1/2",
+      "tv_cue": "3/80"
+    },
+    {
+      "corrected": "21/40",
+      "identified_interval": [
+        "21/40",
+        "21/40"
+      ],
+      "naive": "33/64",
+      "p": "1/10",
+      "q": "1/16",
+      "reference": "21/40",
+      "theta0": "1/2",
+      "theta1": "3/4",
+      "tv_cue": "3/80"
+    },
+    {
+      "corrected": "11/20",
+      "identified_interval": [
+        "11/20",
+        "11/20"
+      ],
+      "naive": "17/32",
+      "p": "1/10",
+      "q": "1/16",
+      "reference": "11/20",
+      "theta0": "1/2",
+      "theta1": "1",
+      "tv_cue": "3/80"
+    },
+    {
+      "corrected": "27/40",
+      "identified_interval": [
+        "27/40",
+        "27/40"
+      ],
+      "naive": "45/64",
+      "p": "1/10",
+      "q": "1/16",
+      "reference": "27/40",
+      "theta0": "3/4",
+      "theta1": "0",
+      "tv_cue": "3/80"
+    },
+    {
+      "corrected": "7/10",
+      "identified_interval": [
+        "7/10",
+        "7/10"
+      ],
+      "naive": "23/32",
+      "p": "1/10",
+      "q": "1/16",
+      "reference": "7/10",
+      "theta0": "3/4",
+      "theta1": "1/4",
+      "tv_cue": "3/80"
+    },
+    {
+      "corrected": "29/40",
+      "identified_interval": [
+        "29/40",
+        "29/40"
+      ],
+      "naive": "47/64",
+      "p": "1/10",
+      "q": "1/16",
+      "reference": "29/40",
+      "theta0": "3/4",
+      "theta1": "1/2",
+      "tv_cue": "3/80"
+    },
+    {
+      "corrected": "3/4",
+      "identified_interval": [
+        "3/4",
+        "3/4"
+      ],
+      "naive": "3/4",
+      "p": "1/10",
+      "q": "1/16",
+      "reference": "3/4",
+      "theta0": "3/4",
+      "theta1": "3/4",
+      "tv_cue": "3/80"
+    },
+    {
+      "corrected": "31/40",
+      "identified_interval": [
+        "31/40",
+        "31/40"
+      ],
+      "naive": "49/64",
+      "p": "1/10",
+      "q": "1/16",
+      "reference": "31/40",
+      "theta0": "3/4",
+      "theta1": "1",
+      "tv_cue": "3/80"
+    },
+    {
+      "corrected": "9/10",
+      "identified_interval": [
+        "9/10",
+        "9/10"
+      ],
+      "naive": "15/16",
+      "p": "1/10",
+      "q": "1/16",
+      "reference": "9/10",
+      "theta0": "1",
+      "theta1": "0",
+      "tv_cue": "3/80"
+    },
+    {
+      "corrected": "37/40",
+      "identified_interval": [
+        "37/40",
+        "37/40"
+      ],
+      "naive": "61/64",
+      "p": "1/10",
+      "q": "1/16",
+      "reference": "37/40",
+      "theta0": "1",
+      "theta1": "1/4",
+      "tv_cue": "3/80"
+    },
+    {
+      "corrected": "19/20",
+      "identified_interval": [
+        "19/20",
+        "19/20"
+      ],
+      "naive": "31/32",
+      "p": "1/10",
+      "q": "1/16",
+      "reference": "19/20",
+      "theta0": "1",
+      "theta1": "1/2",
+      "tv_cue": "3/80"
+    },
+    {
+      "corrected": "39/40",
+      "identified_interval": [
+        "39/40",
+        "39/40"
+      ],
+      "naive": "63/64",
+      "p": "1/10",
+      "q": "1/16",
+      "reference": "39/40",
+      "theta0": "1",
+      "theta1": "3/4",
+      "tv_cue": "3/80"
+    },
+    {
+      "corrected": "1",
+      "identified_interval": [
+        "1",
+        "1"
+      ],
+      "naive": "1",
+      "p": "1/10",
+      "q": "1/16",
+      "reference": "1",
+      "theta0": "1",
+      "theta1": "1",
+      "tv_cue": "3/80"
+    },
+    {
+      "corrected": "0",
+      "identified_interval": [
+        "0",
+        "0"
+      ],
+      "naive": "0",
+      "p": "1/10",
+      "q": "1/4",
+      "reference": "0",
+      "theta0": "0",
+      "theta1": "0",
+      "tv_cue": "3/20"
+    },
+    {
+      "corrected": "1/40",
+      "identified_interval": [
+        "1/40",
+        "1/40"
+      ],
+      "naive": "1/16",
+      "p": "1/10",
+      "q": "1/4",
+      "reference": "1/40",
+      "theta0": "0",
+      "theta1": "1/4",
+      "tv_cue": "3/20"
+    },
+    {
+      "corrected": "1/20",
+      "identified_interval": [
+        "1/20",
+        "1/20"
+      ],
+      "naive": "1/8",
+      "p": "1/10",
+      "q": "1/4",
+      "reference": "1/20",
+      "theta0": "0",
+      "theta1": "1/2",
+      "tv_cue": "3/20"
+    },
+    {
+      "corrected": "3/40",
+      "identified_interval": [
+        "3/40",
+        "3/40"
+      ],
+      "naive": "3/16",
+      "p": "1/10",
+      "q": "1/4",
+      "reference": "3/40",
+      "theta0": "0",
+      "theta1": "3/4",
+      "tv_cue": "3/20"
+    },
+    {
+      "corrected": "1/10",
+      "identified_interval": [
+        "1/10",
+        "1/10"
+      ],
+      "naive": "1/4",
+      "p": "1/10",
+      "q": "1/4",
+      "reference": "1/10",
+      "theta0": "0",
+      "theta1": "1",
+      "tv_cue": "3/20"
+    },
+    {
+      "corrected": "9/40",
+      "identified_interval": [
+        "9/40",
+        "9/40"
+      ],
+      "naive": "3/16",
+      "p": "1/10",
+      "q": "1/4",
+      "reference": "9/40",
+      "theta0": "1/4",
+      "theta1": "0",
+      "tv_cue": "3/20"
+    },
+    {
+      "corrected": "1/4",
+      "identified_interval": [
+        "1/4",
+        "1/4"
+      ],
+      "naive": "1/4",
+      "p": "1/10",
+      "q": "1/4",
+      "reference": "1/4",
+      "theta0": "1/4",
+      "theta1": "1/4",
+      "tv_cue": "3/20"
+    },
+    {
+      "corrected": "11/40",
+      "identified_interval": [
+        "11/40",
+        "11/40"
+      ],
+      "naive": "5/16",
+      "p": "1/10",
+      "q": "1/4",
+      "reference": "11/40",
+      "theta0": "1/4",
+      "theta1": "1/2",
+      "tv_cue": "3/20"
+    },
+    {
+      "corrected": "3/10",
+      "identified_interval": [
+        "3/10",
+        "3/10"
+      ],
+      "naive": "3/8",
+      "p": "1/10",
+      "q": "1/4",
+      "reference": "3/10",
+      "theta0": "1/4",
+      "theta1": "3/4",
+      "tv_cue": "3/20"
+    },
+    {
+      "corrected": "13/40",
+      "identified_interval": [
+        "13/40",
+        "13/40"
+      ],
+      "naive": "7/16",
+      "p": "1/10",
+      "q": "1/4",
+      "reference": "13/40",
+      "theta0": "1/4",
+      "theta1": "1",
+      "tv_cue": "3/20"
+    },
+    {
+      "corrected": "9/20",
+      "identified_interval": [
+        "9/20",
+        "9/20"
+      ],
+      "naive": "3/8",
+      "p": "1/10",
+      "q": "1/4",
+      "reference": "9/20",
+      "theta0": "1/2",
+      "theta1": "0",
+      "tv_cue": "3/20"
+    },
+    {
+      "corrected": "19/40",
+      "identified_interval": [
+        "19/40",
+        "19/40"
+      ],
+      "naive": "7/16",
+      "p": "1/10",
+      "q": "1/4",
+      "reference": "19/40",
+      "theta0": "1/2",
+      "theta1": "1/4",
+      "tv_cue": "3/20"
+    },
+    {
+      "corrected": "1/2",
+      "identified_interval": [
+        "1/2",
+        "1/2"
+      ],
+      "naive": "1/2",
+      "p": "1/10",
+      "q": "1/4",
+      "reference": "1/2",
+      "theta0": "1/2",
+      "theta1": "1/2",
+      "tv_cue": "3/20"
+    },
+    {
+      "corrected": "21/40",
+      "identified_interval": [
+        "21/40",
+        "21/40"
+      ],
+      "naive": "9/16",
+      "p": "1/10",
+      "q": "1/4",
+      "reference": "21/40",
+      "theta0": "1/2",
+      "theta1": "3/4",
+      "tv_cue": "3/20"
+    },
+    {
+      "corrected": "11/20",
+      "identified_interval": [
+        "11/20",
+        "11/20"
+      ],
+      "naive": "5/8",
+      "p": "1/10",
+      "q": "1/4",
+      "reference": "11/20",
+      "theta0": "1/2",
+      "theta1": "1",
+      "tv_cue": "3/20"
+    },
+    {
+      "corrected": "27/40",
+      "identified_interval": [
+        "27/40",
+        "27/40"
+      ],
+      "naive": "9/16",
+      "p": "1/10",
+      "q": "1/4",
+      "reference": "27/40",
+      "theta0": "3/4",
+      "theta1": "0",
+      "tv_cue": "3/20"
+    },
+    {
+      "corrected": "7/10",
+      "identified_interval": [
+        "7/10",
+        "7/10"
+      ],
+      "naive": "5/8",
+      "p": "1/10",
+      "q": "1/4",
+      "reference": "7/10",
+      "theta0": "3/4",
+      "theta1": "1/4",
+      "tv_cue": "3/20"
+    },
+    {
+      "corrected": "29/40",
+      "identified_interval": [
+        "29/40",
+        "29/40"
+      ],
+      "naive": "11/16",
+      "p": "1/10",
+      "q": "1/4",
+      "reference": "29/40",
+      "theta0": "3/4",
+      "theta1": "1/2",
+      "tv_cue": "3/20"
+    },
+    {
+      "corrected": "3/4",
+      "identified_interval": [
+        "3/4",
+        "3/4"
+      ],
+      "naive": "3/4",
+      "p": "1/10",
+      "q": "1/4",
+      "reference": "3/4",
+      "theta0": "3/4",
+      "theta1": "3/4",
+      "tv_cue": "3/20"
+    },
+    {
+      "corrected": "31/40",
+      "identified_interval": [
+        "31/40",
+        "31/40"
+      ],
+      "naive": "13/16",
+      "p": "1/10",
+      "q": "1/4",
+      "reference": "31/40",
+      "theta0": "3/4",
+      "theta1": "1",
+      "tv_cue": "3/20"
+    },
+    {
+      "corrected": "9/10",
+      "identified_interval": [
+        "9/10",
+        "9/10"
+      ],
+      "naive": "3/4",
+      "p": "1/10",
+      "q": "1/4",
+      "reference": "9/10",
+      "theta0": "1",
+      "theta1": "0",
+      "tv_cue": "3/20"
+    },
+    {
+      "corrected": "37/40",
+      "identified_interval": [
+        "37/40",
+        "37/40"
+      ],
+      "naive": "13/16",
+      "p": "1/10",
+      "q": "1/4",
+      "reference": "37/40",
+      "theta0": "1",
+      "theta1": "1/4",
+      "tv_cue": "3/20"
+    },
+    {
+      "corrected": "19/20",
+      "identified_interval": [
+        "19/20",
+        "19/20"
+      ],
+      "naive": "7/8",
+      "p": "1/10",
+      "q": "1/4",
+      "reference": "19/20",
+      "theta0": "1",
+      "theta1": "1/2",
+      "tv_cue": "3/20"
+    },
+    {
+      "corrected": "39/40",
+      "identified_interval": [
+        "39/40",
+        "39/40"
+      ],
+      "naive": "15/16",
+      "p": "1/10",
+      "q": "1/4",
+      "reference": "39/40",
+      "theta0": "1",
+      "theta1": "3/4",
+      "tv_cue": "3/20"
+    },
+    {
+      "corrected": "1",
+      "identified_interval": [
+        "1",
+        "1"
+      ],
+      "naive": "1",
+      "p": "1/10",
+      "q": "1/4",
+      "reference": "1",
+      "theta0": "1",
+      "theta1": "1",
+      "tv_cue": "3/20"
+    },
+    {
+      "corrected": "0",
+      "identified_interval": [
+        "0",
+        "0"
+      ],
+      "naive": "0",
+      "p": "1/10",
+      "q": "1/2",
+      "reference": "0",
+      "theta0": "0",
+      "theta1": "0",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "1/40",
+      "identified_interval": [
+        "1/40",
+        "1/40"
+      ],
+      "naive": "1/8",
+      "p": "1/10",
+      "q": "1/2",
+      "reference": "1/40",
+      "theta0": "0",
+      "theta1": "1/4",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "1/20",
+      "identified_interval": [
+        "1/20",
+        "1/20"
+      ],
+      "naive": "1/4",
+      "p": "1/10",
+      "q": "1/2",
+      "reference": "1/20",
+      "theta0": "0",
+      "theta1": "1/2",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "3/40",
+      "identified_interval": [
+        "3/40",
+        "3/40"
+      ],
+      "naive": "3/8",
+      "p": "1/10",
+      "q": "1/2",
+      "reference": "3/40",
+      "theta0": "0",
+      "theta1": "3/4",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "1/10",
+      "identified_interval": [
+        "1/10",
+        "1/10"
+      ],
+      "naive": "1/2",
+      "p": "1/10",
+      "q": "1/2",
+      "reference": "1/10",
+      "theta0": "0",
+      "theta1": "1",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "9/40",
+      "identified_interval": [
+        "9/40",
+        "9/40"
+      ],
+      "naive": "1/8",
+      "p": "1/10",
+      "q": "1/2",
+      "reference": "9/40",
+      "theta0": "1/4",
+      "theta1": "0",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "1/4",
+      "identified_interval": [
+        "1/4",
+        "1/4"
+      ],
+      "naive": "1/4",
+      "p": "1/10",
+      "q": "1/2",
+      "reference": "1/4",
+      "theta0": "1/4",
+      "theta1": "1/4",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "11/40",
+      "identified_interval": [
+        "11/40",
+        "11/40"
+      ],
+      "naive": "3/8",
+      "p": "1/10",
+      "q": "1/2",
+      "reference": "11/40",
+      "theta0": "1/4",
+      "theta1": "1/2",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "3/10",
+      "identified_interval": [
+        "3/10",
+        "3/10"
+      ],
+      "naive": "1/2",
+      "p": "1/10",
+      "q": "1/2",
+      "reference": "3/10",
+      "theta0": "1/4",
+      "theta1": "3/4",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "13/40",
+      "identified_interval": [
+        "13/40",
+        "13/40"
+      ],
+      "naive": "5/8",
+      "p": "1/10",
+      "q": "1/2",
+      "reference": "13/40",
+      "theta0": "1/4",
+      "theta1": "1",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "9/20",
+      "identified_interval": [
+        "9/20",
+        "9/20"
+      ],
+      "naive": "1/4",
+      "p": "1/10",
+      "q": "1/2",
+      "reference": "9/20",
+      "theta0": "1/2",
+      "theta1": "0",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "19/40",
+      "identified_interval": [
+        "19/40",
+        "19/40"
+      ],
+      "naive": "3/8",
+      "p": "1/10",
+      "q": "1/2",
+      "reference": "19/40",
+      "theta0": "1/2",
+      "theta1": "1/4",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "1/2",
+      "identified_interval": [
+        "1/2",
+        "1/2"
+      ],
+      "naive": "1/2",
+      "p": "1/10",
+      "q": "1/2",
+      "reference": "1/2",
+      "theta0": "1/2",
+      "theta1": "1/2",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "21/40",
+      "identified_interval": [
+        "21/40",
+        "21/40"
+      ],
+      "naive": "5/8",
+      "p": "1/10",
+      "q": "1/2",
+      "reference": "21/40",
+      "theta0": "1/2",
+      "theta1": "3/4",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "11/20",
+      "identified_interval": [
+        "11/20",
+        "11/20"
+      ],
+      "naive": "3/4",
+      "p": "1/10",
+      "q": "1/2",
+      "reference": "11/20",
+      "theta0": "1/2",
+      "theta1": "1",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "27/40",
+      "identified_interval": [
+        "27/40",
+        "27/40"
+      ],
+      "naive": "3/8",
+      "p": "1/10",
+      "q": "1/2",
+      "reference": "27/40",
+      "theta0": "3/4",
+      "theta1": "0",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "7/10",
+      "identified_interval": [
+        "7/10",
+        "7/10"
+      ],
+      "naive": "1/2",
+      "p": "1/10",
+      "q": "1/2",
+      "reference": "7/10",
+      "theta0": "3/4",
+      "theta1": "1/4",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "29/40",
+      "identified_interval": [
+        "29/40",
+        "29/40"
+      ],
+      "naive": "5/8",
+      "p": "1/10",
+      "q": "1/2",
+      "reference": "29/40",
+      "theta0": "3/4",
+      "theta1": "1/2",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "3/4",
+      "identified_interval": [
+        "3/4",
+        "3/4"
+      ],
+      "naive": "3/4",
+      "p": "1/10",
+      "q": "1/2",
+      "reference": "3/4",
+      "theta0": "3/4",
+      "theta1": "3/4",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "31/40",
+      "identified_interval": [
+        "31/40",
+        "31/40"
+      ],
+      "naive": "7/8",
+      "p": "1/10",
+      "q": "1/2",
+      "reference": "31/40",
+      "theta0": "3/4",
+      "theta1": "1",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "9/10",
+      "identified_interval": [
+        "9/10",
+        "9/10"
+      ],
+      "naive": "1/2",
+      "p": "1/10",
+      "q": "1/2",
+      "reference": "9/10",
+      "theta0": "1",
+      "theta1": "0",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "37/40",
+      "identified_interval": [
+        "37/40",
+        "37/40"
+      ],
+      "naive": "5/8",
+      "p": "1/10",
+      "q": "1/2",
+      "reference": "37/40",
+      "theta0": "1",
+      "theta1": "1/4",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "19/20",
+      "identified_interval": [
+        "19/20",
+        "19/20"
+      ],
+      "naive": "3/4",
+      "p": "1/10",
+      "q": "1/2",
+      "reference": "19/20",
+      "theta0": "1",
+      "theta1": "1/2",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "39/40",
+      "identified_interval": [
+        "39/40",
+        "39/40"
+      ],
+      "naive": "7/8",
+      "p": "1/10",
+      "q": "1/2",
+      "reference": "39/40",
+      "theta0": "1",
+      "theta1": "3/4",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "1",
+      "identified_interval": [
+        "1",
+        "1"
+      ],
+      "naive": "1",
+      "p": "1/10",
+      "q": "1/2",
+      "reference": "1",
+      "theta0": "1",
+      "theta1": "1",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "0",
+        "9/10"
+      ],
+      "naive": "0",
+      "p": "1/10",
+      "q": "1",
+      "reference": "0",
+      "theta0": "0",
+      "theta1": "0",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/40",
+        "37/40"
+      ],
+      "naive": "1/4",
+      "p": "1/10",
+      "q": "1",
+      "reference": "1/40",
+      "theta0": "0",
+      "theta1": "1/4",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/20",
+        "19/20"
+      ],
+      "naive": "1/2",
+      "p": "1/10",
+      "q": "1",
+      "reference": "1/20",
+      "theta0": "0",
+      "theta1": "1/2",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "3/40",
+        "39/40"
+      ],
+      "naive": "3/4",
+      "p": "1/10",
+      "q": "1",
+      "reference": "3/40",
+      "theta0": "0",
+      "theta1": "3/4",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/10",
+        "1"
+      ],
+      "naive": "1",
+      "p": "1/10",
+      "q": "1",
+      "reference": "1/10",
+      "theta0": "0",
+      "theta1": "1",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "0",
+        "9/10"
+      ],
+      "naive": "0",
+      "p": "1/10",
+      "q": "1",
+      "reference": "9/40",
+      "theta0": "1/4",
+      "theta1": "0",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/40",
+        "37/40"
+      ],
+      "naive": "1/4",
+      "p": "1/10",
+      "q": "1",
+      "reference": "1/4",
+      "theta0": "1/4",
+      "theta1": "1/4",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/20",
+        "19/20"
+      ],
+      "naive": "1/2",
+      "p": "1/10",
+      "q": "1",
+      "reference": "11/40",
+      "theta0": "1/4",
+      "theta1": "1/2",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "3/40",
+        "39/40"
+      ],
+      "naive": "3/4",
+      "p": "1/10",
+      "q": "1",
+      "reference": "3/10",
+      "theta0": "1/4",
+      "theta1": "3/4",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/10",
+        "1"
+      ],
+      "naive": "1",
+      "p": "1/10",
+      "q": "1",
+      "reference": "13/40",
+      "theta0": "1/4",
+      "theta1": "1",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "0",
+        "9/10"
+      ],
+      "naive": "0",
+      "p": "1/10",
+      "q": "1",
+      "reference": "9/20",
+      "theta0": "1/2",
+      "theta1": "0",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/40",
+        "37/40"
+      ],
+      "naive": "1/4",
+      "p": "1/10",
+      "q": "1",
+      "reference": "19/40",
+      "theta0": "1/2",
+      "theta1": "1/4",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/20",
+        "19/20"
+      ],
+      "naive": "1/2",
+      "p": "1/10",
+      "q": "1",
+      "reference": "1/2",
+      "theta0": "1/2",
+      "theta1": "1/2",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "3/40",
+        "39/40"
+      ],
+      "naive": "3/4",
+      "p": "1/10",
+      "q": "1",
+      "reference": "21/40",
+      "theta0": "1/2",
+      "theta1": "3/4",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/10",
+        "1"
+      ],
+      "naive": "1",
+      "p": "1/10",
+      "q": "1",
+      "reference": "11/20",
+      "theta0": "1/2",
+      "theta1": "1",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "0",
+        "9/10"
+      ],
+      "naive": "0",
+      "p": "1/10",
+      "q": "1",
+      "reference": "27/40",
+      "theta0": "3/4",
+      "theta1": "0",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/40",
+        "37/40"
+      ],
+      "naive": "1/4",
+      "p": "1/10",
+      "q": "1",
+      "reference": "7/10",
+      "theta0": "3/4",
+      "theta1": "1/4",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/20",
+        "19/20"
+      ],
+      "naive": "1/2",
+      "p": "1/10",
+      "q": "1",
+      "reference": "29/40",
+      "theta0": "3/4",
+      "theta1": "1/2",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "3/40",
+        "39/40"
+      ],
+      "naive": "3/4",
+      "p": "1/10",
+      "q": "1",
+      "reference": "3/4",
+      "theta0": "3/4",
+      "theta1": "3/4",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/10",
+        "1"
+      ],
+      "naive": "1",
+      "p": "1/10",
+      "q": "1",
+      "reference": "31/40",
+      "theta0": "3/4",
+      "theta1": "1",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "0",
+        "9/10"
+      ],
+      "naive": "0",
+      "p": "1/10",
+      "q": "1",
+      "reference": "9/10",
+      "theta0": "1",
+      "theta1": "0",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/40",
+        "37/40"
+      ],
+      "naive": "1/4",
+      "p": "1/10",
+      "q": "1",
+      "reference": "37/40",
+      "theta0": "1",
+      "theta1": "1/4",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/20",
+        "19/20"
+      ],
+      "naive": "1/2",
+      "p": "1/10",
+      "q": "1",
+      "reference": "19/20",
+      "theta0": "1",
+      "theta1": "1/2",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "3/40",
+        "39/40"
+      ],
+      "naive": "3/4",
+      "p": "1/10",
+      "q": "1",
+      "reference": "39/40",
+      "theta0": "1",
+      "theta1": "3/4",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/10",
+        "1"
+      ],
+      "naive": "1",
+      "p": "1/10",
+      "q": "1",
+      "reference": "1",
+      "theta0": "1",
+      "theta1": "1",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "0",
+        "1/2"
+      ],
+      "naive": "0",
+      "p": "1/2",
+      "q": "0",
+      "reference": "0",
+      "theta0": "0",
+      "theta1": "0",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "0",
+        "1/2"
+      ],
+      "naive": "0",
+      "p": "1/2",
+      "q": "0",
+      "reference": "1/8",
+      "theta0": "0",
+      "theta1": "1/4",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "0",
+        "1/2"
+      ],
+      "naive": "0",
+      "p": "1/2",
+      "q": "0",
+      "reference": "1/4",
+      "theta0": "0",
+      "theta1": "1/2",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "0",
+        "1/2"
+      ],
+      "naive": "0",
+      "p": "1/2",
+      "q": "0",
+      "reference": "3/8",
+      "theta0": "0",
+      "theta1": "3/4",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "0",
+        "1/2"
+      ],
+      "naive": "0",
+      "p": "1/2",
+      "q": "0",
+      "reference": "1/2",
+      "theta0": "0",
+      "theta1": "1",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/8",
+        "5/8"
+      ],
+      "naive": "1/4",
+      "p": "1/2",
+      "q": "0",
+      "reference": "1/8",
+      "theta0": "1/4",
+      "theta1": "0",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/8",
+        "5/8"
+      ],
+      "naive": "1/4",
+      "p": "1/2",
+      "q": "0",
+      "reference": "1/4",
+      "theta0": "1/4",
+      "theta1": "1/4",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/8",
+        "5/8"
+      ],
+      "naive": "1/4",
+      "p": "1/2",
+      "q": "0",
+      "reference": "3/8",
+      "theta0": "1/4",
+      "theta1": "1/2",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/8",
+        "5/8"
+      ],
+      "naive": "1/4",
+      "p": "1/2",
+      "q": "0",
+      "reference": "1/2",
+      "theta0": "1/4",
+      "theta1": "3/4",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/8",
+        "5/8"
+      ],
+      "naive": "1/4",
+      "p": "1/2",
+      "q": "0",
+      "reference": "5/8",
+      "theta0": "1/4",
+      "theta1": "1",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/4",
+        "3/4"
+      ],
+      "naive": "1/2",
+      "p": "1/2",
+      "q": "0",
+      "reference": "1/4",
+      "theta0": "1/2",
+      "theta1": "0",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/4",
+        "3/4"
+      ],
+      "naive": "1/2",
+      "p": "1/2",
+      "q": "0",
+      "reference": "3/8",
+      "theta0": "1/2",
+      "theta1": "1/4",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/4",
+        "3/4"
+      ],
+      "naive": "1/2",
+      "p": "1/2",
+      "q": "0",
+      "reference": "1/2",
+      "theta0": "1/2",
+      "theta1": "1/2",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/4",
+        "3/4"
+      ],
+      "naive": "1/2",
+      "p": "1/2",
+      "q": "0",
+      "reference": "5/8",
+      "theta0": "1/2",
+      "theta1": "3/4",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/4",
+        "3/4"
+      ],
+      "naive": "1/2",
+      "p": "1/2",
+      "q": "0",
+      "reference": "3/4",
+      "theta0": "1/2",
+      "theta1": "1",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "3/8",
+        "7/8"
+      ],
+      "naive": "3/4",
+      "p": "1/2",
+      "q": "0",
+      "reference": "3/8",
+      "theta0": "3/4",
+      "theta1": "0",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "3/8",
+        "7/8"
+      ],
+      "naive": "3/4",
+      "p": "1/2",
+      "q": "0",
+      "reference": "1/2",
+      "theta0": "3/4",
+      "theta1": "1/4",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "3/8",
+        "7/8"
+      ],
+      "naive": "3/4",
+      "p": "1/2",
+      "q": "0",
+      "reference": "5/8",
+      "theta0": "3/4",
+      "theta1": "1/2",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "3/8",
+        "7/8"
+      ],
+      "naive": "3/4",
+      "p": "1/2",
+      "q": "0",
+      "reference": "3/4",
+      "theta0": "3/4",
+      "theta1": "3/4",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "3/8",
+        "7/8"
+      ],
+      "naive": "3/4",
+      "p": "1/2",
+      "q": "0",
+      "reference": "7/8",
+      "theta0": "3/4",
+      "theta1": "1",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/2",
+        "1"
+      ],
+      "naive": "1",
+      "p": "1/2",
+      "q": "0",
+      "reference": "1/2",
+      "theta0": "1",
+      "theta1": "0",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/2",
+        "1"
+      ],
+      "naive": "1",
+      "p": "1/2",
+      "q": "0",
+      "reference": "5/8",
+      "theta0": "1",
+      "theta1": "1/4",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/2",
+        "1"
+      ],
+      "naive": "1",
+      "p": "1/2",
+      "q": "0",
+      "reference": "3/4",
+      "theta0": "1",
+      "theta1": "1/2",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/2",
+        "1"
+      ],
+      "naive": "1",
+      "p": "1/2",
+      "q": "0",
+      "reference": "7/8",
+      "theta0": "1",
+      "theta1": "3/4",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/2",
+        "1"
+      ],
+      "naive": "1",
+      "p": "1/2",
+      "q": "0",
+      "reference": "1",
+      "theta0": "1",
+      "theta1": "1",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": "0",
+      "identified_interval": [
+        "0",
+        "0"
+      ],
+      "naive": "0",
+      "p": "1/2",
+      "q": "1/16",
+      "reference": "0",
+      "theta0": "0",
+      "theta1": "0",
+      "tv_cue": "7/16"
+    },
+    {
+      "corrected": "1/8",
+      "identified_interval": [
+        "1/8",
+        "1/8"
+      ],
+      "naive": "1/64",
+      "p": "1/2",
+      "q": "1/16",
+      "reference": "1/8",
+      "theta0": "0",
+      "theta1": "1/4",
+      "tv_cue": "7/16"
+    },
+    {
+      "corrected": "1/4",
+      "identified_interval": [
+        "1/4",
+        "1/4"
+      ],
+      "naive": "1/32",
+      "p": "1/2",
+      "q": "1/16",
+      "reference": "1/4",
+      "theta0": "0",
+      "theta1": "1/2",
+      "tv_cue": "7/16"
+    },
+    {
+      "corrected": "3/8",
+      "identified_interval": [
+        "3/8",
+        "3/8"
+      ],
+      "naive": "3/64",
+      "p": "1/2",
+      "q": "1/16",
+      "reference": "3/8",
+      "theta0": "0",
+      "theta1": "3/4",
+      "tv_cue": "7/16"
+    },
+    {
+      "corrected": "1/2",
+      "identified_interval": [
+        "1/2",
+        "1/2"
+      ],
+      "naive": "1/16",
+      "p": "1/2",
+      "q": "1/16",
+      "reference": "1/2",
+      "theta0": "0",
+      "theta1": "1",
+      "tv_cue": "7/16"
+    },
+    {
+      "corrected": "1/8",
+      "identified_interval": [
+        "1/8",
+        "1/8"
+      ],
+      "naive": "15/64",
+      "p": "1/2",
+      "q": "1/16",
+      "reference": "1/8",
+      "theta0": "1/4",
+      "theta1": "0",
+      "tv_cue": "7/16"
+    },
+    {
+      "corrected": "1/4",
+      "identified_interval": [
+        "1/4",
+        "1/4"
+      ],
+      "naive": "1/4",
+      "p": "1/2",
+      "q": "1/16",
+      "reference": "1/4",
+      "theta0": "1/4",
+      "theta1": "1/4",
+      "tv_cue": "7/16"
+    },
+    {
+      "corrected": "3/8",
+      "identified_interval": [
+        "3/8",
+        "3/8"
+      ],
+      "naive": "17/64",
+      "p": "1/2",
+      "q": "1/16",
+      "reference": "3/8",
+      "theta0": "1/4",
+      "theta1": "1/2",
+      "tv_cue": "7/16"
+    },
+    {
+      "corrected": "1/2",
+      "identified_interval": [
+        "1/2",
+        "1/2"
+      ],
+      "naive": "9/32",
+      "p": "1/2",
+      "q": "1/16",
+      "reference": "1/2",
+      "theta0": "1/4",
+      "theta1": "3/4",
+      "tv_cue": "7/16"
+    },
+    {
+      "corrected": "5/8",
+      "identified_interval": [
+        "5/8",
+        "5/8"
+      ],
+      "naive": "19/64",
+      "p": "1/2",
+      "q": "1/16",
+      "reference": "5/8",
+      "theta0": "1/4",
+      "theta1": "1",
+      "tv_cue": "7/16"
+    },
+    {
+      "corrected": "1/4",
+      "identified_interval": [
+        "1/4",
+        "1/4"
+      ],
+      "naive": "15/32",
+      "p": "1/2",
+      "q": "1/16",
+      "reference": "1/4",
+      "theta0": "1/2",
+      "theta1": "0",
+      "tv_cue": "7/16"
+    },
+    {
+      "corrected": "3/8",
+      "identified_interval": [
+        "3/8",
+        "3/8"
+      ],
+      "naive": "31/64",
+      "p": "1/2",
+      "q": "1/16",
+      "reference": "3/8",
+      "theta0": "1/2",
+      "theta1": "1/4",
+      "tv_cue": "7/16"
+    },
+    {
+      "corrected": "1/2",
+      "identified_interval": [
+        "1/2",
+        "1/2"
+      ],
+      "naive": "1/2",
+      "p": "1/2",
+      "q": "1/16",
+      "reference": "1/2",
+      "theta0": "1/2",
+      "theta1": "1/2",
+      "tv_cue": "7/16"
+    },
+    {
+      "corrected": "5/8",
+      "identified_interval": [
+        "5/8",
+        "5/8"
+      ],
+      "naive": "33/64",
+      "p": "1/2",
+      "q": "1/16",
+      "reference": "5/8",
+      "theta0": "1/2",
+      "theta1": "3/4",
+      "tv_cue": "7/16"
+    },
+    {
+      "corrected": "3/4",
+      "identified_interval": [
+        "3/4",
+        "3/4"
+      ],
+      "naive": "17/32",
+      "p": "1/2",
+      "q": "1/16",
+      "reference": "3/4",
+      "theta0": "1/2",
+      "theta1": "1",
+      "tv_cue": "7/16"
+    },
+    {
+      "corrected": "3/8",
+      "identified_interval": [
+        "3/8",
+        "3/8"
+      ],
+      "naive": "45/64",
+      "p": "1/2",
+      "q": "1/16",
+      "reference": "3/8",
+      "theta0": "3/4",
+      "theta1": "0",
+      "tv_cue": "7/16"
+    },
+    {
+      "corrected": "1/2",
+      "identified_interval": [
+        "1/2",
+        "1/2"
+      ],
+      "naive": "23/32",
+      "p": "1/2",
+      "q": "1/16",
+      "reference": "1/2",
+      "theta0": "3/4",
+      "theta1": "1/4",
+      "tv_cue": "7/16"
+    },
+    {
+      "corrected": "5/8",
+      "identified_interval": [
+        "5/8",
+        "5/8"
+      ],
+      "naive": "47/64",
+      "p": "1/2",
+      "q": "1/16",
+      "reference": "5/8",
+      "theta0": "3/4",
+      "theta1": "1/2",
+      "tv_cue": "7/16"
+    },
+    {
+      "corrected": "3/4",
+      "identified_interval": [
+        "3/4",
+        "3/4"
+      ],
+      "naive": "3/4",
+      "p": "1/2",
+      "q": "1/16",
+      "reference": "3/4",
+      "theta0": "3/4",
+      "theta1": "3/4",
+      "tv_cue": "7/16"
+    },
+    {
+      "corrected": "7/8",
+      "identified_interval": [
+        "7/8",
+        "7/8"
+      ],
+      "naive": "49/64",
+      "p": "1/2",
+      "q": "1/16",
+      "reference": "7/8",
+      "theta0": "3/4",
+      "theta1": "1",
+      "tv_cue": "7/16"
+    },
+    {
+      "corrected": "1/2",
+      "identified_interval": [
+        "1/2",
+        "1/2"
+      ],
+      "naive": "15/16",
+      "p": "1/2",
+      "q": "1/16",
+      "reference": "1/2",
+      "theta0": "1",
+      "theta1": "0",
+      "tv_cue": "7/16"
+    },
+    {
+      "corrected": "5/8",
+      "identified_interval": [
+        "5/8",
+        "5/8"
+      ],
+      "naive": "61/64",
+      "p": "1/2",
+      "q": "1/16",
+      "reference": "5/8",
+      "theta0": "1",
+      "theta1": "1/4",
+      "tv_cue": "7/16"
+    },
+    {
+      "corrected": "3/4",
+      "identified_interval": [
+        "3/4",
+        "3/4"
+      ],
+      "naive": "31/32",
+      "p": "1/2",
+      "q": "1/16",
+      "reference": "3/4",
+      "theta0": "1",
+      "theta1": "1/2",
+      "tv_cue": "7/16"
+    },
+    {
+      "corrected": "7/8",
+      "identified_interval": [
+        "7/8",
+        "7/8"
+      ],
+      "naive": "63/64",
+      "p": "1/2",
+      "q": "1/16",
+      "reference": "7/8",
+      "theta0": "1",
+      "theta1": "3/4",
+      "tv_cue": "7/16"
+    },
+    {
+      "corrected": "1",
+      "identified_interval": [
+        "1",
+        "1"
+      ],
+      "naive": "1",
+      "p": "1/2",
+      "q": "1/16",
+      "reference": "1",
+      "theta0": "1",
+      "theta1": "1",
+      "tv_cue": "7/16"
+    },
+    {
+      "corrected": "0",
+      "identified_interval": [
+        "0",
+        "0"
+      ],
+      "naive": "0",
+      "p": "1/2",
+      "q": "1/4",
+      "reference": "0",
+      "theta0": "0",
+      "theta1": "0",
+      "tv_cue": "1/4"
+    },
+    {
+      "corrected": "1/8",
+      "identified_interval": [
+        "1/8",
+        "1/8"
+      ],
+      "naive": "1/16",
+      "p": "1/2",
+      "q": "1/4",
+      "reference": "1/8",
+      "theta0": "0",
+      "theta1": "1/4",
+      "tv_cue": "1/4"
+    },
+    {
+      "corrected": "1/4",
+      "identified_interval": [
+        "1/4",
+        "1/4"
+      ],
+      "naive": "1/8",
+      "p": "1/2",
+      "q": "1/4",
+      "reference": "1/4",
+      "theta0": "0",
+      "theta1": "1/2",
+      "tv_cue": "1/4"
+    },
+    {
+      "corrected": "3/8",
+      "identified_interval": [
+        "3/8",
+        "3/8"
+      ],
+      "naive": "3/16",
+      "p": "1/2",
+      "q": "1/4",
+      "reference": "3/8",
+      "theta0": "0",
+      "theta1": "3/4",
+      "tv_cue": "1/4"
+    },
+    {
+      "corrected": "1/2",
+      "identified_interval": [
+        "1/2",
+        "1/2"
+      ],
+      "naive": "1/4",
+      "p": "1/2",
+      "q": "1/4",
+      "reference": "1/2",
+      "theta0": "0",
+      "theta1": "1",
+      "tv_cue": "1/4"
+    },
+    {
+      "corrected": "1/8",
+      "identified_interval": [
+        "1/8",
+        "1/8"
+      ],
+      "naive": "3/16",
+      "p": "1/2",
+      "q": "1/4",
+      "reference": "1/8",
+      "theta0": "1/4",
+      "theta1": "0",
+      "tv_cue": "1/4"
+    },
+    {
+      "corrected": "1/4",
+      "identified_interval": [
+        "1/4",
+        "1/4"
+      ],
+      "naive": "1/4",
+      "p": "1/2",
+      "q": "1/4",
+      "reference": "1/4",
+      "theta0": "1/4",
+      "theta1": "1/4",
+      "tv_cue": "1/4"
+    },
+    {
+      "corrected": "3/8",
+      "identified_interval": [
+        "3/8",
+        "3/8"
+      ],
+      "naive": "5/16",
+      "p": "1/2",
+      "q": "1/4",
+      "reference": "3/8",
+      "theta0": "1/4",
+      "theta1": "1/2",
+      "tv_cue": "1/4"
+    },
+    {
+      "corrected": "1/2",
+      "identified_interval": [
+        "1/2",
+        "1/2"
+      ],
+      "naive": "3/8",
+      "p": "1/2",
+      "q": "1/4",
+      "reference": "1/2",
+      "theta0": "1/4",
+      "theta1": "3/4",
+      "tv_cue": "1/4"
+    },
+    {
+      "corrected": "5/8",
+      "identified_interval": [
+        "5/8",
+        "5/8"
+      ],
+      "naive": "7/16",
+      "p": "1/2",
+      "q": "1/4",
+      "reference": "5/8",
+      "theta0": "1/4",
+      "theta1": "1",
+      "tv_cue": "1/4"
+    },
+    {
+      "corrected": "1/4",
+      "identified_interval": [
+        "1/4",
+        "1/4"
+      ],
+      "naive": "3/8",
+      "p": "1/2",
+      "q": "1/4",
+      "reference": "1/4",
+      "theta0": "1/2",
+      "theta1": "0",
+      "tv_cue": "1/4"
+    },
+    {
+      "corrected": "3/8",
+      "identified_interval": [
+        "3/8",
+        "3/8"
+      ],
+      "naive": "7/16",
+      "p": "1/2",
+      "q": "1/4",
+      "reference": "3/8",
+      "theta0": "1/2",
+      "theta1": "1/4",
+      "tv_cue": "1/4"
+    },
+    {
+      "corrected": "1/2",
+      "identified_interval": [
+        "1/2",
+        "1/2"
+      ],
+      "naive": "1/2",
+      "p": "1/2",
+      "q": "1/4",
+      "reference": "1/2",
+      "theta0": "1/2",
+      "theta1": "1/2",
+      "tv_cue": "1/4"
+    },
+    {
+      "corrected": "5/8",
+      "identified_interval": [
+        "5/8",
+        "5/8"
+      ],
+      "naive": "9/16",
+      "p": "1/2",
+      "q": "1/4",
+      "reference": "5/8",
+      "theta0": "1/2",
+      "theta1": "3/4",
+      "tv_cue": "1/4"
+    },
+    {
+      "corrected": "3/4",
+      "identified_interval": [
+        "3/4",
+        "3/4"
+      ],
+      "naive": "5/8",
+      "p": "1/2",
+      "q": "1/4",
+      "reference": "3/4",
+      "theta0": "1/2",
+      "theta1": "1",
+      "tv_cue": "1/4"
+    },
+    {
+      "corrected": "3/8",
+      "identified_interval": [
+        "3/8",
+        "3/8"
+      ],
+      "naive": "9/16",
+      "p": "1/2",
+      "q": "1/4",
+      "reference": "3/8",
+      "theta0": "3/4",
+      "theta1": "0",
+      "tv_cue": "1/4"
+    },
+    {
+      "corrected": "1/2",
+      "identified_interval": [
+        "1/2",
+        "1/2"
+      ],
+      "naive": "5/8",
+      "p": "1/2",
+      "q": "1/4",
+      "reference": "1/2",
+      "theta0": "3/4",
+      "theta1": "1/4",
+      "tv_cue": "1/4"
+    },
+    {
+      "corrected": "5/8",
+      "identified_interval": [
+        "5/8",
+        "5/8"
+      ],
+      "naive": "11/16",
+      "p": "1/2",
+      "q": "1/4",
+      "reference": "5/8",
+      "theta0": "3/4",
+      "theta1": "1/2",
+      "tv_cue": "1/4"
+    },
+    {
+      "corrected": "3/4",
+      "identified_interval": [
+        "3/4",
+        "3/4"
+      ],
+      "naive": "3/4",
+      "p": "1/2",
+      "q": "1/4",
+      "reference": "3/4",
+      "theta0": "3/4",
+      "theta1": "3/4",
+      "tv_cue": "1/4"
+    },
+    {
+      "corrected": "7/8",
+      "identified_interval": [
+        "7/8",
+        "7/8"
+      ],
+      "naive": "13/16",
+      "p": "1/2",
+      "q": "1/4",
+      "reference": "7/8",
+      "theta0": "3/4",
+      "theta1": "1",
+      "tv_cue": "1/4"
+    },
+    {
+      "corrected": "1/2",
+      "identified_interval": [
+        "1/2",
+        "1/2"
+      ],
+      "naive": "3/4",
+      "p": "1/2",
+      "q": "1/4",
+      "reference": "1/2",
+      "theta0": "1",
+      "theta1": "0",
+      "tv_cue": "1/4"
+    },
+    {
+      "corrected": "5/8",
+      "identified_interval": [
+        "5/8",
+        "5/8"
+      ],
+      "naive": "13/16",
+      "p": "1/2",
+      "q": "1/4",
+      "reference": "5/8",
+      "theta0": "1",
+      "theta1": "1/4",
+      "tv_cue": "1/4"
+    },
+    {
+      "corrected": "3/4",
+      "identified_interval": [
+        "3/4",
+        "3/4"
+      ],
+      "naive": "7/8",
+      "p": "1/2",
+      "q": "1/4",
+      "reference": "3/4",
+      "theta0": "1",
+      "theta1": "1/2",
+      "tv_cue": "1/4"
+    },
+    {
+      "corrected": "7/8",
+      "identified_interval": [
+        "7/8",
+        "7/8"
+      ],
+      "naive": "15/16",
+      "p": "1/2",
+      "q": "1/4",
+      "reference": "7/8",
+      "theta0": "1",
+      "theta1": "3/4",
+      "tv_cue": "1/4"
+    },
+    {
+      "corrected": "1",
+      "identified_interval": [
+        "1",
+        "1"
+      ],
+      "naive": "1",
+      "p": "1/2",
+      "q": "1/4",
+      "reference": "1",
+      "theta0": "1",
+      "theta1": "1",
+      "tv_cue": "1/4"
+    },
+    {
+      "corrected": "0",
+      "identified_interval": [
+        "0",
+        "0"
+      ],
+      "naive": "0",
+      "p": "1/2",
+      "q": "1/2",
+      "reference": "0",
+      "theta0": "0",
+      "theta1": "0",
+      "tv_cue": "0"
+    },
+    {
+      "corrected": "1/8",
+      "identified_interval": [
+        "1/8",
+        "1/8"
+      ],
+      "naive": "1/8",
+      "p": "1/2",
+      "q": "1/2",
+      "reference": "1/8",
+      "theta0": "0",
+      "theta1": "1/4",
+      "tv_cue": "0"
+    },
+    {
+      "corrected": "1/4",
+      "identified_interval": [
+        "1/4",
+        "1/4"
+      ],
+      "naive": "1/4",
+      "p": "1/2",
+      "q": "1/2",
+      "reference": "1/4",
+      "theta0": "0",
+      "theta1": "1/2",
+      "tv_cue": "0"
+    },
+    {
+      "corrected": "3/8",
+      "identified_interval": [
+        "3/8",
+        "3/8"
+      ],
+      "naive": "3/8",
+      "p": "1/2",
+      "q": "1/2",
+      "reference": "3/8",
+      "theta0": "0",
+      "theta1": "3/4",
+      "tv_cue": "0"
+    },
+    {
+      "corrected": "1/2",
+      "identified_interval": [
+        "1/2",
+        "1/2"
+      ],
+      "naive": "1/2",
+      "p": "1/2",
+      "q": "1/2",
+      "reference": "1/2",
+      "theta0": "0",
+      "theta1": "1",
+      "tv_cue": "0"
+    },
+    {
+      "corrected": "1/8",
+      "identified_interval": [
+        "1/8",
+        "1/8"
+      ],
+      "naive": "1/8",
+      "p": "1/2",
+      "q": "1/2",
+      "reference": "1/8",
+      "theta0": "1/4",
+      "theta1": "0",
+      "tv_cue": "0"
+    },
+    {
+      "corrected": "1/4",
+      "identified_interval": [
+        "1/4",
+        "1/4"
+      ],
+      "naive": "1/4",
+      "p": "1/2",
+      "q": "1/2",
+      "reference": "1/4",
+      "theta0": "1/4",
+      "theta1": "1/4",
+      "tv_cue": "0"
+    },
+    {
+      "corrected": "3/8",
+      "identified_interval": [
+        "3/8",
+        "3/8"
+      ],
+      "naive": "3/8",
+      "p": "1/2",
+      "q": "1/2",
+      "reference": "3/8",
+      "theta0": "1/4",
+      "theta1": "1/2",
+      "tv_cue": "0"
+    },
+    {
+      "corrected": "1/2",
+      "identified_interval": [
+        "1/2",
+        "1/2"
+      ],
+      "naive": "1/2",
+      "p": "1/2",
+      "q": "1/2",
+      "reference": "1/2",
+      "theta0": "1/4",
+      "theta1": "3/4",
+      "tv_cue": "0"
+    },
+    {
+      "corrected": "5/8",
+      "identified_interval": [
+        "5/8",
+        "5/8"
+      ],
+      "naive": "5/8",
+      "p": "1/2",
+      "q": "1/2",
+      "reference": "5/8",
+      "theta0": "1/4",
+      "theta1": "1",
+      "tv_cue": "0"
+    },
+    {
+      "corrected": "1/4",
+      "identified_interval": [
+        "1/4",
+        "1/4"
+      ],
+      "naive": "1/4",
+      "p": "1/2",
+      "q": "1/2",
+      "reference": "1/4",
+      "theta0": "1/2",
+      "theta1": "0",
+      "tv_cue": "0"
+    },
+    {
+      "corrected": "3/8",
+      "identified_interval": [
+        "3/8",
+        "3/8"
+      ],
+      "naive": "3/8",
+      "p": "1/2",
+      "q": "1/2",
+      "reference": "3/8",
+      "theta0": "1/2",
+      "theta1": "1/4",
+      "tv_cue": "0"
+    },
+    {
+      "corrected": "1/2",
+      "identified_interval": [
+        "1/2",
+        "1/2"
+      ],
+      "naive": "1/2",
+      "p": "1/2",
+      "q": "1/2",
+      "reference": "1/2",
+      "theta0": "1/2",
+      "theta1": "1/2",
+      "tv_cue": "0"
+    },
+    {
+      "corrected": "5/8",
+      "identified_interval": [
+        "5/8",
+        "5/8"
+      ],
+      "naive": "5/8",
+      "p": "1/2",
+      "q": "1/2",
+      "reference": "5/8",
+      "theta0": "1/2",
+      "theta1": "3/4",
+      "tv_cue": "0"
+    },
+    {
+      "corrected": "3/4",
+      "identified_interval": [
+        "3/4",
+        "3/4"
+      ],
+      "naive": "3/4",
+      "p": "1/2",
+      "q": "1/2",
+      "reference": "3/4",
+      "theta0": "1/2",
+      "theta1": "1",
+      "tv_cue": "0"
+    },
+    {
+      "corrected": "3/8",
+      "identified_interval": [
+        "3/8",
+        "3/8"
+      ],
+      "naive": "3/8",
+      "p": "1/2",
+      "q": "1/2",
+      "reference": "3/8",
+      "theta0": "3/4",
+      "theta1": "0",
+      "tv_cue": "0"
+    },
+    {
+      "corrected": "1/2",
+      "identified_interval": [
+        "1/2",
+        "1/2"
+      ],
+      "naive": "1/2",
+      "p": "1/2",
+      "q": "1/2",
+      "reference": "1/2",
+      "theta0": "3/4",
+      "theta1": "1/4",
+      "tv_cue": "0"
+    },
+    {
+      "corrected": "5/8",
+      "identified_interval": [
+        "5/8",
+        "5/8"
+      ],
+      "naive": "5/8",
+      "p": "1/2",
+      "q": "1/2",
+      "reference": "5/8",
+      "theta0": "3/4",
+      "theta1": "1/2",
+      "tv_cue": "0"
+    },
+    {
+      "corrected": "3/4",
+      "identified_interval": [
+        "3/4",
+        "3/4"
+      ],
+      "naive": "3/4",
+      "p": "1/2",
+      "q": "1/2",
+      "reference": "3/4",
+      "theta0": "3/4",
+      "theta1": "3/4",
+      "tv_cue": "0"
+    },
+    {
+      "corrected": "7/8",
+      "identified_interval": [
+        "7/8",
+        "7/8"
+      ],
+      "naive": "7/8",
+      "p": "1/2",
+      "q": "1/2",
+      "reference": "7/8",
+      "theta0": "3/4",
+      "theta1": "1",
+      "tv_cue": "0"
+    },
+    {
+      "corrected": "1/2",
+      "identified_interval": [
+        "1/2",
+        "1/2"
+      ],
+      "naive": "1/2",
+      "p": "1/2",
+      "q": "1/2",
+      "reference": "1/2",
+      "theta0": "1",
+      "theta1": "0",
+      "tv_cue": "0"
+    },
+    {
+      "corrected": "5/8",
+      "identified_interval": [
+        "5/8",
+        "5/8"
+      ],
+      "naive": "5/8",
+      "p": "1/2",
+      "q": "1/2",
+      "reference": "5/8",
+      "theta0": "1",
+      "theta1": "1/4",
+      "tv_cue": "0"
+    },
+    {
+      "corrected": "3/4",
+      "identified_interval": [
+        "3/4",
+        "3/4"
+      ],
+      "naive": "3/4",
+      "p": "1/2",
+      "q": "1/2",
+      "reference": "3/4",
+      "theta0": "1",
+      "theta1": "1/2",
+      "tv_cue": "0"
+    },
+    {
+      "corrected": "7/8",
+      "identified_interval": [
+        "7/8",
+        "7/8"
+      ],
+      "naive": "7/8",
+      "p": "1/2",
+      "q": "1/2",
+      "reference": "7/8",
+      "theta0": "1",
+      "theta1": "3/4",
+      "tv_cue": "0"
+    },
+    {
+      "corrected": "1",
+      "identified_interval": [
+        "1",
+        "1"
+      ],
+      "naive": "1",
+      "p": "1/2",
+      "q": "1/2",
+      "reference": "1",
+      "theta0": "1",
+      "theta1": "1",
+      "tv_cue": "0"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "0",
+        "1/2"
+      ],
+      "naive": "0",
+      "p": "1/2",
+      "q": "1",
+      "reference": "0",
+      "theta0": "0",
+      "theta1": "0",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/8",
+        "5/8"
+      ],
+      "naive": "1/4",
+      "p": "1/2",
+      "q": "1",
+      "reference": "1/8",
+      "theta0": "0",
+      "theta1": "1/4",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/4",
+        "3/4"
+      ],
+      "naive": "1/2",
+      "p": "1/2",
+      "q": "1",
+      "reference": "1/4",
+      "theta0": "0",
+      "theta1": "1/2",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "3/8",
+        "7/8"
+      ],
+      "naive": "3/4",
+      "p": "1/2",
+      "q": "1",
+      "reference": "3/8",
+      "theta0": "0",
+      "theta1": "3/4",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/2",
+        "1"
+      ],
+      "naive": "1",
+      "p": "1/2",
+      "q": "1",
+      "reference": "1/2",
+      "theta0": "0",
+      "theta1": "1",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "0",
+        "1/2"
+      ],
+      "naive": "0",
+      "p": "1/2",
+      "q": "1",
+      "reference": "1/8",
+      "theta0": "1/4",
+      "theta1": "0",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/8",
+        "5/8"
+      ],
+      "naive": "1/4",
+      "p": "1/2",
+      "q": "1",
+      "reference": "1/4",
+      "theta0": "1/4",
+      "theta1": "1/4",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/4",
+        "3/4"
+      ],
+      "naive": "1/2",
+      "p": "1/2",
+      "q": "1",
+      "reference": "3/8",
+      "theta0": "1/4",
+      "theta1": "1/2",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "3/8",
+        "7/8"
+      ],
+      "naive": "3/4",
+      "p": "1/2",
+      "q": "1",
+      "reference": "1/2",
+      "theta0": "1/4",
+      "theta1": "3/4",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/2",
+        "1"
+      ],
+      "naive": "1",
+      "p": "1/2",
+      "q": "1",
+      "reference": "5/8",
+      "theta0": "1/4",
+      "theta1": "1",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "0",
+        "1/2"
+      ],
+      "naive": "0",
+      "p": "1/2",
+      "q": "1",
+      "reference": "1/4",
+      "theta0": "1/2",
+      "theta1": "0",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/8",
+        "5/8"
+      ],
+      "naive": "1/4",
+      "p": "1/2",
+      "q": "1",
+      "reference": "3/8",
+      "theta0": "1/2",
+      "theta1": "1/4",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/4",
+        "3/4"
+      ],
+      "naive": "1/2",
+      "p": "1/2",
+      "q": "1",
+      "reference": "1/2",
+      "theta0": "1/2",
+      "theta1": "1/2",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "3/8",
+        "7/8"
+      ],
+      "naive": "3/4",
+      "p": "1/2",
+      "q": "1",
+      "reference": "5/8",
+      "theta0": "1/2",
+      "theta1": "3/4",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/2",
+        "1"
+      ],
+      "naive": "1",
+      "p": "1/2",
+      "q": "1",
+      "reference": "3/4",
+      "theta0": "1/2",
+      "theta1": "1",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "0",
+        "1/2"
+      ],
+      "naive": "0",
+      "p": "1/2",
+      "q": "1",
+      "reference": "3/8",
+      "theta0": "3/4",
+      "theta1": "0",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/8",
+        "5/8"
+      ],
+      "naive": "1/4",
+      "p": "1/2",
+      "q": "1",
+      "reference": "1/2",
+      "theta0": "3/4",
+      "theta1": "1/4",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/4",
+        "3/4"
+      ],
+      "naive": "1/2",
+      "p": "1/2",
+      "q": "1",
+      "reference": "5/8",
+      "theta0": "3/4",
+      "theta1": "1/2",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "3/8",
+        "7/8"
+      ],
+      "naive": "3/4",
+      "p": "1/2",
+      "q": "1",
+      "reference": "3/4",
+      "theta0": "3/4",
+      "theta1": "3/4",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/2",
+        "1"
+      ],
+      "naive": "1",
+      "p": "1/2",
+      "q": "1",
+      "reference": "7/8",
+      "theta0": "3/4",
+      "theta1": "1",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "0",
+        "1/2"
+      ],
+      "naive": "0",
+      "p": "1/2",
+      "q": "1",
+      "reference": "1/2",
+      "theta0": "1",
+      "theta1": "0",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/8",
+        "5/8"
+      ],
+      "naive": "1/4",
+      "p": "1/2",
+      "q": "1",
+      "reference": "5/8",
+      "theta0": "1",
+      "theta1": "1/4",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/4",
+        "3/4"
+      ],
+      "naive": "1/2",
+      "p": "1/2",
+      "q": "1",
+      "reference": "3/4",
+      "theta0": "1",
+      "theta1": "1/2",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "3/8",
+        "7/8"
+      ],
+      "naive": "3/4",
+      "p": "1/2",
+      "q": "1",
+      "reference": "7/8",
+      "theta0": "1",
+      "theta1": "3/4",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/2",
+        "1"
+      ],
+      "naive": "1",
+      "p": "1/2",
+      "q": "1",
+      "reference": "1",
+      "theta0": "1",
+      "theta1": "1",
+      "tv_cue": "1/2"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "0",
+        "9/10"
+      ],
+      "naive": "0",
+      "p": "9/10",
+      "q": "0",
+      "reference": "0",
+      "theta0": "0",
+      "theta1": "0",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "0",
+        "9/10"
+      ],
+      "naive": "0",
+      "p": "9/10",
+      "q": "0",
+      "reference": "9/40",
+      "theta0": "0",
+      "theta1": "1/4",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "0",
+        "9/10"
+      ],
+      "naive": "0",
+      "p": "9/10",
+      "q": "0",
+      "reference": "9/20",
+      "theta0": "0",
+      "theta1": "1/2",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "0",
+        "9/10"
+      ],
+      "naive": "0",
+      "p": "9/10",
+      "q": "0",
+      "reference": "27/40",
+      "theta0": "0",
+      "theta1": "3/4",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "0",
+        "9/10"
+      ],
+      "naive": "0",
+      "p": "9/10",
+      "q": "0",
+      "reference": "9/10",
+      "theta0": "0",
+      "theta1": "1",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/40",
+        "37/40"
+      ],
+      "naive": "1/4",
+      "p": "9/10",
+      "q": "0",
+      "reference": "1/40",
+      "theta0": "1/4",
+      "theta1": "0",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/40",
+        "37/40"
+      ],
+      "naive": "1/4",
+      "p": "9/10",
+      "q": "0",
+      "reference": "1/4",
+      "theta0": "1/4",
+      "theta1": "1/4",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/40",
+        "37/40"
+      ],
+      "naive": "1/4",
+      "p": "9/10",
+      "q": "0",
+      "reference": "19/40",
+      "theta0": "1/4",
+      "theta1": "1/2",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/40",
+        "37/40"
+      ],
+      "naive": "1/4",
+      "p": "9/10",
+      "q": "0",
+      "reference": "7/10",
+      "theta0": "1/4",
+      "theta1": "3/4",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/40",
+        "37/40"
+      ],
+      "naive": "1/4",
+      "p": "9/10",
+      "q": "0",
+      "reference": "37/40",
+      "theta0": "1/4",
+      "theta1": "1",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/20",
+        "19/20"
+      ],
+      "naive": "1/2",
+      "p": "9/10",
+      "q": "0",
+      "reference": "1/20",
+      "theta0": "1/2",
+      "theta1": "0",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/20",
+        "19/20"
+      ],
+      "naive": "1/2",
+      "p": "9/10",
+      "q": "0",
+      "reference": "11/40",
+      "theta0": "1/2",
+      "theta1": "1/4",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/20",
+        "19/20"
+      ],
+      "naive": "1/2",
+      "p": "9/10",
+      "q": "0",
+      "reference": "1/2",
+      "theta0": "1/2",
+      "theta1": "1/2",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/20",
+        "19/20"
+      ],
+      "naive": "1/2",
+      "p": "9/10",
+      "q": "0",
+      "reference": "29/40",
+      "theta0": "1/2",
+      "theta1": "3/4",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/20",
+        "19/20"
+      ],
+      "naive": "1/2",
+      "p": "9/10",
+      "q": "0",
+      "reference": "19/20",
+      "theta0": "1/2",
+      "theta1": "1",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "3/40",
+        "39/40"
+      ],
+      "naive": "3/4",
+      "p": "9/10",
+      "q": "0",
+      "reference": "3/40",
+      "theta0": "3/4",
+      "theta1": "0",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "3/40",
+        "39/40"
+      ],
+      "naive": "3/4",
+      "p": "9/10",
+      "q": "0",
+      "reference": "3/10",
+      "theta0": "3/4",
+      "theta1": "1/4",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "3/40",
+        "39/40"
+      ],
+      "naive": "3/4",
+      "p": "9/10",
+      "q": "0",
+      "reference": "21/40",
+      "theta0": "3/4",
+      "theta1": "1/2",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "3/40",
+        "39/40"
+      ],
+      "naive": "3/4",
+      "p": "9/10",
+      "q": "0",
+      "reference": "3/4",
+      "theta0": "3/4",
+      "theta1": "3/4",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "3/40",
+        "39/40"
+      ],
+      "naive": "3/4",
+      "p": "9/10",
+      "q": "0",
+      "reference": "39/40",
+      "theta0": "3/4",
+      "theta1": "1",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/10",
+        "1"
+      ],
+      "naive": "1",
+      "p": "9/10",
+      "q": "0",
+      "reference": "1/10",
+      "theta0": "1",
+      "theta1": "0",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/10",
+        "1"
+      ],
+      "naive": "1",
+      "p": "9/10",
+      "q": "0",
+      "reference": "13/40",
+      "theta0": "1",
+      "theta1": "1/4",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/10",
+        "1"
+      ],
+      "naive": "1",
+      "p": "9/10",
+      "q": "0",
+      "reference": "11/20",
+      "theta0": "1",
+      "theta1": "1/2",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/10",
+        "1"
+      ],
+      "naive": "1",
+      "p": "9/10",
+      "q": "0",
+      "reference": "31/40",
+      "theta0": "1",
+      "theta1": "3/4",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "1/10",
+        "1"
+      ],
+      "naive": "1",
+      "p": "9/10",
+      "q": "0",
+      "reference": "1",
+      "theta0": "1",
+      "theta1": "1",
+      "tv_cue": "9/10"
+    },
+    {
+      "corrected": "0",
+      "identified_interval": [
+        "0",
+        "0"
+      ],
+      "naive": "0",
+      "p": "9/10",
+      "q": "1/16",
+      "reference": "0",
+      "theta0": "0",
+      "theta1": "0",
+      "tv_cue": "67/80"
+    },
+    {
+      "corrected": "9/40",
+      "identified_interval": [
+        "9/40",
+        "9/40"
+      ],
+      "naive": "1/64",
+      "p": "9/10",
+      "q": "1/16",
+      "reference": "9/40",
+      "theta0": "0",
+      "theta1": "1/4",
+      "tv_cue": "67/80"
+    },
+    {
+      "corrected": "9/20",
+      "identified_interval": [
+        "9/20",
+        "9/20"
+      ],
+      "naive": "1/32",
+      "p": "9/10",
+      "q": "1/16",
+      "reference": "9/20",
+      "theta0": "0",
+      "theta1": "1/2",
+      "tv_cue": "67/80"
+    },
+    {
+      "corrected": "27/40",
+      "identified_interval": [
+        "27/40",
+        "27/40"
+      ],
+      "naive": "3/64",
+      "p": "9/10",
+      "q": "1/16",
+      "reference": "27/40",
+      "theta0": "0",
+      "theta1": "3/4",
+      "tv_cue": "67/80"
+    },
+    {
+      "corrected": "9/10",
+      "identified_interval": [
+        "9/10",
+        "9/10"
+      ],
+      "naive": "1/16",
+      "p": "9/10",
+      "q": "1/16",
+      "reference": "9/10",
+      "theta0": "0",
+      "theta1": "1",
+      "tv_cue": "67/80"
+    },
+    {
+      "corrected": "1/40",
+      "identified_interval": [
+        "1/40",
+        "1/40"
+      ],
+      "naive": "15/64",
+      "p": "9/10",
+      "q": "1/16",
+      "reference": "1/40",
+      "theta0": "1/4",
+      "theta1": "0",
+      "tv_cue": "67/80"
+    },
+    {
+      "corrected": "1/4",
+      "identified_interval": [
+        "1/4",
+        "1/4"
+      ],
+      "naive": "1/4",
+      "p": "9/10",
+      "q": "1/16",
+      "reference": "1/4",
+      "theta0": "1/4",
+      "theta1": "1/4",
+      "tv_cue": "67/80"
+    },
+    {
+      "corrected": "19/40",
+      "identified_interval": [
+        "19/40",
+        "19/40"
+      ],
+      "naive": "17/64",
+      "p": "9/10",
+      "q": "1/16",
+      "reference": "19/40",
+      "theta0": "1/4",
+      "theta1": "1/2",
+      "tv_cue": "67/80"
+    },
+    {
+      "corrected": "7/10",
+      "identified_interval": [
+        "7/10",
+        "7/10"
+      ],
+      "naive": "9/32",
+      "p": "9/10",
+      "q": "1/16",
+      "reference": "7/10",
+      "theta0": "1/4",
+      "theta1": "3/4",
+      "tv_cue": "67/80"
+    },
+    {
+      "corrected": "37/40",
+      "identified_interval": [
+        "37/40",
+        "37/40"
+      ],
+      "naive": "19/64",
+      "p": "9/10",
+      "q": "1/16",
+      "reference": "37/40",
+      "theta0": "1/4",
+      "theta1": "1",
+      "tv_cue": "67/80"
+    },
+    {
+      "corrected": "1/20",
+      "identified_interval": [
+        "1/20",
+        "1/20"
+      ],
+      "naive": "15/32",
+      "p": "9/10",
+      "q": "1/16",
+      "reference": "1/20",
+      "theta0": "1/2",
+      "theta1": "0",
+      "tv_cue": "67/80"
+    },
+    {
+      "corrected": "11/40",
+      "identified_interval": [
+        "11/40",
+        "11/40"
+      ],
+      "naive": "31/64",
+      "p": "9/10",
+      "q": "1/16",
+      "reference": "11/40",
+      "theta0": "1/2",
+      "theta1": "1/4",
+      "tv_cue": "67/80"
+    },
+    {
+      "corrected": "1/2",
+      "identified_interval": [
+        "1/2",
+        "1/2"
+      ],
+      "naive": "1/2",
+      "p": "9/10",
+      "q": "1/16",
+      "reference": "1/2",
+      "theta0": "1/2",
+      "theta1": "1/2",
+      "tv_cue": "67/80"
+    },
+    {
+      "corrected": "29/40",
+      "identified_interval": [
+        "29/40",
+        "29/40"
+      ],
+      "naive": "33/64",
+      "p": "9/10",
+      "q": "1/16",
+      "reference": "29/40",
+      "theta0": "1/2",
+      "theta1": "3/4",
+      "tv_cue": "67/80"
+    },
+    {
+      "corrected": "19/20",
+      "identified_interval": [
+        "19/20",
+        "19/20"
+      ],
+      "naive": "17/32",
+      "p": "9/10",
+      "q": "1/16",
+      "reference": "19/20",
+      "theta0": "1/2",
+      "theta1": "1",
+      "tv_cue": "67/80"
+    },
+    {
+      "corrected": "3/40",
+      "identified_interval": [
+        "3/40",
+        "3/40"
+      ],
+      "naive": "45/64",
+      "p": "9/10",
+      "q": "1/16",
+      "reference": "3/40",
+      "theta0": "3/4",
+      "theta1": "0",
+      "tv_cue": "67/80"
+    },
+    {
+      "corrected": "3/10",
+      "identified_interval": [
+        "3/10",
+        "3/10"
+      ],
+      "naive": "23/32",
+      "p": "9/10",
+      "q": "1/16",
+      "reference": "3/10",
+      "theta0": "3/4",
+      "theta1": "1/4",
+      "tv_cue": "67/80"
+    },
+    {
+      "corrected": "21/40",
+      "identified_interval": [
+        "21/40",
+        "21/40"
+      ],
+      "naive": "47/64",
+      "p": "9/10",
+      "q": "1/16",
+      "reference": "21/40",
+      "theta0": "3/4",
+      "theta1": "1/2",
+      "tv_cue": "67/80"
+    },
+    {
+      "corrected": "3/4",
+      "identified_interval": [
+        "3/4",
+        "3/4"
+      ],
+      "naive": "3/4",
+      "p": "9/10",
+      "q": "1/16",
+      "reference": "3/4",
+      "theta0": "3/4",
+      "theta1": "3/4",
+      "tv_cue": "67/80"
+    },
+    {
+      "corrected": "39/40",
+      "identified_interval": [
+        "39/40",
+        "39/40"
+      ],
+      "naive": "49/64",
+      "p": "9/10",
+      "q": "1/16",
+      "reference": "39/40",
+      "theta0": "3/4",
+      "theta1": "1",
+      "tv_cue": "67/80"
+    },
+    {
+      "corrected": "1/10",
+      "identified_interval": [
+        "1/10",
+        "1/10"
+      ],
+      "naive": "15/16",
+      "p": "9/10",
+      "q": "1/16",
+      "reference": "1/10",
+      "theta0": "1",
+      "theta1": "0",
+      "tv_cue": "67/80"
+    },
+    {
+      "corrected": "13/40",
+      "identified_interval": [
+        "13/40",
+        "13/40"
+      ],
+      "naive": "61/64",
+      "p": "9/10",
+      "q": "1/16",
+      "reference": "13/40",
+      "theta0": "1",
+      "theta1": "1/4",
+      "tv_cue": "67/80"
+    },
+    {
+      "corrected": "11/20",
+      "identified_interval": [
+        "11/20",
+        "11/20"
+      ],
+      "naive": "31/32",
+      "p": "9/10",
+      "q": "1/16",
+      "reference": "11/20",
+      "theta0": "1",
+      "theta1": "1/2",
+      "tv_cue": "67/80"
+    },
+    {
+      "corrected": "31/40",
+      "identified_interval": [
+        "31/40",
+        "31/40"
+      ],
+      "naive": "63/64",
+      "p": "9/10",
+      "q": "1/16",
+      "reference": "31/40",
+      "theta0": "1",
+      "theta1": "3/4",
+      "tv_cue": "67/80"
+    },
+    {
+      "corrected": "1",
+      "identified_interval": [
+        "1",
+        "1"
+      ],
+      "naive": "1",
+      "p": "9/10",
+      "q": "1/16",
+      "reference": "1",
+      "theta0": "1",
+      "theta1": "1",
+      "tv_cue": "67/80"
+    },
+    {
+      "corrected": "0",
+      "identified_interval": [
+        "0",
+        "0"
+      ],
+      "naive": "0",
+      "p": "9/10",
+      "q": "1/4",
+      "reference": "0",
+      "theta0": "0",
+      "theta1": "0",
+      "tv_cue": "13/20"
+    },
+    {
+      "corrected": "9/40",
+      "identified_interval": [
+        "9/40",
+        "9/40"
+      ],
+      "naive": "1/16",
+      "p": "9/10",
+      "q": "1/4",
+      "reference": "9/40",
+      "theta0": "0",
+      "theta1": "1/4",
+      "tv_cue": "13/20"
+    },
+    {
+      "corrected": "9/20",
+      "identified_interval": [
+        "9/20",
+        "9/20"
+      ],
+      "naive": "1/8",
+      "p": "9/10",
+      "q": "1/4",
+      "reference": "9/20",
+      "theta0": "0",
+      "theta1": "1/2",
+      "tv_cue": "13/20"
+    },
+    {
+      "corrected": "27/40",
+      "identified_interval": [
+        "27/40",
+        "27/40"
+      ],
+      "naive": "3/16",
+      "p": "9/10",
+      "q": "1/4",
+      "reference": "27/40",
+      "theta0": "0",
+      "theta1": "3/4",
+      "tv_cue": "13/20"
+    },
+    {
+      "corrected": "9/10",
+      "identified_interval": [
+        "9/10",
+        "9/10"
+      ],
+      "naive": "1/4",
+      "p": "9/10",
+      "q": "1/4",
+      "reference": "9/10",
+      "theta0": "0",
+      "theta1": "1",
+      "tv_cue": "13/20"
+    },
+    {
+      "corrected": "1/40",
+      "identified_interval": [
+        "1/40",
+        "1/40"
+      ],
+      "naive": "3/16",
+      "p": "9/10",
+      "q": "1/4",
+      "reference": "1/40",
+      "theta0": "1/4",
+      "theta1": "0",
+      "tv_cue": "13/20"
+    },
+    {
+      "corrected": "1/4",
+      "identified_interval": [
+        "1/4",
+        "1/4"
+      ],
+      "naive": "1/4",
+      "p": "9/10",
+      "q": "1/4",
+      "reference": "1/4",
+      "theta0": "1/4",
+      "theta1": "1/4",
+      "tv_cue": "13/20"
+    },
+    {
+      "corrected": "19/40",
+      "identified_interval": [
+        "19/40",
+        "19/40"
+      ],
+      "naive": "5/16",
+      "p": "9/10",
+      "q": "1/4",
+      "reference": "19/40",
+      "theta0": "1/4",
+      "theta1": "1/2",
+      "tv_cue": "13/20"
+    },
+    {
+      "corrected": "7/10",
+      "identified_interval": [
+        "7/10",
+        "7/10"
+      ],
+      "naive": "3/8",
+      "p": "9/10",
+      "q": "1/4",
+      "reference": "7/10",
+      "theta0": "1/4",
+      "theta1": "3/4",
+      "tv_cue": "13/20"
+    },
+    {
+      "corrected": "37/40",
+      "identified_interval": [
+        "37/40",
+        "37/40"
+      ],
+      "naive": "7/16",
+      "p": "9/10",
+      "q": "1/4",
+      "reference": "37/40",
+      "theta0": "1/4",
+      "theta1": "1",
+      "tv_cue": "13/20"
+    },
+    {
+      "corrected": "1/20",
+      "identified_interval": [
+        "1/20",
+        "1/20"
+      ],
+      "naive": "3/8",
+      "p": "9/10",
+      "q": "1/4",
+      "reference": "1/20",
+      "theta0": "1/2",
+      "theta1": "0",
+      "tv_cue": "13/20"
+    },
+    {
+      "corrected": "11/40",
+      "identified_interval": [
+        "11/40",
+        "11/40"
+      ],
+      "naive": "7/16",
+      "p": "9/10",
+      "q": "1/4",
+      "reference": "11/40",
+      "theta0": "1/2",
+      "theta1": "1/4",
+      "tv_cue": "13/20"
+    },
+    {
+      "corrected": "1/2",
+      "identified_interval": [
+        "1/2",
+        "1/2"
+      ],
+      "naive": "1/2",
+      "p": "9/10",
+      "q": "1/4",
+      "reference": "1/2",
+      "theta0": "1/2",
+      "theta1": "1/2",
+      "tv_cue": "13/20"
+    },
+    {
+      "corrected": "29/40",
+      "identified_interval": [
+        "29/40",
+        "29/40"
+      ],
+      "naive": "9/16",
+      "p": "9/10",
+      "q": "1/4",
+      "reference": "29/40",
+      "theta0": "1/2",
+      "theta1": "3/4",
+      "tv_cue": "13/20"
+    },
+    {
+      "corrected": "19/20",
+      "identified_interval": [
+        "19/20",
+        "19/20"
+      ],
+      "naive": "5/8",
+      "p": "9/10",
+      "q": "1/4",
+      "reference": "19/20",
+      "theta0": "1/2",
+      "theta1": "1",
+      "tv_cue": "13/20"
+    },
+    {
+      "corrected": "3/40",
+      "identified_interval": [
+        "3/40",
+        "3/40"
+      ],
+      "naive": "9/16",
+      "p": "9/10",
+      "q": "1/4",
+      "reference": "3/40",
+      "theta0": "3/4",
+      "theta1": "0",
+      "tv_cue": "13/20"
+    },
+    {
+      "corrected": "3/10",
+      "identified_interval": [
+        "3/10",
+        "3/10"
+      ],
+      "naive": "5/8",
+      "p": "9/10",
+      "q": "1/4",
+      "reference": "3/10",
+      "theta0": "3/4",
+      "theta1": "1/4",
+      "tv_cue": "13/20"
+    },
+    {
+      "corrected": "21/40",
+      "identified_interval": [
+        "21/40",
+        "21/40"
+      ],
+      "naive": "11/16",
+      "p": "9/10",
+      "q": "1/4",
+      "reference": "21/40",
+      "theta0": "3/4",
+      "theta1": "1/2",
+      "tv_cue": "13/20"
+    },
+    {
+      "corrected": "3/4",
+      "identified_interval": [
+        "3/4",
+        "3/4"
+      ],
+      "naive": "3/4",
+      "p": "9/10",
+      "q": "1/4",
+      "reference": "3/4",
+      "theta0": "3/4",
+      "theta1": "3/4",
+      "tv_cue": "13/20"
+    },
+    {
+      "corrected": "39/40",
+      "identified_interval": [
+        "39/40",
+        "39/40"
+      ],
+      "naive": "13/16",
+      "p": "9/10",
+      "q": "1/4",
+      "reference": "39/40",
+      "theta0": "3/4",
+      "theta1": "1",
+      "tv_cue": "13/20"
+    },
+    {
+      "corrected": "1/10",
+      "identified_interval": [
+        "1/10",
+        "1/10"
+      ],
+      "naive": "3/4",
+      "p": "9/10",
+      "q": "1/4",
+      "reference": "1/10",
+      "theta0": "1",
+      "theta1": "0",
+      "tv_cue": "13/20"
+    },
+    {
+      "corrected": "13/40",
+      "identified_interval": [
+        "13/40",
+        "13/40"
+      ],
+      "naive": "13/16",
+      "p": "9/10",
+      "q": "1/4",
+      "reference": "13/40",
+      "theta0": "1",
+      "theta1": "1/4",
+      "tv_cue": "13/20"
+    },
+    {
+      "corrected": "11/20",
+      "identified_interval": [
+        "11/20",
+        "11/20"
+      ],
+      "naive": "7/8",
+      "p": "9/10",
+      "q": "1/4",
+      "reference": "11/20",
+      "theta0": "1",
+      "theta1": "1/2",
+      "tv_cue": "13/20"
+    },
+    {
+      "corrected": "31/40",
+      "identified_interval": [
+        "31/40",
+        "31/40"
+      ],
+      "naive": "15/16",
+      "p": "9/10",
+      "q": "1/4",
+      "reference": "31/40",
+      "theta0": "1",
+      "theta1": "3/4",
+      "tv_cue": "13/20"
+    },
+    {
+      "corrected": "1",
+      "identified_interval": [
+        "1",
+        "1"
+      ],
+      "naive": "1",
+      "p": "9/10",
+      "q": "1/4",
+      "reference": "1",
+      "theta0": "1",
+      "theta1": "1",
+      "tv_cue": "13/20"
+    },
+    {
+      "corrected": "0",
+      "identified_interval": [
+        "0",
+        "0"
+      ],
+      "naive": "0",
+      "p": "9/10",
+      "q": "1/2",
+      "reference": "0",
+      "theta0": "0",
+      "theta1": "0",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "9/40",
+      "identified_interval": [
+        "9/40",
+        "9/40"
+      ],
+      "naive": "1/8",
+      "p": "9/10",
+      "q": "1/2",
+      "reference": "9/40",
+      "theta0": "0",
+      "theta1": "1/4",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "9/20",
+      "identified_interval": [
+        "9/20",
+        "9/20"
+      ],
+      "naive": "1/4",
+      "p": "9/10",
+      "q": "1/2",
+      "reference": "9/20",
+      "theta0": "0",
+      "theta1": "1/2",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "27/40",
+      "identified_interval": [
+        "27/40",
+        "27/40"
+      ],
+      "naive": "3/8",
+      "p": "9/10",
+      "q": "1/2",
+      "reference": "27/40",
+      "theta0": "0",
+      "theta1": "3/4",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "9/10",
+      "identified_interval": [
+        "9/10",
+        "9/10"
+      ],
+      "naive": "1/2",
+      "p": "9/10",
+      "q": "1/2",
+      "reference": "9/10",
+      "theta0": "0",
+      "theta1": "1",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "1/40",
+      "identified_interval": [
+        "1/40",
+        "1/40"
+      ],
+      "naive": "1/8",
+      "p": "9/10",
+      "q": "1/2",
+      "reference": "1/40",
+      "theta0": "1/4",
+      "theta1": "0",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "1/4",
+      "identified_interval": [
+        "1/4",
+        "1/4"
+      ],
+      "naive": "1/4",
+      "p": "9/10",
+      "q": "1/2",
+      "reference": "1/4",
+      "theta0": "1/4",
+      "theta1": "1/4",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "19/40",
+      "identified_interval": [
+        "19/40",
+        "19/40"
+      ],
+      "naive": "3/8",
+      "p": "9/10",
+      "q": "1/2",
+      "reference": "19/40",
+      "theta0": "1/4",
+      "theta1": "1/2",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "7/10",
+      "identified_interval": [
+        "7/10",
+        "7/10"
+      ],
+      "naive": "1/2",
+      "p": "9/10",
+      "q": "1/2",
+      "reference": "7/10",
+      "theta0": "1/4",
+      "theta1": "3/4",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "37/40",
+      "identified_interval": [
+        "37/40",
+        "37/40"
+      ],
+      "naive": "5/8",
+      "p": "9/10",
+      "q": "1/2",
+      "reference": "37/40",
+      "theta0": "1/4",
+      "theta1": "1",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "1/20",
+      "identified_interval": [
+        "1/20",
+        "1/20"
+      ],
+      "naive": "1/4",
+      "p": "9/10",
+      "q": "1/2",
+      "reference": "1/20",
+      "theta0": "1/2",
+      "theta1": "0",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "11/40",
+      "identified_interval": [
+        "11/40",
+        "11/40"
+      ],
+      "naive": "3/8",
+      "p": "9/10",
+      "q": "1/2",
+      "reference": "11/40",
+      "theta0": "1/2",
+      "theta1": "1/4",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "1/2",
+      "identified_interval": [
+        "1/2",
+        "1/2"
+      ],
+      "naive": "1/2",
+      "p": "9/10",
+      "q": "1/2",
+      "reference": "1/2",
+      "theta0": "1/2",
+      "theta1": "1/2",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "29/40",
+      "identified_interval": [
+        "29/40",
+        "29/40"
+      ],
+      "naive": "5/8",
+      "p": "9/10",
+      "q": "1/2",
+      "reference": "29/40",
+      "theta0": "1/2",
+      "theta1": "3/4",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "19/20",
+      "identified_interval": [
+        "19/20",
+        "19/20"
+      ],
+      "naive": "3/4",
+      "p": "9/10",
+      "q": "1/2",
+      "reference": "19/20",
+      "theta0": "1/2",
+      "theta1": "1",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "3/40",
+      "identified_interval": [
+        "3/40",
+        "3/40"
+      ],
+      "naive": "3/8",
+      "p": "9/10",
+      "q": "1/2",
+      "reference": "3/40",
+      "theta0": "3/4",
+      "theta1": "0",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "3/10",
+      "identified_interval": [
+        "3/10",
+        "3/10"
+      ],
+      "naive": "1/2",
+      "p": "9/10",
+      "q": "1/2",
+      "reference": "3/10",
+      "theta0": "3/4",
+      "theta1": "1/4",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "21/40",
+      "identified_interval": [
+        "21/40",
+        "21/40"
+      ],
+      "naive": "5/8",
+      "p": "9/10",
+      "q": "1/2",
+      "reference": "21/40",
+      "theta0": "3/4",
+      "theta1": "1/2",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "3/4",
+      "identified_interval": [
+        "3/4",
+        "3/4"
+      ],
+      "naive": "3/4",
+      "p": "9/10",
+      "q": "1/2",
+      "reference": "3/4",
+      "theta0": "3/4",
+      "theta1": "3/4",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "39/40",
+      "identified_interval": [
+        "39/40",
+        "39/40"
+      ],
+      "naive": "7/8",
+      "p": "9/10",
+      "q": "1/2",
+      "reference": "39/40",
+      "theta0": "3/4",
+      "theta1": "1",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "1/10",
+      "identified_interval": [
+        "1/10",
+        "1/10"
+      ],
+      "naive": "1/2",
+      "p": "9/10",
+      "q": "1/2",
+      "reference": "1/10",
+      "theta0": "1",
+      "theta1": "0",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "13/40",
+      "identified_interval": [
+        "13/40",
+        "13/40"
+      ],
+      "naive": "5/8",
+      "p": "9/10",
+      "q": "1/2",
+      "reference": "13/40",
+      "theta0": "1",
+      "theta1": "1/4",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "11/20",
+      "identified_interval": [
+        "11/20",
+        "11/20"
+      ],
+      "naive": "3/4",
+      "p": "9/10",
+      "q": "1/2",
+      "reference": "11/20",
+      "theta0": "1",
+      "theta1": "1/2",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "31/40",
+      "identified_interval": [
+        "31/40",
+        "31/40"
+      ],
+      "naive": "7/8",
+      "p": "9/10",
+      "q": "1/2",
+      "reference": "31/40",
+      "theta0": "1",
+      "theta1": "3/4",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": "1",
+      "identified_interval": [
+        "1",
+        "1"
+      ],
+      "naive": "1",
+      "p": "9/10",
+      "q": "1/2",
+      "reference": "1",
+      "theta0": "1",
+      "theta1": "1",
+      "tv_cue": "2/5"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "0",
+        "1/10"
+      ],
+      "naive": "0",
+      "p": "9/10",
+      "q": "1",
+      "reference": "0",
+      "theta0": "0",
+      "theta1": "0",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "9/40",
+        "13/40"
+      ],
+      "naive": "1/4",
+      "p": "9/10",
+      "q": "1",
+      "reference": "9/40",
+      "theta0": "0",
+      "theta1": "1/4",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "9/20",
+        "11/20"
+      ],
+      "naive": "1/2",
+      "p": "9/10",
+      "q": "1",
+      "reference": "9/20",
+      "theta0": "0",
+      "theta1": "1/2",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "27/40",
+        "31/40"
+      ],
+      "naive": "3/4",
+      "p": "9/10",
+      "q": "1",
+      "reference": "27/40",
+      "theta0": "0",
+      "theta1": "3/4",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "9/10",
+        "1"
+      ],
+      "naive": "1",
+      "p": "9/10",
+      "q": "1",
+      "reference": "9/10",
+      "theta0": "0",
+      "theta1": "1",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "0",
+        "1/10"
+      ],
+      "naive": "0",
+      "p": "9/10",
+      "q": "1",
+      "reference": "1/40",
+      "theta0": "1/4",
+      "theta1": "0",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "9/40",
+        "13/40"
+      ],
+      "naive": "1/4",
+      "p": "9/10",
+      "q": "1",
+      "reference": "1/4",
+      "theta0": "1/4",
+      "theta1": "1/4",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "9/20",
+        "11/20"
+      ],
+      "naive": "1/2",
+      "p": "9/10",
+      "q": "1",
+      "reference": "19/40",
+      "theta0": "1/4",
+      "theta1": "1/2",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "27/40",
+        "31/40"
+      ],
+      "naive": "3/4",
+      "p": "9/10",
+      "q": "1",
+      "reference": "7/10",
+      "theta0": "1/4",
+      "theta1": "3/4",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "9/10",
+        "1"
+      ],
+      "naive": "1",
+      "p": "9/10",
+      "q": "1",
+      "reference": "37/40",
+      "theta0": "1/4",
+      "theta1": "1",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "0",
+        "1/10"
+      ],
+      "naive": "0",
+      "p": "9/10",
+      "q": "1",
+      "reference": "1/20",
+      "theta0": "1/2",
+      "theta1": "0",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "9/40",
+        "13/40"
+      ],
+      "naive": "1/4",
+      "p": "9/10",
+      "q": "1",
+      "reference": "11/40",
+      "theta0": "1/2",
+      "theta1": "1/4",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "9/20",
+        "11/20"
+      ],
+      "naive": "1/2",
+      "p": "9/10",
+      "q": "1",
+      "reference": "1/2",
+      "theta0": "1/2",
+      "theta1": "1/2",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "27/40",
+        "31/40"
+      ],
+      "naive": "3/4",
+      "p": "9/10",
+      "q": "1",
+      "reference": "29/40",
+      "theta0": "1/2",
+      "theta1": "3/4",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "9/10",
+        "1"
+      ],
+      "naive": "1",
+      "p": "9/10",
+      "q": "1",
+      "reference": "19/20",
+      "theta0": "1/2",
+      "theta1": "1",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "0",
+        "1/10"
+      ],
+      "naive": "0",
+      "p": "9/10",
+      "q": "1",
+      "reference": "3/40",
+      "theta0": "3/4",
+      "theta1": "0",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "9/40",
+        "13/40"
+      ],
+      "naive": "1/4",
+      "p": "9/10",
+      "q": "1",
+      "reference": "3/10",
+      "theta0": "3/4",
+      "theta1": "1/4",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "9/20",
+        "11/20"
+      ],
+      "naive": "1/2",
+      "p": "9/10",
+      "q": "1",
+      "reference": "21/40",
+      "theta0": "3/4",
+      "theta1": "1/2",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "27/40",
+        "31/40"
+      ],
+      "naive": "3/4",
+      "p": "9/10",
+      "q": "1",
+      "reference": "3/4",
+      "theta0": "3/4",
+      "theta1": "3/4",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "9/10",
+        "1"
+      ],
+      "naive": "1",
+      "p": "9/10",
+      "q": "1",
+      "reference": "39/40",
+      "theta0": "3/4",
+      "theta1": "1",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "0",
+        "1/10"
+      ],
+      "naive": "0",
+      "p": "9/10",
+      "q": "1",
+      "reference": "1/10",
+      "theta0": "1",
+      "theta1": "0",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "9/40",
+        "13/40"
+      ],
+      "naive": "1/4",
+      "p": "9/10",
+      "q": "1",
+      "reference": "13/40",
+      "theta0": "1",
+      "theta1": "1/4",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "9/20",
+        "11/20"
+      ],
+      "naive": "1/2",
+      "p": "9/10",
+      "q": "1",
+      "reference": "11/20",
+      "theta0": "1",
+      "theta1": "1/2",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "27/40",
+        "31/40"
+      ],
+      "naive": "3/4",
+      "p": "9/10",
+      "q": "1",
+      "reference": "31/40",
+      "theta0": "1",
+      "theta1": "3/4",
+      "tv_cue": "1/10"
+    },
+    {
+      "corrected": null,
+      "identified_interval": [
+        "9/10",
+        "1"
+      ],
+      "naive": "1",
+      "p": "9/10",
+      "q": "1",
+      "reference": "1",
+      "theta0": "1",
+      "theta1": "1",
+      "tv_cue": "1/10"
+    }
+  ],
+  "status": "passed"
+}

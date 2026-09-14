@@ -1,0 +1,12 @@
+{
+  "scripted_episodes": 960,
+  "scripted_failed": 0,
+  "scripted_excluded": 0,
+  "matched_input_pair_checks": 384,
+  "population_coverage_cases": 375,
+  "coverage_exact_checks": 600,
+  "sampling_replicates": 3000,
+  "sampling_draws": 384000,
+  "dynamic_program_cases": 6,
+  "llm_runs": 0
+}

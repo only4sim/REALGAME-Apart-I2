@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "file_count": 7,
+  "files": [
+    {
+      "original": "results/coverage.json",
+      "reproduced": "results/reproduced/coverage.json",
+      "sha256": "2fd2ec9faf91153bacfdf5605dc0f4ffaa4b94427857bafa538763fb4a621a24",
+      "byte_identical": true
+    },
+    {
+      "original": "results/coverage_replicates.jsonl",
+      "reproduced": "results/reproduced/coverage_replicates.jsonl",
+      "sha256": "a337af0319328c8384f36445635cbc0f47b7ae7d9e52532ee6c468ac93129856",
+      "byte_identical": true
+    },
+    {
+      "original": "results/coverage_sampling.json",
+      "reproduced": "results/reproduced/coverage_sampling.json",
+      "sha256": "e873961e1f766b9c2ea754b0cd7646539987b3569ecdb19bad889c4715b1576a",
+      "byte_identical": true
+    },
+    {
+      "original": "results/robustness.json",
+      "reproduced": "results/reproduced/robustness.json",
+      "sha256": "6c163a0f29594d1c803b1c52d1180f9b8e6075d0fe0d13fed428657126b3c62c",
+      "byte_identical": true
+    },
+    {
+      "original": "results/scripted_runs.jsonl",
+      "reproduced": "results/reproduced/scripted_runs.jsonl",
+      "sha256": "87664182d5098746ccb69b3c692d18b47c03b550dd983fec229cc73e72052a03",
+      "byte_identical": true
+    },
+    {
+      "original": "results/scripted_summary.json",
+      "reproduced": "results/reproduced/scripted_summary.json",
+      "sha256": "a6151d221b5e5b1ca6f2f238a643a7f680bf7ebf3630f816966d357c27ebccb2",
+      "byte_identical": true
+    },
+    {
+      "original": "results/totals.json",
+      "reproduced": "results/reproduced/totals.json",
+      "sha256": "5d6fa77166220f3714d8c55ae8bbbfc91d16498a82a259a2aab26984701f1f6a",
+      "byte_identical": true
+    }
+  ]
+}

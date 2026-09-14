@@ -1,0 +1,38 @@
+{
+  "build": {
+    "ready": false,
+    "python_modules": {
+      "docx": false,
+      "lxml": false,
+      "fitz": false,
+      "matplotlib": false
+    },
+    "executables": {
+      "pandoc": null,
+      "libreoffice": null
+    },
+    "old_standard_font_match": "DejaVu Sans|/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "font_available": false,
+    "note": "A build-ready environment is not a visually verified document. No dependencies were installed by this check."
+  },
+  "inference": {
+    "route": "codex_subscription",
+    "ready_by_configuration": true,
+    "missing": [],
+    "human_authorization_must_be_separately_confirmed": true,
+    "api_key_required": false,
+    "api_token_prices_required": false,
+    "experimental_execution_implemented": true,
+    "note": "Billing relies on the recorded human account-control confirmation; isolation relies on linked pre-turn and benign host checks, rechecked per call. A complete native tool inventory and universal isolation proof are not claimed.",
+    "access_discovery_artifact_hash_verified": true,
+    "human_authorization_artifact_hash_verified": true,
+    "billing_control_attestation_hash_verified": true,
+    "subject_boundary_artifact_hash_verified": true,
+    "host_boundary_artifact_hash_verified": true,
+    "evidence_linkage_note": "Hashes link the supplied artifacts only. They do not establish human consent, billing permission, or successful subject isolation."
+  },
+  "network_calls": 0,
+  "provider_spending": 0,
+  "status": "preflight_only",
+  "scope": "Local configuration and dependency checks; not provider or scientific validation."
+}

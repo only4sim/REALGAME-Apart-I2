@@ -1,0 +1,36 @@
+{
+  "checked_at_utc": "2026-09-14T08:44:09.524330+00:00",
+  "status": "blocked",
+  "dependencies": {
+    "docx": false,
+    "lxml": false,
+    "fitz": false,
+    "matplotlib": false,
+    "libreoffice": null,
+    "pandoc": null
+  },
+  "attempted_commands": [
+    {
+      "command": [
+        "/home/codespace/.python/current/bin/python",
+        "scripts/build_report.py"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/workspaces/REALGAME-Apart-I2/scripts/build_report.py\", line 12, in <module>\n    from lxml import etree\nModuleNotFoundError: No module named 'lxml'\n"
+    },
+    {
+      "command": [
+        "/home/codespace/.python/current/bin/python",
+        "scripts/render_report.py",
+        "--pdf",
+        "verification/build_probe.pdf"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "LibreOffice is required. Do not pretend a DOCX has been rendered.\n"
+    }
+  ],
+  "dependency_downloads_attempted": 0,
+  "dependency_network_exception": "requested; no answer received"
+}

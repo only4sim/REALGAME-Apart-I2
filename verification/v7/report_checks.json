@@ -1,0 +1,125 @@
+{
+  "status": "passed",
+  "main_pages": 8,
+  "references_start_page": 9,
+  "total_pdf_pages": 13,
+  "abstract_words": 150,
+  "main_page_word_counts": [
+    394,
+    378,
+    443,
+    398,
+    407,
+    294,
+    329,
+    392
+  ],
+  "page_rectangles": [
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ]
+  ],
+  "source_docx": "/mnt/data/realgame_v7/submission_report.docx",
+  "template_geometry_preserved": true,
+  "numbered_month_extensions": 4,
+  "visual_inspection_required": true,
+  "human_submission_gates": [
+    "author identity and affiliation",
+    "artifact location",
+    "theorem and source review",
+    "authorship approval",
+    "venue eligibility"
+  ],
+  "pdf_sha256": "ef64a4fe9417a8f828e0e8089f69be8e29ae5b2b0e3e00264b3ae422f01f5cf6",
+  "docx_sha256": "faa16f949ef40d5d8c3a4b4047b289117a021e52dd4a1bce7d1a0bd5a3c85642",
+  "blocks_sha256": "54ca1a72600b0f8149bfe7bfee8d24ec71c3d930c65eb48d01d74b8f42281d03",
+  "markdown_sha256": "7728520490d6ade7709d883b3045371053b7c97102a956743ab9dcfe30b24713",
+  "template_sha256": "8c3ff735c44d6b1a2fb6a3af0a4a0316e02a4b98a01ea2cac41fbbed93671f3a",
+  "native_editable_equations": 50,
+  "rendered_fonts": [
+    "BAAAAA+LiberationSans",
+    "CAAAAA+OldStandardTT-Bold",
+    "DAAAAA+OldStandardTT-Regular",
+    "EAAAAA+LiberationSerif-Italic",
+    "FAAAAA+OpenSymbol",
+    "GAAAAA+NimbusRoman-Italic",
+    "HAAAAA+LiberationSerif"
+  ],
+  "body_font_points": 11.0,
+  "rendered_abstract_matches_source": true
+}

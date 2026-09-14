@@ -1,0 +1,84 @@
+{
+  "checked_at_utc": "2026-09-14T11:21:07.227298+00:00",
+  "kind": "actual_transport_no_turn_preflight",
+  "passed": true,
+  "experimental_turn_submissions": 0,
+  "benchmark_episodes_started": 0,
+  "adapter_sha256": "a35bef3cbdc178983c7c8692886fe8f2fe5416c2367d52ba5b5030c3488d740c",
+  "verified_boundary": {
+    "configured_model": "gpt-6-astra",
+    "configured_effort": "medium",
+    "client_version": "0.154.0",
+    "instruction_sources": [],
+    "runtime_workspace_roots": [],
+    "environments": [],
+    "ephemeral": true,
+    "permission_profile": "realgame_subject",
+    "mcp_servers": 0,
+    "enabled_skills": 0,
+    "included_usage_check": {
+      "ordinaryUsageAllowed": true,
+      "rateLimits": {
+        "limitId": "codex",
+        "planType": "prolite",
+        "rateLimitReachedType": null,
+        "spendControlReached": false,
+        "primary": {
+          "usedPercent": 14,
+          "windowDurationMins": 10080,
+          "resetsAt": 1789902530
+        },
+        "secondary": null,
+        "credits": {
+          "hasCredits": false,
+          "unlimited": false,
+          "balance": "0"
+        }
+      },
+      "rateLimitsByLimitId": {
+        "codex_bengalfox": {
+          "limitId": "codex_bengalfox",
+          "planType": "prolite",
+          "rateLimitReachedType": null,
+          "spendControlReached": null,
+          "primary": {
+            "usedPercent": 0,
+            "windowDurationMins": 300,
+            "resetsAt": 1789402873
+          },
+          "secondary": {
+            "usedPercent": 0,
+            "windowDurationMins": 10080,
+            "resetsAt": 1789989673
+          },
+          "credits": null
+        },
+        "codex": {
+          "limitId": "codex",
+          "planType": "prolite",
+          "rateLimitReachedType": null,
+          "spendControlReached": false,
+          "primary": {
+            "usedPercent": 14,
+            "windowDurationMins": 10080,
+            "resetsAt": 1789902530
+          },
+          "secondary": null,
+          "credits": {
+            "hasCredits": false,
+            "unlimited": false,
+            "balance": "0"
+          }
+        }
+      },
+      "credit_consumption": null,
+      "monetary_cost_usd": null,
+      "account_identity_retained": false,
+      "note": "Passive usage telemetry is not an included-only billing control."
+    },
+    "complete_native_tool_inventory_available": false
+  },
+  "metadata_rpc_attempts": 5,
+  "metadata_rpc_submissions": 5,
+  "sanitized_events": []
+}

@@ -1,0 +1,34 @@
+{
+  "checked_at_utc": "2026-09-14T10:06:12.707894+00:00",
+  "status": "blocked_before_inference",
+  "tests_passed": 18,
+  "tests_exit_code": 0,
+  "build_ready": false,
+  "inference_ready_by_configuration": false,
+  "new_provider_calls": 0,
+  "new_rendering_performed": false,
+  "substantive_revision_performed": false,
+  "existing_report_and_manuscript_preserved": true,
+  "historical_checks_replaced": false,
+  "existing_archive_check": "existing_archive_check.json",
+  "unresolved_authorization_fields": [
+    "models: exact approved model identifiers",
+    "provider/base_url/approved_hosts: explicit approval of the exact endpoint and protocol; defaults are not consent",
+    "allow_network: explicit permission to transmit the frozen synthetic prompts and protocol histories",
+    "paid_calls_authorized: explicit spending authorization",
+    "global pilot-plus-main USD ceiling: not supplied; max_estimated_usd currently 0",
+    "price_input_per_million, price_output_per_million, price_source: numeric rates and dated primary source",
+    "api_key_env: OPENAI_API_KEY must be present in the process environment; it is absent"
+  ],
+  "scientific_claims_added": [],
+  "deviations": [
+    "No pilot, main run, manuscript revision, rebuild or new release packaging because Gate 1 is unresolved, as instructed."
+  ],
+  "submission_gates": [
+    "human author and affiliation confirmation",
+    "scientific review",
+    "disclosure approval",
+    "artifact location",
+    "venue eligibility"
+  ]
+}

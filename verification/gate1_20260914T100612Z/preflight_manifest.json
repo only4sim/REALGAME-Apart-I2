@@ -1,0 +1,51 @@
+{
+  "algorithm": "sha256",
+  "scope": "New preflight files only; excludes this manifest.",
+  "files": [
+    {
+      "path": "EXECUTION_REPORT.md",
+      "bytes": 2914,
+      "sha256": "626142a41efe82b226a54ff0c47004ad51c6adf290574baa6d3772581be869f7"
+    },
+    {
+      "path": "combined_inference_ledger.json",
+      "bytes": 1025,
+      "sha256": "0a5cc1d4caed138b93023c42e8215f39ec35ba53cfbde79a4e52c519044063d5"
+    },
+    {
+      "path": "commands.json",
+      "bytes": 287,
+      "sha256": "3508b226c65fdd781a9a8ddbdea3679be1b43cc95a96472ad7f02055730b610f"
+    },
+    {
+      "path": "existing_archive_check.json",
+      "bytes": 503,
+      "sha256": "c0baf332741ca2824a438c04a43419f99a6fdcdec08bfb44e68be53a0bca1bf4"
+    },
+    {
+      "path": "font_registration_check.txt",
+      "bytes": 132,
+      "sha256": "4cfe68d53d264f2c2f298c092c2e28405a91e645d384295d9bbb6e0902c7d4c3"
+    },
+    {
+      "path": "preserved_artifact_hashes.json",
+      "bytes": 874,
+      "sha256": "de8892e4795ddc1e527285ea10991eb27ce767317e802c87c873f997909f4968"
+    },
+    {
+      "path": "readiness.json",
+      "bytes": 1485,
+      "sha256": "2b5c1ed51183f184d62204c876762eb9269872638269990715253af827d35e4d"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 1499,
+      "sha256": "f9a14b3ecfe1b6a6c2ca7839ae6fe5b16e25cf2922fa32ff97afd6ed5180f406"
+    },
+    {
+      "path": "unit_tests.txt",
+      "bytes": 2026,
+      "sha256": "2f344c59b26ad0c0e0cf881f95fbf16e57b101363772358e8df02a9862779872"
+    }
+  ]
+}

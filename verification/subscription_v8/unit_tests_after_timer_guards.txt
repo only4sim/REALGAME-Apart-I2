@@ -1,0 +1,57 @@
+test_api_route_retains_credential_price_and_budget_requirements (test_subscription_access.SubscriptionAccessTests.test_api_route_retains_credential_price_and_budget_requirements) ... ok
+test_authorized_caps_reject_excess_nonpositive_and_boolean_values (test_subscription_access.SubscriptionAccessTests.test_authorized_caps_reject_excess_nonpositive_and_boolean_values) ... ok
+test_catalog_excludes_hidden_missing_hidden_and_invalid_entries (test_subscription_access.SubscriptionAccessTests.test_catalog_excludes_hidden_missing_hidden_and_invalid_entries) ... ok
+test_committed_action_and_full_denominator_survive_later_refusal (test_subscription_access.SubscriptionAccessTests.test_committed_action_and_full_denominator_survive_later_refusal) ... ok
+test_config_assertions_cannot_authorize_or_verify_boundaries (test_subscription_access.SubscriptionAccessTests.test_config_assertions_cannot_authorize_or_verify_boundaries) ... ok
+test_coordinator_context_fields_are_rejected (test_subscription_access.SubscriptionAccessTests.test_coordinator_context_fields_are_rejected) ... ok
+test_failed_rpc_write_is_attempted_but_not_submitted (test_subscription_access.SubscriptionAccessTests.test_failed_rpc_write_is_attempted_but_not_submitted) ... ok
+test_forbidden_tool_attempts_are_countable_without_arguments (test_subscription_access.SubscriptionAccessTests.test_forbidden_tool_attempts_are_countable_without_arguments) ... ok
+test_global_allowance_rejects_other_scope_and_duplicate_invocation (test_subscription_access.SubscriptionAccessTests.test_global_allowance_rejects_other_scope_and_duplicate_invocation) ... ok
+test_global_budget_persists_across_cohorts_without_replenishing_cap (test_subscription_access.SubscriptionAccessTests.test_global_budget_persists_across_cohorts_without_replenishing_cap) ... ok
+test_global_deadline_survives_reopening_and_stops_pending_turns (test_subscription_access.SubscriptionAccessTests.test_global_deadline_survives_reopening_and_stops_pending_turns) ... ok
+test_local_discovery_drops_raw_login_output (test_subscription_access.SubscriptionAccessTests.test_local_discovery_drops_raw_login_output) ... ok
+test_malformed_metadata_retains_sanitized_error_category (test_subscription_access.SubscriptionAccessTests.test_malformed_metadata_retains_sanitized_error_category) ... ok
+test_metadata_allowlist_rejects_actions_before_process_access (test_subscription_access.SubscriptionAccessTests.test_metadata_allowlist_rejects_actions_before_process_access) ... ok
+test_metadata_rpc_errors_drop_server_error_text (test_subscription_access.SubscriptionAccessTests.test_metadata_rpc_errors_drop_server_error_text) ... ok
+test_metadata_timeout_is_sanitized_without_reading_process_output (test_subscription_access.SubscriptionAccessTests.test_metadata_timeout_is_sanitized_without_reading_process_output) ... ok
+test_missing_effective_model_is_not_filled_from_requested_slug (test_subscription_access.SubscriptionAccessTests.test_missing_effective_model_is_not_filled_from_requested_slug) ... ok
+test_model_and_effort_must_match_non_hidden_discovery (test_subscription_access.SubscriptionAccessTests.test_model_and_effort_must_match_non_hidden_discovery) ... ok
+test_one_outer_allowance_stops_after_reserved_submissions (test_subscription_access.SubscriptionAccessTests.test_one_outer_allowance_stops_after_reserved_submissions) ... ok
+test_outer_timeout_does_not_reserve_an_additional_turn (test_subscription_access.SubscriptionAccessTests.test_outer_timeout_does_not_reserve_an_additional_turn) ... ok
+test_paid_api_fallback_and_extra_credit_use_are_rejected (test_subscription_access.SubscriptionAccessTests.test_paid_api_fallback_and_extra_credit_use_are_rejected) ... ok
+test_readiness_requires_linked_boundary_checks_and_separate_billing_attestation (test_subscription_access.SubscriptionAccessTests.test_readiness_requires_linked_boundary_checks_and_separate_billing_attestation) ... ok
+test_reasoning_and_nonfinal_event_payloads_are_dropped (test_subscription_access.SubscriptionAccessTests.test_reasoning_and_nonfinal_event_payloads_are_dropped) ... ok
+test_refusals_and_truncations_preserve_visible_evidence (test_subscription_access.SubscriptionAccessTests.test_refusals_and_truncations_preserve_visible_evidence) ... ok
+test_strict_visible_json_rejects_overflow_duplicates_and_repair_text (test_subscription_access.SubscriptionAccessTests.test_strict_visible_json_rejects_overflow_duplicates_and_repair_text) ... ok
+test_subject_analysis_keeps_all_unstarted_cells_and_cost_missingness (test_subscription_access.SubscriptionAccessTests.test_subject_analysis_keeps_all_unstarted_cells_and_cost_missingness) ... ok
+test_subject_analysis_preserves_commitment_and_refusal_denominators (test_subscription_access.SubscriptionAccessTests.test_subject_analysis_preserves_commitment_and_refusal_denominators) ... ok
+test_subject_analysis_rejects_mock_api_and_unlinked_provenance (test_subscription_access.SubscriptionAccessTests.test_subject_analysis_rejects_mock_api_and_unlinked_provenance) ... ok
+test_subject_boundary_verifies_history_controls_and_rejects_added_instructions (test_subscription_access.SubscriptionAccessTests.test_subject_boundary_verifies_history_controls_and_rejects_added_instructions) ... ok
+test_subject_client_discards_reasoning_and_nested_turn_items (test_subscription_access.SubscriptionAccessTests.test_subject_client_discards_reasoning_and_nested_turn_items) ... ok
+test_subject_client_preserves_visible_refusal_and_stops_alias_drift (test_subscription_access.SubscriptionAccessTests.test_subject_client_preserves_visible_refusal_and_stops_alias_drift) ... ok
+test_subject_client_rejects_tools_and_server_approvals_without_payload_retention (test_subscription_access.SubscriptionAccessTests.test_subject_client_rejects_tools_and_server_approvals_without_payload_retention) ... ok
+test_subscription_does_not_require_api_credentials_or_prices (test_subscription_access.SubscriptionAccessTests.test_subscription_does_not_require_api_credentials_or_prices) ... ok
+test_subscription_reanalysis_preserves_unstarted_denominator_and_null_cost (test_subscription_access.SubscriptionAccessTests.test_subscription_reanalysis_preserves_unstarted_denominator_and_null_cost) ... ok
+test_subscription_usage_changes_fail_closed_without_inference (test_subscription_access.SubscriptionAccessTests.test_subscription_usage_changes_fail_closed_without_inference) ... ok
+test_unverified_transport_cannot_be_enabled_by_call_arguments (test_subscription_access.SubscriptionAccessTests.test_unverified_transport_cannot_be_enabled_by_call_arguments) ... ok
+test_usage_keeps_missing_costs_null_and_drops_account_identity (test_subscription_access.SubscriptionAccessTests.test_usage_keeps_missing_costs_null_and_drops_account_identity) ... ok
+test_analysis_rejects_orphan_and_duplicate_submitted_turns (test_subscription_access.SubscriptionFinalGuardsTests.test_analysis_rejects_orphan_and_duplicate_submitted_turns) ... ok
+test_buffered_frames_and_notifications_do_not_skip_deadline (test_subscription_access.SubscriptionFinalGuardsTests.test_buffered_frames_and_notifications_do_not_skip_deadline) ... ERROR
+test_wall_clock_rollback_cannot_extend_live_pilot_deadline (test_subscription_access.SubscriptionFinalGuardsTests.test_wall_clock_rollback_cannot_extend_live_pilot_deadline) ... ok
+
+======================================================================
+ERROR: test_buffered_frames_and_notifications_do_not_skip_deadline (test_subscription_access.SubscriptionFinalGuardsTests.test_buffered_frames_and_notifications_do_not_skip_deadline)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspaces/REALGAME-Apart-I2/tests/test_subscription_access.py", line 735, in test_buffered_frames_and_notifications_do_not_skip_deadline
+    client = subject.SubjectClient(mock_config(), 0., lambda event: None,
+                                   lambda: None, lambda: None)
+  File "/workspaces/REALGAME-Apart-I2/src/codex_subject.py", line 166, in __init__
+    timeout=cfg['request_timeout_seconds'],
+            ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'request_timeout_seconds'
+
+----------------------------------------------------------------------
+Ran 40 tests in 0.030s
+
+FAILED (errors=1)

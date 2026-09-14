@@ -1,0 +1,56 @@
+{
+  "version": "0.5",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "documents": {
+    "theory_report": {
+      "pages": 21,
+      "abstract_words_whitespace": 134,
+      "off_page_text_blocks": []
+    },
+    "paper_theory_core": {
+      "pages": 6,
+      "abstract_words_whitespace": 137,
+      "off_page_text_blocks": []
+    }
+  },
+  "pdf_review": {
+    "renderer": "MuPDF 1.26.7",
+    "all_pages_rendered": true,
+    "contact_sheets_visually_inspected": true,
+    "dependency_graph_checked_at_full_size": true,
+    "remaining_layout_note": "Provisional academic layout, not official submission template."
+  },
+  "reproduction": [
+    {
+      "file": "verification/certificates.json",
+      "sha256": "b5dbf804204d2a37c91705c5134d67e9808ee85bbaba34e5a4398bbb2d906265",
+      "clean_directory_identical": true
+    },
+    {
+      "file": "verification/independent_check.json",
+      "sha256": "91a017e14e1c6b8bbb890d489591ccffaafec2543f39837e390c13225a8be811",
+      "clean_directory_identical": true
+    },
+    {
+      "file": "verification/full_class_certificates.json",
+      "sha256": "5a1d8566c40ac39ff08b123470b7d1227667b97b699b3ad8b896c2fa82963229",
+      "clean_directory_identical": true
+    },
+    {
+      "file": "verification/full_class_check.json",
+      "sha256": "debbae40b638d568ebb3257413748afd7007659c72ad5f80fc92f65278d29429",
+      "clean_directory_identical": true
+    },
+    {
+      "file": "verification/boundary_checks.json",
+      "sha256": "697b7b32679305de4701813f6c41abd1ff1248ddaea565363ea3302571796674",
+      "clean_directory_identical": true
+    }
+  ],
+  "claims": 28,
+  "llm_runs": 0,
+  "proof_assistant_verified": false,
+  "scope": "Finite mathematical simulations and exact certificate checking; not an operational sandbox audit."
+}

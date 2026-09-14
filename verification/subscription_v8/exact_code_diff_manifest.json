@@ -1,0 +1,98 @@
+{
+  "baseline_archive": "REALGAME_Apart_rendered_release_v7.zip",
+  "files": [
+    {
+      "path": "access/audit_subject_boundary.py",
+      "baseline_sha256": null,
+      "new_sha256": "aace5299e7fca670b70a431cf4d45e4719716893ae5cea2c8040aa69c1e0bfa9",
+      "status": "added"
+    },
+    {
+      "path": "access/check_host_boundary.py",
+      "baseline_sha256": null,
+      "new_sha256": "4d497432a0957ad945770fe917dfe4d18f85c3e233844032e5c1f2fd5139d1a3",
+      "status": "added"
+    },
+    {
+      "path": "access/codex_subscription_wrapper.txt",
+      "baseline_sha256": null,
+      "new_sha256": "42ff4fbf5ec84d842a4b2fbee79f0d2d283f0c4f2b762b91d3fbbc518a7182b6",
+      "status": "added"
+    },
+    {
+      "path": "access/inspect_codex_access.py",
+      "baseline_sha256": null,
+      "new_sha256": "46c5d7aacaf9c0a643b47f34c800f2197e4f7bfff665774c65b7e212209f1997",
+      "status": "added"
+    },
+    {
+      "path": "configs/codex_subscription_pilot_v8.json",
+      "baseline_sha256": null,
+      "new_sha256": "202b895e87d9c6d9895a878ed39b95735fe1c9477a700ef8944f72fae58cfe8d",
+      "status": "added"
+    },
+    {
+      "path": "scripts/analyze_codex_pilot.py",
+      "baseline_sha256": null,
+      "new_sha256": "dd972231e95041061e33c08087194cabd271be90f0b582ba2160fe26226d7568",
+      "status": "added"
+    },
+    {
+      "path": "scripts/check_readiness.py",
+      "baseline_sha256": "63696905debd7e1025658adbcd23a60196cc3a5fff42b42748149133a5f88d12",
+      "new_sha256": "a48d0ade0a3eb1ab4ece3f377abfc8807941fc3a0e2c5559a10f9fe1c22cfb04",
+      "status": "modified"
+    },
+    {
+      "path": "scripts/run_codex_pilot.py",
+      "baseline_sha256": null,
+      "new_sha256": "8bf9e1f8bc463efd5402ff43fb04ed20dd1b30920c20a6dca09c407f9431bba7",
+      "status": "added"
+    },
+    {
+      "path": "src/codex_budget.py",
+      "baseline_sha256": null,
+      "new_sha256": "d7de4369a4ab3247d22663e159da88f9b8d7874a2779d9af57d79a74e0b2f213",
+      "status": "added"
+    },
+    {
+      "path": "src/codex_subject.py",
+      "baseline_sha256": null,
+      "new_sha256": "a1cba884cba90ebf554b7b59afbdd4145130e79be8117459dbdcf699076707d7",
+      "status": "added"
+    },
+    {
+      "path": "src/codex_subscription.py",
+      "baseline_sha256": null,
+      "new_sha256": "c7a0b3c976077c2335ba0ba158da3de95eeb289d31c6da64e6a7c706a37d0c10",
+      "status": "added"
+    },
+    {
+      "path": "tests/test_subscription_access.py",
+      "baseline_sha256": null,
+      "new_sha256": "112b027772af93ae3494642955102e41bb892e2c11928d0a8a9d365097454f8b",
+      "status": "added"
+    },
+    {
+      "path": "verification/subscription_v8/audit_frozen_payloads.py",
+      "baseline_sha256": null,
+      "new_sha256": "c837093370c2546f7d3380ffa3b2a3452a13e7991176c74f696a7c78ff5490a5",
+      "status": "added"
+    },
+    {
+      "path": "verification/subscription_v8/summarize_usage.py",
+      "baseline_sha256": null,
+      "new_sha256": "6570ead68665977ccb1c7c92003f393910a3b0c55bdc60e2c28e466991939219",
+      "status": "added"
+    },
+    {
+      "path": "verification/subscription_v8/verify_working_bundle.py",
+      "baseline_sha256": null,
+      "new_sha256": "d177a8aad0d5fec25e87dfacc3591eee3691ceb02b0d2424941c5c69933af8fa",
+      "status": "added"
+    }
+  ],
+  "patch_applies_to_baseline": true,
+  "patched_files_byte_match_current": true,
+  "note": "Includes adapter, config, tests and verification helpers; source snapshots are duplicate frozen copies."
+}

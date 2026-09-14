@@ -1,0 +1,39 @@
+{
+  "records": [
+    {
+      "artifact": "access/ACCESS_DISCOVERY.json",
+      "metadata_rpc_attempts": null,
+      "metadata_rpc_submissions": 3,
+      "experimental_turn_submissions": 0
+    },
+    {
+      "artifact": "access/SUBJECT_BOUNDARY_DISCOVERY.json",
+      "metadata_rpc_attempts": 1,
+      "metadata_rpc_submissions": 1,
+      "experimental_turn_submissions": 0
+    },
+    {
+      "artifact": "access/SUBJECT_BOUNDARY_DISCOVERY_02.json",
+      "metadata_rpc_attempts": 4,
+      "metadata_rpc_submissions": 4,
+      "experimental_turn_submissions": 0
+    },
+    {
+      "artifact": "access/SUBJECT_BOUNDARY_DISCOVERY_03.json",
+      "metadata_rpc_attempts": 4,
+      "metadata_rpc_submissions": 4,
+      "experimental_turn_submissions": 0
+    },
+    {
+      "artifact": "access/SUBJECT_TRANSPORT_PREFLIGHT.json",
+      "metadata_rpc_attempts": 5,
+      "metadata_rpc_submissions": 5,
+      "experimental_turn_submissions": 0
+    }
+  ],
+  "recorded_metadata_rpc_submissions": 17,
+  "experimental_turn_submissions": 0,
+  "cost_usd": null,
+  "credit_consumption": null,
+  "scope": "Saved preparation metadata RPCs only; local version/help/login/schema/sandbox command diagnostics are separate. Metadata may use the network. No benchmark response was elicited by these records."
+}

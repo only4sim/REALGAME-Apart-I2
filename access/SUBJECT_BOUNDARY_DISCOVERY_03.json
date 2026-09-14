@@ -1,0 +1,126 @@
+{
+  "checked_at_utc": "2026-09-14T11:11:04.465954+00:00",
+  "protocol_version": "codex-subscription-pilot-v8",
+  "inspection_kind": "official_client_pre_turn_boundary_audit",
+  "experimental_turn_submissions": 0,
+  "model_prompt_submissions": 0,
+  "thread_start_requests": 1,
+  "passed": true,
+  "client_version": "0.154.0",
+  "profile_overrides": [
+    "forced_login_method=\"chatgpt\"",
+    "model_provider=\"openai\"",
+    "default_permissions=\"realgame_subject\"",
+    "features.shell_tool=false",
+    "features.unified_exec=false",
+    "features.apps=false",
+    "apps._default.enabled=false",
+    "features.plugins=false",
+    "features.remote_plugin=false",
+    "features.multi_agent=false",
+    "agents.enabled=false",
+    "features.memories=false",
+    "memories.use_memories=false",
+    "memories.generate_memories=false",
+    "features.hooks=false",
+    "features.goals=false",
+    "features.skill_mcp_dependency_install=false",
+    "features.code_mode.enabled=false",
+    "features.context_management.experimental_mode=false",
+    "tools.view_image=false",
+    "web_search=\"disabled\"",
+    "project_doc_max_bytes=0",
+    "history.persistence=\"none\"",
+    "developer_instructions=\"\"",
+    "notify=[]",
+    "mcp_servers={}",
+    "model_reasoning_summary=\"none\"",
+    "show_raw_agent_reasoning=false",
+    "hide_agent_reasoning=true",
+    "shell_environment_policy.inherit=\"none\"",
+    "permissions.realgame_subject.filesystem={ \":minimal\"=\"read\", \"/home\"=\"deny\", \"/workspaces\"=\"deny\", \"/root\"=\"deny\", \"/tmp\"=\"deny\", \"/proc\"=\"deny\" }",
+    "permissions.realgame_subject.network.enabled=false",
+    "skills.config=[{path=\"/home/codespace/.codex/skills/.system/imagegen/SKILL.md\",enabled=false},{path=\"/home/codespace/.codex/skills/.system/openai-docs/SKILL.md\",enabled=false},{path=\"/home/codespace/.codex/skills/.system/plugin-creator/SKILL.md\",enabled=false},{path=\"/home/codespace/.codex/skills/.system/review-agent/SKILL.md\",enabled=false},{path=\"/home/codespace/.codex/skills/.system/skill-creator/SKILL.md\",enabled=false},{path=\"/home/codespace/.codex/skills/.system/skill-installer/SKILL.md\",enabled=false}]"
+  ],
+  "raw_stream_retained": false,
+  "managed_and_service_controls_retained": true,
+  "complete_native_tool_inventory_available": false,
+  "initial_skills": [
+    {
+      "name": "imagegen",
+      "path": "/home/codespace/.codex/skills/.system/imagegen/SKILL.md",
+      "enabled": false,
+      "scope": "system"
+    },
+    {
+      "name": "openai-docs",
+      "path": "/home/codespace/.codex/skills/.system/openai-docs/SKILL.md",
+      "enabled": false,
+      "scope": "system"
+    },
+    {
+      "name": "plugin-creator",
+      "path": "/home/codespace/.codex/skills/.system/plugin-creator/SKILL.md",
+      "enabled": false,
+      "scope": "system"
+    },
+    {
+      "name": "review-agent",
+      "path": "/home/codespace/.codex/skills/.system/review-agent/SKILL.md",
+      "enabled": false,
+      "scope": "system"
+    },
+    {
+      "name": "skill-creator",
+      "path": "/home/codespace/.codex/skills/.system/skill-creator/SKILL.md",
+      "enabled": false,
+      "scope": "system"
+    },
+    {
+      "name": "skill-installer",
+      "path": "/home/codespace/.codex/skills/.system/skill-installer/SKILL.md",
+      "enabled": false,
+      "scope": "system"
+    }
+  ],
+  "skill_disable_cli_override": "skills.config=[{path=\"/home/codespace/.codex/skills/.system/imagegen/SKILL.md\",enabled=false},{path=\"/home/codespace/.codex/skills/.system/openai-docs/SKILL.md\",enabled=false},{path=\"/home/codespace/.codex/skills/.system/plugin-creator/SKILL.md\",enabled=false},{path=\"/home/codespace/.codex/skills/.system/review-agent/SKILL.md\",enabled=false},{path=\"/home/codespace/.codex/skills/.system/skill-creator/SKILL.md\",enabled=false},{path=\"/home/codespace/.codex/skills/.system/skill-installer/SKILL.md\",enabled=false}]",
+  "thread_start_response": {
+    "model": "gpt-6-astra",
+    "modelProvider": "openai",
+    "reasoningEffort": "medium",
+    "serviceTier": "default",
+    "instructionSources": [],
+    "runtimeWorkspaceRoots": [],
+    "sandbox": {
+      "type": "readOnly",
+      "networkAccess": false
+    },
+    "activePermissionProfile": {
+      "id": "realgame_subject",
+      "extends": null
+    }
+  },
+  "thread_metadata": {
+    "ephemeral": true,
+    "environments": [],
+    "parentThreadId": null,
+    "forkedFromId": null
+  },
+  "mcp_server_count": 0,
+  "mcp_catalog_complete": true,
+  "checks": {
+    "all_catalog_skills_disabled": true,
+    "no_instruction_sources": true,
+    "no_workspace_roots": true,
+    "no_environments": true,
+    "ephemeral": true,
+    "fresh_thread": true,
+    "requested_model_retained": true,
+    "effort_retained": true,
+    "named_restricted_profile": true,
+    "no_mcp_servers": true
+  },
+  "note": "A passing structural startup check is not a full effective-tool or effective-instruction audit. Skills suppression and a benign host-denial test also require verification before inference.",
+  "metadata_rpc_attempts": 4,
+  "metadata_rpc_submissions": 4
+}

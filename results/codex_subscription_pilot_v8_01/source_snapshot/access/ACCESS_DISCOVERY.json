@@ -1,0 +1,299 @@
+{
+  "official_cli_available": true,
+  "client_version": "0.154.0",
+  "auth_type": "chatgpt",
+  "commands": [
+    {
+      "command": "codex --version",
+      "exit_code": 0,
+      "supported": true,
+      "client_version": "0.154.0"
+    },
+    {
+      "command": "codex login status",
+      "exit_code": 0,
+      "supported": true,
+      "auth_type": "chatgpt",
+      "raw_output_retained": false
+    },
+    {
+      "command": "codex exec --help",
+      "exit_code": 0,
+      "supported": true,
+      "help_sha256": "0e82cfde0122715250e93dc65866caa956b2ac5b9d0b20ec4ad4f9e81486509e",
+      "supported_flags": [
+        "--add-dir",
+        "--approve-for-me",
+        "--cd",
+        "--color",
+        "--config",
+        "--dangerously-bypass-approvals-and-sandbox",
+        "--dangerously-bypass-hook-trust",
+        "--disable",
+        "--enable",
+        "--ephemeral",
+        "--help",
+        "--ignore-rules",
+        "--ignore-user-config",
+        "--image",
+        "--json",
+        "--last",
+        "--local-provider",
+        "--model",
+        "--oss",
+        "--output-last-message",
+        "--output-schema",
+        "--profile",
+        "--sandbox",
+        "--skip-git-repo-check",
+        "--strict-config",
+        "--thread-source",
+        "--version",
+        "--worktree"
+      ]
+    },
+    {
+      "command": "codex app-server --help",
+      "exit_code": 0,
+      "supported": true,
+      "help_sha256": "95d290035d274e91e6f85b9af63e9a3fd2cf70a2295d9eedbfc23a2ee82d4383",
+      "supported_flags": [
+        "--analytics-default-enabled",
+        "--code-mode-host",
+        "--config",
+        "--disable",
+        "--enable",
+        "--help",
+        "--listen",
+        "--stdio",
+        "--strict-config",
+        "--ws-audience",
+        "--ws-auth",
+        "--ws-issuer",
+        "--ws-max-clock-skew-seconds",
+        "--ws-shared-secret-file",
+        "--ws-token-file",
+        "--ws-token-sha"
+      ]
+    }
+  ],
+  "installation_interpretation": "Checked the child-process CLI directly; parent conversation access was not assumed.",
+  "checked_at_utc": "2026-09-14T10:56:12.951672+00:00",
+  "models": [
+    {
+      "id": "gpt-6-astra",
+      "model": "gpt-6-astra",
+      "hidden": false,
+      "isDefault": true,
+      "defaultReasoningEffort": "medium",
+      "supportedReasoningEfforts": [
+        {
+          "reasoningEffort": "low"
+        },
+        {
+          "reasoningEffort": "medium"
+        },
+        {
+          "reasoningEffort": "high"
+        },
+        {
+          "reasoningEffort": "xhigh"
+        },
+        {
+          "reasoningEffort": "max"
+        },
+        {
+          "reasoningEffort": "ultra"
+        }
+      ]
+    },
+    {
+      "id": "gpt-5.6-sol",
+      "model": "gpt-5.6-sol",
+      "hidden": false,
+      "isDefault": false,
+      "defaultReasoningEffort": "low",
+      "supportedReasoningEfforts": [
+        {
+          "reasoningEffort": "low"
+        },
+        {
+          "reasoningEffort": "medium"
+        },
+        {
+          "reasoningEffort": "high"
+        },
+        {
+          "reasoningEffort": "xhigh"
+        },
+        {
+          "reasoningEffort": "max"
+        },
+        {
+          "reasoningEffort": "ultra"
+        }
+      ]
+    },
+    {
+      "id": "gpt-5.6-terra",
+      "model": "gpt-5.6-terra",
+      "hidden": false,
+      "isDefault": false,
+      "defaultReasoningEffort": "medium",
+      "supportedReasoningEfforts": [
+        {
+          "reasoningEffort": "low"
+        },
+        {
+          "reasoningEffort": "medium"
+        },
+        {
+          "reasoningEffort": "high"
+        },
+        {
+          "reasoningEffort": "xhigh"
+        },
+        {
+          "reasoningEffort": "max"
+        },
+        {
+          "reasoningEffort": "ultra"
+        }
+      ]
+    },
+    {
+      "id": "gpt-5.6-luna",
+      "model": "gpt-5.6-luna",
+      "hidden": false,
+      "isDefault": false,
+      "defaultReasoningEffort": "medium",
+      "supportedReasoningEfforts": [
+        {
+          "reasoningEffort": "low"
+        },
+        {
+          "reasoningEffort": "medium"
+        },
+        {
+          "reasoningEffort": "high"
+        },
+        {
+          "reasoningEffort": "xhigh"
+        },
+        {
+          "reasoningEffort": "max"
+        }
+      ]
+    },
+    {
+      "id": "gpt-5.5",
+      "model": "gpt-5.5",
+      "hidden": false,
+      "isDefault": false,
+      "defaultReasoningEffort": "medium",
+      "supportedReasoningEfforts": [
+        {
+          "reasoningEffort": "low"
+        },
+        {
+          "reasoningEffort": "medium"
+        },
+        {
+          "reasoningEffort": "high"
+        },
+        {
+          "reasoningEffort": "xhigh"
+        }
+      ]
+    },
+    {
+      "id": "gpt-5.3-codex-spark",
+      "model": "gpt-5.3-codex-spark",
+      "hidden": false,
+      "isDefault": false,
+      "defaultReasoningEffort": "high",
+      "supportedReasoningEfforts": [
+        {
+          "reasoningEffort": "low"
+        },
+        {
+          "reasoningEffort": "medium"
+        },
+        {
+          "reasoningEffort": "high"
+        },
+        {
+          "reasoningEffort": "xhigh"
+        }
+      ]
+    }
+  ],
+  "metadata_rpc_submissions": 3,
+  "experimental_turn_submissions": 0,
+  "benchmark_episodes_started": 0,
+  "raw_stream_retained": false,
+  "secret_values_inspected": false,
+  "usage": {
+    "ordinaryUsageAllowed": true,
+    "rateLimits": {
+      "limitId": "codex",
+      "planType": "prolite",
+      "spendControlReached": false,
+      "rateLimitReachedType": null,
+      "primary": {
+        "usedPercent": 7,
+        "windowDurationMins": 10080,
+        "resetsAt": 1789902530
+      },
+      "secondary": null,
+      "credits": {
+        "hasCredits": false,
+        "unlimited": false,
+        "balance": "0"
+      }
+    },
+    "rateLimitsByLimitId": {
+      "codex": {
+        "limitId": "codex",
+        "planType": "prolite",
+        "spendControlReached": false,
+        "rateLimitReachedType": null,
+        "primary": {
+          "usedPercent": 7,
+          "windowDurationMins": 10080,
+          "resetsAt": 1789902530
+        },
+        "secondary": null,
+        "credits": {
+          "hasCredits": false,
+          "unlimited": false,
+          "balance": "0"
+        }
+      },
+      "codex_bengalfox": {
+        "limitId": "codex_bengalfox",
+        "planType": "prolite",
+        "spendControlReached": null,
+        "rateLimitReachedType": null,
+        "primary": {
+          "usedPercent": 0,
+          "windowDurationMins": 300,
+          "resetsAt": 1789401374
+        },
+        "secondary": {
+          "usedPercent": 0,
+          "windowDurationMins": 10080,
+          "resetsAt": 1789988174
+        },
+        "credits": null
+      }
+    },
+    "credit_consumption": null,
+    "monetary_cost_usd": null,
+    "account_identity_retained": false,
+    "note": "Passive usage telemetry is not an included-only billing control."
+  },
+  "metadata_may_use_network": true,
+  "authorization_sha256": "e9abedabb08d04b624d058dcd774e85ab0bf30a5aa71461379e2cae5f067a8b5",
+  "metadata_status": "completed"
+}

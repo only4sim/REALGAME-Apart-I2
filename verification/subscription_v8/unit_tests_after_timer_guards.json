@@ -1,0 +1,6 @@
+{
+  "command": "python -m unittest discover -s tests -p test_subscription_access.py -v",
+  "exit_code": 1,
+  "checked_at_utc": "2026-09-14T11:25:28.711894+00:00",
+  "reason": "Targeted verification after monotonic deadline and orphan-record guards; original focused tests already passed in initial full suite"
+}

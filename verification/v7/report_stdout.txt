@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/mnt/data/realgame_v7/scripts/verify_report.py", line 61, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/mnt/data/realgame_v7/scripts/verify_report.py", line 24, in main
+    assert refs==[9],f'References must start on page 9, found {refs}'
+           ^^^^^^^^^
+AssertionError: References must start on page 9, found [10]

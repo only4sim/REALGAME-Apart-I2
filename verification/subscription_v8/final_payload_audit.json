@@ -1,0 +1,32 @@
+{
+  "checked_at_utc": "2026-09-14T11:38:51.573077+00:00",
+  "protocol_version": "codex-subscription-pilot-v8",
+  "audit_kind": "final_frozen_payload_audit",
+  "final_acceptance_check": true,
+  "cohort": "/workspaces/REALGAME-Apart-I2/results/codex_subscription_pilot_v8_01",
+  "frozen_plan_sha256": "aca41231df26fb016bf80f390444bd68587c665beb7c1df7149bc8e4ed3a7990",
+  "experimental_model_calls_by_audit": 0,
+  "metadata_calls_by_audit": 0,
+  "client_invocations_by_audit": 0,
+  "test_fixtures_created": 0,
+  "behavioral_outcomes_interpreted": false,
+  "raw_evidence_modified": false,
+  "snapshot_manifest_files": 45,
+  "snapshot_files_hashed": 45,
+  "planned_episodes": 20,
+  "primary_cells": 16,
+  "coherent_controls": 4,
+  "maximum_benchmark_turns": 108,
+  "status": "verified",
+  "finalized_request_records_audited": 102,
+  "episode_histories_audited": 20,
+  "stage_counts": {
+    "action": 62,
+    "pre_reveal_report": 20,
+    "final_report": 20
+  },
+  "errors": [],
+  "deferred_in_progress_files": [],
+  "complete_request_directory_snapshot": true,
+  "scope": "Recorded coordinator payloads and source integrity. No claim about undisclosed provider instructions or a complete native-tool inventory. No behavioral rates or signs are computed."
+}

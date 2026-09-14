@@ -1,0 +1,2455 @@
+{
+  "accounting_script_sha256": "6570ead68665977ccb1c7c92003f393910a3b0c55bdc60e2c28e466991939219",
+  "allowance": {
+    "accepted_turns": 102,
+    "confirmed_full_frame_turn_submissions": 102,
+    "confirmed_turns_without_acceptance": 0,
+    "note": "Global turn_submitted rows are conservative reservations before writing. Process and turn caps are separate, not added together. A client turn may involve multiple backend requests; startup failures consume the process allowance.",
+    "process_invocation_ceiling": 140,
+    "process_reservations": 102,
+    "process_reservations_without_confirmed_turn": 0,
+    "processes_without_finished_event": 0,
+    "saved_submitted_turn_records": 102,
+    "turn_reservation_ceiling": 140,
+    "turn_reservations": 102,
+    "turn_reservations_without_confirmed_turn": 0,
+    "wallclock_seconds": 2700
+  },
+  "consistency": {
+    "differences_or_pending_records": [],
+    "final_runner_ledger_count": 1,
+    "incomplete_trailing_lines_omitted_in_prefix_only": [],
+    "status": "passed"
+  },
+  "experimental_process_rpc_accounting": {
+    "note": "Metadata/cancellation counters are saved with submitted-turn records. A startup-only failure can have unknown metadata counts and is not silently counted as zero.",
+    "per_field": {
+      "cancellation_rpc_attempts": {
+        "complete_total": 0,
+        "denominator": 102,
+        "known_only_subtotal": 0,
+        "missing_or_invalid_records": 0,
+        "numeric_records": 102
+      },
+      "cancellation_rpc_submissions": {
+        "complete_total": 0,
+        "denominator": 102,
+        "known_only_subtotal": 0,
+        "missing_or_invalid_records": 0,
+        "numeric_records": 102
+      },
+      "metadata_rpc_attempts": {
+        "complete_total": 510,
+        "denominator": 102,
+        "known_only_subtotal": 510,
+        "missing_or_invalid_records": 0,
+        "numeric_records": 102
+      },
+      "metadata_rpc_submissions": {
+        "complete_total": 510,
+        "denominator": 102,
+        "known_only_subtotal": 510,
+        "missing_or_invalid_records": 0,
+        "numeric_records": 102
+      }
+    },
+    "process_denominator": 102
+  },
+  "generated_at_utc": "2026-09-14T11:41:00.915822+00:00",
+  "maximum_planned_benchmark_turns": 108,
+  "mode": "final_saved_evidence",
+  "model_identifiers": {
+    "effective_runtime_model": null,
+    "note": "Requested selection and configured startup metadata never fill a missing inference-time returned identifier.",
+    "requested_identifiers": {
+      "gpt-6-astra": 102
+    },
+    "returned_identifier_denominator": 102,
+    "returned_identifier_missing": 102,
+    "returned_identifier_present": 0,
+    "runtime_returned_identifiers": {}
+  },
+  "pilot_directories": [
+    "results/codex_subscription_pilot_v8_01"
+  ],
+  "planned_compatibility_turns": 0,
+  "planned_pilot_episodes": 20,
+  "preinference_metadata": {
+    "experimental_turn_submissions": 0,
+    "metadata_rpc_attempts": {
+      "complete_total": null,
+      "denominator": 5,
+      "known_only_subtotal": 14,
+      "missing_or_invalid_records": 1,
+      "numeric_records": 4
+    },
+    "metadata_rpc_submissions": {
+      "complete_total": 17,
+      "denominator": 5,
+      "known_only_subtotal": 17,
+      "missing_or_invalid_records": 0,
+      "numeric_records": 5
+    },
+    "note": "Saved preparation metadata only; network metadata is not benchmark inference. Local version/help/login/schema/sandbox diagnostics are separate.",
+    "saved_preparation_records": 5,
+    "source_artifacts": [
+      "access/ACCESS_DISCOVERY.json",
+      "access/SUBJECT_BOUNDARY_DISCOVERY.json",
+      "access/SUBJECT_BOUNDARY_DISCOVERY_02.json",
+      "access/SUBJECT_BOUNDARY_DISCOVERY_03.json",
+      "access/SUBJECT_TRANSPORT_PREFLIGHT.json"
+    ]
+  },
+  "protocol_version": "codex-subscription-pilot-v8",
+  "public_token_accounting": {
+    "confirmed_turns_missing_saved_usage_record": 0,
+    "counter_groups": {
+      "last": {
+        "cacheWriteInputTokens": {
+          "complete_total": 0,
+          "denominator": 102,
+          "known_only_subtotal": 0,
+          "missing_or_invalid_records": 0,
+          "numeric_records": 102
+        },
+        "cachedInputTokens": {
+          "complete_total": 89088,
+          "denominator": 102,
+          "known_only_subtotal": 89088,
+          "missing_or_invalid_records": 0,
+          "numeric_records": 102
+        },
+        "inputTokens": {
+          "complete_total": 363297,
+          "denominator": 102,
+          "known_only_subtotal": 363297,
+          "missing_or_invalid_records": 0,
+          "numeric_records": 102
+        },
+        "outputTokens": {
+          "complete_total": 3032,
+          "denominator": 102,
+          "known_only_subtotal": 3032,
+          "missing_or_invalid_records": 0,
+          "numeric_records": 102
+        },
+        "reasoningOutputTokens": {
+          "complete_total": 210,
+          "denominator": 102,
+          "known_only_subtotal": 210,
+          "missing_or_invalid_records": 0,
+          "numeric_records": 102
+        },
+        "totalTokens": {
+          "complete_total": 366329,
+          "denominator": 102,
+          "known_only_subtotal": 366329,
+          "missing_or_invalid_records": 0,
+          "numeric_records": 102
+        }
+      },
+      "total": {
+        "cacheWriteInputTokens": {
+          "complete_total": 0,
+          "denominator": 102,
+          "known_only_subtotal": 0,
+          "missing_or_invalid_records": 0,
+          "numeric_records": 102
+        },
+        "cachedInputTokens": {
+          "complete_total": 89088,
+          "denominator": 102,
+          "known_only_subtotal": 89088,
+          "missing_or_invalid_records": 0,
+          "numeric_records": 102
+        },
+        "inputTokens": {
+          "complete_total": 363297,
+          "denominator": 102,
+          "known_only_subtotal": 363297,
+          "missing_or_invalid_records": 0,
+          "numeric_records": 102
+        },
+        "outputTokens": {
+          "complete_total": 3032,
+          "denominator": 102,
+          "known_only_subtotal": 3032,
+          "missing_or_invalid_records": 0,
+          "numeric_records": 102
+        },
+        "reasoningOutputTokens": {
+          "complete_total": 210,
+          "denominator": 102,
+          "known_only_subtotal": 210,
+          "missing_or_invalid_records": 0,
+          "numeric_records": 102
+        },
+        "totalTokens": {
+          "complete_total": 366329,
+          "denominator": 102,
+          "known_only_subtotal": 366329,
+          "missing_or_invalid_records": 0,
+          "numeric_records": 102
+        }
+      }
+    },
+    "note": "Each saved fresh-thread request contributes its final usage.total once. usage.last is reported separately; groups and overlapping fields must not be added. Numeric reasoning-token counts are public telemetry, not reasoning content. Missing values remain unknown; known-only subtotals are not complete totals when records are missing.",
+    "saved_turn_denominator": 102
+  },
+  "quota_observations": {
+    "first_saved_turn_preturn": {
+      "ordinary_usage_allowed": true,
+      "plan_type_as_returned": "prolite",
+      "primary": {
+        "resetsAt": 1789902530,
+        "usedPercent": 17,
+        "windowDurationMins": 10080
+      },
+      "secondary": null
+    },
+    "last_saved_turn_preturn": {
+      "ordinary_usage_allowed": true,
+      "plan_type_as_returned": "prolite",
+      "primary": {
+        "resetsAt": 1789902530,
+        "usedPercent": 21,
+        "windowDurationMins": 10080
+      },
+      "secondary": null
+    },
+    "note": "Passive quota observations do not establish per-token cost or credit consumption. Any quota delta cannot be attributed solely to the pilot because shared account use can contribute. These are preturn snapshots, not a final post-pilot balance."
+  },
+  "request_accounting_rows": [
+    {
+      "elapsed_seconds": 5.9437,
+      "failure_category": null,
+      "index": 0,
+      "invocation_ordinal": 1,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3545,
+      "run_id": "e3308060d8ff4eb9e381ca5f",
+      "source": "results/codex_subscription_pilot_v8_01/requests/e3308060d8ff4eb9e381ca5f-00.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 3.7713,
+      "failure_category": null,
+      "index": 1,
+      "invocation_ordinal": 2,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3573,
+      "run_id": "e3308060d8ff4eb9e381ca5f",
+      "source": "results/codex_subscription_pilot_v8_01/requests/e3308060d8ff4eb9e381ca5f-01.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.0172,
+      "failure_category": null,
+      "index": 2,
+      "invocation_ordinal": 3,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3603,
+      "run_id": "e3308060d8ff4eb9e381ca5f",
+      "source": "results/codex_subscription_pilot_v8_01/requests/e3308060d8ff4eb9e381ca5f-02.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.1033,
+      "failure_category": null,
+      "index": 3,
+      "invocation_ordinal": 4,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3635,
+      "run_id": "e3308060d8ff4eb9e381ca5f",
+      "source": "results/codex_subscription_pilot_v8_01/requests/e3308060d8ff4eb9e381ca5f-03.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 3.3535,
+      "failure_category": null,
+      "index": 4,
+      "invocation_ordinal": 5,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3680,
+      "run_id": "e3308060d8ff4eb9e381ca5f",
+      "source": "results/codex_subscription_pilot_v8_01/requests/e3308060d8ff4eb9e381ca5f-04.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 6.989,
+      "failure_category": null,
+      "index": 5,
+      "invocation_ordinal": 6,
+      "kind": "pre_reveal_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3597,
+      "run_id": "e3308060d8ff4eb9e381ca5f",
+      "source": "results/codex_subscription_pilot_v8_01/requests/e3308060d8ff4eb9e381ca5f-05.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 5.1037,
+      "failure_category": null,
+      "index": 6,
+      "invocation_ordinal": 7,
+      "kind": "final_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3656,
+      "run_id": "e3308060d8ff4eb9e381ca5f",
+      "source": "results/codex_subscription_pilot_v8_01/requests/e3308060d8ff4eb9e381ca5f-06.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.1498,
+      "failure_category": null,
+      "index": 0,
+      "invocation_ordinal": 8,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3545,
+      "run_id": "4e98ce552ccc3a4cf10190aa",
+      "source": "results/codex_subscription_pilot_v8_01/requests/4e98ce552ccc3a4cf10190aa-00.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.8067,
+      "failure_category": null,
+      "index": 1,
+      "invocation_ordinal": 9,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3573,
+      "run_id": "4e98ce552ccc3a4cf10190aa",
+      "source": "results/codex_subscription_pilot_v8_01/requests/4e98ce552ccc3a4cf10190aa-01.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 3.6452,
+      "failure_category": null,
+      "index": 2,
+      "invocation_ordinal": 10,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3603,
+      "run_id": "4e98ce552ccc3a4cf10190aa",
+      "source": "results/codex_subscription_pilot_v8_01/requests/4e98ce552ccc3a4cf10190aa-02.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 6.1978,
+      "failure_category": null,
+      "index": 3,
+      "invocation_ordinal": 11,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3635,
+      "run_id": "4e98ce552ccc3a4cf10190aa",
+      "source": "results/codex_subscription_pilot_v8_01/requests/4e98ce552ccc3a4cf10190aa-03.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.7818,
+      "failure_category": null,
+      "index": 4,
+      "invocation_ordinal": 12,
+      "kind": "pre_reveal_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3575,
+      "run_id": "4e98ce552ccc3a4cf10190aa",
+      "source": "results/codex_subscription_pilot_v8_01/requests/4e98ce552ccc3a4cf10190aa-04.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.7348,
+      "failure_category": null,
+      "index": 5,
+      "invocation_ordinal": 13,
+      "kind": "final_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3651,
+      "run_id": "4e98ce552ccc3a4cf10190aa",
+      "source": "results/codex_subscription_pilot_v8_01/requests/4e98ce552ccc3a4cf10190aa-05.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.4694,
+      "failure_category": null,
+      "index": 0,
+      "invocation_ordinal": 14,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3555,
+      "run_id": "0d1f8ebe3cbebaf8b28ec0cf",
+      "source": "results/codex_subscription_pilot_v8_01/requests/0d1f8ebe3cbebaf8b28ec0cf-00.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 6.4396,
+      "failure_category": null,
+      "index": 1,
+      "invocation_ordinal": 15,
+      "kind": "pre_reveal_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3492,
+      "run_id": "0d1f8ebe3cbebaf8b28ec0cf",
+      "source": "results/codex_subscription_pilot_v8_01/requests/0d1f8ebe3cbebaf8b28ec0cf-01.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.8688,
+      "failure_category": null,
+      "index": 2,
+      "invocation_ordinal": 16,
+      "kind": "final_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3568,
+      "run_id": "0d1f8ebe3cbebaf8b28ec0cf",
+      "source": "results/codex_subscription_pilot_v8_01/requests/0d1f8ebe3cbebaf8b28ec0cf-02.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 6.6708,
+      "failure_category": null,
+      "index": 0,
+      "invocation_ordinal": 17,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3545,
+      "run_id": "6ee0200fef2bde104d856d5a",
+      "source": "results/codex_subscription_pilot_v8_01/requests/6ee0200fef2bde104d856d5a-00.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 3.9114,
+      "failure_category": null,
+      "index": 1,
+      "invocation_ordinal": 18,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3573,
+      "run_id": "6ee0200fef2bde104d856d5a",
+      "source": "results/codex_subscription_pilot_v8_01/requests/6ee0200fef2bde104d856d5a-01.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 6.666,
+      "failure_category": null,
+      "index": 2,
+      "invocation_ordinal": 19,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3603,
+      "run_id": "6ee0200fef2bde104d856d5a",
+      "source": "results/codex_subscription_pilot_v8_01/requests/6ee0200fef2bde104d856d5a-02.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.2479,
+      "failure_category": null,
+      "index": 3,
+      "invocation_ordinal": 20,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3635,
+      "run_id": "6ee0200fef2bde104d856d5a",
+      "source": "results/codex_subscription_pilot_v8_01/requests/6ee0200fef2bde104d856d5a-03.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 5.2881,
+      "failure_category": null,
+      "index": 4,
+      "invocation_ordinal": 21,
+      "kind": "pre_reveal_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3590,
+      "run_id": "6ee0200fef2bde104d856d5a",
+      "source": "results/codex_subscription_pilot_v8_01/requests/6ee0200fef2bde104d856d5a-04.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 5.0185,
+      "failure_category": null,
+      "index": 5,
+      "invocation_ordinal": 22,
+      "kind": "final_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3635,
+      "run_id": "6ee0200fef2bde104d856d5a",
+      "source": "results/codex_subscription_pilot_v8_01/requests/6ee0200fef2bde104d856d5a-05.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 3.7851,
+      "failure_category": null,
+      "index": 0,
+      "invocation_ordinal": 23,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3555,
+      "run_id": "d25c01bcebc95a12665870df",
+      "source": "results/codex_subscription_pilot_v8_01/requests/d25c01bcebc95a12665870df-00.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.6107,
+      "failure_category": null,
+      "index": 1,
+      "invocation_ordinal": 24,
+      "kind": "pre_reveal_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3495,
+      "run_id": "d25c01bcebc95a12665870df",
+      "source": "results/codex_subscription_pilot_v8_01/requests/d25c01bcebc95a12665870df-01.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.4847,
+      "failure_category": null,
+      "index": 2,
+      "invocation_ordinal": 25,
+      "kind": "final_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3550,
+      "run_id": "d25c01bcebc95a12665870df",
+      "source": "results/codex_subscription_pilot_v8_01/requests/d25c01bcebc95a12665870df-02.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 3.8383,
+      "failure_category": null,
+      "index": 0,
+      "invocation_ordinal": 26,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3545,
+      "run_id": "16b6ad2c796cbe084041f420",
+      "source": "results/codex_subscription_pilot_v8_01/requests/16b6ad2c796cbe084041f420-00.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 3.5157,
+      "failure_category": null,
+      "index": 1,
+      "invocation_ordinal": 27,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3573,
+      "run_id": "16b6ad2c796cbe084041f420",
+      "source": "results/codex_subscription_pilot_v8_01/requests/16b6ad2c796cbe084041f420-01.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 3.6454,
+      "failure_category": null,
+      "index": 2,
+      "invocation_ordinal": 28,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3603,
+      "run_id": "16b6ad2c796cbe084041f420",
+      "source": "results/codex_subscription_pilot_v8_01/requests/16b6ad2c796cbe084041f420-02.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 3.8077,
+      "failure_category": null,
+      "index": 3,
+      "invocation_ordinal": 29,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3635,
+      "run_id": "16b6ad2c796cbe084041f420",
+      "source": "results/codex_subscription_pilot_v8_01/requests/16b6ad2c796cbe084041f420-03.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 3.7937,
+      "failure_category": null,
+      "index": 4,
+      "invocation_ordinal": 30,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3683,
+      "run_id": "16b6ad2c796cbe084041f420",
+      "source": "results/codex_subscription_pilot_v8_01/requests/16b6ad2c796cbe084041f420-04.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 5.7274,
+      "failure_category": null,
+      "index": 5,
+      "invocation_ordinal": 31,
+      "kind": "pre_reveal_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3598,
+      "run_id": "16b6ad2c796cbe084041f420",
+      "source": "results/codex_subscription_pilot_v8_01/requests/16b6ad2c796cbe084041f420-05.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.679,
+      "failure_category": null,
+      "index": 6,
+      "invocation_ordinal": 32,
+      "kind": "final_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3655,
+      "run_id": "16b6ad2c796cbe084041f420",
+      "source": "results/codex_subscription_pilot_v8_01/requests/16b6ad2c796cbe084041f420-06.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.8984,
+      "failure_category": null,
+      "index": 0,
+      "invocation_ordinal": 33,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3555,
+      "run_id": "223a277bf5f2b9a4c5d2c06d",
+      "source": "results/codex_subscription_pilot_v8_01/requests/223a277bf5f2b9a4c5d2c06d-00.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 6.0603,
+      "failure_category": null,
+      "index": 1,
+      "invocation_ordinal": 34,
+      "kind": "pre_reveal_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3495,
+      "run_id": "223a277bf5f2b9a4c5d2c06d",
+      "source": "results/codex_subscription_pilot_v8_01/requests/223a277bf5f2b9a4c5d2c06d-01.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.4557,
+      "failure_category": null,
+      "index": 2,
+      "invocation_ordinal": 35,
+      "kind": "final_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3550,
+      "run_id": "223a277bf5f2b9a4c5d2c06d",
+      "source": "results/codex_subscription_pilot_v8_01/requests/223a277bf5f2b9a4c5d2c06d-02.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.0542,
+      "failure_category": null,
+      "index": 0,
+      "invocation_ordinal": 36,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3555,
+      "run_id": "fd83e9496482e959186ccadf",
+      "source": "results/codex_subscription_pilot_v8_01/requests/fd83e9496482e959186ccadf-00.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.3179,
+      "failure_category": null,
+      "index": 1,
+      "invocation_ordinal": 37,
+      "kind": "pre_reveal_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3492,
+      "run_id": "fd83e9496482e959186ccadf",
+      "source": "results/codex_subscription_pilot_v8_01/requests/fd83e9496482e959186ccadf-01.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 5.0355,
+      "failure_category": null,
+      "index": 2,
+      "invocation_ordinal": 38,
+      "kind": "final_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3577,
+      "run_id": "fd83e9496482e959186ccadf",
+      "source": "results/codex_subscription_pilot_v8_01/requests/fd83e9496482e959186ccadf-02.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 3.5153,
+      "failure_category": null,
+      "index": 0,
+      "invocation_ordinal": 39,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3545,
+      "run_id": "626076ad5219ed54ef309efc",
+      "source": "results/codex_subscription_pilot_v8_01/requests/626076ad5219ed54ef309efc-00.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 3.6815,
+      "failure_category": null,
+      "index": 1,
+      "invocation_ordinal": 40,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3574,
+      "run_id": "626076ad5219ed54ef309efc",
+      "source": "results/codex_subscription_pilot_v8_01/requests/626076ad5219ed54ef309efc-01.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 3.9333,
+      "failure_category": null,
+      "index": 2,
+      "invocation_ordinal": 41,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3604,
+      "run_id": "626076ad5219ed54ef309efc",
+      "source": "results/codex_subscription_pilot_v8_01/requests/626076ad5219ed54ef309efc-02.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 3.6262,
+      "failure_category": null,
+      "index": 3,
+      "invocation_ordinal": 42,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3636,
+      "run_id": "626076ad5219ed54ef309efc",
+      "source": "results/codex_subscription_pilot_v8_01/requests/626076ad5219ed54ef309efc-03.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 3.4018,
+      "failure_category": null,
+      "index": 4,
+      "invocation_ordinal": 43,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3684,
+      "run_id": "626076ad5219ed54ef309efc",
+      "source": "results/codex_subscription_pilot_v8_01/requests/626076ad5219ed54ef309efc-04.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.6962,
+      "failure_category": null,
+      "index": 5,
+      "invocation_ordinal": 44,
+      "kind": "pre_reveal_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3598,
+      "run_id": "626076ad5219ed54ef309efc",
+      "source": "results/codex_subscription_pilot_v8_01/requests/626076ad5219ed54ef309efc-05.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 6.7738,
+      "failure_category": null,
+      "index": 6,
+      "invocation_ordinal": 45,
+      "kind": "final_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3656,
+      "run_id": "626076ad5219ed54ef309efc",
+      "source": "results/codex_subscription_pilot_v8_01/requests/626076ad5219ed54ef309efc-06.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.2834,
+      "failure_category": null,
+      "index": 0,
+      "invocation_ordinal": 46,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3561,
+      "run_id": "0e2809a24f8a7c7c40c33656",
+      "source": "results/codex_subscription_pilot_v8_01/requests/0e2809a24f8a7c7c40c33656-00.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.1381,
+      "failure_category": null,
+      "index": 1,
+      "invocation_ordinal": 47,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3576,
+      "run_id": "0e2809a24f8a7c7c40c33656",
+      "source": "results/codex_subscription_pilot_v8_01/requests/0e2809a24f8a7c7c40c33656-01.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.4952,
+      "failure_category": null,
+      "index": 2,
+      "invocation_ordinal": 48,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3618,
+      "run_id": "0e2809a24f8a7c7c40c33656",
+      "source": "results/codex_subscription_pilot_v8_01/requests/0e2809a24f8a7c7c40c33656-02.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.512,
+      "failure_category": null,
+      "index": 3,
+      "invocation_ordinal": 49,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3635,
+      "run_id": "0e2809a24f8a7c7c40c33656",
+      "source": "results/codex_subscription_pilot_v8_01/requests/0e2809a24f8a7c7c40c33656-03.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 3.4027,
+      "failure_category": null,
+      "index": 4,
+      "invocation_ordinal": 50,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3683,
+      "run_id": "0e2809a24f8a7c7c40c33656",
+      "source": "results/codex_subscription_pilot_v8_01/requests/0e2809a24f8a7c7c40c33656-04.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 5.4388,
+      "failure_category": null,
+      "index": 5,
+      "invocation_ordinal": 51,
+      "kind": "pre_reveal_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3623,
+      "run_id": "0e2809a24f8a7c7c40c33656",
+      "source": "results/codex_subscription_pilot_v8_01/requests/0e2809a24f8a7c7c40c33656-05.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.8949,
+      "failure_category": null,
+      "index": 6,
+      "invocation_ordinal": 52,
+      "kind": "final_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3654,
+      "run_id": "0e2809a24f8a7c7c40c33656",
+      "source": "results/codex_subscription_pilot_v8_01/requests/0e2809a24f8a7c7c40c33656-06.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.1993,
+      "failure_category": null,
+      "index": 0,
+      "invocation_ordinal": 53,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3562,
+      "run_id": "e136612314fcd4f3c619a42d",
+      "source": "results/codex_subscription_pilot_v8_01/requests/e136612314fcd4f3c619a42d-00.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 3.3507,
+      "failure_category": null,
+      "index": 1,
+      "invocation_ordinal": 54,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3573,
+      "run_id": "e136612314fcd4f3c619a42d",
+      "source": "results/codex_subscription_pilot_v8_01/requests/e136612314fcd4f3c619a42d-01.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 3.4162,
+      "failure_category": null,
+      "index": 2,
+      "invocation_ordinal": 55,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3603,
+      "run_id": "e136612314fcd4f3c619a42d",
+      "source": "results/codex_subscription_pilot_v8_01/requests/e136612314fcd4f3c619a42d-02.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 6.4239,
+      "failure_category": null,
+      "index": 3,
+      "invocation_ordinal": 56,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3635,
+      "run_id": "e136612314fcd4f3c619a42d",
+      "source": "results/codex_subscription_pilot_v8_01/requests/e136612314fcd4f3c619a42d-03.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 7.5925,
+      "failure_category": null,
+      "index": 4,
+      "invocation_ordinal": 57,
+      "kind": "pre_reveal_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3576,
+      "run_id": "e136612314fcd4f3c619a42d",
+      "source": "results/codex_subscription_pilot_v8_01/requests/e136612314fcd4f3c619a42d-04.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 10.1464,
+      "failure_category": null,
+      "index": 5,
+      "invocation_ordinal": 58,
+      "kind": "final_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3727,
+      "run_id": "e136612314fcd4f3c619a42d",
+      "source": "results/codex_subscription_pilot_v8_01/requests/e136612314fcd4f3c619a42d-05.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 3.7514,
+      "failure_category": null,
+      "index": 0,
+      "invocation_ordinal": 59,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3545,
+      "run_id": "e093630b22707307e18ac977",
+      "source": "results/codex_subscription_pilot_v8_01/requests/e093630b22707307e18ac977-00.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 6.1014,
+      "failure_category": null,
+      "index": 1,
+      "invocation_ordinal": 60,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3573,
+      "run_id": "e093630b22707307e18ac977",
+      "source": "results/codex_subscription_pilot_v8_01/requests/e093630b22707307e18ac977-01.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 3.5899,
+      "failure_category": null,
+      "index": 2,
+      "invocation_ordinal": 61,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3603,
+      "run_id": "e093630b22707307e18ac977",
+      "source": "results/codex_subscription_pilot_v8_01/requests/e093630b22707307e18ac977-02.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 9.1606,
+      "failure_category": null,
+      "index": 3,
+      "invocation_ordinal": 62,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3635,
+      "run_id": "e093630b22707307e18ac977",
+      "source": "results/codex_subscription_pilot_v8_01/requests/e093630b22707307e18ac977-03.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 6.4402,
+      "failure_category": null,
+      "index": 4,
+      "invocation_ordinal": 63,
+      "kind": "pre_reveal_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3569,
+      "run_id": "e093630b22707307e18ac977",
+      "source": "results/codex_subscription_pilot_v8_01/requests/e093630b22707307e18ac977-04.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 7.9312,
+      "failure_category": null,
+      "index": 5,
+      "invocation_ordinal": 64,
+      "kind": "final_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3652,
+      "run_id": "e093630b22707307e18ac977",
+      "source": "results/codex_subscription_pilot_v8_01/requests/e093630b22707307e18ac977-05.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 3.6695,
+      "failure_category": null,
+      "index": 0,
+      "invocation_ordinal": 65,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3555,
+      "run_id": "5dd75b69cbaf6880e12abb6e",
+      "source": "results/codex_subscription_pilot_v8_01/requests/5dd75b69cbaf6880e12abb6e-00.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.8172,
+      "failure_category": null,
+      "index": 1,
+      "invocation_ordinal": 66,
+      "kind": "pre_reveal_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3496,
+      "run_id": "5dd75b69cbaf6880e12abb6e",
+      "source": "results/codex_subscription_pilot_v8_01/requests/5dd75b69cbaf6880e12abb6e-01.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.8816,
+      "failure_category": null,
+      "index": 2,
+      "invocation_ordinal": 67,
+      "kind": "final_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3556,
+      "run_id": "5dd75b69cbaf6880e12abb6e",
+      "source": "results/codex_subscription_pilot_v8_01/requests/5dd75b69cbaf6880e12abb6e-02.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 3.5591,
+      "failure_category": null,
+      "index": 0,
+      "invocation_ordinal": 68,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3555,
+      "run_id": "7f26361555635d4fe91fb62d",
+      "source": "results/codex_subscription_pilot_v8_01/requests/7f26361555635d4fe91fb62d-00.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.7693,
+      "failure_category": null,
+      "index": 1,
+      "invocation_ordinal": 69,
+      "kind": "pre_reveal_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3495,
+      "run_id": "7f26361555635d4fe91fb62d",
+      "source": "results/codex_subscription_pilot_v8_01/requests/7f26361555635d4fe91fb62d-01.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 6.1246,
+      "failure_category": null,
+      "index": 2,
+      "invocation_ordinal": 70,
+      "kind": "final_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3560,
+      "run_id": "7f26361555635d4fe91fb62d",
+      "source": "results/codex_subscription_pilot_v8_01/requests/7f26361555635d4fe91fb62d-02.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.7862,
+      "failure_category": null,
+      "index": 0,
+      "invocation_ordinal": 71,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3545,
+      "run_id": "7510c0c2218dd0fb4aa09e64",
+      "source": "results/codex_subscription_pilot_v8_01/requests/7510c0c2218dd0fb4aa09e64-00.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 3.256,
+      "failure_category": null,
+      "index": 1,
+      "invocation_ordinal": 72,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3573,
+      "run_id": "7510c0c2218dd0fb4aa09e64",
+      "source": "results/codex_subscription_pilot_v8_01/requests/7510c0c2218dd0fb4aa09e64-01.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 3.8232,
+      "failure_category": null,
+      "index": 2,
+      "invocation_ordinal": 73,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3603,
+      "run_id": "7510c0c2218dd0fb4aa09e64",
+      "source": "results/codex_subscription_pilot_v8_01/requests/7510c0c2218dd0fb4aa09e64-02.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.261,
+      "failure_category": null,
+      "index": 3,
+      "invocation_ordinal": 74,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3635,
+      "run_id": "7510c0c2218dd0fb4aa09e64",
+      "source": "results/codex_subscription_pilot_v8_01/requests/7510c0c2218dd0fb4aa09e64-03.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.4253,
+      "failure_category": null,
+      "index": 4,
+      "invocation_ordinal": 75,
+      "kind": "pre_reveal_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3569,
+      "run_id": "7510c0c2218dd0fb4aa09e64",
+      "source": "results/codex_subscription_pilot_v8_01/requests/7510c0c2218dd0fb4aa09e64-04.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.6169,
+      "failure_category": null,
+      "index": 5,
+      "invocation_ordinal": 76,
+      "kind": "final_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3648,
+      "run_id": "7510c0c2218dd0fb4aa09e64",
+      "source": "results/codex_subscription_pilot_v8_01/requests/7510c0c2218dd0fb4aa09e64-05.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.1711,
+      "failure_category": null,
+      "index": 0,
+      "invocation_ordinal": 77,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3545,
+      "run_id": "0f31b37959c15a94b5188414",
+      "source": "results/codex_subscription_pilot_v8_01/requests/0f31b37959c15a94b5188414-00.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 3.9303,
+      "failure_category": null,
+      "index": 1,
+      "invocation_ordinal": 78,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3573,
+      "run_id": "0f31b37959c15a94b5188414",
+      "source": "results/codex_subscription_pilot_v8_01/requests/0f31b37959c15a94b5188414-01.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.1037,
+      "failure_category": null,
+      "index": 2,
+      "invocation_ordinal": 79,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3603,
+      "run_id": "0f31b37959c15a94b5188414",
+      "source": "results/codex_subscription_pilot_v8_01/requests/0f31b37959c15a94b5188414-02.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.1343,
+      "failure_category": null,
+      "index": 3,
+      "invocation_ordinal": 80,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3635,
+      "run_id": "0f31b37959c15a94b5188414",
+      "source": "results/codex_subscription_pilot_v8_01/requests/0f31b37959c15a94b5188414-03.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 3.9947,
+      "failure_category": null,
+      "index": 4,
+      "invocation_ordinal": 81,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3683,
+      "run_id": "0f31b37959c15a94b5188414",
+      "source": "results/codex_subscription_pilot_v8_01/requests/0f31b37959c15a94b5188414-04.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 6.038,
+      "failure_category": null,
+      "index": 5,
+      "invocation_ordinal": 82,
+      "kind": "pre_reveal_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3597,
+      "run_id": "0f31b37959c15a94b5188414",
+      "source": "results/codex_subscription_pilot_v8_01/requests/0f31b37959c15a94b5188414-05.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 7.1277,
+      "failure_category": null,
+      "index": 6,
+      "invocation_ordinal": 83,
+      "kind": "final_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3703,
+      "run_id": "0f31b37959c15a94b5188414",
+      "source": "results/codex_subscription_pilot_v8_01/requests/0f31b37959c15a94b5188414-06.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.3618,
+      "failure_category": null,
+      "index": 0,
+      "invocation_ordinal": 84,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3545,
+      "run_id": "d9f991a3f386733704ae866e",
+      "source": "results/codex_subscription_pilot_v8_01/requests/d9f991a3f386733704ae866e-00.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 3.9757,
+      "failure_category": null,
+      "index": 1,
+      "invocation_ordinal": 85,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3573,
+      "run_id": "d9f991a3f386733704ae866e",
+      "source": "results/codex_subscription_pilot_v8_01/requests/d9f991a3f386733704ae866e-01.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.307,
+      "failure_category": null,
+      "index": 2,
+      "invocation_ordinal": 86,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3603,
+      "run_id": "d9f991a3f386733704ae866e",
+      "source": "results/codex_subscription_pilot_v8_01/requests/d9f991a3f386733704ae866e-02.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.9533,
+      "failure_category": null,
+      "index": 3,
+      "invocation_ordinal": 87,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3635,
+      "run_id": "d9f991a3f386733704ae866e",
+      "source": "results/codex_subscription_pilot_v8_01/requests/d9f991a3f386733704ae866e-03.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 5.4843,
+      "failure_category": null,
+      "index": 4,
+      "invocation_ordinal": 88,
+      "kind": "pre_reveal_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3573,
+      "run_id": "d9f991a3f386733704ae866e",
+      "source": "results/codex_subscription_pilot_v8_01/requests/d9f991a3f386733704ae866e-04.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 5.6664,
+      "failure_category": null,
+      "index": 5,
+      "invocation_ordinal": 89,
+      "kind": "final_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3651,
+      "run_id": "d9f991a3f386733704ae866e",
+      "source": "results/codex_subscription_pilot_v8_01/requests/d9f991a3f386733704ae866e-05.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 7.5808,
+      "failure_category": null,
+      "index": 0,
+      "invocation_ordinal": 90,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3555,
+      "run_id": "9611a3e03632afc8b28d3754",
+      "source": "results/codex_subscription_pilot_v8_01/requests/9611a3e03632afc8b28d3754-00.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.7906,
+      "failure_category": null,
+      "index": 1,
+      "invocation_ordinal": 91,
+      "kind": "pre_reveal_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3491,
+      "run_id": "9611a3e03632afc8b28d3754",
+      "source": "results/codex_subscription_pilot_v8_01/requests/9611a3e03632afc8b28d3754-01.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 7.0099,
+      "failure_category": null,
+      "index": 2,
+      "invocation_ordinal": 92,
+      "kind": "final_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3569,
+      "run_id": "9611a3e03632afc8b28d3754",
+      "source": "results/codex_subscription_pilot_v8_01/requests/9611a3e03632afc8b28d3754-02.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 5.2909,
+      "failure_category": null,
+      "index": 0,
+      "invocation_ordinal": 93,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3545,
+      "run_id": "97108cc13f49c24c767f4c6d",
+      "source": "results/codex_subscription_pilot_v8_01/requests/97108cc13f49c24c767f4c6d-00.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 3.5577,
+      "failure_category": null,
+      "index": 1,
+      "invocation_ordinal": 94,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3573,
+      "run_id": "97108cc13f49c24c767f4c6d",
+      "source": "results/codex_subscription_pilot_v8_01/requests/97108cc13f49c24c767f4c6d-01.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 6.0119,
+      "failure_category": null,
+      "index": 2,
+      "invocation_ordinal": 95,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3603,
+      "run_id": "97108cc13f49c24c767f4c6d",
+      "source": "results/codex_subscription_pilot_v8_01/requests/97108cc13f49c24c767f4c6d-02.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 3.9731,
+      "failure_category": null,
+      "index": 3,
+      "invocation_ordinal": 96,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3646,
+      "run_id": "97108cc13f49c24c767f4c6d",
+      "source": "results/codex_subscription_pilot_v8_01/requests/97108cc13f49c24c767f4c6d-03.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 3.8081,
+      "failure_category": null,
+      "index": 4,
+      "invocation_ordinal": 97,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3677,
+      "run_id": "97108cc13f49c24c767f4c6d",
+      "source": "results/codex_subscription_pilot_v8_01/requests/97108cc13f49c24c767f4c6d-04.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 5.0263,
+      "failure_category": null,
+      "index": 5,
+      "invocation_ordinal": 98,
+      "kind": "pre_reveal_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3591,
+      "run_id": "97108cc13f49c24c767f4c6d",
+      "source": "results/codex_subscription_pilot_v8_01/requests/97108cc13f49c24c767f4c6d-05.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.5403,
+      "failure_category": null,
+      "index": 6,
+      "invocation_ordinal": 99,
+      "kind": "final_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3670,
+      "run_id": "97108cc13f49c24c767f4c6d",
+      "source": "results/codex_subscription_pilot_v8_01/requests/97108cc13f49c24c767f4c6d-06.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 3.3774,
+      "failure_category": null,
+      "index": 0,
+      "invocation_ordinal": 100,
+      "kind": "action",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3555,
+      "run_id": "73793d9d84250a302b079337",
+      "source": "results/codex_subscription_pilot_v8_01/requests/73793d9d84250a302b079337-00.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 4.3218,
+      "failure_category": null,
+      "index": 1,
+      "invocation_ordinal": 101,
+      "kind": "pre_reveal_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3491,
+      "run_id": "73793d9d84250a302b079337",
+      "source": "results/codex_subscription_pilot_v8_01/requests/73793d9d84250a302b079337-01.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    },
+    {
+      "elapsed_seconds": 5.5081,
+      "failure_category": null,
+      "index": 2,
+      "invocation_ordinal": 102,
+      "kind": "final_report",
+      "model_requested": "gpt-6-astra",
+      "model_returned": null,
+      "public_thread_total_tokens": 3571,
+      "run_id": "73793d9d84250a302b079337",
+      "source": "results/codex_subscription_pilot_v8_01/requests/73793d9d84250a302b079337-02.json",
+      "status": "success",
+      "turn_start_accepted": true,
+      "turn_submission_confirmed": true,
+      "turn_submission_reserved": true
+    }
+  ],
+  "schema": "independent-subscription-v8-usage-audit-1",
+  "scope": "2026-09-14-user-authorized-subscription-pilot",
+  "source_inputs": [
+    {
+      "bytes": 17615,
+      "path": "results/codex_subscription_pilot_v8_01/frozen_plan.json",
+      "sha256": "aca41231df26fb016bf80f390444bd68587c665beb7c1df7149bc8e4ed3a7990"
+    },
+    {
+      "bytes": 32579,
+      "path": "results/codex_subscription_pilot_v8_01/runs.jsonl",
+      "sha256": "1aabfbabb40b59e73eee83241d4e2a2120a77491af59cf1e50a0d9cfdc60f982"
+    },
+    {
+      "bytes": 1101,
+      "path": "results/codex_subscription_pilot_v8_01/usage_failure_ledger.json",
+      "sha256": "0249e619e40509db9c69f2720788ada9661ed653fce547839504efbf1797ed1b"
+    },
+    {
+      "bytes": 585202,
+      "path": "results/codex_subscription_pilot_v8_01/events.jsonl",
+      "sha256": "f0cba3c97e1383b207c4261db4fa4597f80608412d7bf589c786db8dfbf13b97"
+    },
+    {
+      "bytes": 5693,
+      "path": "results/codex_subscription_pilot_v8_01/requests/0d1f8ebe3cbebaf8b28ec0cf-00.json",
+      "sha256": "fa4ed1fd88966c921a44c38bd4c805b90bff2d1bd3f2df383cefa225338cbbcd"
+    },
+    {
+      "bytes": 5499,
+      "path": "results/codex_subscription_pilot_v8_01/requests/0d1f8ebe3cbebaf8b28ec0cf-01.json",
+      "sha256": "200053ba0e11972e867e855775ec87a03c45cc169d1ef95e9747eceaa9a419da"
+    },
+    {
+      "bytes": 5806,
+      "path": "results/codex_subscription_pilot_v8_01/requests/0d1f8ebe3cbebaf8b28ec0cf-02.json",
+      "sha256": "2c81f7453d5360fbc4e8050cd3ac0191f6b53db8b787d403424a718a21dd5ace"
+    },
+    {
+      "bytes": 5636,
+      "path": "results/codex_subscription_pilot_v8_01/requests/0e2809a24f8a7c7c40c33656-00.json",
+      "sha256": "7029872af2af286b0b7c21090877943b7a6de606fee046c16cf6647ced46cb81"
+    },
+    {
+      "bytes": 5772,
+      "path": "results/codex_subscription_pilot_v8_01/requests/0e2809a24f8a7c7c40c33656-01.json",
+      "sha256": "b7932bb7a96400afc5aae75471419214b637a0373e7750d8be1dec076b73c6f9"
+    },
+    {
+      "bytes": 5941,
+      "path": "results/codex_subscription_pilot_v8_01/requests/0e2809a24f8a7c7c40c33656-02.json",
+      "sha256": "fabae3c4dfe9a4950a1a4101627be41345c90beb4a27aa866bdf44f552409d13"
+    },
+    {
+      "bytes": 6118,
+      "path": "results/codex_subscription_pilot_v8_01/requests/0e2809a24f8a7c7c40c33656-03.json",
+      "sha256": "48b394f2e0a41b670d50b424f6fc986ee2ac840931f5a6214dcb1ff72c087c2a"
+    },
+    {
+      "bytes": 6423,
+      "path": "results/codex_subscription_pilot_v8_01/requests/0e2809a24f8a7c7c40c33656-04.json",
+      "sha256": "67d41a1c5014782bea0911beab6e09312f73f0c3161dbfb85c04a5a06e989f76"
+    },
+    {
+      "bytes": 5973,
+      "path": "results/codex_subscription_pilot_v8_01/requests/0e2809a24f8a7c7c40c33656-05.json",
+      "sha256": "4673240963ea15755edd074df60b52c834aaa9f1249bb3880468ee62028373dc"
+    },
+    {
+      "bytes": 6192,
+      "path": "results/codex_subscription_pilot_v8_01/requests/0e2809a24f8a7c7c40c33656-06.json",
+      "sha256": "ac0c34870aa208f3dbcceda787a97930d968526f40756764f7e64c3ad042cf74"
+    },
+    {
+      "bytes": 5632,
+      "path": "results/codex_subscription_pilot_v8_01/requests/0f31b37959c15a94b5188414-00.json",
+      "sha256": "60572c711e1dff5be64fe2f4a7a12afe8f1dca77050210a533d89d10b57550d0"
+    },
+    {
+      "bytes": 5752,
+      "path": "results/codex_subscription_pilot_v8_01/requests/0f31b37959c15a94b5188414-01.json",
+      "sha256": "bad4fc98d101aae4db5686eb18b5447a726851f3c66e4e0e78a4488747ebbb04"
+    },
+    {
+      "bytes": 5944,
+      "path": "results/codex_subscription_pilot_v8_01/requests/0f31b37959c15a94b5188414-02.json",
+      "sha256": "2fbf38d2c978ebdc1238a8d0cf405e799cdb6eab1e18834b839d6c2eded18258"
+    },
+    {
+      "bytes": 6129,
+      "path": "results/codex_subscription_pilot_v8_01/requests/0f31b37959c15a94b5188414-03.json",
+      "sha256": "70cbec3608cbaae405d827f0e1f10dae0bcb361301abad51a9c0e945f79c0007"
+    },
+    {
+      "bytes": 6435,
+      "path": "results/codex_subscription_pilot_v8_01/requests/0f31b37959c15a94b5188414-04.json",
+      "sha256": "196535973b0f127601da130767f1eb0708d95342c5c0b1d75bdb241dd93bda2a"
+    },
+    {
+      "bytes": 6034,
+      "path": "results/codex_subscription_pilot_v8_01/requests/0f31b37959c15a94b5188414-05.json",
+      "sha256": "edb144135504ec28681a3cbd8830d368514f7baa48c1ea7aee0ddc66488b8934"
+    },
+    {
+      "bytes": 6258,
+      "path": "results/codex_subscription_pilot_v8_01/requests/0f31b37959c15a94b5188414-06.json",
+      "sha256": "98c47ceecaaa1d30bd8bd856a51df7f3a75812b2dc698e40777512a33f5afa9c"
+    },
+    {
+      "bytes": 5628,
+      "path": "results/codex_subscription_pilot_v8_01/requests/16b6ad2c796cbe084041f420-00.json",
+      "sha256": "05c4d3f31deaaa4767583f1351b349383e6cff1e186ad106d9e4d0eb86ce113b"
+    },
+    {
+      "bytes": 5750,
+      "path": "results/codex_subscription_pilot_v8_01/requests/16b6ad2c796cbe084041f420-01.json",
+      "sha256": "cc96a07d0ec7c592aa9b1662d0457fcdffca1e8615dcf03c795ffda2d7aac7db"
+    },
+    {
+      "bytes": 5936,
+      "path": "results/codex_subscription_pilot_v8_01/requests/16b6ad2c796cbe084041f420-02.json",
+      "sha256": "cd026da97af1808409502e5be00292bb65888a03c5f4cff8a9e232010d0950d1"
+    },
+    {
+      "bytes": 6119,
+      "path": "results/codex_subscription_pilot_v8_01/requests/16b6ad2c796cbe084041f420-03.json",
+      "sha256": "cda7031d5bcfaf100ad316ee233294ee7062ec21b7238f01057e9c3aa79be8e3"
+    },
+    {
+      "bytes": 6423,
+      "path": "results/codex_subscription_pilot_v8_01/requests/16b6ad2c796cbe084041f420-04.json",
+      "sha256": "597e30d6a284b01991c20ecb5b88c4947498cd638aca6d1a2a8e1d50941f9346"
+    },
+    {
+      "bytes": 6027,
+      "path": "results/codex_subscription_pilot_v8_01/requests/16b6ad2c796cbe084041f420-05.json",
+      "sha256": "9edbb7196d466ae565cd952c2648fb826fafbce89931ce9320e6877a30b5914b"
+    },
+    {
+      "bytes": 6219,
+      "path": "results/codex_subscription_pilot_v8_01/requests/16b6ad2c796cbe084041f420-06.json",
+      "sha256": "bf1cada52534771b5dea47185b5578f7a9fef4c3ad5c368f90e45fef8847ddc2"
+    },
+    {
+      "bytes": 5693,
+      "path": "results/codex_subscription_pilot_v8_01/requests/223a277bf5f2b9a4c5d2c06d-00.json",
+      "sha256": "b4885088be7c0fe4183f1398d16af1beee4c36a3a1edfa5a7990dedf3996b478"
+    },
+    {
+      "bytes": 5499,
+      "path": "results/codex_subscription_pilot_v8_01/requests/223a277bf5f2b9a4c5d2c06d-01.json",
+      "sha256": "2f292818ccb26e511d1fb73b46150e8ca0b4bcbe4bc45d289fd205c43a1bc8fe"
+    },
+    {
+      "bytes": 5712,
+      "path": "results/codex_subscription_pilot_v8_01/requests/223a277bf5f2b9a4c5d2c06d-02.json",
+      "sha256": "9a6f6dd4546265ab4fdcda293c5d15647e66d7b7c9eb70fadb0f2b8e2e41a37a"
+    },
+    {
+      "bytes": 5631,
+      "path": "results/codex_subscription_pilot_v8_01/requests/4e98ce552ccc3a4cf10190aa-00.json",
+      "sha256": "aa78dc82d1f66aea2d138b15c67aa7d6be047be3006f7d94cf90acdf94125727"
+    },
+    {
+      "bytes": 5751,
+      "path": "results/codex_subscription_pilot_v8_01/requests/4e98ce552ccc3a4cf10190aa-01.json",
+      "sha256": "390aa2bc62f741882779e598d6778fdfc56b23a17695fcf18ee8042972316bf6"
+    },
+    {
+      "bytes": 5944,
+      "path": "results/codex_subscription_pilot_v8_01/requests/4e98ce552ccc3a4cf10190aa-02.json",
+      "sha256": "e5cfa8517451f9c1c9da3b889ed941fb81fa8f5c4b99df84e039da645ab8c95a"
+    },
+    {
+      "bytes": 6139,
+      "path": "results/codex_subscription_pilot_v8_01/requests/4e98ce552ccc3a4cf10190aa-03.json",
+      "sha256": "500e65cdf94946be97210f816b689e8b33e75bc41970ce25314b13711f9b133d"
+    },
+    {
+      "bytes": 5964,
+      "path": "results/codex_subscription_pilot_v8_01/requests/4e98ce552ccc3a4cf10190aa-04.json",
+      "sha256": "c5c744a1dd2d8f1c69001e5327d8ff87ad095258d69ea26a7748456fd4bd6281"
+    },
+    {
+      "bytes": 6207,
+      "path": "results/codex_subscription_pilot_v8_01/requests/4e98ce552ccc3a4cf10190aa-05.json",
+      "sha256": "870b643d673ff91b3e1e1127f69b6e8d0567973e1db70bf1a3e91cfe9f7be29e"
+    },
+    {
+      "bytes": 5687,
+      "path": "results/codex_subscription_pilot_v8_01/requests/5dd75b69cbaf6880e12abb6e-00.json",
+      "sha256": "b09785eff73cbaa0e04d3a0530a54e75b19289acd35d104f093bf53f8f8aef82"
+    },
+    {
+      "bytes": 5533,
+      "path": "results/codex_subscription_pilot_v8_01/requests/5dd75b69cbaf6880e12abb6e-01.json",
+      "sha256": "bfb3d8a700f4bcd013526321537db84a44be4b1ab15aa7ca150ed7483345df9e"
+    },
+    {
+      "bytes": 5778,
+      "path": "results/codex_subscription_pilot_v8_01/requests/5dd75b69cbaf6880e12abb6e-02.json",
+      "sha256": "8cfda44d9048b87d78adf0e9d4194ca2a4dabbeb60202fd3bd3cd2e133bb6e47"
+    },
+    {
+      "bytes": 5632,
+      "path": "results/codex_subscription_pilot_v8_01/requests/626076ad5219ed54ef309efc-00.json",
+      "sha256": "8b3b4873eae0e0abb7f70b5098c2ec160bf8539d7b80e35b17b4789650ba3f6d"
+    },
+    {
+      "bytes": 5752,
+      "path": "results/codex_subscription_pilot_v8_01/requests/626076ad5219ed54ef309efc-01.json",
+      "sha256": "06b6aa3b693550ca40ce4731093fffd905bfb4e601596b084135e0f754d67199"
+    },
+    {
+      "bytes": 5944,
+      "path": "results/codex_subscription_pilot_v8_01/requests/626076ad5219ed54ef309efc-02.json",
+      "sha256": "ad86f87449dd7308e0394a5f68550b671d78c1824b0b12a3ee9c49dd95a7515f"
+    },
+    {
+      "bytes": 6121,
+      "path": "results/codex_subscription_pilot_v8_01/requests/626076ad5219ed54ef309efc-03.json",
+      "sha256": "8a485dd42f16bfcc045b210fb6c7053841b0632468420326cc05ca16bcbd66e1"
+    },
+    {
+      "bytes": 6431,
+      "path": "results/codex_subscription_pilot_v8_01/requests/626076ad5219ed54ef309efc-04.json",
+      "sha256": "2a60f7aeedbb9443df6121e48a65692f781cb7d9affbacae18b2fec595838614"
+    },
+    {
+      "bytes": 6025,
+      "path": "results/codex_subscription_pilot_v8_01/requests/626076ad5219ed54ef309efc-05.json",
+      "sha256": "b1852ec90d094adf21d8da328a9d40d2337eaf54dfbb88b495c5586a42d66011"
+    },
+    {
+      "bytes": 6246,
+      "path": "results/codex_subscription_pilot_v8_01/requests/626076ad5219ed54ef309efc-06.json",
+      "sha256": "a0e1c0b2951dac84e48f41f4b01db195e51b12002aa34f418a2084fc70ec530a"
+    },
+    {
+      "bytes": 5628,
+      "path": "results/codex_subscription_pilot_v8_01/requests/6ee0200fef2bde104d856d5a-00.json",
+      "sha256": "1d7d3b1f1dcc065af6f0b61799066e51b8975937b2bbe18337760380b45aa328"
+    },
+    {
+      "bytes": 5750,
+      "path": "results/codex_subscription_pilot_v8_01/requests/6ee0200fef2bde104d856d5a-01.json",
+      "sha256": "80e1ac94224d9fadd8bd746d7478decefb4971eae9c08c3422ce2acdb28a9aae"
+    },
+    {
+      "bytes": 5935,
+      "path": "results/codex_subscription_pilot_v8_01/requests/6ee0200fef2bde104d856d5a-02.json",
+      "sha256": "3fc64732c977e444f542449daacce9160deeb248776f4e3c2b44ecfd24fad486"
+    },
+    {
+      "bytes": 6135,
+      "path": "results/codex_subscription_pilot_v8_01/requests/6ee0200fef2bde104d856d5a-03.json",
+      "sha256": "f1dd1500a53a3ebd2ff970562169b124dae2eb852911ca622b04c933ffe4ee30"
+    },
+    {
+      "bytes": 5878,
+      "path": "results/codex_subscription_pilot_v8_01/requests/6ee0200fef2bde104d856d5a-04.json",
+      "sha256": "4011269c6dbce4157415a92eee52221c58820e2694e68013c16ac5d0b7ae10fe"
+    },
+    {
+      "bytes": 6171,
+      "path": "results/codex_subscription_pilot_v8_01/requests/6ee0200fef2bde104d856d5a-05.json",
+      "sha256": "32efb2b81aa192d288faaa5bbccf8370bddc167df33109950772fe250fc29374"
+    },
+    {
+      "bytes": 5688,
+      "path": "results/codex_subscription_pilot_v8_01/requests/73793d9d84250a302b079337-00.json",
+      "sha256": "fe87336ee621ad09b29e33fe999bd36e0847f33b3e851e4426ad1777ed1337c0"
+    },
+    {
+      "bytes": 5482,
+      "path": "results/codex_subscription_pilot_v8_01/requests/73793d9d84250a302b079337-01.json",
+      "sha256": "24f91963db9533d49308b1eb6c27d804620420938b05de0bf6a246baabdb709d"
+    },
+    {
+      "bytes": 5809,
+      "path": "results/codex_subscription_pilot_v8_01/requests/73793d9d84250a302b079337-02.json",
+      "sha256": "64c8c2d07969cd63a48a476063114dfe7e6ce6b605c985b84e5cf7f31d0b961f"
+    },
+    {
+      "bytes": 5638,
+      "path": "results/codex_subscription_pilot_v8_01/requests/7510c0c2218dd0fb4aa09e64-00.json",
+      "sha256": "9bf26a983ac4a3a90a3bc081d9c6996417e0b5f54094da41fde5bcfd7ace1802"
+    },
+    {
+      "bytes": 5751,
+      "path": "results/codex_subscription_pilot_v8_01/requests/7510c0c2218dd0fb4aa09e64-01.json",
+      "sha256": "060a6837038bbcb054cfdd7e521e82b6da7c16607c29d939972bbf9e4afdd21d"
+    },
+    {
+      "bytes": 5938,
+      "path": "results/codex_subscription_pilot_v8_01/requests/7510c0c2218dd0fb4aa09e64-02.json",
+      "sha256": "ac2869cb7e83e7ff3973f0b038ceec92507e56c9a735d465212ebae7aed88b2c"
+    },
+    {
+      "bytes": 6144,
+      "path": "results/codex_subscription_pilot_v8_01/requests/7510c0c2218dd0fb4aa09e64-03.json",
+      "sha256": "a5d3475543ed96b7f02aa29c5dd88f862a957a9b1863537b524161013c67de3d"
+    },
+    {
+      "bytes": 5868,
+      "path": "results/codex_subscription_pilot_v8_01/requests/7510c0c2218dd0fb4aa09e64-04.json",
+      "sha256": "94d7fdebb5a4128028456a2f0a9eb0e3dce5f08b21aeb8cb7efcff8d963e579c"
+    },
+    {
+      "bytes": 6171,
+      "path": "results/codex_subscription_pilot_v8_01/requests/7510c0c2218dd0fb4aa09e64-05.json",
+      "sha256": "d8bc5803f2ada5f98b4731db7653031ac229ab0aaa1eab1b7e4b817e6284c138"
+    },
+    {
+      "bytes": 5687,
+      "path": "results/codex_subscription_pilot_v8_01/requests/7f26361555635d4fe91fb62d-00.json",
+      "sha256": "c62e66729369052c719435c81e9dde5b3b1e8ee7f959808866b822a8c49cb28f"
+    },
+    {
+      "bytes": 5505,
+      "path": "results/codex_subscription_pilot_v8_01/requests/7f26361555635d4fe91fb62d-01.json",
+      "sha256": "a36629972c19c431913272d1ccdb6c537b57c6d681b559a0289ebd3a6f289f55"
+    },
+    {
+      "bytes": 5798,
+      "path": "results/codex_subscription_pilot_v8_01/requests/7f26361555635d4fe91fb62d-02.json",
+      "sha256": "8270fd5b3b85ae935054690ae7c626ab4bfc4e21fb314c2a2105a85db7f9603c"
+    },
+    {
+      "bytes": 5693,
+      "path": "results/codex_subscription_pilot_v8_01/requests/9611a3e03632afc8b28d3754-00.json",
+      "sha256": "49b2f6cc8e421770ff1f09780761f774a427918c571f2454827b536252af503e"
+    },
+    {
+      "bytes": 5475,
+      "path": "results/codex_subscription_pilot_v8_01/requests/9611a3e03632afc8b28d3754-01.json",
+      "sha256": "c78d9a183c02efafcf87368a63ffaab0918421b2955994f6282209f710b9c47d"
+    },
+    {
+      "bytes": 5806,
+      "path": "results/codex_subscription_pilot_v8_01/requests/9611a3e03632afc8b28d3754-02.json",
+      "sha256": "8f2dabfd3fcf3ee5135c68de7ad4706b9bda22b2232a0bda283129b5db9af440"
+    },
+    {
+      "bytes": 5632,
+      "path": "results/codex_subscription_pilot_v8_01/requests/97108cc13f49c24c767f4c6d-00.json",
+      "sha256": "91cc951e3fedb7db197549c0c17b42c540ae453f40e148b69452bd9d2ca6b0e4"
+    },
+    {
+      "bytes": 5758,
+      "path": "results/codex_subscription_pilot_v8_01/requests/97108cc13f49c24c767f4c6d-01.json",
+      "sha256": "eb087616c32a4e5f7268f4b43400b4a952832441877a192370fecd69d6341281"
+    },
+    {
+      "bytes": 5944,
+      "path": "results/codex_subscription_pilot_v8_01/requests/97108cc13f49c24c767f4c6d-02.json",
+      "sha256": "2bfc0a0a34c6e4d37ba4b90afd85a883cc289d7738658a9f69946cf76e713f98"
+    },
+    {
+      "bytes": 6108,
+      "path": "results/codex_subscription_pilot_v8_01/requests/97108cc13f49c24c767f4c6d-03.json",
+      "sha256": "fe318754e90cc3fbf0d19d5415a7cf1b470013c658a4b136f2ea02d8b8f15983"
+    },
+    {
+      "bytes": 6395,
+      "path": "results/codex_subscription_pilot_v8_01/requests/97108cc13f49c24c767f4c6d-04.json",
+      "sha256": "6ebf0ccb5bbc5273b7483922f5b190c88e0a46e9822301329d266003c43a07f2"
+    },
+    {
+      "bytes": 5989,
+      "path": "results/codex_subscription_pilot_v8_01/requests/97108cc13f49c24c767f4c6d-05.json",
+      "sha256": "c5bebeb2287f040c44cc0c0d971834214a5b9eb86136e8ccefb6528d1b6f51e9"
+    },
+    {
+      "bytes": 6352,
+      "path": "results/codex_subscription_pilot_v8_01/requests/97108cc13f49c24c767f4c6d-06.json",
+      "sha256": "671aacd09ddae94e3a1d23802fdb8504dd9bb1cd0810e522cac76dfb882c6c20"
+    },
+    {
+      "bytes": 5687,
+      "path": "results/codex_subscription_pilot_v8_01/requests/d25c01bcebc95a12665870df-00.json",
+      "sha256": "bb24d8251cf3228acda2ecd85dc1f3082b04291c5881f09fd1f6d7636e5d2b5f"
+    },
+    {
+      "bytes": 5521,
+      "path": "results/codex_subscription_pilot_v8_01/requests/d25c01bcebc95a12665870df-01.json",
+      "sha256": "3f4047535c3a6f1961e9d9a1189294fbd8820de312b5475967689eaf9e154ed4"
+    },
+    {
+      "bytes": 5720,
+      "path": "results/codex_subscription_pilot_v8_01/requests/d25c01bcebc95a12665870df-02.json",
+      "sha256": "53df270aa5d44b5cf756b83b235f5598cd4f6feddac545d3ae0410ad8f58bb9e"
+    },
+    {
+      "bytes": 5632,
+      "path": "results/codex_subscription_pilot_v8_01/requests/d9f991a3f386733704ae866e-00.json",
+      "sha256": "26947d74d034b03e401d9c984e811aa8c769256e389b2b37c96d52c1337760da"
+    },
+    {
+      "bytes": 5758,
+      "path": "results/codex_subscription_pilot_v8_01/requests/d9f991a3f386733704ae866e-01.json",
+      "sha256": "d2f87fa742de5bd15fc4d090f23f5c12e61ac6023bcf7dae7511b9eadc87bb1b"
+    },
+    {
+      "bytes": 5937,
+      "path": "results/codex_subscription_pilot_v8_01/requests/d9f991a3f386733704ae866e-02.json",
+      "sha256": "3a385ed356e974d99951d6927f26844b36751561b2bb5d80aab27fe0682a5ba4"
+    },
+    {
+      "bytes": 6139,
+      "path": "results/codex_subscription_pilot_v8_01/requests/d9f991a3f386733704ae866e-03.json",
+      "sha256": "c61c508f2b03c6e8d5b56962a33ff34f592d31ee9a4b10f3923db6453713c51e"
+    },
+    {
+      "bytes": 5954,
+      "path": "results/codex_subscription_pilot_v8_01/requests/d9f991a3f386733704ae866e-04.json",
+      "sha256": "66ae2f25ede3868fb9b9b2fc03509cff25a247ee7a76e4348ae144c307126c9f"
+    },
+    {
+      "bytes": 6209,
+      "path": "results/codex_subscription_pilot_v8_01/requests/d9f991a3f386733704ae866e-05.json",
+      "sha256": "7921e78ccb81b06e40a800f5033fe50b428ab94bccd5cc137b06597cc0591253"
+    },
+    {
+      "bytes": 5638,
+      "path": "results/codex_subscription_pilot_v8_01/requests/e093630b22707307e18ac977-00.json",
+      "sha256": "cb9ddbb8af61d3c1c0906b39ed5b2ef2069b66de1ff82fa7c6e8f39bacbd9150"
+    },
+    {
+      "bytes": 5758,
+      "path": "results/codex_subscription_pilot_v8_01/requests/e093630b22707307e18ac977-01.json",
+      "sha256": "62fd8dc1f1db5b6917953447eb737e4ef9ae98ff482d15deab0a10ffda952292"
+    },
+    {
+      "bytes": 5944,
+      "path": "results/codex_subscription_pilot_v8_01/requests/e093630b22707307e18ac977-02.json",
+      "sha256": "5c9f03abc097391dca784a58b1b2b956dd0896a0385a8ff23f3a34130b97e890"
+    },
+    {
+      "bytes": 6139,
+      "path": "results/codex_subscription_pilot_v8_01/requests/e093630b22707307e18ac977-03.json",
+      "sha256": "01e31b294c77c8c2c49b661b1a21a1acd71cb96b476c336db122c604aad9e6b8"
+    },
+    {
+      "bytes": 5870,
+      "path": "results/codex_subscription_pilot_v8_01/requests/e093630b22707307e18ac977-04.json",
+      "sha256": "3dab26abf13cafdcebb5f252b7091c83c968def2f7540e1ff3044c18078cac8e"
+    },
+    {
+      "bytes": 6225,
+      "path": "results/codex_subscription_pilot_v8_01/requests/e093630b22707307e18ac977-05.json",
+      "sha256": "bd71d0e97868ca89ec5dac63317d1664740212467c18f37776c69f5403a3fb90"
+    },
+    {
+      "bytes": 5634,
+      "path": "results/codex_subscription_pilot_v8_01/requests/e136612314fcd4f3c619a42d-00.json",
+      "sha256": "6dfdc5821e79b43a1637329745b30a8651f397984045de7035ff6105f7218566"
+    },
+    {
+      "bytes": 5752,
+      "path": "results/codex_subscription_pilot_v8_01/requests/e136612314fcd4f3c619a42d-01.json",
+      "sha256": "7fce9bdb9ba06c93ef186c80875beadc675664dfac742e55ece790dcfde4ebc2"
+    },
+    {
+      "bytes": 5944,
+      "path": "results/codex_subscription_pilot_v8_01/requests/e136612314fcd4f3c619a42d-02.json",
+      "sha256": "a5b8bbf4a659d5b943ca09e2d8c37f7ff56cc980429cf1b23b81208111b3c8bc"
+    },
+    {
+      "bytes": 6145,
+      "path": "results/codex_subscription_pilot_v8_01/requests/e136612314fcd4f3c619a42d-03.json",
+      "sha256": "ff901f1ff56f8f380e39f0bfd1d9e9fe7e00d09339f6f42c0fa6379bc4143790"
+    },
+    {
+      "bytes": 5956,
+      "path": "results/codex_subscription_pilot_v8_01/requests/e136612314fcd4f3c619a42d-04.json",
+      "sha256": "ea53c95f83d7c2f9b8ffce5e29c3caccaa6ef00c22c5f0563514e934de80293a"
+    },
+    {
+      "bytes": 6196,
+      "path": "results/codex_subscription_pilot_v8_01/requests/e136612314fcd4f3c619a42d-05.json",
+      "sha256": "1aaea980dc8f71a1ac9e0b3ba635b4f7ce073c9a895cf945317fd169e6462cb1"
+    },
+    {
+      "bytes": 5631,
+      "path": "results/codex_subscription_pilot_v8_01/requests/e3308060d8ff4eb9e381ca5f-00.json",
+      "sha256": "20d0aa81b569a1651b3480d3c75a6b3991fa989aee9a35b33dccffcac9ac691e"
+    },
+    {
+      "bytes": 5751,
+      "path": "results/codex_subscription_pilot_v8_01/requests/e3308060d8ff4eb9e381ca5f-01.json",
+      "sha256": "e06386b4927a2472dc8393385a08b803c57cf16129d6e74b79be6318361c6a0d"
+    },
+    {
+      "bytes": 5937,
+      "path": "results/codex_subscription_pilot_v8_01/requests/e3308060d8ff4eb9e381ca5f-02.json",
+      "sha256": "e394dccf12e0175ae879688d217156218c7366d183620ce585a3d7d22949575c"
+    },
+    {
+      "bytes": 6128,
+      "path": "results/codex_subscription_pilot_v8_01/requests/e3308060d8ff4eb9e381ca5f-03.json",
+      "sha256": "54905b5f95f7057e8c3dde0593a4523bc5d93c403de1add9cefd9c8ef86341b2"
+    },
+    {
+      "bytes": 6411,
+      "path": "results/codex_subscription_pilot_v8_01/requests/e3308060d8ff4eb9e381ca5f-04.json",
+      "sha256": "8f674c15519a033249b362850d615b4e906d8069156331a37e0b16936b053a06"
+    },
+    {
+      "bytes": 5994,
+      "path": "results/codex_subscription_pilot_v8_01/requests/e3308060d8ff4eb9e381ca5f-05.json",
+      "sha256": "7707ed826a6b86147522e601b79245d38b5ab054436d4e8ab2ab36d4db0e2cb3"
+    },
+    {
+      "bytes": 6298,
+      "path": "results/codex_subscription_pilot_v8_01/requests/e3308060d8ff4eb9e381ca5f-06.json",
+      "sha256": "5c3bc08bf6688fa8ff333fe74cdf5335ee25ef11d46309a36b1789746858a0c5"
+    },
+    {
+      "bytes": 5687,
+      "path": "results/codex_subscription_pilot_v8_01/requests/fd83e9496482e959186ccadf-00.json",
+      "sha256": "9e6e938043766ec7446f5684198b5b65c661375b02f34764ec85b3340540a606"
+    },
+    {
+      "bytes": 5499,
+      "path": "results/codex_subscription_pilot_v8_01/requests/fd83e9496482e959186ccadf-01.json",
+      "sha256": "4afe540a0d2588e02ef565e2566e183f444e08c6d3e837e8af74cba0253bbca8"
+    },
+    {
+      "bytes": 5912,
+      "path": "results/codex_subscription_pilot_v8_01/requests/fd83e9496482e959186ccadf-02.json",
+      "sha256": "c88218391f430264235661ff5ed57e80ad3b6216c2e8a8403290e0044a3a2e4e"
+    },
+    {
+      "bytes": 46051,
+      "path": "results/codex_subscription_v8_global_allowance.jsonl",
+      "sha256": "0cb3028d77b49257a58ed3bc0bed2b3b20e081d0f7285b17a3efd2b5d3a26a40"
+    },
+    {
+      "bytes": 1286,
+      "path": "verification/subscription_v8/preinference_metadata_ledger.json",
+      "sha256": "c4dee8e787afa69d200730079838c1ce4fda1533f18291ae164d297a09efd8f1"
+    }
+  ],
+  "spending": {
+    "authorized_route": "included_subscription_only",
+    "backend_request_count": null,
+    "combined_monetary_cost_usd": null,
+    "credit_consumption": null,
+    "main_study_turns_in_supplied_records": 0,
+    "new_api_spending_authorized_usd": 0,
+    "note": "No API or main study is represented in these supplied official-client pilot records. Subscription cost is not claimed zero; dollar cost, credit consumption, and backend request counts are unavailable. Preparation and pilot share the existing included-allowance authorization, without extra credits or paid fallback.",
+    "paid_api_requests_in_supplied_records": 0,
+    "pilot_monetary_cost_usd": null,
+    "preparation_monetary_cost_usd": null
+  },
+  "status_accounting": {
+    "event_counts": {
+      "client_invocation_finished": 102,
+      "client_invocation_started": 102,
+      "preturn_boundary_passed": 102,
+      "public_token_usage": 102,
+      "turn_start_accepted": 102,
+      "turn_status": 102,
+      "turn_submission_reserved": 102,
+      "turn_submitted_to_official_client": 102,
+      "visible_agent_message": 102,
+      "visible_agent_message_delta": 2398
+    },
+    "failure_event_counts": {},
+    "finished_process_failure_categories": {},
+    "finished_process_status_counts": {
+      "success": 102
+    },
+    "note": "Lifecycle failures are access/transport/resource accounting, not evidence of model awareness or behavioral failure.",
+    "saved_turn_failure_categories": {},
+    "saved_turn_status_counts": {
+      "success": 102
+    }
+  },
+  "timestamps": {
+    "first_global_reservation_utc": "2026-09-14T11:30:10.221115+00:00",
+    "first_local_invocation_start_utc": "2026-09-14T11:30:10.224835+00:00",
+    "global_reservation_span_seconds": 488.9131872653961,
+    "invocation_duration_seconds": {
+      "complete_total": 492.82,
+      "denominator": 102,
+      "known_only_subtotal": 492.82,
+      "missing_or_invalid_records": 0,
+      "numeric_records": 102
+    },
+    "invocations_with_derived_finish_timestamp": 102,
+    "invocations_with_start_timestamp": 102,
+    "last_derived_local_invocation_finish_utc": "2026-09-14T11:38:23.784434+00:00",
+    "last_global_reservation_utc": "2026-09-14T11:38:19.134302+00:00",
+    "last_local_invocation_start_utc": "2026-09-14T11:38:18.276334+00:00",
+    "local_wall_span_seconds": 493.55959916114807,
+    "note": "Finish timestamps are derived from saved local starts plus elapsed_seconds. Local timing is not provider billing duration or an acknowledged server-side cancellation time."
+  }
+}

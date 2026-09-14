@@ -1,0 +1,60 @@
+{
+  "checked_at_utc": "2026-09-14T11:13:13.716294+00:00",
+  "boundary_sha256": "f699461e827b89d6743607da6feed806449e56ac4f778f5e9feb99c3deaa7bde",
+  "profile_overrides": [
+    "forced_login_method=\"chatgpt\"",
+    "model_provider=\"openai\"",
+    "default_permissions=\"realgame_subject\"",
+    "features.shell_tool=false",
+    "features.unified_exec=false",
+    "features.apps=false",
+    "apps._default.enabled=false",
+    "features.plugins=false",
+    "features.remote_plugin=false",
+    "features.multi_agent=false",
+    "agents.enabled=false",
+    "features.memories=false",
+    "memories.use_memories=false",
+    "memories.generate_memories=false",
+    "features.hooks=false",
+    "features.goals=false",
+    "features.skill_mcp_dependency_install=false",
+    "features.code_mode.enabled=false",
+    "features.context_management.experimental_mode=false",
+    "tools.view_image=false",
+    "web_search=\"disabled\"",
+    "project_doc_max_bytes=0",
+    "history.persistence=\"none\"",
+    "developer_instructions=\"\"",
+    "notify=[]",
+    "mcp_servers={}",
+    "model_reasoning_summary=\"none\"",
+    "show_raw_agent_reasoning=false",
+    "hide_agent_reasoning=true",
+    "shell_environment_policy.inherit=\"none\"",
+    "permissions.realgame_subject.filesystem={ \":minimal\"=\"read\", \"/home\"=\"deny\", \"/workspaces\"=\"deny\", \"/root\"=\"deny\", \"/tmp\"=\"deny\", \"/proc\"=\"deny\" }",
+    "permissions.realgame_subject.network.enabled=false",
+    "skills.config=[{path=\"/home/codespace/.codex/skills/.system/imagegen/SKILL.md\",enabled=false},{path=\"/home/codespace/.codex/skills/.system/openai-docs/SKILL.md\",enabled=false},{path=\"/home/codespace/.codex/skills/.system/plugin-creator/SKILL.md\",enabled=false},{path=\"/home/codespace/.codex/skills/.system/review-agent/SKILL.md\",enabled=false},{path=\"/home/codespace/.codex/skills/.system/skill-creator/SKILL.md\",enabled=false},{path=\"/home/codespace/.codex/skills/.system/skill-installer/SKILL.md\",enabled=false}]"
+  ],
+  "rows": [
+    {
+      "fixture": "MOCK-NOT-LLM",
+      "location": "temporary_directory",
+      "exit_code": 0,
+      "benign_marker_read_denied": true,
+      "raw_stderr_retained": false
+    },
+    {
+      "fixture": "MOCK-NOT-LLM",
+      "location": "repository",
+      "exit_code": 0,
+      "benign_marker_read_denied": true,
+      "raw_stderr_retained": false
+    }
+  ],
+  "passed": true,
+  "experimental_turns": 0,
+  "credentials_or_evidence_files_read": false,
+  "network_probe_performed": false,
+  "scope": "Benign read-denial checks for the same named official profile; not a universal containment proof."
+}

@@ -1,0 +1,109 @@
+{
+  "status": "passed",
+  "main_pages": 8,
+  "references_start_page": 9,
+  "total_pdf_pages": 13,
+  "abstract_words": 150,
+  "main_page_word_counts": [
+    392,
+    405,
+    443,
+    399,
+    430,
+    294,
+    310,
+    376
+  ],
+  "page_rectangles": [
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ]
+  ],
+  "source_docx": "submission_report.docx",
+  "template_geometry_preserved": true,
+  "numbered_month_extensions": 4,
+  "visual_inspection_required": true,
+  "human_submission_gates": [
+    "affiliation",
+    "artifact location",
+    "theorem and source review",
+    "authorship approval",
+    "venue eligibility"
+  ],
+  "pdf_sha256": "ce7806d8de3bf233670ec31b4d8ee0f1b2be74bf3c51e2cba435db41d73f6a89"
+}

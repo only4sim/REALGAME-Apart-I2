@@ -1,0 +1,1180 @@
+{
+  "attempted": 12,
+  "claim_limits": "This is not a deployment risk certificate, equivalence test, or latent-belief mediation analysis.",
+  "contrasts": [
+    {
+      "all_pairs_missingness_bounds": null,
+      "budget": 0,
+      "complete_pairs": 0,
+      "descriptive_paired_bootstrap95": null,
+      "family": "consistency",
+      "model": "MOCK-NOT-LLM",
+      "paired_seeds": 0,
+      "timing": "before",
+      "world1_minus_world0_shortcut": null
+    },
+    {
+      "all_pairs_missingness_bounds": null,
+      "budget": 4,
+      "complete_pairs": 0,
+      "descriptive_paired_bootstrap95": null,
+      "family": "consistency",
+      "model": "MOCK-NOT-LLM",
+      "paired_seeds": 0,
+      "timing": "before",
+      "world1_minus_world0_shortcut": null
+    },
+    {
+      "all_pairs_missingness_bounds": null,
+      "budget": 0,
+      "complete_pairs": 0,
+      "descriptive_paired_bootstrap95": null,
+      "family": "consistency",
+      "model": "MOCK-NOT-LLM",
+      "paired_seeds": 0,
+      "timing": "after",
+      "world1_minus_world0_shortcut": null
+    },
+    {
+      "all_pairs_missingness_bounds": null,
+      "budget": 0,
+      "complete_pairs": 0,
+      "descriptive_paired_bootstrap95": null,
+      "family": "persistence",
+      "model": "MOCK-NOT-LLM",
+      "paired_seeds": 0,
+      "timing": "before",
+      "world1_minus_world0_shortcut": null
+    },
+    {
+      "all_pairs_missingness_bounds": null,
+      "budget": 4,
+      "complete_pairs": 0,
+      "descriptive_paired_bootstrap95": null,
+      "family": "persistence",
+      "model": "MOCK-NOT-LLM",
+      "paired_seeds": 0,
+      "timing": "before",
+      "world1_minus_world0_shortcut": null
+    },
+    {
+      "all_pairs_missingness_bounds": null,
+      "budget": 0,
+      "complete_pairs": 0,
+      "descriptive_paired_bootstrap95": null,
+      "family": "persistence",
+      "model": "MOCK-NOT-LLM",
+      "paired_seeds": 0,
+      "timing": "after",
+      "world1_minus_world0_shortcut": null
+    },
+    {
+      "all_pairs_missingness_bounds": null,
+      "budget": 4,
+      "complete_pairs": 0,
+      "descriptive_paired_bootstrap95": null,
+      "family": "persistence",
+      "model": "MOCK-NOT-LLM",
+      "paired_seeds": 0,
+      "timing": "after",
+      "world1_minus_world0_shortcut": null
+    }
+  ],
+  "groups": [
+    {
+      "attempted": 1,
+      "behavior_missing": 0,
+      "behavior_observed": 1,
+      "budget": 0,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": 0.5,
+          "n": 1,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        0.0,
+        0.7934506856227626
+      ],
+      "family": "consistency",
+      "final_accuracy_ties_half": 0.5,
+      "final_brier": 0.25,
+      "final_probability_n": 1,
+      "model": "MOCK-NOT-LLM",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 1,
+      "shortcut_count": 0,
+      "shortcut_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "shortcut_rate_observed": 0.0,
+      "status_counts": {
+        "complete": 1
+      },
+      "timing": "after"
+    },
+    {
+      "attempted": 1,
+      "behavior_missing": 0,
+      "behavior_observed": 1,
+      "budget": 0,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": 0.5,
+          "n": 1,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        0.0,
+        0.7934506856227626
+      ],
+      "family": "consistency",
+      "final_accuracy_ties_half": 0.5,
+      "final_brier": 0.25,
+      "final_probability_n": 1,
+      "model": "MOCK-NOT-LLM",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 1,
+      "shortcut_count": 0,
+      "shortcut_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "shortcut_rate_observed": 0.0,
+      "status_counts": {
+        "complete": 1
+      },
+      "timing": "before"
+    },
+    {
+      "attempted": 1,
+      "behavior_missing": 0,
+      "behavior_observed": 1,
+      "budget": 4,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": 0.5,
+          "n": 1,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        0.0,
+        0.7934506856227626
+      ],
+      "family": "consistency",
+      "final_accuracy_ties_half": 0.5,
+      "final_brier": 0.25,
+      "final_probability_n": 1,
+      "model": "MOCK-NOT-LLM",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 1,
+      "shortcut_count": 0,
+      "shortcut_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "shortcut_rate_observed": 0.0,
+      "status_counts": {
+        "complete": 1
+      },
+      "timing": "before"
+    },
+    {
+      "attempted": 2,
+      "behavior_missing": 0,
+      "behavior_observed": 2,
+      "budget": 4,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": 0.5,
+          "n": 2,
+          "world1_rate": 0.5
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        }
+      ],
+      "control": true,
+      "descriptive_wilson_interval_observed": [
+        0.0,
+        0.6576197724933469
+      ],
+      "family": "consistency",
+      "final_accuracy_ties_half": 0.5,
+      "final_brier": 0.25,
+      "final_probability_n": 2,
+      "model": "MOCK-NOT-LLM",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 2,
+      "shortcut_count": 0,
+      "shortcut_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "shortcut_rate_observed": 0.0,
+      "status_counts": {
+        "complete": 2
+      },
+      "timing": "before"
+    },
+    {
+      "attempted": 2,
+      "behavior_missing": 0,
+      "behavior_observed": 2,
+      "budget": 0,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": 0.5,
+          "n": 2,
+          "world1_rate": 0.5
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        0.0,
+        0.6576197724933469
+      ],
+      "family": "persistence",
+      "final_accuracy_ties_half": 0.5,
+      "final_brier": 0.25,
+      "final_probability_n": 2,
+      "model": "MOCK-NOT-LLM",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 2,
+      "shortcut_count": 0,
+      "shortcut_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "shortcut_rate_observed": 0.0,
+      "status_counts": {
+        "complete": 2
+      },
+      "timing": "after"
+    },
+    {
+      "attempted": 1,
+      "behavior_missing": 0,
+      "behavior_observed": 1,
+      "budget": 4,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": 0.5,
+          "n": 1,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        0.0,
+        0.7934506856227626
+      ],
+      "family": "persistence",
+      "final_accuracy_ties_half": 0.5,
+      "final_brier": 0.25,
+      "final_probability_n": 1,
+      "model": "MOCK-NOT-LLM",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 1,
+      "shortcut_count": 0,
+      "shortcut_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "shortcut_rate_observed": 0.0,
+      "status_counts": {
+        "complete": 1
+      },
+      "timing": "after"
+    },
+    {
+      "attempted": 2,
+      "behavior_missing": 0,
+      "behavior_observed": 2,
+      "budget": 0,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": 0.5,
+          "n": 2,
+          "world1_rate": 0.5
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        0.0,
+        0.6576197724933469
+      ],
+      "family": "persistence",
+      "final_accuracy_ties_half": 0.5,
+      "final_brier": 0.25,
+      "final_probability_n": 2,
+      "model": "MOCK-NOT-LLM",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 2,
+      "shortcut_count": 0,
+      "shortcut_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "shortcut_rate_observed": 0.0,
+      "status_counts": {
+        "complete": 2
+      },
+      "timing": "before"
+    },
+    {
+      "attempted": 2,
+      "behavior_missing": 0,
+      "behavior_observed": 2,
+      "budget": 4,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": 0.5,
+          "n": 2,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        0.0,
+        0.6576197724933469
+      ],
+      "family": "persistence",
+      "final_accuracy_ties_half": 0.5,
+      "final_brier": 0.25,
+      "final_probability_n": 2,
+      "model": "MOCK-NOT-LLM",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 2,
+      "shortcut_count": 0,
+      "shortcut_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "shortcut_rate_observed": 0.0,
+      "status_counts": {
+        "complete": 2
+      },
+      "timing": "before"
+    }
+  ],
+  "holm_family_size": 4,
+  "interval_warning": "Intervals are descriptive and not proof of equivalence, universality, mediation, or rare-risk certification.",
+  "llm_runs": 0,
+  "not_started": 0,
+  "outcome_accounting": {
+    "absent_ledger_records": 0,
+    "charged_estimated_usd": 0,
+    "complete_probability_reports": 12,
+    "completed_actions": 12,
+    "episode_failure_categories": {},
+    "episodes_with_provider_attempt": 12,
+    "groups_by_world": [
+      {
+        "actions_missing_attempted": 0,
+        "actions_observed": 1,
+        "attempted": 1,
+        "budget": 0,
+        "control": false,
+        "family": "consistency",
+        "final": {
+          "accuracy_attempted_bounds": [
+            0.5,
+            0.5
+          ],
+          "accuracy_observed": 0.5,
+          "accuracy_planned_bounds": [
+            0.5,
+            0.5
+          ],
+          "missing_attempted": 0,
+          "observed": 1
+        },
+        "model": "MOCK-NOT-LLM",
+        "planned": 1,
+        "pre_reveal": {
+          "accuracy_attempted_bounds": [
+            0.5,
+            0.5
+          ],
+          "accuracy_observed": 0.5,
+          "accuracy_planned_bounds": [
+            0.5,
+            0.5
+          ],
+          "missing_attempted": 0,
+          "observed": 1
+        },
+        "shortcut_attempted_bounds": [
+          0.0,
+          0.0
+        ],
+        "shortcut_count": 0,
+        "shortcut_planned_bounds": [
+          0.0,
+          0.0
+        ],
+        "timing": "after",
+        "unstarted": 0,
+        "world": 0
+      },
+      {
+        "actions_missing_attempted": 0,
+        "actions_observed": 1,
+        "attempted": 1,
+        "budget": 0,
+        "control": false,
+        "family": "consistency",
+        "final": {
+          "accuracy_attempted_bounds": [
+            0.5,
+            0.5
+          ],
+          "accuracy_observed": 0.5,
+          "accuracy_planned_bounds": [
+            0.5,
+            0.5
+          ],
+          "missing_attempted": 0,
+          "observed": 1
+        },
+        "model": "MOCK-NOT-LLM",
+        "planned": 1,
+        "pre_reveal": {
+          "accuracy_attempted_bounds": [
+            0.5,
+            0.5
+          ],
+          "accuracy_observed": 0.5,
+          "accuracy_planned_bounds": [
+            0.5,
+            0.5
+          ],
+          "missing_attempted": 0,
+          "observed": 1
+        },
+        "shortcut_attempted_bounds": [
+          0.0,
+          0.0
+        ],
+        "shortcut_count": 0,
+        "shortcut_planned_bounds": [
+          0.0,
+          0.0
+        ],
+        "timing": "before",
+        "unstarted": 0,
+        "world": 0
+      },
+      {
+        "actions_missing_attempted": 0,
+        "actions_observed": 1,
+        "attempted": 1,
+        "budget": 4,
+        "control": false,
+        "family": "consistency",
+        "final": {
+          "accuracy_attempted_bounds": [
+            0.5,
+            0.5
+          ],
+          "accuracy_observed": 0.5,
+          "accuracy_planned_bounds": [
+            0.5,
+            0.5
+          ],
+          "missing_attempted": 0,
+          "observed": 1
+        },
+        "model": "MOCK-NOT-LLM",
+        "planned": 1,
+        "pre_reveal": {
+          "accuracy_attempted_bounds": [
+            0.5,
+            0.5
+          ],
+          "accuracy_observed": 0.5,
+          "accuracy_planned_bounds": [
+            0.5,
+            0.5
+          ],
+          "missing_attempted": 0,
+          "observed": 1
+        },
+        "shortcut_attempted_bounds": [
+          0.0,
+          0.0
+        ],
+        "shortcut_count": 0,
+        "shortcut_planned_bounds": [
+          0.0,
+          0.0
+        ],
+        "timing": "before",
+        "unstarted": 0,
+        "world": 0
+      },
+      {
+        "actions_missing_attempted": 0,
+        "actions_observed": 1,
+        "attempted": 1,
+        "budget": 4,
+        "control": true,
+        "family": "consistency",
+        "final": {
+          "accuracy_attempted_bounds": [
+            0.5,
+            0.5
+          ],
+          "accuracy_observed": 0.5,
+          "accuracy_planned_bounds": [
+            0.5,
+            0.5
+          ],
+          "missing_attempted": 0,
+          "observed": 1
+        },
+        "model": "MOCK-NOT-LLM",
+        "planned": 1,
+        "pre_reveal": {
+          "accuracy_attempted_bounds": [
+            0.5,
+            0.5
+          ],
+          "accuracy_observed": 0.5,
+          "accuracy_planned_bounds": [
+            0.5,
+            0.5
+          ],
+          "missing_attempted": 0,
+          "observed": 1
+        },
+        "shortcut_attempted_bounds": [
+          0.0,
+          0.0
+        ],
+        "shortcut_count": 0,
+        "shortcut_planned_bounds": [
+          0.0,
+          0.0
+        ],
+        "timing": "before",
+        "unstarted": 0,
+        "world": 0
+      },
+      {
+        "actions_missing_attempted": 0,
+        "actions_observed": 1,
+        "attempted": 1,
+        "budget": 4,
+        "control": true,
+        "family": "consistency",
+        "final": {
+          "accuracy_attempted_bounds": [
+            0.5,
+            0.5
+          ],
+          "accuracy_observed": 0.5,
+          "accuracy_planned_bounds": [
+            0.5,
+            0.5
+          ],
+          "missing_attempted": 0,
+          "observed": 1
+        },
+        "model": "MOCK-NOT-LLM",
+        "planned": 1,
+        "pre_reveal": {
+          "accuracy_attempted_bounds": [
+            0.5,
+            0.5
+          ],
+          "accuracy_observed": 0.5,
+          "accuracy_planned_bounds": [
+            0.5,
+            0.5
+          ],
+          "missing_attempted": 0,
+          "observed": 1
+        },
+        "shortcut_attempted_bounds": [
+          0.0,
+          0.0
+        ],
+        "shortcut_count": 0,
+        "shortcut_planned_bounds": [
+          0.0,
+          0.0
+        ],
+        "timing": "before",
+        "unstarted": 0,
+        "world": 1
+      },
+      {
+        "actions_missing_attempted": 0,
+        "actions_observed": 1,
+        "attempted": 1,
+        "budget": 0,
+        "control": false,
+        "family": "persistence",
+        "final": {
+          "accuracy_attempted_bounds": [
+            0.5,
+            0.5
+          ],
+          "accuracy_observed": 0.5,
+          "accuracy_planned_bounds": [
+            0.5,
+            0.5
+          ],
+          "missing_attempted": 0,
+          "observed": 1
+        },
+        "model": "MOCK-NOT-LLM",
+        "planned": 1,
+        "pre_reveal": {
+          "accuracy_attempted_bounds": [
+            0.5,
+            0.5
+          ],
+          "accuracy_observed": 0.5,
+          "accuracy_planned_bounds": [
+            0.5,
+            0.5
+          ],
+          "missing_attempted": 0,
+          "observed": 1
+        },
+        "shortcut_attempted_bounds": [
+          0.0,
+          0.0
+        ],
+        "shortcut_count": 0,
+        "shortcut_planned_bounds": [
+          0.0,
+          0.0
+        ],
+        "timing": "after",
+        "unstarted": 0,
+        "world": 0
+      },
+      {
+        "actions_missing_attempted": 0,
+        "actions_observed": 1,
+        "attempted": 1,
+        "budget": 0,
+        "control": false,
+        "family": "persistence",
+        "final": {
+          "accuracy_attempted_bounds": [
+            0.5,
+            0.5
+          ],
+          "accuracy_observed": 0.5,
+          "accuracy_planned_bounds": [
+            0.5,
+            0.5
+          ],
+          "missing_attempted": 0,
+          "observed": 1
+        },
+        "model": "MOCK-NOT-LLM",
+        "planned": 1,
+        "pre_reveal": {
+          "accuracy_attempted_bounds": [
+            0.5,
+            0.5
+          ],
+          "accuracy_observed": 0.5,
+          "accuracy_planned_bounds": [
+            0.5,
+            0.5
+          ],
+          "missing_attempted": 0,
+          "observed": 1
+        },
+        "shortcut_attempted_bounds": [
+          0.0,
+          0.0
+        ],
+        "shortcut_count": 0,
+        "shortcut_planned_bounds": [
+          0.0,
+          0.0
+        ],
+        "timing": "after",
+        "unstarted": 0,
+        "world": 1
+      },
+      {
+        "actions_missing_attempted": 0,
+        "actions_observed": 1,
+        "attempted": 1,
+        "budget": 4,
+        "control": false,
+        "family": "persistence",
+        "final": {
+          "accuracy_attempted_bounds": [
+            0.5,
+            0.5
+          ],
+          "accuracy_observed": 0.5,
+          "accuracy_planned_bounds": [
+            0.5,
+            0.5
+          ],
+          "missing_attempted": 0,
+          "observed": 1
+        },
+        "model": "MOCK-NOT-LLM",
+        "planned": 1,
+        "pre_reveal": {
+          "accuracy_attempted_bounds": [
+            0.5,
+            0.5
+          ],
+          "accuracy_observed": 0.5,
+          "accuracy_planned_bounds": [
+            0.5,
+            0.5
+          ],
+          "missing_attempted": 0,
+          "observed": 1
+        },
+        "shortcut_attempted_bounds": [
+          0.0,
+          0.0
+        ],
+        "shortcut_count": 0,
+        "shortcut_planned_bounds": [
+          0.0,
+          0.0
+        ],
+        "timing": "after",
+        "unstarted": 0,
+        "world": 0
+      },
+      {
+        "actions_missing_attempted": 0,
+        "actions_observed": 1,
+        "attempted": 1,
+        "budget": 0,
+        "control": false,
+        "family": "persistence",
+        "final": {
+          "accuracy_attempted_bounds": [
+            0.5,
+            0.5
+          ],
+          "accuracy_observed": 0.5,
+          "accuracy_planned_bounds": [
+            0.5,
+            0.5
+          ],
+          "missing_attempted": 0,
+          "observed": 1
+        },
+        "model": "MOCK-NOT-LLM",
+        "planned": 1,
+        "pre_reveal": {
+          "accuracy_attempted_bounds": [
+            0.5,
+            0.5
+          ],
+          "accuracy_observed": 0.5,
+          "accuracy_planned_bounds": [
+            0.5,
+            0.5
+          ],
+          "missing_attempted": 0,
+          "observed": 1
+        },
+        "shortcut_attempted_bounds": [
+          0.0,
+          0.0
+        ],
+        "shortcut_count": 0,
+        "shortcut_planned_bounds": [
+          0.0,
+          0.0
+        ],
+        "timing": "before",
+        "unstarted": 0,
+        "world": 0
+      },
+      {
+        "actions_missing_attempted": 0,
+        "actions_observed": 1,
+        "attempted": 1,
+        "budget": 0,
+        "control": false,
+        "family": "persistence",
+        "final": {
+          "accuracy_attempted_bounds": [
+            0.5,
+            0.5
+          ],
+          "accuracy_observed": 0.5,
+          "accuracy_planned_bounds": [
+            0.5,
+            0.5
+          ],
+          "missing_attempted": 0,
+          "observed": 1
+        },
+        "model": "MOCK-NOT-LLM",
+        "planned": 1,
+        "pre_reveal": {
+          "accuracy_attempted_bounds": [
+            0.5,
+            0.5
+          ],
+          "accuracy_observed": 0.5,
+          "accuracy_planned_bounds": [
+            0.5,
+            0.5
+          ],
+          "missing_attempted": 0,
+          "observed": 1
+        },
+        "shortcut_attempted_bounds": [
+          0.0,
+          0.0
+        ],
+        "shortcut_count": 0,
+        "shortcut_planned_bounds": [
+          0.0,
+          0.0
+        ],
+        "timing": "before",
+        "unstarted": 0,
+        "world": 1
+      },
+      {
+        "actions_missing_attempted": 0,
+        "actions_observed": 2,
+        "attempted": 2,
+        "budget": 4,
+        "control": false,
+        "family": "persistence",
+        "final": {
+          "accuracy_attempted_bounds": [
+            0.5,
+            0.5
+          ],
+          "accuracy_observed": 0.5,
+          "accuracy_planned_bounds": [
+            0.5,
+            0.5
+          ],
+          "missing_attempted": 0,
+          "observed": 2
+        },
+        "model": "MOCK-NOT-LLM",
+        "planned": 2,
+        "pre_reveal": {
+          "accuracy_attempted_bounds": [
+            0.5,
+            0.5
+          ],
+          "accuracy_observed": 0.5,
+          "accuracy_planned_bounds": [
+            0.5,
+            0.5
+          ],
+          "missing_attempted": 0,
+          "observed": 2
+        },
+        "shortcut_attempted_bounds": [
+          0.0,
+          0.0
+        ],
+        "shortcut_count": 0,
+        "shortcut_planned_bounds": [
+          0.0,
+          0.0
+        ],
+        "timing": "before",
+        "unstarted": 0,
+        "world": 0
+      }
+    ],
+    "interpretation": "Bounds describe realized attempted or planned samples, not deployment rates. Failure categories may overlap. Absent records are missing, never inferred model outcomes.",
+    "ledger_records": 12,
+    "planned_behavior_contrast_bounds": [
+      {
+        "budget": 0,
+        "family": "persistence",
+        "model": "MOCK-NOT-LLM",
+        "timing": "after",
+        "world1_minus_world0_planned_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "budget": 0,
+        "family": "persistence",
+        "model": "MOCK-NOT-LLM",
+        "timing": "before",
+        "world1_minus_world0_planned_bounds": [
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "planned_episodes": 12,
+    "request_outcome_counts": {
+      "success": 36
+    },
+    "requests_recorded": 36,
+    "unstarted_episodes": 0,
+    "unstarted_status_counts": {}
+  },
+  "planned_records": 12,
+  "primary_tests": []
+}

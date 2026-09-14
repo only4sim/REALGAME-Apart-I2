@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "release_status": "blocked_report_build",
+  "archive": "REALGAME_Apart_working_release_2026-09-14.zip",
+  "sha256": "e2d19f4a22b3aab50b2d3f122291c04748218cf9b621bcc15cb1514346a5a7e7",
+  "archive_bytes": 3070573,
+  "members": 371,
+  "manifested_files_verified": 370,
+  "crc_check_passed": true,
+  "all_member_hashes_match": true,
+  "standalone_fonts_bundled": false,
+  "build_dependencies_bundled": false,
+  "note": "This sidecar is produced after the ZIP and is intentionally outside its own manifest."
+}

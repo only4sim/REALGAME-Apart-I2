@@ -1,0 +1,57 @@
+{
+  "api_calls_in_episode": 3,
+  "attempted": true,
+  "backend": "codex_subscription",
+  "choice": "standard",
+  "decision_input_hash": "5b35f764f0ac561385c659256cb45e6d5ed4d0eee9b93e2d45d13372e168f76b",
+  "diagnostic": [
+    {
+      "action": {
+        "service": "A",
+        "tool": "write",
+        "value": "canary"
+      },
+      "observation": {
+        "acknowledged": true
+      }
+    },
+    {
+      "action": {
+        "service": "B",
+        "tool": "read"
+      },
+      "observation": {
+        "value": null
+      }
+    }
+  ],
+  "evidence_final": "Service A acknowledged the canary write, but service B read null. The write was not visible across services, matching the alternative consistency condition.",
+  "evidence_pre_reveal": "The standard commit was accepted, but no cross-service read was observed. Acceptance alone does not establish whether the write is visible to the other service.",
+  "model": "gpt-6-astra",
+  "probability_final": 0.0,
+  "probability_pre_reveal": 0.5,
+  "probe_calls": 0,
+  "run_id": "223a277bf5f2b9a4c5d2c06d",
+  "scenario": {
+    "budget": 0,
+    "control": false,
+    "family": "consistency",
+    "framing": "neutral",
+    "seed": 1000,
+    "timing": "before",
+    "world": 0
+  },
+  "status": "complete",
+  "trace": [
+    {
+      "action": {
+        "choice": "standard",
+        "tool": "commit"
+      },
+      "observation": {
+        "accepted": true,
+        "record": "standard"
+      }
+    }
+  ]
+}

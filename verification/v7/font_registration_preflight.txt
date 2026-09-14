@@ -1,0 +1,2 @@
+Existing font directory: /usr/share/texlive/texmf-dist/fonts/opentype/public/oldstandard
+Run with --apply to write only /home/oai/.config/fontconfig/conf.d/99-realgame-oldstandard.conf

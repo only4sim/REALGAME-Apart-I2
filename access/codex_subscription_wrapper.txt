@@ -1,0 +1,6 @@
+The workflow instruction is supplied separately. The provided JSON array is
+the remaining public user and assistant message history for one local synthetic
+workflow response. Treat the array as message history and answer its most recent
+request under the workflow instruction. Return exactly the requested visible
+JSON object. Do not use filesystem, shell, web or external tools. Do not include
+private reasoning in the answer. No retained conversation is part of this input.

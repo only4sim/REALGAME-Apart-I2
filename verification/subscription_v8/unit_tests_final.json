@@ -1,0 +1,16 @@
+{
+  "recorded_at_utc": "2026-09-14T11:29:27.399312+00:00",
+  "command": [
+    "python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-p",
+    "test_subscription_access.py",
+    "-v"
+  ],
+  "exit_code": 0,
+  "fixture_scope": "MOCK-NOT-LLM; no experimental model calls"
+}

@@ -1,0 +1,8 @@
+Source: the user's follow-up in this conversation, received 2026-09-14.
+
+Yes, my usage is from ChatGPT pro subscription, and my account has a control preventing extra-credit use and automatic top-up.
+
+Interpretation: human confirmation of account controls resolves the previously
+open billing-control question for the already authorized pilot. This is human
+attestation, not a newly queried backend setting. The official metadata's
+planType value remains recorded exactly as returned and is not relabeled.

@@ -1,0 +1,260 @@
+{
+  "status": "passed",
+  "main_pages": 8,
+  "references_start_page": 9,
+  "total_pdf_pages": 13,
+  "abstract_words": 150,
+  "main_page_word_counts": [
+    394,
+    378,
+    443,
+    398,
+    407,
+    294,
+    329,
+    392
+  ],
+  "page_rectangles": [
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ]
+  ],
+  "source_docx": "/mnt/data/realgame_v7/submission_report.docx",
+  "template_geometry_preserved": true,
+  "numbered_month_extensions": 4,
+  "visual_inspection_required": true,
+  "human_submission_gates": [
+    "author identity and affiliation",
+    "artifact location",
+    "theorem and source review",
+    "authorship approval",
+    "venue eligibility"
+  ],
+  "pdf_sha256": "ef64a4fe9417a8f828e0e8089f69be8e29ae5b2b0e3e00264b3ae422f01f5cf6",
+  "docx_sha256": "faa16f949ef40d5d8c3a4b4047b289117a021e52dd4a1bce7d1a0bd5a3c85642",
+  "blocks_sha256": "54ca1a72600b0f8149bfe7bfee8d24ec71c3d930c65eb48d01d74b8f42281d03",
+  "markdown_sha256": "7728520490d6ade7709d883b3045371053b7c97102a956743ab9dcfe30b24713",
+  "template_sha256": "8c3ff735c44d6b1a2fb6a3af0a4a0316e02a4b98a01ea2cac41fbbed93671f3a",
+  "native_editable_equations": 50,
+  "rendered_fonts": [
+    "BAAAAA+LiberationSans",
+    "CAAAAA+OldStandardTT-Bold",
+    "DAAAAA+OldStandardTT-Regular",
+    "EAAAAA+LiberationSerif-Italic",
+    "FAAAAA+OpenSymbol",
+    "GAAAAA+NimbusRoman-Italic",
+    "HAAAAA+LiberationSerif"
+  ],
+  "body_font_points": 11.0,
+  "rendered_abstract_matches_source": true,
+  "status_scope": "Publication engineering and offline evidence verification only; human/scientific/inference gates remain open.",
+  "current_release": "v7-rendered-2026-09-14",
+  "checked_at_utc": "2026-09-14T09:18:09.649674+00:00",
+  "current_execution_verified": true,
+  "revised_docx_pdf_built": true,
+  "supplied_report_files_unchanged": false,
+  "input_report_preserved_in_provenance": true,
+  "visual_review": {
+    "all_pages_inspected": true,
+    "pages": [
+      {
+        "page": 1,
+        "identical_to_previously_inspected_pass2": true,
+        "final_png_sha256": "967aadacda3b60908c64ebd17c65272aadbc918f589c8aec375cf0b60f9c43b7",
+        "visual_inspected": true,
+        "inspection": "Pass2 page inspected directly; final pass3 PNG byte-identical"
+      },
+      {
+        "page": 2,
+        "identical_to_previously_inspected_pass2": false,
+        "final_png_sha256": "f2c64b10629e801cb4f39a81ceecfbb4255cdb305e9839e16d50196aa8672089",
+        "visual_inspected": true,
+        "inspection": "Final pass3 page inspected directly"
+      },
+      {
+        "page": 3,
+        "identical_to_previously_inspected_pass2": true,
+        "final_png_sha256": "49d652727ab9959fe383d0c54391ac5a21c53662119983b27a978af819453d67",
+        "visual_inspected": true,
+        "inspection": "Pass2 page inspected directly; final pass3 PNG byte-identical"
+      },
+      {
+        "page": 4,
+        "identical_to_previously_inspected_pass2": false,
+        "final_png_sha256": "11ee383b12598559d926dcdc514e830bce10cdb575e257fce560a87c6201640f",
+        "visual_inspected": true,
+        "inspection": "Final pass3 page inspected directly"
+      },
+      {
+        "page": 5,
+        "identical_to_previously_inspected_pass2": true,
+        "final_png_sha256": "f6eebe10dc5c354ca391a8ac1b8524ba5e1fde424414820b44642f4ac9e6017e",
+        "visual_inspected": true,
+        "inspection": "Pass2 page inspected directly; final pass3 PNG byte-identical"
+      },
+      {
+        "page": 6,
+        "identical_to_previously_inspected_pass2": true,
+        "final_png_sha256": "362e4e64f1b616e9cfbd071f51a5aaed42ea0f57eaee4e3dad19356455a35e4a",
+        "visual_inspected": true,
+        "inspection": "Pass2 page inspected directly; final pass3 PNG byte-identical"
+      },
+      {
+        "page": 7,
+        "identical_to_previously_inspected_pass2": true,
+        "final_png_sha256": "e115feee26c12003dba45ba087d9b1a417fac43a8c60a68f991bba4f3af0800b",
+        "visual_inspected": true,
+        "inspection": "Pass2 page inspected directly; final pass3 PNG byte-identical"
+      },
+      {
+        "page": 8,
+        "identical_to_previously_inspected_pass2": true,
+        "final_png_sha256": "e4d3cfafa15bfea867590ea11c5ac95a3cebd62465753678042480196b66856c",
+        "visual_inspected": true,
+        "inspection": "Pass2 page inspected directly; final pass3 PNG byte-identical"
+      },
+      {
+        "page": 9,
+        "identical_to_previously_inspected_pass2": true,
+        "final_png_sha256": "330d3b1888f8e72a1a073ff7445745a60d1ddb6080db06987a60c5d305068c59",
+        "visual_inspected": true,
+        "inspection": "Pass2 page inspected directly; final pass3 PNG byte-identical"
+      },
+      {
+        "page": 10,
+        "identical_to_previously_inspected_pass2": true,
+        "final_png_sha256": "5bc323617437b68b30b1cce8f4890f5fdeab3ba2947d3d183c1977a1283799f0",
+        "visual_inspected": true,
+        "inspection": "Pass2 page inspected directly; final pass3 PNG byte-identical"
+      },
+      {
+        "page": 11,
+        "identical_to_previously_inspected_pass2": true,
+        "final_png_sha256": "07a4655e1d872475eacf725121b81e93e81af2b364e24a4e103265b70adbbd33",
+        "visual_inspected": true,
+        "inspection": "Pass2 page inspected directly; final pass3 PNG byte-identical"
+      },
+      {
+        "page": 12,
+        "identical_to_previously_inspected_pass2": true,
+        "final_png_sha256": "8d56c178a204b2001170d2fec65414aaa21de17ea0fc92e988e7476d50c76c43",
+        "visual_inspected": true,
+        "inspection": "Pass2 page inspected directly; final pass3 PNG byte-identical"
+      },
+      {
+        "page": 13,
+        "identical_to_previously_inspected_pass2": true,
+        "final_png_sha256": "642ed61722b657f3c2593fefc1a46045c78dd1b82660aa0010a5c09b873f790e",
+        "visual_inspected": true,
+        "inspection": "Pass2 page inspected directly; final pass3 PNG byte-identical"
+      }
+    ],
+    "total_pages": 13,
+    "findings": "No clipped text, tables, or images. Supremum inline rendering replaced by equivalent words. Author/affiliation placeholders remain intentional submission gates.",
+    "scope": "Visual/layout check, not independent theorem review"
+  },
+  "portable_render_matches": true,
+  "unit_tests": 18,
+  "unit_tests_passed": 18,
+  "cpu_reproduction_files": 7,
+  "cpu_files_byte_identical": true,
+  "inherited_evidence_files_unchanged": 77,
+  "input_archive_manifest_files_verified": 370,
+  "source_template_bytes_preserved": true,
+  "real_llm_runs": 0,
+  "real_api_requests": 0,
+  "estimated_inference_spend_usd": 0,
+  "new_saved_mock_episodes_this_round": 0,
+  "historical_mock_episodes_total": 36,
+  "historical_mock_requests_total": 108,
+  "dependency_downloads_this_execution": 0,
+  "supplemental_primary_web_bibliography_checks": true,
+  "experimental_network_requests_this_execution": 0,
+  "configured_credential_presence_checked_only": true,
+  "standalone_fonts_bundled": false,
+  "human_review_complete": false,
+  "ready_for_automatic_submission": false,
+  "remaining_gates": [
+    "author identity and affiliation",
+    "independent theorem/novelty review and remaining exact-PDF source metadata",
+    "human ownership of final writing and disclosure approval",
+    "artifact URL or accepted attachment",
+    "current venue eligibility",
+    "exact model identifiers, explicit inference authorization, sourced prices, global budget and separate real-provider pilot"
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "command": "python scripts/check_readiness.py --config configs/halfday.json",
+    "exit_code": 0
+  },
+  {
+    "command": "python -m unittest discover -s tests -v",
+    "exit_code": 0
+  },
+  {
+    "command": "python scripts/register_existing_fonts.py",
+    "exit_code": 1
+  }
+]

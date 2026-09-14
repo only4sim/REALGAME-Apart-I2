@@ -1,0 +1,27 @@
+[
+  {
+    "path": "submission_report.pdf",
+    "sha256": "ef64a4fe9417a8f828e0e8089f69be8e29ae5b2b0e3e00264b3ae422f01f5cf6",
+    "matches_inherited_final_checks": true
+  },
+  {
+    "path": "submission_report.docx",
+    "sha256": "faa16f949ef40d5d8c3a4b4047b289117a021e52dd4a1bce7d1a0bd5a3c85642",
+    "matches_inherited_final_checks": true
+  },
+  {
+    "path": "paper/submission_blocks.json",
+    "sha256": "54ca1a72600b0f8149bfe7bfee8d24ec71c3d930c65eb48d01d74b8f42281d03",
+    "matches_inherited_final_checks": true
+  },
+  {
+    "path": "submission_revision.md",
+    "sha256": "7728520490d6ade7709d883b3045371053b7c97102a956743ab9dcfe30b24713",
+    "matches_inherited_final_checks": true
+  },
+  {
+    "path": "template/apart_original.docx",
+    "sha256": "8c3ff735c44d6b1a2fb6a3af0a4a0316e02a4b98a01ea2cac41fbbed93671f3a",
+    "matches_inherited_final_checks": true
+  }
+]

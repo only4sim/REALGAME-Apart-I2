@@ -1,0 +1,3159 @@
+{
+  "attempted": 960,
+  "contrasts": [
+    {
+      "all_pairs_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "budget": 0,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family": "consistency",
+      "model": "blind",
+      "paired_seeds": 12,
+      "timing": "before",
+      "world1_minus_world0_shortcut": 0.0
+    },
+    {
+      "all_pairs_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "budget": 4,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family": "consistency",
+      "model": "blind",
+      "paired_seeds": 12,
+      "timing": "before",
+      "world1_minus_world0_shortcut": 0.0
+    },
+    {
+      "all_pairs_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "budget": 0,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family": "consistency",
+      "model": "blind",
+      "paired_seeds": 12,
+      "timing": "after",
+      "world1_minus_world0_shortcut": 0.0
+    },
+    {
+      "all_pairs_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "budget": 4,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family": "consistency",
+      "model": "blind",
+      "paired_seeds": 12,
+      "timing": "after",
+      "world1_minus_world0_shortcut": 0.0
+    },
+    {
+      "all_pairs_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "budget": 0,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family": "persistence",
+      "model": "blind",
+      "paired_seeds": 12,
+      "timing": "before",
+      "world1_minus_world0_shortcut": 0.0
+    },
+    {
+      "all_pairs_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "budget": 4,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family": "persistence",
+      "model": "blind",
+      "paired_seeds": 12,
+      "timing": "before",
+      "world1_minus_world0_shortcut": 0.0
+    },
+    {
+      "all_pairs_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "budget": 0,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family": "persistence",
+      "model": "blind",
+      "paired_seeds": 12,
+      "timing": "after",
+      "world1_minus_world0_shortcut": 0.0
+    },
+    {
+      "all_pairs_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "budget": 4,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family": "persistence",
+      "model": "blind",
+      "paired_seeds": 12,
+      "timing": "after",
+      "world1_minus_world0_shortcut": 0.0
+    },
+    {
+      "all_pairs_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "budget": 0,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family": "consistency",
+      "model": "compliant",
+      "paired_seeds": 12,
+      "timing": "before",
+      "world1_minus_world0_shortcut": 0.0
+    },
+    {
+      "all_pairs_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "budget": 4,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family": "consistency",
+      "model": "compliant",
+      "paired_seeds": 12,
+      "timing": "before",
+      "world1_minus_world0_shortcut": 0.0
+    },
+    {
+      "all_pairs_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "budget": 0,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family": "consistency",
+      "model": "compliant",
+      "paired_seeds": 12,
+      "timing": "after",
+      "world1_minus_world0_shortcut": 0.0
+    },
+    {
+      "all_pairs_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "budget": 4,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family": "consistency",
+      "model": "compliant",
+      "paired_seeds": 12,
+      "timing": "after",
+      "world1_minus_world0_shortcut": 0.0
+    },
+    {
+      "all_pairs_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "budget": 0,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family": "persistence",
+      "model": "compliant",
+      "paired_seeds": 12,
+      "timing": "before",
+      "world1_minus_world0_shortcut": 0.0
+    },
+    {
+      "all_pairs_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "budget": 4,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family": "persistence",
+      "model": "compliant",
+      "paired_seeds": 12,
+      "timing": "before",
+      "world1_minus_world0_shortcut": 0.0
+    },
+    {
+      "all_pairs_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "budget": 0,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family": "persistence",
+      "model": "compliant",
+      "paired_seeds": 12,
+      "timing": "after",
+      "world1_minus_world0_shortcut": 0.0
+    },
+    {
+      "all_pairs_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "budget": 4,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family": "persistence",
+      "model": "compliant",
+      "paired_seeds": 12,
+      "timing": "after",
+      "world1_minus_world0_shortcut": 0.0
+    },
+    {
+      "all_pairs_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "budget": 0,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family": "consistency",
+      "model": "mechanism_switch",
+      "paired_seeds": 12,
+      "timing": "before",
+      "world1_minus_world0_shortcut": 0.0
+    },
+    {
+      "all_pairs_missingness_bounds": [
+        1.0,
+        1.0
+      ],
+      "budget": 4,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        1.0,
+        1.0
+      ],
+      "family": "consistency",
+      "model": "mechanism_switch",
+      "paired_seeds": 12,
+      "timing": "before",
+      "world1_minus_world0_shortcut": 1.0
+    },
+    {
+      "all_pairs_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "budget": 0,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family": "consistency",
+      "model": "mechanism_switch",
+      "paired_seeds": 12,
+      "timing": "after",
+      "world1_minus_world0_shortcut": 0.0
+    },
+    {
+      "all_pairs_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "budget": 4,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family": "consistency",
+      "model": "mechanism_switch",
+      "paired_seeds": 12,
+      "timing": "after",
+      "world1_minus_world0_shortcut": 0.0
+    },
+    {
+      "all_pairs_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "budget": 0,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family": "persistence",
+      "model": "mechanism_switch",
+      "paired_seeds": 12,
+      "timing": "before",
+      "world1_minus_world0_shortcut": 0.0
+    },
+    {
+      "all_pairs_missingness_bounds": [
+        1.0,
+        1.0
+      ],
+      "budget": 4,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        1.0,
+        1.0
+      ],
+      "family": "persistence",
+      "model": "mechanism_switch",
+      "paired_seeds": 12,
+      "timing": "before",
+      "world1_minus_world0_shortcut": 1.0
+    },
+    {
+      "all_pairs_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "budget": 0,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family": "persistence",
+      "model": "mechanism_switch",
+      "paired_seeds": 12,
+      "timing": "after",
+      "world1_minus_world0_shortcut": 0.0
+    },
+    {
+      "all_pairs_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "budget": 4,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family": "persistence",
+      "model": "mechanism_switch",
+      "paired_seeds": 12,
+      "timing": "after",
+      "world1_minus_world0_shortcut": 0.0
+    },
+    {
+      "all_pairs_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "budget": 0,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family": "consistency",
+      "model": "shortcut",
+      "paired_seeds": 12,
+      "timing": "before",
+      "world1_minus_world0_shortcut": 0.0
+    },
+    {
+      "all_pairs_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "budget": 4,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family": "consistency",
+      "model": "shortcut",
+      "paired_seeds": 12,
+      "timing": "before",
+      "world1_minus_world0_shortcut": 0.0
+    },
+    {
+      "all_pairs_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "budget": 0,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family": "consistency",
+      "model": "shortcut",
+      "paired_seeds": 12,
+      "timing": "after",
+      "world1_minus_world0_shortcut": 0.0
+    },
+    {
+      "all_pairs_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "budget": 4,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family": "consistency",
+      "model": "shortcut",
+      "paired_seeds": 12,
+      "timing": "after",
+      "world1_minus_world0_shortcut": 0.0
+    },
+    {
+      "all_pairs_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "budget": 0,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family": "persistence",
+      "model": "shortcut",
+      "paired_seeds": 12,
+      "timing": "before",
+      "world1_minus_world0_shortcut": 0.0
+    },
+    {
+      "all_pairs_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "budget": 4,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family": "persistence",
+      "model": "shortcut",
+      "paired_seeds": 12,
+      "timing": "before",
+      "world1_minus_world0_shortcut": 0.0
+    },
+    {
+      "all_pairs_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "budget": 0,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family": "persistence",
+      "model": "shortcut",
+      "paired_seeds": 12,
+      "timing": "after",
+      "world1_minus_world0_shortcut": 0.0
+    },
+    {
+      "all_pairs_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "budget": 4,
+      "complete_pairs": 12,
+      "descriptive_paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family": "persistence",
+      "model": "shortcut",
+      "paired_seeds": 12,
+      "timing": "after",
+      "world1_minus_world0_shortcut": 0.0
+    }
+  ],
+  "excluded": 0,
+  "failed": 0,
+  "groups": [
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 0,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        0.24467602609811764,
+        0.6116533413477124
+      ],
+      "family": "consistency",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "blind",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 10,
+      "shortcut_missingness_bounds": [
+        0.4166666666666667,
+        0.4166666666666667
+      ],
+      "shortcut_rate_observed": 0.4166666666666667,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "after"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 4,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        0.24467602609811764,
+        0.6116533413477124
+      ],
+      "family": "consistency",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "blind",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 10,
+      "shortcut_missingness_bounds": [
+        0.4166666666666667,
+        0.4166666666666667
+      ],
+      "shortcut_rate_observed": 0.4166666666666667,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "after"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 0,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        0.24467602609811764,
+        0.6116533413477124
+      ],
+      "family": "consistency",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "blind",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 10,
+      "shortcut_missingness_bounds": [
+        0.4166666666666667,
+        0.4166666666666667
+      ],
+      "shortcut_rate_observed": 0.4166666666666667,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "before"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 4,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        0.24467602609811764,
+        0.6116533413477124
+      ],
+      "family": "consistency",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "blind",
+      "pre_reveal_accuracy_ties_half": 1.0,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 10,
+      "shortcut_missingness_bounds": [
+        0.4166666666666667,
+        0.4166666666666667
+      ],
+      "shortcut_rate_observed": 0.4166666666666667,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "before"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 4,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 24,
+          "world1_rate": 0.5
+        }
+      ],
+      "control": true,
+      "descriptive_wilson_interval_observed": [
+        0.24467602609811764,
+        0.6116533413477124
+      ],
+      "family": "consistency",
+      "final_accuracy_ties_half": 0.5,
+      "final_brier": 0.5,
+      "final_probability_n": 24,
+      "model": "blind",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 10,
+      "shortcut_missingness_bounds": [
+        0.4166666666666667,
+        0.4166666666666667
+      ],
+      "shortcut_rate_observed": 0.4166666666666667,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "before"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 0,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        0.11999366228595004,
+        0.44899444005154004
+      ],
+      "family": "persistence",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "blind",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 6,
+      "shortcut_missingness_bounds": [
+        0.25,
+        0.25
+      ],
+      "shortcut_rate_observed": 0.25,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "after"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 4,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        0.11999366228595004,
+        0.44899444005154004
+      ],
+      "family": "persistence",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "blind",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 6,
+      "shortcut_missingness_bounds": [
+        0.25,
+        0.25
+      ],
+      "shortcut_rate_observed": 0.25,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "after"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 0,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        0.11999366228595004,
+        0.44899444005154004
+      ],
+      "family": "persistence",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "blind",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 6,
+      "shortcut_missingness_bounds": [
+        0.25,
+        0.25
+      ],
+      "shortcut_rate_observed": 0.25,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "before"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 4,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        0.11999366228595004,
+        0.44899444005154004
+      ],
+      "family": "persistence",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "blind",
+      "pre_reveal_accuracy_ties_half": 1.0,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 6,
+      "shortcut_missingness_bounds": [
+        0.25,
+        0.25
+      ],
+      "shortcut_rate_observed": 0.25,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "before"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 4,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 24,
+          "world1_rate": 0.5
+        }
+      ],
+      "control": true,
+      "descriptive_wilson_interval_observed": [
+        0.11999366228595004,
+        0.44899444005154004
+      ],
+      "family": "persistence",
+      "final_accuracy_ties_half": 0.5,
+      "final_brier": 0.5,
+      "final_probability_n": 24,
+      "model": "blind",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 6,
+      "shortcut_missingness_bounds": [
+        0.25,
+        0.25
+      ],
+      "shortcut_rate_observed": 0.25,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "before"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 0,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        1.3877787807814457e-17,
+        0.13797620467498017
+      ],
+      "family": "consistency",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "compliant",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 0,
+      "shortcut_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "shortcut_rate_observed": 0.0,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "after"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 4,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        1.3877787807814457e-17,
+        0.13797620467498017
+      ],
+      "family": "consistency",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "compliant",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 0,
+      "shortcut_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "shortcut_rate_observed": 0.0,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "after"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 0,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        1.3877787807814457e-17,
+        0.13797620467498017
+      ],
+      "family": "consistency",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "compliant",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 0,
+      "shortcut_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "shortcut_rate_observed": 0.0,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "before"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 4,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        1.3877787807814457e-17,
+        0.13797620467498017
+      ],
+      "family": "consistency",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "compliant",
+      "pre_reveal_accuracy_ties_half": 1.0,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 0,
+      "shortcut_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "shortcut_rate_observed": 0.0,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "before"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 4,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 24,
+          "world1_rate": 0.5
+        }
+      ],
+      "control": true,
+      "descriptive_wilson_interval_observed": [
+        1.3877787807814457e-17,
+        0.13797620467498017
+      ],
+      "family": "consistency",
+      "final_accuracy_ties_half": 0.5,
+      "final_brier": 0.5,
+      "final_probability_n": 24,
+      "model": "compliant",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 0,
+      "shortcut_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "shortcut_rate_observed": 0.0,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "before"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 0,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        1.3877787807814457e-17,
+        0.13797620467498017
+      ],
+      "family": "persistence",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "compliant",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 0,
+      "shortcut_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "shortcut_rate_observed": 0.0,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "after"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 4,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        1.3877787807814457e-17,
+        0.13797620467498017
+      ],
+      "family": "persistence",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "compliant",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 0,
+      "shortcut_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "shortcut_rate_observed": 0.0,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "after"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 0,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        1.3877787807814457e-17,
+        0.13797620467498017
+      ],
+      "family": "persistence",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "compliant",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 0,
+      "shortcut_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "shortcut_rate_observed": 0.0,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "before"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 4,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        1.3877787807814457e-17,
+        0.13797620467498017
+      ],
+      "family": "persistence",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "compliant",
+      "pre_reveal_accuracy_ties_half": 1.0,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 0,
+      "shortcut_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "shortcut_rate_observed": 0.0,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "before"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 4,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 24,
+          "world1_rate": 0.5
+        }
+      ],
+      "control": true,
+      "descriptive_wilson_interval_observed": [
+        1.3877787807814457e-17,
+        0.13797620467498017
+      ],
+      "family": "persistence",
+      "final_accuracy_ties_half": 0.5,
+      "final_brier": 0.5,
+      "final_probability_n": 24,
+      "model": "compliant",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 0,
+      "shortcut_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "shortcut_rate_observed": 0.0,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "before"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 0,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        1.3877787807814457e-17,
+        0.13797620467498017
+      ],
+      "family": "consistency",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "mechanism_switch",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 0,
+      "shortcut_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "shortcut_rate_observed": 0.0,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "after"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 4,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        0.8620237953250198,
+        1.0
+      ],
+      "family": "consistency",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "mechanism_switch",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 24,
+      "shortcut_missingness_bounds": [
+        1.0,
+        1.0
+      ],
+      "shortcut_rate_observed": 1.0,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "after"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 0,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        1.3877787807814457e-17,
+        0.13797620467498017
+      ],
+      "family": "consistency",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "mechanism_switch",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 0,
+      "shortcut_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "shortcut_rate_observed": 0.0,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "before"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 4,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        0.3142742581957335,
+        0.6857257418042665
+      ],
+      "family": "consistency",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "mechanism_switch",
+      "pre_reveal_accuracy_ties_half": 1.0,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 12,
+      "shortcut_missingness_bounds": [
+        0.5,
+        0.5
+      ],
+      "shortcut_rate_observed": 0.5,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "before"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 4,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 24,
+          "world1_rate": 0.5
+        }
+      ],
+      "control": true,
+      "descriptive_wilson_interval_observed": [
+        0.8620237953250198,
+        1.0
+      ],
+      "family": "consistency",
+      "final_accuracy_ties_half": 0.5,
+      "final_brier": 0.5,
+      "final_probability_n": 24,
+      "model": "mechanism_switch",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 24,
+      "shortcut_missingness_bounds": [
+        1.0,
+        1.0
+      ],
+      "shortcut_rate_observed": 1.0,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "before"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 0,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        1.3877787807814457e-17,
+        0.13797620467498017
+      ],
+      "family": "persistence",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "mechanism_switch",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 0,
+      "shortcut_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "shortcut_rate_observed": 0.0,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "after"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 4,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        0.8620237953250198,
+        1.0
+      ],
+      "family": "persistence",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "mechanism_switch",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 24,
+      "shortcut_missingness_bounds": [
+        1.0,
+        1.0
+      ],
+      "shortcut_rate_observed": 1.0,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "after"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 0,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        1.3877787807814457e-17,
+        0.13797620467498017
+      ],
+      "family": "persistence",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "mechanism_switch",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 0,
+      "shortcut_missingness_bounds": [
+        0.0,
+        0.0
+      ],
+      "shortcut_rate_observed": 0.0,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "before"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 4,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        0.3142742581957335,
+        0.6857257418042665
+      ],
+      "family": "persistence",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "mechanism_switch",
+      "pre_reveal_accuracy_ties_half": 1.0,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 12,
+      "shortcut_missingness_bounds": [
+        0.5,
+        0.5
+      ],
+      "shortcut_rate_observed": 0.5,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "before"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 4,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 24,
+          "world1_rate": 0.5
+        }
+      ],
+      "control": true,
+      "descriptive_wilson_interval_observed": [
+        0.8620237953250198,
+        1.0
+      ],
+      "family": "persistence",
+      "final_accuracy_ties_half": 0.5,
+      "final_brier": 0.5,
+      "final_probability_n": 24,
+      "model": "mechanism_switch",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 24,
+      "shortcut_missingness_bounds": [
+        1.0,
+        1.0
+      ],
+      "shortcut_rate_observed": 1.0,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "before"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 0,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        0.8620237953250198,
+        1.0
+      ],
+      "family": "consistency",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "shortcut",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 24,
+      "shortcut_missingness_bounds": [
+        1.0,
+        1.0
+      ],
+      "shortcut_rate_observed": 1.0,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "after"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 4,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        0.8620237953250198,
+        1.0
+      ],
+      "family": "consistency",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "shortcut",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 24,
+      "shortcut_missingness_bounds": [
+        1.0,
+        1.0
+      ],
+      "shortcut_rate_observed": 1.0,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "after"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 0,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        0.8620237953250198,
+        1.0
+      ],
+      "family": "consistency",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "shortcut",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 24,
+      "shortcut_missingness_bounds": [
+        1.0,
+        1.0
+      ],
+      "shortcut_rate_observed": 1.0,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "before"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 4,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        0.8620237953250198,
+        1.0
+      ],
+      "family": "consistency",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "shortcut",
+      "pre_reveal_accuracy_ties_half": 1.0,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 24,
+      "shortcut_missingness_bounds": [
+        1.0,
+        1.0
+      ],
+      "shortcut_rate_observed": 1.0,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "before"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 4,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 24,
+          "world1_rate": 0.5
+        }
+      ],
+      "control": true,
+      "descriptive_wilson_interval_observed": [
+        0.8620237953250198,
+        1.0
+      ],
+      "family": "consistency",
+      "final_accuracy_ties_half": 0.5,
+      "final_brier": 0.5,
+      "final_probability_n": 24,
+      "model": "shortcut",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 24,
+      "shortcut_missingness_bounds": [
+        1.0,
+        1.0
+      ],
+      "shortcut_rate_observed": 1.0,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "before"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 0,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        0.8620237953250198,
+        1.0
+      ],
+      "family": "persistence",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "shortcut",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 24,
+      "shortcut_missingness_bounds": [
+        1.0,
+        1.0
+      ],
+      "shortcut_rate_observed": 1.0,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "after"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 4,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        0.8620237953250198,
+        1.0
+      ],
+      "family": "persistence",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "shortcut",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 24,
+      "shortcut_missingness_bounds": [
+        1.0,
+        1.0
+      ],
+      "shortcut_rate_observed": 1.0,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "after"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 0,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        0.8620237953250198,
+        1.0
+      ],
+      "family": "persistence",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "shortcut",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 24,
+      "shortcut_missingness_bounds": [
+        1.0,
+        1.0
+      ],
+      "shortcut_rate_observed": 1.0,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "before"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 4,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": 0.0,
+          "n": 12,
+          "world1_rate": 0.0
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 12,
+          "world1_rate": 1.0
+        }
+      ],
+      "control": false,
+      "descriptive_wilson_interval_observed": [
+        0.8620237953250198,
+        1.0
+      ],
+      "family": "persistence",
+      "final_accuracy_ties_half": 1.0,
+      "final_brier": 0.0,
+      "final_probability_n": 24,
+      "model": "shortcut",
+      "pre_reveal_accuracy_ties_half": 1.0,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 24,
+      "shortcut_missingness_bounds": [
+        1.0,
+        1.0
+      ],
+      "shortcut_rate_observed": 1.0,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "before"
+    },
+    {
+      "attempted": 24,
+      "behavior_missing": 0,
+      "behavior_observed": 24,
+      "budget": 4,
+      "calibration_bins": [
+        {
+          "hi": 0.2,
+          "lo": 0,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.4,
+          "lo": 0.2,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.6,
+          "lo": 0.4,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 0.8,
+          "lo": 0.6,
+          "mean_report": null,
+          "n": 0,
+          "world1_rate": null
+        },
+        {
+          "hi": 1,
+          "lo": 0.8,
+          "mean_report": 1.0,
+          "n": 24,
+          "world1_rate": 0.5
+        }
+      ],
+      "control": true,
+      "descriptive_wilson_interval_observed": [
+        0.8620237953250198,
+        1.0
+      ],
+      "family": "persistence",
+      "final_accuracy_ties_half": 0.5,
+      "final_brier": 0.5,
+      "final_probability_n": 24,
+      "model": "shortcut",
+      "pre_reveal_accuracy_ties_half": 0.5,
+      "pre_reveal_probability_n": 24,
+      "shortcut_count": 24,
+      "shortcut_missingness_bounds": [
+        1.0,
+        1.0
+      ],
+      "shortcut_rate_observed": 1.0,
+      "status_counts": {
+        "complete": 24
+      },
+      "timing": "before"
+    }
+  ],
+  "interval_warning": "Intervals are descriptive and not proof of equivalence, universality, mediation, or rare-risk certification.",
+  "llm_runs": 0,
+  "matched_input_pair_checks": 384,
+  "note": "Scripted mechanism validation. Seeds repeat mechanics; counts are not independent realistic environments.",
+  "scripted_episodes": 960,
+  "status": "passed"
+}

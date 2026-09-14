@@ -1,0 +1,19 @@
+{
+  "status": "passed_source_only",
+  "abstract_words": 150,
+  "planned_main_pages": 8,
+  "main_abstract_equals_source": true,
+  "main_sections": [
+    "1. Introduction",
+    "2. Related Work",
+    "3. Methods",
+    "4. Results",
+    "5. Discussion and Limitations",
+    "6. Conclusion",
+    "Code and Data"
+  ],
+  "original_report_files_unchanged": true,
+  "original_docx_template_geometry_matches": true,
+  "native_template_bytes_unchanged": true,
+  "revision_rendered": false
+}
