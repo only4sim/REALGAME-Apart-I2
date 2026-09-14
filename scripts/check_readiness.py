@@ -160,11 +160,14 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--config', type=Path, default=ROOT/'configs/halfday.json')
     ap.add_argument('--out', type=Path)
+    ap.add_argument('--build-only', action='store_true', help='Check document tooling without any inference or credential checks')
     args = ap.parse_args()
-    cfg = json.loads(args.config.read_text())
-    result = {'build': build_gates(), 'inference': inference_gates(cfg),
+    result = {'build': build_gates(),
               'network_calls': 0, 'provider_spending': 0,
               'status': 'preflight_only', 'scope': 'Local configuration and dependency checks; not provider or scientific validation.'}
+    if not args.build_only:
+        cfg = json.loads(args.config.read_text())
+        result['inference'] = inference_gates(cfg)
     text = json.dumps(result, indent=2)+'\n'
     if args.out:
         args.out.parent.mkdir(parents=True, exist_ok=True)

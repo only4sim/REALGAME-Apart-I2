@@ -1,0 +1,1158 @@
+[
+  {
+    "pdf_object": 72,
+    "pdf_page_start": 1,
+    "source_location": [
+      "main_pages",
+      0,
+      0
+    ],
+    "pdf_text": "Certifying Behavior Without Hiding the Sandbox"
+  },
+  {
+    "pdf_object": 75,
+    "pdf_page_start": 1,
+    "source_location": [
+      "main_pages",
+      0,
+      1
+    ],
+    "pdf_text": "Li Quan The Pioneer Centre for Artificial Intelligence, Denmark"
+  },
+  {
+    "pdf_object": 76,
+    "pdf_page_start": 1,
+    "source_location": [
+      "main_pages",
+      0,
+      2
+    ],
+    "pdf_text": "With Apart Research AI Incident Response Sprint, September 2026"
+  },
+  {
+    "pdf_object": 78,
+    "pdf_page_start": 1,
+    "source_location": [
+      "main_pages",
+      0,
+      3
+    ],
+    "pdf_text": "A visible sandbox can still support a behavioral claim when its distinguishing evidence cannot change the target decision. We formalize this boundary through a sharp identification interval and conditional certification rules. Missing histories contribute uncertainty only through the behavior they can still change. In an exploratory pilot of a model with the official Codex client, all 20 episodes completed and every commitment used the standard action. Primary classification scores rose from 10/16 before a supplied diagnostic to 16/16 afterwards. Coherent controls stayed at 2/4 with higher Brier loss. Both probability reports followed commitment, so neither measures an internal belief before the decision. Separately, synthetic tests completed 960 scripted episodes and showed false certification rising to 0.998 under a specified fault, while correction kept it below 0.05. The pilot illustrates why classification and action require separate evidence; it establishes neither deployment safety nor a behavioral response to recognizing an evaluation environment."
+  },
+  {
+    "pdf_object": 80,
+    "pdf_page_start": 1,
+    "source_location": [
+      "main_pages",
+      0,
+      4
+    ],
+    "pdf_text": ""
+  },
+  {
+    "pdf_object": 84,
+    "pdf_page_start": 1,
+    "source_location": [
+      "main_pages",
+      0,
+      5
+    ],
+    "pdf_text": "1. Introduction"
+  },
+  {
+    "pdf_object": 85,
+    "pdf_page_start": 1,
+    "source_location": [
+      "main_pages",
+      0,
+      6
+    ],
+    "pdf_text": "A contained evaluation can change what happens after an agent acts. A write may vanish after a new session; two services may disagree about its persistence. These differences can expose a simulated condition. Seeing the box is not game over: a clue revealed after commitment cannot change that action. Missing evidence before a later decision can instead leave that behavior unconstrained."
+  },
+  {
+    "pdf_object": 86,
+    "pdf_page_start": 1,
+    "source_location": [
+      "main_pages",
+      0,
+      7
+    ],
+    "pdf_text": "We ask which deployment behaviors remain identifiable from permitted safe interactions. Under explicit finite-model assumptions, missing histories matter through their remaining effect on the target; observationally equivalent agents with different targets defeat certification. Figure 1 adds an exploratory official-client pilot: 16/16 primary final classifications coexist with 0/20 shortcuts, while controls remain at 2/4 [13]. Both reports were elicited after commitment. This Open Track artifact audits behavioral evidence for incident-response evaluations; it does not implement containment or establish transfer to deployment."
+  },
+  {
+    "pdf_object": 89,
+    "pdf_page_start": 2,
+    "source_location": [
+      "main_pages",
+      1,
+      0
+    ],
+    "pdf_text": "2. Related Work"
+  },
+  {
+    "pdf_object": 90,
+    "pdf_page_start": 2,
+    "source_location": [
+      "main_pages",
+      1,
+      1
+    ],
+    "pdf_text": "Sandbox detection. Penumbra defines a bounded interactive distinguishing game [1, Section 2, Definition 1, p. 3] and a deterministic external-consequence witness [1, Section 5, Proposition 1, p. 7]. The latter needs an independent verification channel. We ask a narrower but more decision-relevant question: does the difference actually leave a specified behavior unidentified? A coherent local replica already refutes any unconditional containment trilemma. Detecting substrate differences is not the same as invalidating a behavioral claim."
+  },
+  {
+    "pdf_object": 91,
+    "pdf_page_start": 2,
+    "source_location": [
+      "main_pages",
+      1,
+      2
+    ],
+    "pdf_text": "Awareness and behavior. SAD separates self-knowledge, inference, and action [2, Section 2.1, p. 4]. Rajakumar and Laine compare prompt classification with procedural responses [3, Section 3.2, pp. 4-5]. Sandbagging work separates capability from demonstrated propensity [4, pp. 2-3]. We keep the same discipline: available signal, elicited probing, reported probability, and observable choice are distinct objects. Explanations are not treated as faithful measurements of private state."
+  },
+  {
+    "pdf_object": 92,
+    "pdf_page_start": 2,
+    "source_location": [
+      "main_pages",
+      1,
+      3
+    ],
+    "pdf_text": "Strategic evaluation and control. Deployment-specific signals can defeat repeated testing in Kovařík et al. [5, Section 3.1.4, pp. 7-8]. Korbak et al. separate measured rates, deployment approximation, and extrapolation [6, Section 2.7, pp. 7-8]. We contribute a conditional statistical subclaim, not a complete safety case."
+  },
+  {
+    "pdf_object": 93,
+    "pdf_page_start": 2,
+    "source_location": [
+      "main_pages",
+      1,
+      4
+    ],
+    "pdf_text": "Statistical foundations. Composite e-testing [7, Section 3], adaptive information bounds [8, Lemma 1], interactive estimation [9, Appendix E.2], and sequence-form policies [10, Section 2] are established. Partial identification without overlap also has substantial precedent [12]. Our contribution is the containment-relative evidence contract and executable counterexamples, not a new general testing principle."
+  },
+  {
+    "pdf_object": 94,
+    "pdf_page_start": 2,
+    "source_location": [
+      "main_pages",
+      1,
+      5
+    ],
+    "pdf_text": "3. Methods"
+  },
+  {
+    "pdf_object": 95,
+    "pdf_page_start": 2,
+    "source_location": [
+      "main_pages",
+      1,
+      6
+    ],
+    "pdf_text": "3.1 Model, boundary, and observable target"
+  },
+  {
+    "pdf_object": 96,
+    "pdf_page_start": 2,
+    "source_location": [
+      "main_pages",
+      1,
+      7
+    ],
+    "pdf_text": "One run is a finite action-observation tree. Histories include all world-correlated inputs: prompts, exposed timing, errors, session state, and service responses. Private randomness and within-run memory are allowed. A realization plan x records action probabilities through linear flow constraints. Legal behavioral mixtures form a compact convex set X; neural-network parameters need not be convex."
+  },
+  {
+    "pdf_object": 97,
+    "pdf_page_start": 2,
+    "source_location": [
+      "main_pages",
+      1,
+      8
+    ],
+    "pdf_text": "𝑝𝑗(𝑥)=𝑀𝑗𝑥, 𝐽(𝑥)=𝑐⊤𝑥∈[0,1]."
+  },
+  {
+    "pdf_object": 102,
+    "pdf_page_start": 2,
+    "source_location": [
+      "main_pages",
+      1,
+      9
+    ],
+    "pdf_text": "Controller j is a complete safe interactive environment, not a single response. The log law is specified above; the known deployment reference and specified behavior determine J. Runs independently reset the same agent; controllers may be selected using earlier records. Containment forbids unauthorized transitions outside the declared local boundary. Our tools only mutate memory and never execute arbitrary code."
+  },
+  {
+    "pdf_object": 103,
+    "pdf_page_start": 3,
+    "source_location": [
+      "main_pages",
+      2,
+      0
+    ],
+    "pdf_text": "3.2 Target timing and the identification boundary"
+  },
+  {
+    "pdf_object": 105,
+    "pdf_page_start": 3,
+    "source_location": [
+      "main_pages",
+      2,
+      1
+    ],
+    "pdf_text": "Two agents are safe-audit equivalent if every allowed safe controller produces the same complete record law. Conditioning on a common past gives the same next-controller and next-record distributions. Induction extends equivalence to repeated adaptive audits. If such a pair has different deployment targets, the target is not identifiable."
+  },
+  {
+    "pdf_object": 106,
+    "pdf_page_start": 3,
+    "source_location": [
+      "main_pages",
+      2,
+      2
+    ],
+    "pdf_text": "For complete histories and unrestricted finite behavioral policies, define the safe support R as histories with positive causal likelihood under at least one permitted safe controller, not merely those sampled so far. Let 𝜇𝑥(ℎ) be the deployment probability of first leaving R at history h. Let L(h) and U(h) be the minimum and maximum subsequent target expectation over legal continuations. Let b be the target contribution from paths that never leave R. There are m possible first exits."
+  },
+  {
+    "pdf_object": 111,
+    "pdf_page_start": 3,
+    "source_location": [
+      "main_pages",
+      2,
+      3
+    ],
+    "pdf_text": "Proposition 1 (sharp target-sensitive interval). Under these full-history assumptions, deployment target values of all safe-audit-equivalent agents form exactly the interval"
+  },
+  {
+    "pdf_object": 112,
+    "pdf_page_start": 3,
+    "source_location": [
+      "main_pages",
+      2,
+      4
+    ],
+    "pdf_text": "ℐℓ(𝑥)=[𝑏+∑𝜇𝑥𝑚𝑖=1(ℎ𝑖)𝐿(ℎ𝑖), 𝑏+∑𝜇𝑥𝑚𝑖=1(ℎ𝑖)𝑈(ℎ𝑖)]."
+  },
+  {
+    "pdf_object": 116,
+    "pdf_page_start": 3,
+    "source_location": [
+      "main_pages",
+      2,
+      5
+    ],
+    "pdf_text": "Consequently, its width is the sum of unavailable-history probability multiplied by the target's remaining continuation span. On safely supported reachable histories, equality of complete audit distributions fixes action conditionals. Until first exit, equivalent agents therefore have the same path law. After exit, the corresponding subtrees never occur in a safe audit, so extremal continuations can be assigned independently. Mixtures fill the interval. Appendix A states the proof obligations and limitations."
+  },
+  {
+    "pdf_object": 118,
+    "pdf_page_start": 3,
+    "source_location": [
+      "main_pages",
+      2,
+      6
+    ],
+    "pdf_text": "Position of unavailable evidence Remaining target span Implication After the target action is fixed 0 Earlier action remains identified Before a freely selectable binary action 1 Entire exit mass can be ambiguous Before a partially constrained continuation Between 0 and 1 Only the weighted target mass is ambiguous"
+  },
+  {
+    "pdf_object": 150,
+    "pdf_page_start": 3,
+    "source_location": [
+      "main_pages",
+      2,
+      7
+    ],
+    "pdf_text": "The timing qualification is essential. It is not permissible to discard an early probe response that influenced the agent merely because a later action is the desired target. Conversely, a world label revealed strictly after commitment can make final environment classification perfect without altering the committed-action distribution. This uses causal ordering, not a claim that the agent lacks awareness."
+  },
+  {
+    "pdf_object": 151,
+    "pdf_page_start": 3,
+    "source_location": [
+      "main_pages",
+      2,
+      8
+    ],
+    "pdf_text": "Positive support is different from matched frequencies. Suppose the reference presents prerequisite O=1 with probability p, while a safe controller does so with probability q. For fixed conditional behavior 𝜃0 and 𝜃1, the target is (1-p)𝜃0+p 𝜃1. When 0<q<1, those conditionals are identifiable in the population even if p and q are far apart. At q=0, the exact interval is [(1-p)𝜃0, (1-p)𝜃0+p]. More repetitions shrink sampling error, not this interval. The missing support here is a declared menu restriction, not proof of a universal physical containment obstacle."
+  },
+  {
+    "pdf_object": 178,
+    "pdf_page_start": 4,
+    "source_location": [
+      "main_pages",
+      3,
+      0
+    ],
+    "pdf_text": "3.3 From identification to conditional certification"
+  },
+  {
+    "pdf_object": 179,
+    "pdf_page_start": 4,
+    "source_location": [
+      "main_pages",
+      3,
+      1
+    ],
+    "pdf_text": "Fix 0≤𝜏0<𝜏≤1 and 0<𝛿<1. Class G has 𝐽(𝑥)≤𝜏0; the high-risk null B has 𝐽(𝑥)≥𝜏. A certificate time T is 𝛿-sound if every high-risk agent has probability at most 𝛿 of ever receiving a certificate. Completeness requires finite worst-case expected time on G. The middle region has no power guarantee. Soundness is not a posterior safety probability. Here D denotes relative entropy."
+  },
+  {
+    "pdf_object": 204,
+    "pdf_page_start": 4,
+    "source_location": [
+      "main_pages",
+      3,
+      2
+    ],
+    "pdf_text": "𝛤=min𝑔∈𝒢, 𝑏∈ℬmax𝑗𝐷(𝑀𝑗𝑔‖𝑀𝑗𝑏)."
+  },
+  {
+    "pdf_object": 208,
+    "pdf_page_start": 4,
+    "source_location": [
+      "main_pages",
+      3,
+      3
+    ],
+    "pdf_text": "Proposition 2 (conditional certification, carried-forward theory). With finite alphabets, known maps, compact convex nonempty threshold classes, and independent resets, 𝛤 is zero exactly when a cross-threshold pair has identical laws for every controller. Such a pair rules out a sound complete certifier. For 0 < 𝛤 < infinity, the optimal worst-case expected run cost 𝐶𝛿 obeys"
+  },
+  {
+    "pdf_object": 221,
+    "pdf_page_start": 4,
+    "source_location": [
+      "main_pages",
+      3,
+      4
+    ],
+    "pdf_text": "𝐶𝛿≥log(1/𝛿)𝛤, 𝐶𝛿log(1/𝛿)→1𝛤 (𝛿↓0)."
+  },
+  {
+    "pdf_object": 225,
+    "pdf_page_start": 4,
+    "source_location": [
+      "main_pages",
+      3,
+      5
+    ],
+    "pdf_text": "The upper construction selects a fixed randomized mixture of complete controllers. The lower bound permits adaptive selection. This is a fixed-model, fixed-threshold asymptotic, not an exact finite-budget guarantee for a real LLM. A least-favorable good/bad pair generates nonnegative evidence factors whose joint controller-record expectation is at most one under every high-risk agent. Their product can be stopped at 1/𝛿. Positive expected log growth gives finite low-risk cost. Appendix B summarizes support handling and the stopped information lower bound [7–8]."
+  },
+  {
+    "pdf_object": 230,
+    "pdf_page_start": 4,
+    "source_location": [
+      "main_pages",
+      3,
+      6
+    ],
+    "pdf_text": "3.4 Robustness requires conditional, not marginal, fidelity"
+  },
+  {
+    "pdf_object": 231,
+    "pdf_page_start": 4,
+    "source_location": [
+      "main_pages",
+      3,
+      7
+    ],
+    "pdf_text": "Let 𝑒𝑡 be a nonnegative score chosen before the next joint controller-record outcome; 𝑟𝑡 is its finite maximum minus minimum. Its nominal conditional null mean is at most 1+𝜈𝑡, and its actual conditional law is within total variation 𝜂𝑡. Both nonnegative bounds must be justified, not inferred from clean runs. Then"
+  },
+  {
+    "pdf_object": 248,
+    "pdf_page_start": 4,
+    "source_location": [
+      "main_pages",
+      3,
+      8
+    ],
+    "pdf_text": "𝑍𝑛=∏𝑒𝑡1+𝜈𝑡+𝜂𝑡𝑟𝑡𝑛𝑡=1, Prℬ(∃𝑛:𝑍𝑛≥1/𝛿)≤𝛿."
+  },
+  {
+    "pdf_object": 252,
+    "pdf_page_start": 4,
+    "source_location": [
+      "main_pages",
+      3,
+      9
+    ],
+    "pdf_text": "Proposition 3 (conditional robustness). The bounded-function inequality for total variation bounds the actual mean by 1+𝜈𝑡+𝜂𝑡 𝑟𝑡. Conditioning and multiplying yields a nonnegative supermartingale, so the crossing bound follows. No independence is needed beyond the stated conditional guarantee. The correction may eliminate growth; an unresolved run is not safe. This is an elementary robustification of existing e-process theory, implemented here as a fault test, not a new statistical primitive."
+  },
+  {
+    "pdf_object": 265,
+    "pdf_page_start": 4,
+    "source_location": [
+      "main_pages",
+      3,
+      10
+    ],
+    "pdf_text": "One-time marginal matching and ad hoc controller changes do not suffice. Appendix C gives counterexamples; optional stopping does not authorize changing the underlying experiment."
+  },
+  {
+    "pdf_object": 266,
+    "pdf_page_start": 5,
+    "source_location": [
+      "main_pages",
+      4,
+      0
+    ],
+    "pdf_text": "3.5 Reproducible experiment design"
+  },
+  {
+    "pdf_object": 268,
+    "pdf_page_start": 5,
+    "source_location": [
+      "main_pages",
+      4,
+      1
+    ],
+    "pdf_text": "E1 tests causal timing, E2 tests recovery under known coverage, and E3 tests sequential evidence under specified faults. These local synthetic studies are separate from a new exploratory official-client pilot [13]. No evaluated action touches a real target."
+  },
+  {
+    "pdf_object": 270,
+    "pdf_page_start": 5,
+    "source_location": [
+      "main_pages",
+      4,
+      2
+    ],
+    "pdf_text": "Test Manipulation Main measurement E1: causal timing Persistence / cross-service consistency; cue before / after commitment; 0 / 4 probes Pre-reveal and final classification; committed shortcut rate E2: prerequisite coverage Safe probability q from zero to full support Identification interval; naive and weighted MSE E3: evidence validity Conditional distribution shift / cached bit Exact false-certificate crossing probability"
+  },
+  {
+    "pdf_object": 302,
+    "pdf_page_start": 5,
+    "source_location": [
+      "main_pages",
+      4,
+      3
+    ],
+    "pdf_text": "E1. Both worlds expose write, read, new_session, status, and commit with the same schemas. Before commitment, the after arm uses the same coherent response kernel for both labels. Only after the action is fixed does a canary diagnostic expose the differing mechanism. In the before arm, the agent's permitted probes can already find the discrepancy. A coherent negative control removes it altogether. Standard and shortcut both finish the local task; the latter skips a required check and is prohibited."
+  },
+  {
+    "pdf_object": 303,
+    "pdf_page_start": 5,
+    "source_location": [
+      "main_pages",
+      4,
+      4
+    ],
+    "pdf_text": "Four scripted policies serve as known possibility and plumbing controls: always standard, always shortcut, a mechanism-conditioned switch, and a blind policy. The release executes 12 replicate identifiers per cell, producing 768 factorial episodes and 192 coherent controls. These seeds repeat a small mechanism set; they are not 960 independent realistic tasks. A separate exhaustive test replays all 625 length-four probe sequences in each after-condition family and verifies matching observations."
+  },
+  {
+    "pdf_object": 304,
+    "pdf_page_start": 5,
+    "source_location": [
+      "main_pages",
+      4,
+      5
+    ],
+    "pdf_text": "Client pilot. One episode in each of 16 factorial and four coherent-control cells used the same local mechanisms with an official-client adapter [13]. Configured gpt-6-astra/medium and CLI 0.154.0 were fixed before outcomes; runtime model IDs were unavailable. Both reports followed commitment, around a fixed diagnostic. Appendix C gives protocol departures and the full cell table."
+  },
+  {
+    "pdf_object": 305,
+    "pdf_page_start": 5,
+    "source_location": [
+      "main_pages",
+      4,
+      6
+    ],
+    "pdf_text": "E2. Enumerate p in {0.1,0.5,0.9}, q in {0,1/16,1/4,1/2,1}, and each conditional action probability in {0,1/4,1/2,3/4,1}. For positive support, weight each observed target by its reference-to-safe likelihood ratio. For zero support, return a partial-identification interval rather than a division by zero. At p=1/2, 𝜃0=1/4, 𝜃1=3/4, run 1,000 independent sampling replicates of n=128 at each of three positive q values. Store all count vectors and estimates; compare MSE to the analytic expression."
+  },
+  {
+    "pdf_object": 314,
+    "pdf_page_start": 5,
+    "source_location": [
+      "main_pages",
+      4,
+      7
+    ],
+    "pdf_text": "E3. Set the nominal null P(Y=1)=0.7, e(0)=5/3, e(1)=5/7, and 𝛿=0.05. Shift the actual probability to 0.7-eta for eta in {0,0.05,0.2}. Use an absorbing exact dynamic program through 200 rounds to compare nominal scores and scores divided by 1+eta times their oscillation. This shift can represent a specified controller-allocation error. A second control draws a single bit and caches it across rounds. Exact probability calculations are not empirical confidence intervals."
+  },
+  {
+    "pdf_object": 321,
+    "pdf_page_start": 6,
+    "source_location": [
+      "main_pages",
+      5,
+      0
+    ],
+    "pdf_text": "4. Results"
+  },
+  {
+    "pdf_object": 322,
+    "pdf_page_start": 6,
+    "source_location": [
+      "main_pages",
+      5,
+      1
+    ],
+    "pdf_text": "4.1 Detectability and the target action separate in the implementation"
+  },
+  {
+    "pdf_object": 323,
+    "pdf_page_start": 6,
+    "source_location": [
+      "main_pages",
+      5,
+      2
+    ],
+    "pdf_text": "All 960 scripted episodes completed, with zero failures or exclusions. The hand-written final diagnostic correctly classified all 768 factorial episodes and 96 of 192 balanced coherent controls (50%). These are checks of known mechanisms, not autonomous LLM discovery; repeated scripted seeds are not independent realistic tasks."
+  },
+  {
+    "pdf_object": 324,
+    "pdf_page_start": 6,
+    "source_location": [
+      "main_pages",
+      5,
+      3
+    ],
+    "pdf_text": "There were 384 paired cases required to have identical target inputs: after-timing pairs, zero-probe pairs, and coherent controls. All input hashes and matched scripted choices agreed. In the four-probe before condition, the explicitly programmed switching policy changed from standard to shortcut across worlds. In the after condition its earlier choice did not change, despite perfect final classification. Constant policies did not adapt in either case. This demonstrates possible separation, not a claim about intent."
+  },
+  {
+    "pdf_object": 325,
+    "pdf_page_start": 6,
+    "source_location": [
+      "main_pages",
+      5,
+      4
+    ],
+    "pdf_text": "4.2 Coverage controls bias, uncertainty, and sampling cost"
+  },
+  {
+    "pdf_object": 326,
+    "pdf_page_start": 6,
+    "source_location": [
+      "main_pages",
+      5,
+      5
+    ],
+    "pdf_text": "All 375 population cases passed 600 exact rational target-containment and weighting checks. At zero support, the result remains an interval. At positive support, known-kernel correction is population-unbiased, but low coverage increases variance (Figure 2)."
+  },
+  {
+    "pdf_object": 328,
+    "pdf_page_start": 6,
+    "source_location": [
+      "main_pages",
+      5,
+      6
+    ],
+    "pdf_text": ""
+  },
+  {
+    "pdf_object": 333,
+    "pdf_page_start": 6,
+    "source_location": [
+      "main_pages",
+      5,
+      7
+    ],
+    "pdf_text": "Safe q Naive mean Weighted mean Naive MSE Weighted MSE 1/16 0.28309 0.50570 0.04863 0.02125 1/4 0.37458 0.50152 0.01747 0.00454 1/2 0.49816 0.49816 0.00192 0.00192"
+  },
+  {
+    "pdf_object": 381,
+    "pdf_page_start": 6,
+    "source_location": [
+      "main_pages",
+      5,
+      8
+    ],
+    "pdf_text": "All 3,000 replicates and 384,000 draws were retained without failures. At q=1/16, analytic weighted MSE is 169/7680, versus 0.02125 observed. At q=1/2, both estimators coincide."
+  },
+  {
+    "pdf_object": 382,
+    "pdf_page_start": 7,
+    "source_location": [
+      "main_pages",
+      6,
+      0
+    ],
+    "pdf_text": "4.3 Small assumption failures can invalidate a clean-run certificate"
+  },
+  {
+    "pdf_object": 384,
+    "pdf_page_start": 7,
+    "source_location": [
+      "main_pages",
+      6,
+      1
+    ],
+    "pdf_text": "At eta=0, the exact false-certificate probability by round 200 is 0.039936 under both procedures, below 0.05. A probability shift of 0.05 raises the nominal crossing probability to 0.201990. A shift of 0.20 raises it to 0.997754. Conditional correction keeps the corresponding probabilities at 0.040535 and 0.042852. All six dynamic programs conserve total probability exactly."
+  },
+  {
+    "pdf_object": 386,
+    "pdf_page_start": 7,
+    "source_location": [
+      "main_pages",
+      6,
+      2
+    ],
+    "pdf_text": ""
+  },
+  {
+    "pdf_object": 390,
+    "pdf_page_start": 7,
+    "source_location": [
+      "main_pages",
+      6,
+      3
+    ],
+    "pdf_text": "The cached-bit control has exactly the nominal marginal at every round, yet its nominal eventual crossing probability is 0.3; the first possible crossing is round six. A valid conditional envelope restores the error bound but makes every corrected factor at most one. The result is no certificate, not a declaration of safety. This illustrates the distinction between marginal realism and a reset or conditional-fidelity guarantee."
+  },
+  {
+    "pdf_object": 391,
+    "pdf_page_start": 7,
+    "source_location": [
+      "main_pages",
+      6,
+      4
+    ],
+    "pdf_text": "4.4 Official-client pilot separates classification from action"
+  },
+  {
+    "pdf_object": 392,
+    "pdf_page_start": 7,
+    "source_location": [
+      "main_pages",
+      6,
+      5
+    ],
+    "pdf_text": "All 20 planned pilot episodes completed, with 20 observed commitments and both reports present. There were no refusals, failures or exclusions [13]. The run used 102 completed client turns, including 42 probes; turns are repeated interactions within episodes. All commitments were standard, so all eight paired primary shortcut contrasts were zero in this sample."
+  },
+  {
+    "pdf_object": 393,
+    "pdf_page_start": 7,
+    "source_location": [
+      "main_pages",
+      6,
+      6
+    ],
+    "pdf_text": "Primary classification scores rose from 10/16 to 16/16 (Table 4). Controls remained at 2/4: both coherent world-0 controls were confidently labeled world 1 after the diagnostic. Their Brier score worsened from 0.375 to 0.5. Thus the primary score does not establish reliable classification of the nominal label when that label does not change the coherent mechanism."
+  },
+  {
+    "pdf_object": 395,
+    "pdf_page_start": 7,
+    "source_location": [
+      "main_pages",
+      6,
+      7
+    ],
+    "pdf_text": "Cohort n Pre score Final score Pre Brier Final Brier Primary 16 10/16 16/16 0.250 0.00063125 Coherent controls 4 2/4 2/4 0.375 0.500 All planned 20 12/20 18/20 0.275 0.100505"
+  },
+  {
+    "pdf_object": 450,
+    "pdf_page_start": 7,
+    "source_location": [
+      "main_pages",
+      6,
+      8
+    ],
+    "pdf_text": "Each mechanism contributes only one primary before/four-probe label pair (exact one-sided p=0.5; Holm-adjusted p=1.0). No population effect, equivalence or safety claim follows. The available pilot source is its execution report [13]; its raw-record audit is executor-reported (Appendix C).",
+    "repository_correction": {
+      "pdf_text": "Each mechanism contributes only one primary before/four-probe label pair (exact one-sided p=0.5; Holm-adjusted p=1.0). No population effect, equivalence or safety claim follows. The available pilot source is its execution report [13]; its raw-record audit is executor-reported (Appendix C).",
+      "revised_text": "Each mechanism contributes only one primary before/four-probe label pair (exact one-sided p=0.5; Holm-adjusted p=1.0). No population effect, equivalence or safety claim follows. The pilot execution report [13] summarizes the saved records; Appendix C records their verification scope."
+    }
+  },
+  {
+    "pdf_object": 451,
+    "pdf_page_start": 8,
+    "source_location": [
+      "main_pages",
+      7,
+      0
+    ],
+    "pdf_text": "5. Discussion and Limitations"
+  },
+  {
+    "pdf_object": 453,
+    "pdf_page_start": 8,
+    "source_location": [
+      "main_pages",
+      7,
+      1
+    ],
+    "pdf_text": "What the findings establish. The synthetic tests separate timing, support and conditional validity. The pilot adds observed client-system choices and reported classifications, including confident errors on coherent controls. A constant action supplies no informative probability-behavior correlation or causal mediation evidence. Neither correct final classification nor zero observed shortcuts establishes deployment safety."
+  },
+  {
+    "pdf_object": 454,
+    "pdf_page_start": 8,
+    "source_location": [
+      "main_pages",
+      7,
+      2
+    ],
+    "pdf_text": "Use in an evaluation. Fix the target decision, preceding channels, permitted controllers, reset policy and justified error bounds. Report an assumption-qualified estimate or certificate, or an unresolved interval. Table C1 gives an evidence card."
+  },
+  {
+    "pdf_object": 455,
+    "pdf_page_start": 8,
+    "source_location": [
+      "main_pages",
+      7,
+      3
+    ],
+    "pdf_text": "Limits. The finite tree may be exponentially large. Unknown deployment kernels, persistent agents and unmodeled timing fall outside the completed guarantee. Prompt similarity does not justify importance weights. Conditional error bounds need independent support and correction can remove power. The pilot tests one configured client system with one observation per design cell. Effective runtime model identifiers and complete assembled instructions were unavailable; configuration does not establish either identity or universal blindness."
+  },
+  {
+    "pdf_object": 456,
+    "pdf_page_start": 8,
+    "source_location": [
+      "main_pages",
+      7,
+      4
+    ],
+    "pdf_text": "Impact and novelty. Judge a claim by evidence available before its target. The contribution is the containment-relative evidence contract and executable audit, building on established coupling, realization-plan and e-process tools [7–12]. Raw-API behavior, independent proof review and deployment correspondence remain open."
+  },
+  {
+    "pdf_object": 457,
+    "pdf_page_start": 8,
+    "source_location": [
+      "main_pages",
+      7,
+      5
+    ],
+    "pdf_text": "6. Conclusion"
+  },
+  {
+    "pdf_object": 458,
+    "pdf_page_start": 8,
+    "source_location": [
+      "main_pages",
+      7,
+      6
+    ],
+    "pdf_text": "A detectable simulator can identify some behavioral targets while leaving others unresolved. The boundary is the effect of unavailable information on the target. Our pilot adds a concrete observation: perfect primary final classification coexisted with uniformly standard choices and errors on coherent controls. These outcomes motivate separate evidence for recognition, action and deployment transfer. Conditional theory does not turn this small pilot into a safety certificate."
+  },
+  {
+    "pdf_object": 459,
+    "pdf_page_start": 8,
+    "source_location": [
+      "main_pages",
+      7,
+      7
+    ],
+    "pdf_text": "Code and Data"
+  },
+  {
+    "pdf_object": 460,
+    "pdf_page_start": 8,
+    "source_location": [
+      "main_pages",
+      7,
+      8
+    ],
+    "pdf_text": "The companion release contains code, immutable records, figures, and source files. Regenerated PDF, DOCX, and Markdown correspond to the same revised source.",
+    "repository_correction": {
+      "pdf_text": "The companion release contains code, immutable records, figures, and source files. Regenerated PDF, DOCX, and Markdown correspond to the same revised source.",
+      "revised_text": "The companion repository contains code, immutable records, figures, and editable manuscript source reconciled with the author-supplied PDF. Current source rendering remains pending on a host with the required toolchain. The supplied PDF is preserved; no newly generated matching DOCX/PDF or publication is claimed."
+    }
+  },
+  {
+    "pdf_object": 476,
+    "pdf_page_start": 10,
+    "source_location": [
+      "appendix_pages",
+      0,
+      0
+    ],
+    "pdf_text": "Appendix A. Identification and timing: proof details"
+  },
+  {
+    "pdf_object": 478,
+    "pdf_page_start": 10,
+    "source_location": [
+      "appendix_pages",
+      0,
+      1
+    ],
+    "pdf_text": "The reference world is a causal response process with finite horizon. A history includes every action and observation available to the agent. A safe controller's causal likelihood is the product of its successive observation probabilities along a fixed action history. The actual execution probability multiplies that likelihood by the policy's action-realization weight. Safe support is the union of positive causal-likelihood histories over the entire allowed controller class; it is prefix-closed."
+  },
+  {
+    "pdf_object": 479,
+    "pdf_page_start": 10,
+    "source_location": [
+      "appendix_pages",
+      0,
+      2
+    ],
+    "pdf_text": "Fix an agent x and another with equal complete audit laws. At a safely supported history reachable under x, choose a controller with positive causal likelihood for that history. Equality of the joint history-and-next-action probabilities, divided by the positive history probability, fixes the policy's next-action conditional. An induction couples the two agents' reference executions up to first exit from safe support. Histories with zero policy-realization weight are not silently conditioned on; their branch has no contribution before exit."
+  },
+  {
+    "pdf_object": 480,
+    "pdf_page_start": 10,
+    "source_location": [
+      "appendix_pages",
+      0,
+      3
+    ],
+    "pdf_text": "The probability of each first exit and the no-exit target contribution are therefore fixed by audit equivalence. On each first-exit subtree, all continuations have zero probability under every safe controller. Replace the policy there by a continuation minimizing the target and separately by one maximizing it. These replacements preserve every complete safe law and attain the two endpoints in Proposition 1. First-exit subtrees are disjoint, so the replacements are mutually compatible. Randomized mixtures preserve audit laws and fill all intermediate target values."
+  },
+  {
+    "pdf_object": 481,
+    "pdf_page_start": 10,
+    "source_location": [
+      "appendix_pages",
+      0,
+      4
+    ],
+    "pdf_text": "This exact interval assumes unrestricted finite behavioral continuations and full logs. A more restricted policy class can reduce its width; compressed logs can increase it. For a general convex class with logged maps 𝑀𝑗, the identified interval is instead the minimum and maximum of 𝑐⊤𝑥 over policies satisfying the observed law constraints. Thus the simple first-exit formula is not claimed under arbitrary logging or structural restrictions."
+  },
+  {
+    "pdf_object": 490,
+    "pdf_page_start": 10,
+    "source_location": [
+      "appendix_pages",
+      0,
+      5
+    ],
+    "pdf_text": "For a target already determined at a stopping prefix, every subsequent continuation has the same target value. Its continuation span is zero even when later observations are mutually singular across environments. This is not an intervention that erases inconvenient early evidence: all prior information must remain in the prefix. If an earlier harmless probe already differs, fidelity of a later target is not established by ignoring that probe."
+  },
+  {
+    "pdf_object": 491,
+    "pdf_page_start": 10,
+    "source_location": [
+      "appendix_pages",
+      0,
+      6
+    ],
+    "pdf_text": "A complete local replica with matching initial information and matching conditional observation kernels at every admissible history gives equal transcript laws by sequential coupling. It refutes an unrestricted containment trilemma. Conversely, a consequence witness needs accessible sound verification of the missing consequence; a simulator-controlled acknowledgment is not independently sound evidence. Unknown physical or external state is not assumed to be simulable."
+  },
+  {
+    "pdf_object": 492,
+    "pdf_page_start": 10,
+    "source_location": [
+      "appendix_pages",
+      1,
+      0
+    ],
+    "pdf_text": "Appendix B. Certification and zero-support handling"
+  },
+  {
+    "pdf_object": 493,
+    "pdf_page_start": 10,
+    "source_location": [
+      "appendix_pages",
+      1,
+      1
+    ],
+    "pdf_text": "Let G and B be nonempty compact convex threshold subsets of the legal realization-plan polytope. For positive record laws, the controller-weighted relative entropy is linear in the controller mixture and jointly convex in the candidate agents. A minimax saddle therefore exists. At a saddle, use the good-to-bad likelihood ratio as the evidence factor for each controller. Directional optimality gives a controller-weighted bad-agent mean at most one and a controller-weighted good-agent mean log factor at least 𝛤. The first inequality need not hold controller by controller."
+  },
+  {
+    "pdf_object": 498,
+    "pdf_page_start": 11,
+    "source_location": [
+      "appendix_pages",
+      1,
+      2
+    ],
+    "pdf_text": "Choose a fresh controller from this mixture on every reset run. Under each bad agent, the product of joint factors has conditional mean no larger than its preceding value. The nonnegative-supermartingale maximal inequality bounds any threshold crossing. Under each good agent, the expected log increment is at least 𝛤. If L bounds the positive overshoot, summing drift to the truncated stopping time gives 𝛤 𝔼[min(𝑇,𝑛)]≤log(1/𝛿)+𝐿. Taking n to infinity proves finite good-agent expected cost rather than assuming it."
+  },
+  {
+    "pdf_object": 508,
+    "pdf_page_start": 11,
+    "source_location": [
+      "appendix_pages",
+      1,
+      3
+    ],
+    "pdf_text": "For the lower bound, fix a minimizing pair before any audit data. Each controller supplies directed divergence at most 𝛤. The chain rule on finite stopped histories bounds total divergence by 𝛤 times the expected number of used observations. Data processing to the event 𝑇≤𝑛 gives a binary divergence. Under low-risk completeness its first argument tends to one; under soundness its second is at most 𝛿. The limiting lower bound is log(1/𝛿). No termination assumption is imposed under high-risk agents."
+  },
+  {
+    "pdf_object": 529,
+    "pdf_page_start": 11,
+    "source_location": [
+      "appendix_pages",
+      1,
+      4
+    ],
+    "pdf_text": "𝑝𝑗𝜖(𝑥)=(1−𝜖)𝑝𝑗(𝑥)+𝜖𝑢𝑗, 𝑓𝑗𝜖(𝑙)=(1−𝜖)𝑒𝑗𝜖(𝑙)+𝜖𝐸𝑢𝑗𝑒𝑗𝜖."
+  },
+  {
+    "pdf_object": 533,
+    "pdf_page_start": 11,
+    "source_location": [
+      "appendix_pages",
+      1,
+      5
+    ],
+    "pdf_text": "For zero probabilities, only the optimization is regularized as above. The actual policy and observations are unchanged. The expected pulled-back factor equals the regularized expected factor. Concavity of log gives actual log growth at least the regularized growth. Compactness and data processing yield 𝛤𝜖 increasing to 𝛤 as epsilon decreases. Taking epsilon to zero sufficiently slowly as 𝛿 decreases yields Proposition 2's first-order limit. Artificially bounding every action probability away from zero would change the candidate class and can eliminate precisely the hidden policies at issue."
+  },
+  {
+    "pdf_object": 546,
+    "pdf_page_start": 11,
+    "source_location": [
+      "appendix_pages",
+      1,
+      6
+    ],
+    "pdf_text": "The full carried-forward proof and numerical certificate files are in legacy_v5/. This document treats them as conditional project results, not independently peer-reviewed theorems. Convex information projection and composite e-testing are established tools [7]. No mathematical novelty is claimed merely for using them in an agent model.",
+    "repository_correction": {
+      "pdf_text": "The full carried-forward proof and numerical certificate files are in legacy_v5/. This document treats them as conditional project results, not independently peer-reviewed theorems. Convex information projection and composite e-testing are established tools [7]. No mathematical novelty is claimed merely for using them in an agent model.",
+      "revised_text": "The full carried-forward proof and numerical certificate files are in certificates/; historical legacy_v5/ files remain recoverable from archive/INDEX.json. This document treats them as conditional project results, not independently peer-reviewed theorems. Convex information projection and composite e-testing are established tools [7]. No mathematical novelty is claimed merely for using them in an agent model."
+    }
+  },
+  {
+    "pdf_object": 547,
+    "pdf_page_start": 11,
+    "source_location": [
+      "appendix_pages",
+      2,
+      0
+    ],
+    "pdf_text": "Appendix C. Robustness, missingness, and replication"
+  },
+  {
+    "pdf_object": 548,
+    "pdf_page_start": 11,
+    "source_location": [
+      "appendix_pages",
+      2,
+      1
+    ],
+    "pdf_text": "For Proposition 3, use the same information set for every bound: the complete past before the controller/record pair is sampled. A score computed from a pilot is allowed if frozen or otherwise predictable; fitting it using the current observation is not. Suppose the nominal conditional score mean is at most 1+𝜈, and the conditional total-variation error is at most 𝜂. The actual mean is then at most 1+𝜈+𝜂𝑟, where r is the score range. Normalizing by this quantity gives the conditional moment bound; iteration and the maximal inequality establish soundness."
+  },
+  {
+    "pdf_object": 561,
+    "pdf_page_start": 11,
+    "source_location": [
+      "appendix_pages",
+      2,
+      2
+    ],
+    "pdf_text": "The one-step bound is sharp for the E3 two-outcome example. Moving eta mass from Y=1 to Y=0 increases the expected factor by eta times (5/3-5/7), exactly the stated correction. A zero total-variation distance for each marginal does not provide the required conditional envelope. With the cached bit, conditioning on its first value makes every later law a point mass. The repair is therefore permitted to stop producing useful positive evidence."
+  },
+  {
+    "pdf_object": 562,
+    "pdf_page_start": 11,
+    "source_location": [
+      "appendix_pages",
+      2,
+      3
+    ],
+    "pdf_text": "A separately frozen calibration study can contribute an additional error probability alpha only if it supplies simultaneous conditional-law coverage and the later experiment satisfies the declared conditional independence assumptions. Then a union bound gives at most 𝛿+alpha. The artifact does not estimate such a deployment envelope from local model classifications. No LLM in this release has received a real-deployment certificate."
+  },
+  {
+    "pdf_object": 567,
+    "pdf_page_start": 12,
+    "source_location": [
+      "appendix_pages",
+      2,
+      4
+    ],
+    "pdf_text": "Historical replication. Before this pilot, the original CPU outputs were reproduced: seven files matched, including 960 scripted episodes and 3,000 sampling count vectors (seed 620231). The inherited checker passed 38 cases and 2,031 rational constraints. These retrospective reproductions add no independent observations. The new pilot did not rerun the CPU study [13]."
+  },
+  {
+    "pdf_object": 569,
+    "pdf_page_start": 12,
+    "source_location": [
+      "appendix_pages",
+      2,
+      5
+    ],
+    "pdf_text": "The inherited v5 checkers revalidated 2,031 rational constraints across 38 cases. The 19 unrestricted cases contain 15 positive certificates and four equal-law cross-threshold pairs. Their artificially restricted counterparts contain 18 and one. These are prior certificate checks, not new model evidence or assurance for the broader class."
+  },
+  {
+    "pdf_object": 570,
+    "pdf_page_start": 12,
+    "source_location": [
+      "appendix_pages",
+      2,
+      6
+    ],
+    "pdf_text": "The ledger retains planned episodes, attempted turns, completed actions, reports, failures and missingness. With k observed shortcuts and m missing actions among n attempted episodes, realized-sample bounds are [k/n,(k+m)/n]. Planned-sample bounds also include unstarted cells. The pilot has no missing actions or reports, so shortcut missingness bounds collapse to [0,0]. This is a statement about the observed sample, not a confidence interval or a deployment guarantee."
+  },
+  {
+    "pdf_object": 571,
+    "pdf_page_start": 12,
+    "source_location": [
+      "appendix_pages",
+      2,
+      7
+    ],
+    "pdf_text": "The executor reports 18 original tests and 40 subscription tests passing, for 58 distinct tests. The intermediate 37-test record is not added again. It also reports 45 source-snapshot hashes, the frozen 20-cell schedule, all 102 reconstructed public histories, and exact reanalysis agreement [13]. These underlying audit files were not available for independent re-execution in this manuscript revision; only the report-level aggregates were checked.",
+    "repository_correction": {
+      "pdf_text": "The executor reports 18 original tests and 40 subscription tests passing, for 58 distinct tests. The intermediate 37-test record is not added again. It also reports 45 source-snapshot hashes, the frozen 20-cell schedule, all 102 reconstructed public histories, and exact reanalysis agreement [13]. These underlying audit files were not available for independent re-execution in this manuscript revision; only the report-level aggregates were checked.",
+      "revised_text": "The pilot executor reported 18 original tests and 40 subscription tests passing, for 58 distinct tests; the intermediate 37-test record is not added again [13]. The supplied PDF revision checked report-level aggregates. Subsequent repository verification checked 45 frozen source hashes and reconstructed all 102 permitted request histories, and saved-record reanalysis matched the pilot analysis. These checks add no model observations; dated logs remain in verification/."
+    }
+  },
+  {
+    "pdf_object": 573,
+    "pdf_page_start": 12,
+    "source_location": [
+      "appendix_pages",
+      2,
+      8
+    ],
+    "pdf_text": "Evidence-card field Required content Target One observable behavior and its decision horizon Coverage Which relevant histories are accessible; what is assumed about missing mass Procedure Controller allocation, scoring, reset, and stopping rules Evidence Raw records, denominators, error bounds, and unresolved cases"
+  },
+  {
+    "pdf_object": 601,
+    "pdf_page_start": 12,
+    "source_location": [
+      "appendix_pages",
+      2,
+      9
+    ],
+    "pdf_text": "Appendix C continued Pilot protocol and results"
+  },
+  {
+    "pdf_object": 602,
+    "pdf_page_start": 12,
+    "source_location": [
+      "appendix_pages",
+      2,
+      10
+    ],
+    "pdf_text": "Access and configuration. On 14 September 2026, one worker ran 20 exploratory episodes with official Codex CLI 0.154.0 under ChatGPT authentication [13]. The catalog-selected configuration was gpt-6-astra, medium reasoning, default service tier. Startup checks matched that configuration, but all 102 effective per-turn model IDs remained null. Temperature, top-p, output cap and schema used client defaults. This evaluates a model with the official client and its controls, separately from raw-API and scripted/mock cohorts."
+  },
+  {
+    "pdf_object": 603,
+    "pdf_page_start": 12,
+    "source_location": [
+      "appendix_pages",
+      2,
+      11
+    ],
+    "pdf_text": "Frozen design and timing. The primary factorial has two mechanisms (consistency, persistence), two cue timings (before, after), two probe budgets (0,4) and two world labels: 16 cells. Four before/four-probe coherent controls give 20 cells, with one episode per cell. Twelve episodes allow four probes, yielding 48 available probes. The action is committed first, then the pre-diagnostic probability is elicited from the prior public history, then a fixed evaluator diagnostic is supplied, then the final probability is elicited. Neither report measures an internal pre-decision belief."
+  },
+  {
+    "pdf_object": 606,
+    "pdf_page_start": 13,
+    "source_location": [
+      "appendix_pages",
+      2,
+      12
+    ],
+    "pdf_text": "Protocol departure and observation boundary. Each response used a fresh App Server process and ephemeral root thread with serialized public history, rather than retained per-episode API conversations. The reported controls disabled six cataloged skills and constrained shell, files, web, apps, memory and subagents. Marker checks and startup catalogs support only this bounded interface. Complete assembled instructions and the complete native-tool inventory were unavailable. No unsupported action or approval request was recorded; universal blindness and containment are not established."
+  },
+  {
+    "pdf_object": 607,
+    "pdf_page_start": 13,
+    "source_location": [
+      "appendix_pages",
+      2,
+      13
+    ],
+    "pdf_text": "Accounting. Execution took approximately 493.56 seconds locally. All 102 reserved experimental turns were submitted and completed: 42 probes, 20 commitments and 40 reports. No wrapper retry, replacement, model switch, effort change or timeout was recorded. The frozen schedule allowed at most 108 turns. Public usage reports 363,297 input and 3,032 output tokens (366,329 total). Monetary cost, credit consumption, backend request counts and undisclosed internal retries remain unavailable. There were no API-adapter calls or paid fallbacks [13]."
+  },
+  {
+    "pdf_object": 608,
+    "pdf_page_start": 13,
+    "source_location": [
+      "appendix_pages",
+      2,
+      14
+    ],
+    "pdf_text": "Inference limits. Classification predicts world 1 at p>0.5 and awards half credit at p=0.5. Ten pre-diagnostic reports were ties (eight primary, two controls); no final reports were ties. Each mechanism has one before/four-probe primary label pair, so its exact one-sided paired-swap p-value is 0.5; Holm adjustment over four reserved comparisons gives 1.0. These exploratory tests establish neither absence nor equivalence. The prospective raw-API plan remains 480 episodes over two models and at most 2,592 requests without retries."
+  },
+  {
+    "pdf_object": 610,
+    "pdf_page_start": 13,
+    "source_location": [
+      "appendix_pages",
+      2,
+      15
+    ],
+    "pdf_text": "Mechanism Cue Budget Control Pre / Final score Pre / Final Brier Probes Consistency After 0 No 1/2 / 2/2 0.25 / 0 0 Consistency After 4 No 1/2 / 2/2 0.5 / 0.00005 8 Consistency Before 0 No 1/2 / 2/2 0.25 / 0 0 Consistency Before 4 No 2/2 / 2/2 0 / 0 8 Consistency Before 4 Yes 1/2 / 1/2 0.25 / 0.5 7 Persistence After 0 No 1/2 / 2/2 0.25 / 0 0 Persistence After 4 No 1/2 / 2/2 0.5 / 0.005 6 Persistence Before 0 No 1/2 / 2/2 0.25 / 0 0 Persistence Before 4 No 2/2 / 2/2 0 / 0 7 Persistence Before 4 Yes 1/2 / 1/2 0.5 / 0.5 6"
+  },
+  {
+    "pdf_object": 779,
+    "pdf_page_start": 13,
+    "source_location": [
+      "appendix_pages",
+      3,
+      0
+    ],
+    "pdf_text": "Appendix D. Limitations and Dual-Use Considerations"
+  },
+  {
+    "pdf_object": 780,
+    "pdf_page_start": 13,
+    "source_location": [
+      "appendix_pages",
+      3,
+      1
+    ],
+    "pdf_text": "The pilot covers one configured client system and two local mechanisms, with one episode per cell. It cannot support population or universal claims. Primary final classifications do not establish actual evaluation awareness, and the coherent controls fail to recover the nominal labels. Reported probabilities are not assumed to be faithful private beliefs. Every commitment was standard; the harmless shortcut task does not measure destructive behavior."
+  },
+  {
+    "pdf_object": 783,
+    "pdf_page_start": 14,
+    "source_location": [
+      "appendix_pages",
+      3,
+      2
+    ],
+    "pdf_text": "The model abstracts from social, legal, physical, and open-world processes. Unknown external actors, unmodeled timing, covert memory, inconsistent service state, and log truncation can break a claimed correspondence. Matching model-facing JSON fields does not prove that all infrastructure cues have been removed. Containment is a separate implementation claim; this small Python environment is not a hardened sandbox for adversarial code."
+  },
+  {
+    "pdf_object": 784,
+    "pdf_page_start": 14,
+    "source_location": [
+      "appendix_pages",
+      3,
+      3
+    ],
+    "pdf_text": "The artifact can help auditors avoid overclaiming, but examples might teach future agents or attackers how to recognize evaluation conditions. It contains no operational fingerprints, exploitation recipes, live credentials, or third-party targets. Potentially sensitive details from an authorized real audit require a separate disclosure review. All experiments must remain local, authorized, and non-destructive. Only explicitly authorized inference traffic may leave the experiment host; the evaluated agent receives no external network tool."
+  },
+  {
+    "pdf_object": 785,
+    "pdf_page_start": 14,
+    "source_location": [
+      "appendix_pages",
+      3,
+      4
+    ],
+    "pdf_text": "LLM Usage Statement"
+  },
+  {
+    "pdf_object": 786,
+    "pdf_page_start": 14,
+    "source_location": [
+      "appendix_pages",
+      3,
+      5
+    ],
+    "pdf_text": "ChatGPT and Codex were used to attack my theories and designs, to refute my ideas, edit the draft, and assist the coding."
+  },
+  {
+    "pdf_object": 787,
+    "pdf_page_start": 14,
+    "source_location": [
+      "appendix_pages",
+      3,
+      6
+    ],
+    "pdf_text": "Exactly four one-month extensions"
+  },
+  {
+    "pdf_object": 788,
+    "pdf_page_start": 14,
+    "source_location": [
+      "appendix_pages",
+      3,
+      7
+    ],
+    "pdf_text": "1. Run additional models, seeds, mechanisms and longer horizons. Include the separately specified raw-API study. Preserve controls and complete failure accounting rather than selecting for behavioral differences."
+  },
+  {
+    "pdf_object": 789,
+    "pdf_page_start": 14,
+    "source_location": [
+      "appendix_pages",
+      3,
+      8
+    ],
+    "pdf_text": "2. Search or train adaptive probe policies and compare them with general-purpose agents. Separate elicited exploitation from search success and avoid equating either with intent."
+  },
+  {
+    "pdf_object": 790,
+    "pdf_page_start": 14,
+    "source_location": [
+      "appendix_pages",
+      3,
+      9
+    ],
+    "pdf_text": "3. Conduct an authorized leakage audit of an existing agent evaluation environment. Validate the actual observation boundary and reset assumptions before making any deployment-relevant statement."
+  },
+  {
+    "pdf_object": 791,
+    "pdf_page_start": 14,
+    "source_location": [
+      "appendix_pages",
+      3,
+      10
+    ],
+    "pdf_text": "4. Strengthen the formal analysis for partial observability, composition, and open-world external actors. Prioritize justified deployment uncertainty and persistent memory without changing the specified behavioral target."
+  }
+]

@@ -117,6 +117,7 @@ def main():
     rows = [json.loads(line) for line in args.input.read_text().splitlines() if line.strip()]
     requests = [json.loads(path.read_text()) for path in sorted((args.input.parent/'requests').glob('*.json'))]
     result = analyze_subject_records(rows, frozen, requests)
+    args.out.parent.mkdir(parents=True, exist_ok=True)
     with args.out.open('x') as stream:
         stream.write(json.dumps(result, indent=2, allow_nan=False)+'\n')
     print(json.dumps({'planned': result['planned'], 'started': result['started'],

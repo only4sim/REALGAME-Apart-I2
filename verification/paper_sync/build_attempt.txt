@@ -1,0 +1,5 @@
+python3 scripts/export_markdown.py --out paper/manuscript.md
+paper/manuscript.md
+python3 scripts/build_paper.py
+Paper build unavailable: docx, lxml, fitz, matplotlib, pandoc, libreoffice, Old Standard font. See docs/REPRODUCING.md. Current source is unrendered; no old PDF is substituted.
+make: *** [Makefile:29: paper] Error 1

@@ -1,0 +1,58 @@
+{
+  "status": "supplied_pdfs_inventoried_and_paper_source_reconciled",
+  "inspection_date": "2026-09-14",
+  "artifacts": [
+    {
+      "role": "paper",
+      "path": "paper/Certifying Behavior Without Hiding the Sandbox v1.pdf",
+      "origin": "author-supplied",
+      "added_date": "2026-09-14",
+      "bytes": 368490,
+      "sha256": "355c6c35f4723f202d2bb9fefb9ef8847bce810e7b8724d74e8aa3ea3f57a2f8",
+      "pdf_version": "1.7",
+      "page_tree_count": 14,
+      "page_objects_count": 14,
+      "page_size_points": [
+        612,
+        792
+      ],
+      "visual_review_completed": false,
+      "main_text_pages_from_extracted_headings": 8,
+      "references_start_page_from_extracted_text": 9,
+      "appendices_start_page_from_extracted_text": 10,
+      "abstract_words_verified": 150,
+      "source_snapshot": "paper/submission_blocks.json",
+      "source_snapshot_sha256": "0e8fcb68acbf6dff55469a9efb0311c4cb575160332482275d548e273c6f8b73",
+      "source_correspondence": "reconciled_with_documented_status_and_path_corrections",
+      "build_statement_note": "The editable source corrects the supplied PDF build statement: new source rendering remains pending; no matching regenerated DOCX/PDF is claimed.",
+      "reconciled_editable_text_source_available": true,
+      "matching_original_docx_available": false,
+      "author_block_matches_pdf": true,
+      "author_metadata_confirmed": true,
+      "reconciliation_record": "verification/paper_sync/alignment_check.json",
+      "documented_corrections": "verification/paper_sync/README.md"
+    },
+    {
+      "role": "presentation",
+      "path": "slides/REALGAME_deck.pdf",
+      "origin": "author-supplied",
+      "added_date": "2026-09-14",
+      "bytes": 75947,
+      "sha256": "146d54084f1f49707183a6389b89bcf4d936ab875d25a2532f7a7a1e9e53777b",
+      "pdf_version": "1.7",
+      "page_tree_count": 6,
+      "page_objects_count": 6,
+      "page_size_points": [
+        960,
+        540
+      ],
+      "matching_editable_source_available": false,
+      "visual_review_completed": false
+    }
+  ],
+  "inspection_method": "Offline restricted standard-library extraction of the inventoried PDF page tree, compressed structure objects, font Unicode maps, marked-content text and document tags; explicit reviewed mapping retains editable LaTeX.",
+  "inspection_scope": "The author block, 150-word abstract, 114 source blocks, thirteen references, and both pilot tables were checked with the documented status/path corrections. This does not verify full visual layout, font metrics, figure rendering or pagination of a rebuilt document.",
+  "new_model_calls": 0,
+  "new_scientific_observations": 0,
+  "publication_or_submission_performed": false
+}

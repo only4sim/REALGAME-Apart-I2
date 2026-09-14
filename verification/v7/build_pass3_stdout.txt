@@ -1,8 +1,0 @@
-/mnt/data/realgame_v7/scripts/build_report.py:83: UserWarning: style lookup by style_id is deprecated. Use style name as key instead.
-  normal=d.styles['Normal'];normal.font.name='Old Standard TT';normal.font.size=Pt(11)
-{
-  "docx": "/mnt/data/realgame_v7/submission_report.docx",
-  "abstract_words": 150,
-  "planned_main_pages": 8,
-  "editable_equations": 6
-}

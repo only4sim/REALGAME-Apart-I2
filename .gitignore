@@ -1,0 +1,23 @@
+# Local build products and Python caches; never ignore recorded evidence.
+/build/
+/dist/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Machine-local credentials and editor state do not belong in an artifact.
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Runtime locks are recreated; append-only JSONL ledgers remain tracked.
+*.lock

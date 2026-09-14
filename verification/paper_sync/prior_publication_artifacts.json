@@ -1,0 +1,58 @@
+{
+  "status": "supplied_pdfs_inventoried",
+  "inspection_date": "2026-09-14",
+  "artifacts": [
+    {
+      "role": "paper",
+      "path": "paper/Certifying Behavior Without Hiding the Sandbox v1.pdf",
+      "origin": "author-supplied",
+      "added_date": "2026-09-14",
+      "bytes": 368490,
+      "sha256": "355c6c35f4723f202d2bb9fefb9ef8847bce810e7b8724d74e8aa3ea3f57a2f8",
+      "pdf_version": "1.7",
+      "page_tree_count": 14,
+      "page_objects_count": 14,
+      "page_size_points": [
+        612,
+        792
+      ],
+      "matching_editable_source_available": false,
+      "visual_review_completed": false,
+      "main_text_pages_from_extracted_headings": 8,
+      "references_start_page_from_extracted_text": 9,
+      "appendices_start_page_from_extracted_text": 10,
+      "abstract_words_verified": null,
+      "source_snapshot": "paper/submission_blocks.json",
+      "source_snapshot_sha256": "d6dd4cb2148de8c18a7b920da5e77110ef1d1e4b22cf5988d15b10f4b89740b1",
+      "source_correspondence": "differs",
+      "observed_differences": [
+        "The supplied PDF abstract begins: A visible sandbox can still support a behavioral claim",
+        "The source abstract begins: Recognizing a sandbox does not, by itself, invalidate every behavioral evaluation.",
+        "The supplied PDF names an affiliation; the source retains an author/affiliation confirmation placeholder."
+      ],
+      "build_statement_note": "The PDF Code and Data statement that PDF, DOCX and Markdown correspond has not been established for this repository."
+    },
+    {
+      "role": "presentation",
+      "path": "slides/REALGAME_deck.pdf",
+      "origin": "author-supplied",
+      "added_date": "2026-09-14",
+      "bytes": 75947,
+      "sha256": "146d54084f1f49707183a6389b89bcf4d936ab875d25a2532f7a7a1e9e53777b",
+      "pdf_version": "1.7",
+      "page_tree_count": 6,
+      "page_objects_count": 6,
+      "page_size_points": [
+        960,
+        540
+      ],
+      "matching_editable_source_available": false,
+      "visual_review_completed": false
+    }
+  ],
+  "inspection_method": "Offline Python standard-library inspection of explicit PDF page objects, the Pages Count/Kids array, MediaBox values and readable literal strings in zlib-decompressed page content streams. Not a general PDF parser; glyph-mapped text and layout were not fully extracted.",
+  "inspection_scope": "Page-tree counts and readable headings/content were inspected. No full visual review, complete text comparison, PDF abstract word-count verification, font/margin verification or matching DOCX build was performed.",
+  "new_model_calls": 0,
+  "new_scientific_observations": 0,
+  "publication_or_submission_performed": false
+}

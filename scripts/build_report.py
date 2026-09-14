@@ -6,7 +6,7 @@ retained. Unused author placeholders are replaced with a single author block.
 No font binaries are copied into the output or distribution.
 """
 from __future__ import annotations
-import argparse,copy,json,re,subprocess,tempfile,zipfile
+import argparse,copy,json,os,re,subprocess,tempfile,zipfile
 from functools import lru_cache
 from pathlib import Path
 from lxml import etree
@@ -15,6 +15,7 @@ from docx.shared import Pt,Inches,RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
+from export_markdown import export
 ROOT=Path(__file__).resolve().parents[1]
 
 
@@ -93,7 +94,7 @@ def build(blocks_path,out):
     fld=OxmlElement('w:fldSimple');fld.set(qn('w:instr'),'PAGE');f._p.append(fld)
     d.core_properties.title=x['title'];d.core_properties.author=x.get('author_metadata','Author confirmation pending')
     d.core_properties.subject='AI Incident Response Sprint: target-specific safe behavioral evidence'
-    d.core_properties.comments='AI-assisted collaboration draft; human authorship and affiliation verification required.'
+    d.core_properties.comments='AI-assisted collaboration draft; author metadata follows the author-confirmed supplied PDF. Scientific review and publication approval remain separate.'
     md=['# '+x['title'],'']
     for page in x['main_pages']:
         for b in page:
@@ -159,7 +160,8 @@ def build(blocks_path,out):
             p.add_run().add_picture(str(ROOT/b['file']),width=Inches(6.1))
             cap=d.add_paragraph();cap.paragraph_format.line_spacing=1.05;cap.paragraph_format.space_after=Pt(6)
             rich(cap,b['caption'],9.5)
-            md.extend(['!['+b['caption']+']('+b['file']+')','']);return
+            relative=Path(os.path.relpath(ROOT/b['file'],out.resolve().parent)).as_posix()
+            md.extend(['!['+b['caption']+']('+relative+')','']);return
         raise ValueError(typ)
     for i,page in enumerate(x['main_pages']):
         if i:md.extend(['<!-- MAIN PAGE BREAK -->',''])
@@ -170,8 +172,8 @@ def build(blocks_path,out):
     for page in x['appendix_pages']:
         for j,b in enumerate(page):emit(b,break_before=j==0)
     out.parent.mkdir(exist_ok=True,parents=True);d.save(out)
-    out.with_suffix('.md').write_text('\n'.join(md))
+    out.with_suffix('.md').write_text(export(x, out.resolve().parent))
     print(json.dumps({'docx':str(out),'abstract_words':len(x['abstract'].split()),'planned_main_pages':len(x['main_pages']),'editable_equations':equation_count},indent=2))
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('--blocks',type=Path,default=ROOT/'paper/submission_blocks.json');p.add_argument('--out',type=Path,default=ROOT/'submission_report.docx');a=p.parse_args();build(a.blocks,a.out)
+    p=argparse.ArgumentParser();p.add_argument('--blocks',type=Path,default=ROOT/'paper/submission_blocks.json');p.add_argument('--out',type=Path,default=ROOT/'build/paper/manuscript.docx');a=p.parse_args();build(a.blocks,a.out)

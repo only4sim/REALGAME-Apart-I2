@@ -1,7 +1,0 @@
-{
-  "status": "passed",
-  "command": "python scripts/run_local.py --out results/reproduced",
-  "exit_code": 1,
-  "stderr": "Output directory is not empty. Preserve raw evidence and use a fresh directory.\n",
-  "interpretation": "Intentional rejection: existing evidence directory was not overwritten."
-}

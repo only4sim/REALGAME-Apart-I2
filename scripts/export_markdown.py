@@ -5,12 +5,14 @@ This exports source text only and makes no claim about rendered pagination.
 """
 import argparse
 import json
+import os
 from pathlib import Path
+from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def export(blocks):
+def export(blocks, output_dir=ROOT):
     lines = ['# '+blocks['title'], '']
     for page in blocks['main_pages']:
         for block in page:
@@ -28,7 +30,12 @@ def export(blocks):
         elif kind == 'eq':
             lines.extend(['$$', block['latex'], '$$', ''])
         elif kind == 'figure':
-            lines.extend(['!['+block['caption']+']('+block['file']+')', ''])
+            reference = block.get('markdown_reference', block['file'])
+            relative = quote(Path(os.path.relpath(ROOT / reference, output_dir)).as_posix(), safe='/')
+            if block.get('markdown_page'):
+                relative += '#page=' + str(block['markdown_page'])
+            marker = '' if 'markdown_reference' in block else '!'
+            lines.extend([marker+'['+block['caption']+']('+relative+')', ''])
         elif kind == 'table':
             if block.get('caption'):
                 lines.extend([block['caption'], ''])
@@ -60,7 +67,8 @@ def main():
     blocks = json.loads(args.blocks.read_text())
     assert len(blocks['abstract'].split()) == 150
     assert len(blocks['main_pages']) == 8
-    args.out.write_text(export(blocks))
+    args.out.parent.mkdir(parents=True, exist_ok=True)
+    args.out.write_text(export(blocks, args.out.resolve().parent))
     print(args.out)
 
 

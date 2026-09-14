@@ -1,0 +1,10 @@
+# Optional historical rendering reference; core reproduction needs none of these.
+# Recorded reference: Python3.13.5, Pandoc3.1.11.1, LibreOffice25.2.3.2.
+# See historical verification/software_versions.json in archive/INDEX.json.
+matplotlib==3.10.8
+numpy==2.3.5
+python-docx==1.2.0
+lxml==6.1.1
+PyMuPDF==1.26.7
+# Pandoc, LibreOffice and Old Standard are provisioned externally.
+# No dependency or font downloads are performed by repository commands.

@@ -1,0 +1,28 @@
+{
+  "status": "text_and_saved_table_values_verified",
+  "pdf_sha256": "355c6c35f4723f202d2bb9fefb9ef8847bce810e7b8724d74e8aa3ea3f57a2f8",
+  "source_sha256": "0e8fcb68acbf6dff55469a9efb0311c4cb575160332482275d548e273c6f8b73",
+  "saved_analysis_sha256": "e494d59f40f2d7ff52fde3579aa3041d6b456b10218a8ffd31116a9517ba0715",
+  "source_blocks_checked": 114,
+  "references_checked": 13,
+  "abstract_words": 150,
+  "author_block_matches_pdf": true,
+  "mapped_math_objects": 50,
+  "editable_display_equations": 6,
+  "tables": 6,
+  "figures": 3,
+  "pilot_aggregate_rows_checked_against_saved_analysis": 3,
+  "pilot_cell_rows_checked_against_saved_analysis": 10,
+  "documented_status_or_path_corrections": [
+    450,
+    460,
+    546,
+    571
+  ],
+  "reference_path_correction": "Reference 13: docs/PILOT_RUN_REPORT.md",
+  "visual_review_performed": false,
+  "new_document_rendering_performed": false,
+  "new_model_calls": 0,
+  "new_cpu_sampling_runs": 0,
+  "limitations": "Tag/text comparison and an explicit reviewed LaTeX mapping do not verify glyph geometry, font identity, figure rendering, or pagination of a rebuilt document."
+}

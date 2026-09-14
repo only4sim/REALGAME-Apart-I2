@@ -1,0 +1,8 @@
+test_complete_release_requires_current_rendering_and_deck (test_repository_workflow.RepositoryWorkflowTests.test_complete_release_requires_current_rendering_and_deck) ... ok
+test_evidence_edit_is_detected (test_repository_workflow.RepositoryWorkflowTests.test_evidence_edit_is_detected) ... ok
+test_history_restores_exact_bytes_and_rejects_divergent_index (test_repository_workflow.RepositoryWorkflowTests.test_history_restores_exact_bytes_and_rejects_divergent_index) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.005s
+
+OK

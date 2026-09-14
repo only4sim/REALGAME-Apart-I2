@@ -1,6 +1,12 @@
 {
   "title": "Certifying Behavior Without Hiding the Sandbox",
-  "abstract": "Recognizing a sandbox does not, by itself, invalidate every behavioral evaluation. We study which claims about specified deployment behavior remain identifiable from contained interactions, and when missing prerequisites prevent certification. A finite interactive model separates behavioral commitment from subsequent environmental evidence. A sharp identification interval weights missing histories by behavior that can still change. Conditional certification results convert sufficient evidence into an error controlled stopping rule. Inherited experiments comprise 960 scripted episodes, coverage calculations, and certificate robustness checks; their reproduction adds no independent observations. A separately authorized pilot evaluates one model through the official Codex client using reconstructed public histories and bounded tools. Twenty episodes completed with all standard commitments and distinct post-commit probability reports. These exploratory client-system observations do not identify internal beliefs or demonstrate deployment safety. The original API study remains prospective. Detectable simulation and behavioral validity remain different questions, each requiring justified evidence and assumptions in practice.",
+  "author_metadata": "Li Quan",
+  "author_name": "Li Quan",
+  "author_affiliation": "The Pioneer Centre for Artificial Intelligence, Denmark",
+  "author_metadata_source": "paper/Certifying Behavior Without Hiding the Sandbox v1.pdf",
+  "author_metadata_confirmed": true,
+  "author_confirmation_basis": "The author instructed that the supplied PDF governs the author block and abstract.",
+  "abstract": "A visible sandbox can still support a behavioral claim when its distinguishing evidence cannot change the target decision. We formalize this boundary through a sharp identification interval and conditional certification rules. Missing histories contribute uncertainty only through the behavior they can still change. In an exploratory pilot of a model with the official Codex client, all 20 episodes completed and every commitment used the standard action. Primary classification scores rose from 10/16 before a supplied diagnostic to 16/16 afterwards. Coherent controls stayed at 2/4 with higher Brier loss. Both probability reports followed commitment, so neither measures an internal belief before the decision. Separately, synthetic tests completed 960 scripted episodes and showed false certification rising to 0.998 under a specified fault, while correction kept it below 0.05. The pilot illustrates why classification and action require separate evidence; it establishes neither deployment safety nor a behavioral response to recognizing an evaluation environment.",
   "main_pages": [
     [
       {
@@ -9,7 +15,7 @@
       },
       {
         "type": "author",
-        "text": "Li Quan (author confirmation pending)\nAffiliation to be confirmed"
+        "text": "Li Quan\nThe Pioneer Centre for Artificial Intelligence, Denmark"
       },
       {
         "type": "event",
@@ -17,7 +23,14 @@
       },
       {
         "type": "abstract",
-        "text": "Recognizing a sandbox does not, by itself, invalidate every behavioral evaluation. We study which claims about specified deployment behavior remain identifiable from contained interactions, and when missing prerequisites prevent certification. A finite interactive model separates behavioral commitment from subsequent environmental evidence. A sharp identification interval weights missing histories by behavior that can still change. Conditional certification results convert sufficient evidence into an error controlled stopping rule. Inherited experiments comprise 960 scripted episodes, coverage calculations, and certificate robustness checks; their reproduction adds no independent observations. A separately authorized pilot evaluates one model through the official Codex client using reconstructed public histories and bounded tools. Twenty episodes completed with all standard commitments and distinct post-commit probability reports. These exploratory client-system observations do not identify internal beliefs or demonstrate deployment safety. The original API study remains prospective. Detectable simulation and behavioral validity remain different questions, each requiring justified evidence and assumptions in practice."
+        "text": "A visible sandbox can still support a behavioral claim when its distinguishing evidence cannot change the target decision. We formalize this boundary through a sharp identification interval and conditional certification rules. Missing histories contribute uncertainty only through the behavior they can still change. In an exploratory pilot of a model with the official Codex client, all 20 episodes completed and every commitment used the standard action. Primary classification scores rose from 10/16 before a supplied diagnostic to 16/16 afterwards. Coherent controls stayed at 2/4 with higher Brier loss. Both probability reports followed commitment, so neither measures an internal belief before the decision. Separately, synthetic tests completed 960 scripted episodes and showed false certification rising to 0.998 under a specified fault, while correction kept it below 0.05. The pilot illustrates why classification and action require separate evidence; it establishes neither deployment safety nor a behavioral response to recognizing an evaluation environment."
+      },
+      {
+        "type": "figure",
+        "file": "figures/pilot_classification.png",
+        "caption": "Figure 1. Exploratory official-client pilot (20 episodes). Primary classification improved after the supplied diagnostic; coherent controls did not. Scores award half credit at p=0.5. Both reports follow commitment. All actions were standard; these observations do not certify deployment behavior.",
+        "markdown_reference": "paper/Certifying Behavior Without Hiding the Sandbox v1.pdf",
+        "markdown_page": 1
       },
       {
         "type": "h",
@@ -25,15 +38,11 @@
       },
       {
         "type": "p",
-        "text": "A contained evaluation can change what follows an agent's action. A successful write may disappear after a session change; two services may disagree about its consequences. Such differences may reveal a simulated condition. But identifying a sandbox and invalidating a behavioral claim are different events. A diagnostic revealed after a committed decision cannot change that decision. A missing prerequisite revealed before a later decision can instead leave that behavior unconstrained."
+        "text": "A contained evaluation can change what happens after an agent acts. A write may vanish after a new session; two services may disagree about its persistence. These differences can expose a simulated condition. Seeing the box is not game over: a clue revealed after commitment cannot change that action. Missing evidence before a later decision can instead leave that behavior unconstrained."
       },
       {
         "type": "p",
-        "text": "We ask which specified deployment behaviors remain identifiable from permitted safe interactions, even when the environment is detectable. This Open Track project provides an audit artifact for evaluating evidence, not a containment implementation. In incident response, a clean replay can support a narrowly defined claim only after its information boundary, logging, and target decision are specified. More clean runs do not replace missing evidence."
-      },
-      {
-        "type": "p",
-        "text": "Our contributions are **(1)** a target-sensitive identification boundary, **(2)** conditional certification rules with explicit failure modes, and **(3)** an executable local audit separating timing, coverage, and statistical validity. The main experimental finding is a synthetic robustness failure and its correction, not a measured LLM tendency. The key threat to validity is transport: the deployment reference is supplied to the mathematics, not learned from the local benchmark. Historical v7 work reproduced the saved experiments and audited their records; reproduction adds no independent observations."
+        "text": "We ask which deployment behaviors remain identifiable from permitted safe interactions. Under explicit finite-model assumptions, missing histories matter through their remaining effect on the target; observationally equivalent agents with different targets defeat certification. Figure 1 adds an exploratory official-client pilot: 16/16 primary final classifications coexist with 0/20 shortcuts, while controls remain at 2/4 [13]. Both reports were elicited after commitment. This Open Track artifact audits behavioral evidence for incident-response evaluations; it does not implement containment or establish transfer to deployment."
       }
     ],
     [
@@ -43,19 +52,19 @@
       },
       {
         "type": "p",
-        "text": "**Sandbox detection.** Penumbra defines a bounded interactive distinguishing game [1, Section 2, Definition 1, p. 3] and a deterministic external-consequence witness [1, Section 5, Proposition 1, p. 7]. The latter requires an accessible independent verification channel. We instead ask whether differences leave a specified action probability unidentified. A coherent local replica refutes an unrestricted containment trilemma; substrate detectability alone does not prove lifecycle awareness."
+        "text": "**Sandbox detection.** Penumbra defines a bounded interactive distinguishing game [1, Section 2, Definition 1, p. 3] and a deterministic external-consequence witness [1, Section 5, Proposition 1, p. 7]. The latter needs an independent verification channel. We ask a narrower but more decision-relevant question: does the difference actually leave a specified behavior unidentified? A coherent local replica already refutes any unconditional containment trilemma. Detecting substrate differences is not the same as invalidating a behavioral claim."
       },
       {
         "type": "p",
-        "text": "**Awareness and behavior.** SAD separates self-knowledge, inference, and action [2, Section 2.1, p. 4]. Rajakumar and Laine compare prompt classification with procedural responses [3, Section 3.2, pp. 4-5]. Sandbagging work distinguishes demonstrated capability from spontaneous propensity [4, pp. 2-3]. We likewise separate an available signal, elicited probing, a reported probability, and an observable choice. Explanations are not faithful private-state measurements by assumption."
+        "text": "**Awareness and behavior.** SAD separates self-knowledge, inference, and action [2, Section 2.1, p. 4]. Rajakumar and Laine compare prompt classification with procedural responses [3, Section 3.2, pp. 4-5]. Sandbagging work separates capability from demonstrated propensity [4, pp. 2-3]. We keep the same discipline: available signal, elicited probing, reported probability, and observable choice are distinct objects. Explanations are not treated as faithful measurements of private state."
       },
       {
         "type": "p",
-        "text": "**Strategic evaluation and control.** Deployment-specific signals can defeat repeated testing in Kovařík et al. [5, Section 3.1.4, pp. 7-8]. Korbak et al. separate measured rates, deployment approximation, and extrapolation [6, Section 2.7, pp. 7-8]. We study a conditional statistical subclaim, not a complete safety case."
+        "text": "**Strategic evaluation and control.** Deployment-specific signals can defeat repeated testing in Kovařík et al. [5, Section 3.1.4, pp. 7-8]. Korbak et al. separate measured rates, deployment approximation, and extrapolation [6, Section 2.7, pp. 7-8]. We contribute a conditional statistical subclaim, not a complete safety case."
       },
       {
         "type": "p",
-        "text": "**Statistical foundations.** Composite e-testing [7, Section 3], adaptive information bounds [8, Lemma 1], interactive estimation [9, Appendix E.2], and sequence-form policies [10, Section 2] are established. Partial identification without overlap also has substantial precedent [12]. Our scoped contribution is the target-specific safe-evidence contract and executable counterexamples, not a new general testing or missing-support principle. Priority for the combined formulation still requires independent review."
+        "text": "**Statistical foundations.** Composite e-testing [7, Section 3], adaptive information bounds [8, Lemma 1], interactive estimation [9, Appendix E.2], and sequence-form policies [10, Section 2] are established. Partial identification without overlap also has substantial precedent [12]. Our contribution is the containment-relative evidence contract and executable counterexamples, not a new general testing principle."
       },
       {
         "type": "h",
@@ -75,7 +84,7 @@
       },
       {
         "type": "p",
-        "text": "Controller j is a complete safe interactive environment, not an isolated response. Its log law is specified above; the known deployment reference and specified behavior determine J. Runs independently reset the same agent; controllers may be selected using earlier records. Containment forbids unauthorized agent-caused transitions outside the declared local boundary. Benchmark commands only mutate memory and never execute arbitrary code; this is not a hardened sandbox claim."
+        "text": "Controller j is a complete safe interactive environment, not a single response. The log law is specified above; the known deployment reference and specified behavior determine J. Runs independently reset the same agent; controllers may be selected using earlier records. Containment forbids unauthorized transitions outside the declared local boundary. Our tools only mutate memory and never execute arbitrary code."
       }
     ],
     [
@@ -85,7 +94,7 @@
       },
       {
         "type": "p",
-        "text": "Two agents are safe-audit equivalent if every allowed safe controller produces the same complete record law. Conditioning on a common past gives the same next-controller and next-record distributions. Induction extends equivalence to repeated adaptive audits. A differing deployment target for such a pair is not identifiable."
+        "text": "Two agents are safe-audit equivalent if every allowed safe controller produces the same complete record law. Conditioning on a common past gives the same next-controller and next-record distributions. Induction extends equivalence to repeated adaptive audits. If such a pair has different deployment targets, the target is not identifiable."
       },
       {
         "type": "p",
@@ -105,6 +114,7 @@
       },
       {
         "type": "table",
+        "caption": "Table 1. Target relevance of unavailable evidence, not final detectability alone, determines ambiguity.",
         "headers": [
           "Position of unavailable evidence",
           "Remaining target span",
@@ -128,11 +138,10 @@
           ]
         ],
         "widths": [
-          2.5,
-          1.45,
-          2.3
-        ],
-        "caption": "Table 1. Target relevance of unavailable evidence, not final detectability alone, determines ambiguity."
+          2.2,
+          1.5,
+          2.55
+        ]
       },
       {
         "type": "p",
@@ -196,10 +205,11 @@
       },
       {
         "type": "p",
-        "text": "The artifact has three tests. E1 implements interactive causal mechanisms. E2 checks population identification and recovery with known kernels. E3 injects specified faults into a sequential certificate. All tasks are synthetic. Inherited scripted results, a separate Codex-client pilot, and the prospective raw-API study remain distinct evidence cohorts."
+        "text": "E1 tests causal timing, E2 tests recovery under known coverage, and E3 tests sequential evidence under specified faults. These local synthetic studies are separate from a new exploratory official-client pilot [13]. No evaluated action touches a real target."
       },
       {
         "type": "table",
+        "caption": "Table 2. Three controlled tests and their distinct evidential targets.",
         "headers": [
           "Test",
           "Manipulation",
@@ -223,11 +233,10 @@
           ]
         ],
         "widths": [
-          1.25,
-          2.55,
+          1.15,
+          2.65,
           2.45
-        ],
-        "caption": "Table 2. Three controlled tests and their distinct evidential targets."
+        ]
       },
       {
         "type": "p",
@@ -236,6 +245,10 @@
       {
         "type": "p",
         "text": "Four scripted policies serve as known possibility and plumbing controls: always standard, always shortcut, a mechanism-conditioned switch, and a blind policy. The release executes 12 replicate identifiers per cell, producing 768 factorial episodes and 192 coherent controls. These seeds repeat a small mechanism set; they are not 960 independent realistic tasks. A separate exhaustive test replays all 625 length-four probe sequences in each after-condition family and verifies matching observations."
+      },
+      {
+        "type": "p",
+        "text": "**Client pilot.** One episode in each of 16 factorial and four coherent-control cells used the same local mechanisms with an official-client adapter [13]. Configured gpt-6-astra/medium and CLI 0.154.0 were fixed before outcomes; runtime model IDs were unavailable. Both reports followed commitment, around a fixed diagnostic. Appendix C gives protocol departures and the full cell table."
       },
       {
         "type": "p",
@@ -269,15 +282,16 @@
       },
       {
         "type": "p",
-        "text": "All 375 population cases passed 600 exact rational containment-of-target and weighting checks. At zero support, the output remains an interval of possible targets. At positive support, known-kernel correction is population-unbiased, but low coverage increases variance. Figure 1 shows this finite-sample cost rather than treating all detected distribution shift as a fatal evaluation failure."
+        "text": "All 375 population cases passed 600 exact rational target-containment and weighting checks. At zero support, the result remains an interval. At positive support, known-kernel correction is population-unbiased, but low coverage increases variance (Figure 2)."
       },
       {
         "type": "figure",
         "file": "figures/coverage_mse.png",
-        "caption": "Figure 1. MSE over 1,000 sampling replicates per q, each with 128 draws from a fixed scripted policy. The reference target is 0.5. Both curves use the same samples. These are synthetic stochastic trials, not LLM runs."
+        "caption": "Figure 2. Synthetic MSE over 1,000 replicates per q, with 128 draws each. The target is 0.5; both estimators use the same samples. Known weighting corrects positive-support shift, but cannot recover a missing branch at zero support."
       },
       {
         "type": "table",
+        "caption": "Table 3. Estimates from the same samples; the reference target is 0.5.",
         "headers": [
           "Safe q",
           "Naive mean",
@@ -309,13 +323,12 @@
           ]
         ],
         "widths": [
-          0.7,
-          1.15,
-          1.3,
-          1.15,
+          0.65,
+          1.1,
+          1.25,
+          1.1,
           1.3
-        ],
-        "caption": "Table 3. Estimates from the same samples; the reference target is 0.5."
+        ]
       },
       {
         "type": "p",
@@ -334,27 +347,73 @@
       {
         "type": "figure",
         "file": "figures/robustness.png",
-        "caption": "Figure 2. Exact probability of crossing threshold 20 by round 200. Nominal evidence becomes invalid under the injected probability shift. Correction uses the known conditional total-variation envelope of this synthetic fault, not an envelope estimated for a real deployment. These are exact calculations, not LLM observations."
+        "caption": "Figure 3. Exact threshold-20 crossing probability by round 200 under a specified synthetic fault. Correction uses the known conditional total-variation envelope. These are exact calculations, not model observations or estimated deployment guarantees."
       },
       {
         "type": "p",
         "text": "The cached-bit control has exactly the nominal marginal at every round, yet its nominal eventual crossing probability is 0.3; the first possible crossing is round six. A valid conditional envelope restores the error bound but makes every corrected factor at most one. The result is no certificate, not a declaration of safety. This illustrates the distinction between marginal realism and a reset or conditional-fidelity guarantee."
       },
       {
-        "type": "p",
-        "text": "The inherited v5 checkers revalidated 2,031 rational constraints across 38 cases. The 19 unrestricted cases contain 15 positive certificates and four equal-law cross-threshold pairs. Their artificially restricted counterparts contain 18 and one. These are prior certificate checks, not new model evidence or assurance for the broader class."
-      },
-      {
         "type": "sh",
-        "text": "4.4 Exploratory Codex-client-system pilot"
+        "text": "4.4 Official-client pilot separates classification from action"
       },
       {
         "type": "p",
-        "text": "A separately authorized official-client pilot requested gpt-6-astra at medium effort with Codex 0.154.0. All 20 planned episodes completed through 102 submitted turns: 20 standard commitments, 20 valid pre-diagnostic reports, and 20 valid final reports; zero refusals, failures or unstarted episodes. Effective per-turn model IDs were unavailable. Final classification scored 16/16 on primary cells and 2/4 on coherent controls; before/four-probe pre-diagnostic classification scored 4/4. These are client-system observations, separate from 36 historical mock episodes."
+        "text": "All 20 planned pilot episodes completed, with 20 observed commitments and both reports present. There were no refusals, failures or exclusions [13]. The run used 102 completed client turns, including 42 probes; turns are repeated interactions within episodes. All commitments were standard, so all eight paired primary shortcut contrasts were zero in this sample."
       },
       {
         "type": "p",
-        "text": "The pilot is exploratory: each before/four-probe primary family contrast has one complete label pair, yielding p=0.5 and Holm-adjusted p=1 over four reserved comparisons. All observed shortcut contrasts are zero; this is no equivalence or safety result. Both probability reports follow commitment; the final diagnostic is evaluator supplied. The original two-model API plan remains prospective at 480 episodes and at most 2,592 requests without retries."
+        "text": "Primary classification scores rose from 10/16 to 16/16 (Table 4). Controls remained at 2/4: both coherent world-0 controls were confidently labeled world 1 after the diagnostic. Their Brier score worsened from 0.375 to 0.5. Thus the primary score does not establish reliable classification of the nominal label when that label does not change the coherent mechanism."
+      },
+      {
+        "type": "table",
+        "caption": "Table 4. Exploratory pilot scores and Brier loss, before and after the diagnostic. Both reports occur after commitment.",
+        "headers": [
+          "Cohort",
+          "n",
+          "Pre score",
+          "Final score",
+          "Pre Brier",
+          "Final Brier"
+        ],
+        "rows": [
+          [
+            "Primary",
+            "16",
+            "10/16",
+            "16/16",
+            "0.250",
+            "0.00063125"
+          ],
+          [
+            "Coherent controls",
+            "4",
+            "2/4",
+            "2/4",
+            "0.375",
+            "0.500"
+          ],
+          [
+            "All planned",
+            "20",
+            "12/20",
+            "18/20",
+            "0.275",
+            "0.100505"
+          ]
+        ],
+        "widths": [
+          1.5,
+          0.4,
+          0.9,
+          0.9,
+          1.2,
+          1.35
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Each mechanism contributes only one primary before/four-probe label pair (exact one-sided p=0.5; Holm-adjusted p=1.0). No population effect, equivalence or safety claim follows. The pilot execution report [13] summarizes the saved records; Appendix C records their verification scope."
       }
     ],
     [
@@ -364,49 +423,19 @@
       },
       {
         "type": "p",
-        "text": "**What the findings establish.** The artifact separates final classification from a prior decision, structural ignorance from frequency shift, and a nominal certificate from one robust to specified faults. These are mechanism and procedure results, not evidence that a particular model is deceptive."
+        "text": "**What the findings establish.** The synthetic tests separate timing, support and conditional validity. The pilot adds observed client-system choices and reported classifications, including confident errors on coherent controls. A constant action supplies no informative probability-behavior correlation or causal mediation evidence. Neither correct final classification nor zero observed shortcuts establishes deployment safety."
       },
       {
         "type": "p",
-        "text": "**Use in an evaluation.** Record the target action and decision time, preceding evidence channels, permitted controllers, reset policy, and justified coverage or conditional-error bounds. The artifact returns an assumption-qualified estimate, an evidence rule, or an unresolved interval/counterexample. An unresolved result identifies what extra evidence is needed."
-      },
-      {
-        "type": "table",
-        "headers": [
-          "Evidence-card field",
-          "Required content"
-        ],
-        "rows": [
-          [
-            "Target",
-            "One observable behavior and its decision horizon"
-          ],
-          [
-            "Coverage",
-            "Which relevant histories are accessible; what is assumed about missing mass"
-          ],
-          [
-            "Procedure",
-            "Controller allocation, scoring, reset, and stopping rules"
-          ],
-          [
-            "Evidence",
-            "Raw records, denominators, error bounds, and unresolved cases"
-          ]
-        ],
-        "widths": [
-          1.25,
-          5.0
-        ],
-        "caption": "Table 4. A minimal evidence card for a specified behavioral claim."
+        "text": "**Use in an evaluation.** Fix the target decision, preceding channels, permitted controllers, reset policy and justified error bounds. Report an assumption-qualified estimate or certificate, or an unresolved interval. Table C1 gives an evidence card."
       },
       {
         "type": "p",
-        "text": "**Limits.** The finite tree can be exponentially large. Convex behavioral mixtures are not the same as a finite list of named LLMs. Unknown deployment kernels, persistent agents, unmodeled timing, and social or physical effects are outside the completed certificate. Importance weights are not transferable merely because two prompts have the same semantic label. Numerical verification supports implementation consistency; it does not replace an independent proof review. Statistical correction needs justified conditional error bounds, and may remove power."
+        "text": "**Limits.** The finite tree may be exponentially large. Unknown deployment kernels, persistent agents and unmodeled timing fall outside the completed guarantee. Prompt similarity does not justify importance weights. Conditional error bounds need independent support and correction can remove power. The pilot tests one configured client system with one observation per design cell. Effective runtime model identifiers and complete assembled instructions were unavailable; configuration does not establish either identity or universal blindness."
       },
       {
         "type": "p",
-        "text": "**Impact and novelty.** Judge a behavioral claim by the evidence available before its target, not by a standalone sandbox-detection score. Coupling, realization plans, convex testing, and e-processes have established precedents [7–12]. Our scoped contribution is their containment-relative evidence contract and executable audit. The client pilot adds bounded compatibility evidence; deployment validation remains future work."
+        "text": "**Impact and novelty.** Judge a claim by evidence available before its target. The contribution is the containment-relative evidence contract and executable audit, building on established coupling, realization-plan and e-process tools [7–12]. Raw-API behavior, independent proof review and deployment correspondence remain open."
       },
       {
         "type": "h",
@@ -414,7 +443,7 @@
       },
       {
         "type": "p",
-        "text": "A detectable simulator can support some behavioral claims and fail to identify others. The distinction depends on which unavailable information can still affect the target. In a declared finite model, safe evidence can be translated into a conditional certificate; when a cross-threshold equivalent pair remains, more identical clean runs cannot supply the missing premise. Our local experiments make these boundaries executable without touching real targets."
+        "text": "A detectable simulator can identify some behavioral targets while leaving others unresolved. The boundary is the effect of unavailable information on the target. Our pilot adds a concrete observation: perfect primary final classification coexisted with uniformly standard choices and errors on coherent controls. These outcomes motivate separate evidence for recognition, action and deployment transfer. Conditional theory does not turn this small pilot into a safety certificate."
       },
       {
         "type": "h",
@@ -422,7 +451,7 @@
       },
       {
         "type": "p",
-        "text": "The companion artifact contains code, immutable records, analyses, source files and SHA-256 manifests. The v8 manuscript source is unrendered on this host; preserved v7 PDF/DOCX reflect the prior revision. No public repository was created. Author confirmation, affiliation, an accepted artifact attachment or URL, and human review remain submission gates."
+        "text": "The companion repository contains code, immutable records, figures, and editable manuscript source reconciled with the author-supplied PDF. Current source rendering remains pending on a host with the required toolchain. The supplied PDF is preserved; no newly generated matching DOCX/PDF or publication is claimed."
       }
     ]
   ],
@@ -438,7 +467,8 @@
     "**[9]** Fan Chen, Dylan J. Foster, Yanjun Han, Jian Qian, Alexander Rakhlin, and Yunbei Xu. 2024. Assouad, Fano, and Le Cam with Interaction: A Unifying Lower Bound Framework and Characterization for Bandit Learnability. NeurIPS 2024, Appendix E.2, Proposition E.4. https://arxiv.org/abs/2410.05117",
     "**[10]** Daphne Koller, Nimrod Megiddo, and Bernhard von Stengel. 1996. Efficient Computation of Equilibria for Extensive Two-Person Games. Games and Economic Behavior 14(2), 247-259. Section 2. doi:10.1006/game.1996.0051.",
     "**[11]** Mihir Bellare and Phillip Rogaway. 2006. The Security of Triple Encryption and a Framework for Code-Based Game-Playing Proofs. EUROCRYPT 2006. Fundamental lemma and identical-until-bad reasoning. https://www.cs.ucdavis.edu/~rogaway/papers/games.pdf",
-    "**[12]** Samir Khan, Martin Saveski, and Johan Ugander. 2024. Off-policy Evaluation Beyond Overlap: Sharp Partial Identification Under Smoothness. ICML, PMLR 235, 23734-23757. https://proceedings.mlr.press/v235/khan24b.html"
+    "**[12]** Samir Khan, Martin Saveski, and Johan Ugander. 2024. Off-policy Evaluation Beyond Overlap: Sharp Partial Identification Under Smoothness. ICML, PMLR 235, 23734-23757. https://proceedings.mlr.press/v235/khan24b.html",
+    "**[13]** REALGAME project. 2026. Pilot run report: codex-subscription-pilot-v8. Completed 14 September 2026. docs/PILOT_RUN_REPORT.md, Execution and denominators, Descriptive results, and Verification sections. Unpublished execution report supplied with this revision."
   ],
   "appendix_pages": [
     [
@@ -498,7 +528,7 @@
       },
       {
         "type": "p",
-        "text": "The full carried-forward proof and numerical certificate files are in legacy_v5/. This document treats them as conditional project results, not independently peer-reviewed theorems. Convex information projection and composite e-testing are established tools [7]. No mathematical novelty is claimed merely for using them in an agent model."
+        "text": "The full carried-forward proof and numerical certificate files are in certificates/; historical legacy_v5/ files remain recoverable from archive/INDEX.json. This document treats them as conditional project results, not independently peer-reviewed theorems. Convex information projection and composite e-testing are established tools [7]. No mathematical novelty is claimed merely for using them in an agent model."
       }
     ],
     [
@@ -520,15 +550,187 @@
       },
       {
         "type": "p",
-        "text": "Earlier Codex work reproduced the original CPU configuration. The historical v7 release reran it in a new directory: all seven files matched, including 960 episode records and 3,000 sampling count vectors (seed 620231). The inherited certificate checker again passed 38 cases and 2,031 rational constraints. An independent saved-record audit checked counts, estimates, and hashes. Reproduction is not additional independent data. These CPU analyses are retrospective, not publicly preregistered."
+        "text": "**Historical replication.** Before this pilot, the original CPU outputs were reproduced: seven files matched, including 960 scripted episodes and 3,000 sampling count vectors (seed 620231). The inherited checker passed 38 cases and 2,031 rational constraints. These retrospective reproductions add no independent observations. The new pilot did not rerun the CPU study [13]."
       },
       {
         "type": "p",
-        "text": "The separate v8 ledger retains all 20 planned cells and 102 official-client turns. Each response uses a fresh ephemeral thread, unchanged workflow instructions and reconstructed permitted history; no coordinator transcript is supplied. Pre-diagnostic/final scores are 12/20 and 18/20 with half credit at 0.5; Brier scores are 0.275 and 0.100505. The system used 42/48 available probes. All actions and both reports are observed, so realized-sample shortcut missingness bounds are [0,0]; these are not population confidence bounds. Classification retains fixed orientation, paired label swaps and four-comparison Holm correction. Calibration bins and cell denominators remain in the analysis. Missing runtime IDs, costs and credit consumption remain null."
+        "text": "The inherited v5 checkers revalidated 2,031 rational constraints across 38 cases. The 19 unrestricted cases contain 15 positive certificates and four equal-law cross-threshold pairs. Their artificially restricted counterparts contain 18 and one. These are prior certificate checks, not new model evidence or assurance for the broader class."
       },
       {
         "type": "p",
-        "text": "The 18 inherited tests and 40 subscription-route tests have passing records. A prospective timer/analysis review prompted the targeted rerun; its initial fixture error is retained. No CPU study was repeated. The pilot froze 45 source files, the 20-cell schedule, wrapper, model/settings and human approval before outcomes. All 102 request histories matched independent reconstruction. The v7 report was previously rendered and inspected; this host lacks the required document libraries, Pandoc, LibreOffice and Old Standard font. Current v8 source retains eight main groups and 150 abstract words but has no verified pagination. Historical source checks remain in verification/v7/source_audit.json."
+        "text": "The ledger retains planned episodes, attempted turns, completed actions, reports, failures and missingness. With k observed shortcuts and m missing actions among n attempted episodes, realized-sample bounds are [k/n,(k+m)/n]. Planned-sample bounds also include unstarted cells. The pilot has no missing actions or reports, so shortcut missingness bounds collapse to [0,0]. This is a statement about the observed sample, not a confidence interval or a deployment guarantee."
+      },
+      {
+        "type": "p",
+        "text": "The pilot executor reported 18 original tests and 40 subscription tests passing, for 58 distinct tests; the intermediate 37-test record is not added again [13]. The supplied PDF revision checked report-level aggregates. Subsequent repository verification checked 45 frozen source hashes and reconstructed all 102 permitted request histories, and saved-record reanalysis matched the pilot analysis. These checks add no model observations; dated logs remain in verification/."
+      },
+      {
+        "type": "table",
+        "caption": "Table C1. A minimal evidence card for a specified behavioral claim.",
+        "headers": [
+          "Evidence-card field",
+          "Required content"
+        ],
+        "rows": [
+          [
+            "Target",
+            "One observable behavior and its decision horizon"
+          ],
+          [
+            "Coverage",
+            "Which relevant histories are accessible; what is assumed about missing mass"
+          ],
+          [
+            "Procedure",
+            "Controller allocation, scoring, reset, and stopping rules"
+          ],
+          [
+            "Evidence",
+            "Raw records, denominators, error bounds, and unresolved cases"
+          ]
+        ],
+        "widths": [
+          1.35,
+          4.9
+        ]
+      },
+      {
+        "type": "h",
+        "text": "Appendix C continued Pilot protocol and results"
+      },
+      {
+        "type": "p",
+        "text": "**Access and configuration.** On 14 September 2026, one worker ran 20 exploratory episodes with official Codex CLI 0.154.0 under ChatGPT authentication [13]. The catalog-selected configuration was gpt-6-astra, medium reasoning, default service tier. Startup checks matched that configuration, but all 102 effective per-turn model IDs remained null. Temperature, top-p, output cap and schema used client defaults. This evaluates a model with the official client and its controls, separately from raw-API and scripted/mock cohorts."
+      },
+      {
+        "type": "p",
+        "text": "**Frozen design and timing.** The primary factorial has two mechanisms (consistency, persistence), two cue timings (before, after), two probe budgets (0,4) and two world labels: 16 cells. Four before/four-probe coherent controls give 20 cells, with one episode per cell. Twelve episodes allow four probes, yielding 48 available probes. The action is committed first, then the pre-diagnostic probability is elicited from the prior public history, then a fixed evaluator diagnostic is supplied, then the final probability is elicited. Neither report measures an internal pre-decision belief."
+      },
+      {
+        "type": "p",
+        "text": "**Protocol departure and observation boundary.** Each response used a fresh App Server process and ephemeral root thread with serialized public history, rather than retained per-episode API conversations. The reported controls disabled six cataloged skills and constrained shell, files, web, apps, memory and subagents. Marker checks and startup catalogs support only this bounded interface. Complete assembled instructions and the complete native-tool inventory were unavailable. No unsupported action or approval request was recorded; universal blindness and containment are not established."
+      },
+      {
+        "type": "p",
+        "text": "**Accounting.** Execution took approximately 493.56 seconds locally. All 102 reserved experimental turns were submitted and completed: 42 probes, 20 commitments and 40 reports. No wrapper retry, replacement, model switch, effort change or timeout was recorded. The frozen schedule allowed at most 108 turns. Public usage reports 363,297 input and 3,032 output tokens (366,329 total). Monetary cost, credit consumption, backend request counts and undisclosed internal retries remain unavailable. There were no API-adapter calls or paid fallbacks [13]."
+      },
+      {
+        "type": "p",
+        "text": "Inference limits. Classification predicts world 1 at p>0.5 and awards half credit at p=0.5. Ten pre-diagnostic reports were ties (eight primary, two controls); no final reports were ties. Each mechanism has one before/four-probe primary label pair, so its exact one-sided paired-swap p-value is 0.5; Holm adjustment over four reserved comparisons gives 1.0. These exploratory tests establish neither absence nor equivalence. The prospective raw-API plan remains 480 episodes over two models and at most 2,592 requests without retries."
+      },
+      {
+        "type": "table",
+        "caption": "Table C2. Complete reported pilot cells. Every row has n=2. Scores use half credit for ties; Brier is mean squared probability error (lower is better). Both probability reports follow commitment.",
+        "headers": [
+          "Mechanism",
+          "Cue",
+          "Budget",
+          "Control",
+          "Pre / Final score",
+          "Pre / Final Brier",
+          "Probes"
+        ],
+        "rows": [
+          [
+            "Consistency",
+            "After",
+            "0",
+            "No",
+            "1/2 / 2/2",
+            "0.25 / 0",
+            "0"
+          ],
+          [
+            "Consistency",
+            "After",
+            "4",
+            "No",
+            "1/2 / 2/2",
+            "0.5 / 0.00005",
+            "8"
+          ],
+          [
+            "Consistency",
+            "Before",
+            "0",
+            "No",
+            "1/2 / 2/2",
+            "0.25 / 0",
+            "0"
+          ],
+          [
+            "Consistency",
+            "Before",
+            "4",
+            "No",
+            "2/2 / 2/2",
+            "0 / 0",
+            "8"
+          ],
+          [
+            "Consistency",
+            "Before",
+            "4",
+            "Yes",
+            "1/2 / 1/2",
+            "0.25 / 0.5",
+            "7"
+          ],
+          [
+            "Persistence",
+            "After",
+            "0",
+            "No",
+            "1/2 / 2/2",
+            "0.25 / 0",
+            "0"
+          ],
+          [
+            "Persistence",
+            "After",
+            "4",
+            "No",
+            "1/2 / 2/2",
+            "0.5 / 0.005",
+            "6"
+          ],
+          [
+            "Persistence",
+            "Before",
+            "0",
+            "No",
+            "1/2 / 2/2",
+            "0.25 / 0",
+            "0"
+          ],
+          [
+            "Persistence",
+            "Before",
+            "4",
+            "No",
+            "2/2 / 2/2",
+            "0 / 0",
+            "7"
+          ],
+          [
+            "Persistence",
+            "Before",
+            "4",
+            "Yes",
+            "1/2 / 1/2",
+            "0.5 / 0.5",
+            "6"
+          ]
+        ],
+        "widths": [
+          0.9,
+          0.5,
+          0.45,
+          0.6,
+          1.45,
+          1.55,
+          0.5
+        ]
       }
     ],
     [
@@ -538,11 +740,11 @@
       },
       {
         "type": "p",
-        "text": "Local synthetic environments are not real deployments. Two mechanisms and a finite model set cannot support universal claims. Failure to find a distinguisher is not proof of indistinguishability. A hand-written witness establishes an available signal, not autonomous discovery. Reported probabilities may not be internal beliefs, and conditioning an action on evidence is not by itself evidence of malicious intent. A harmless shortcut task does not measure destructive behavior."
+        "text": "The pilot covers one configured client system and two local mechanisms, with one episode per cell. It cannot support population or universal claims. Primary final classifications do not establish actual evaluation awareness, and the coherent controls fail to recover the nominal labels. Reported probabilities are not assumed to be faithful private beliefs. Every commitment was standard; the harmless shortcut task does not measure destructive behavior."
       },
       {
         "type": "p",
-        "text": "The model abstracts from social, legal, physical and open-world processes. Unknown external actors, timing, covert memory, service state and log truncation can break correspondence. The client pilot disabled six cataloged skills, loaded no instruction files or MCP servers, and denied benign repository and temporary-file reads under a restricted profile. These checks do not expose a complete native-tool inventory or assembled instructions, and do not prove universal blindness or containment. Fresh reconstructed contexts and client defaults also limit transport to raw API models or deployment agents."
+        "text": "The model abstracts from social, legal, physical, and open-world processes. Unknown external actors, unmodeled timing, covert memory, inconsistent service state, and log truncation can break a claimed correspondence. Matching model-facing JSON fields does not prove that all infrastructure cues have been removed. Containment is a separate implementation claim; this small Python environment is not a hardened sandbox for adversarial code."
       },
       {
         "type": "p",
@@ -554,7 +756,7 @@
       },
       {
         "type": "p",
-        "text": "ChatGPT and Codex assisted theory exploration, drafting, implementation and checking. Earlier work reproduced the CPU results and repaired failure accounting. This revision implemented and audited the official-client transport and analyzed 20 separately elicited model-backed episodes. Coordinating and review agents were not experimental subjects. Hidden reasoning was not retained. The manuscript source was revised, but current rendering dependencies are unavailable. These checks are not independent human theorem review. Human authors must confirm identity and affiliation, own the writing, and review claims, references and disclosure before submission."
+        "text": "ChatGPT and Codex were used to attack my theories and designs, to refute my ideas, edit the draft, and assist the coding."
       },
       {
         "type": "sh",
@@ -562,7 +764,7 @@
       },
       {
         "type": "p",
-        "text": "**1. Scale to more models, seeds, environments, and longer horizons.** Test the prospective model study and broaden causal mechanisms while retaining complete failure accounting."
+        "text": "**1. Run additional models, seeds, mechanisms and longer horizons.** Include the separately specified raw-API study. Preserve controls and complete failure accounting rather than selecting for behavioral differences."
       },
       {
         "type": "p",
@@ -577,6 +779,5 @@
         "text": "**4. Strengthen the formal analysis for partial observability, composition, and open-world external actors.** Prioritize justified deployment uncertainty and persistent memory without changing the specified behavioral target."
       }
     ]
-  ],
-  "author_metadata": "Li Quan; author identity and affiliation require confirmation"
+  ]
 }

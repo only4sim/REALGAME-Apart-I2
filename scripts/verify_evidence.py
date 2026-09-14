@@ -7,6 +7,7 @@ import argparse
 import hashlib
 import json
 import math
+from verify_repository import verify_manifest
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -17,15 +18,9 @@ def read(path):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--out', type=Path, default=ROOT / 'verification/evidence_checks.json')
+    parser.add_argument('--out', type=Path, required=True)
     args = parser.parse_args()
-    originals = read(ROOT / 'verification/inherited_evidence_hashes.json')['files']
-    for record in originals:
-        assert hashlib.sha256((ROOT / record['path']).read_bytes()).hexdigest() == record['sha256'], record['path']
-    reproduced = []
-    for p in sorted((ROOT / 'results/reproduced').glob('*')):
-        assert p.read_bytes() == (ROOT / 'results' / p.name).read_bytes(), p.name
-        reproduced.append(p.name)
+    original_count = verify_manifest()
     scripted = [json.loads(line) for line in (ROOT / 'results/scripted_runs.jsonl').read_text().splitlines()]
     assert len(scripted) == len({r['run_id'] for r in scripted}) == 960
     assert Counter(r['backend'] for r in scripted) == {'scripted': 960}
@@ -89,17 +84,16 @@ def main():
         assert all(a <= b for a,b in zip(row['curve'], row['curve'][1:]))
         if row['mode'] == 'corrected':assert F(row['crossing_probability_exact']) <= F(1,20)
     assert robust['persistent_bit']['nominal_eventual_crossing'] == '3/10'
-    inherited = [read(ROOT/'verification'/name) for name in ('rechecked_full.json','rechecked_restricted.json')]
-    assert all(x['status'] == 'all_certificates_verified' for x in inherited)
-    result = {'status': 'passed', 'inherited_evidence_files_unchanged': len(originals),
-              'reproduced_files_byte_identical': len(reproduced), 'scripted_episodes': len(scripted),
+    result = {'status': 'passed', 'evidence_files_unchanged': original_count,
+              'scripted_episodes': len(scripted),
               'matched_input_pairs': matched, 'population_cases': len(population), 'exact_population_checks': checks,
               'sampling_records_checked': len(samples), 'sampling_draws': sum(r['n'] for r in samples),
               'crossing_outputs_checked': len(robust['rows']),
-              'inherited_certificate_cases': sum(x['case_count'] for x in inherited),
-              'inherited_rational_constraints': sum(x['checked_constraints'] for x in inherited),
+              'certificate_verification': 'Run certificates/code/check_certificates.py; make reproduce performs both checks.',
               'scope': 'Saved-record consistency and numerical reproduction; no new stochastic or model experiment and no human theorem review.'}
-    args.out.write_text(json.dumps(result, indent=2)+'\n')
+    args.out.parent.mkdir(parents=True, exist_ok=True)
+    with args.out.open('x') as stream:
+        stream.write(json.dumps(result, indent=2)+'\n')
     print(json.dumps(result, indent=2))
 
 

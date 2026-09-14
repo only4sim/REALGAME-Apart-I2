@@ -6,7 +6,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 
 def main():
-    ap=argparse.ArgumentParser();ap.add_argument('--docx',type=Path,default=ROOT/'submission_report.docx');ap.add_argument('--pdf',type=Path,default=ROOT/'submission_report.pdf');ap.add_argument('--images',type=Path);a=ap.parse_args()
+    ap=argparse.ArgumentParser();ap.add_argument('--docx',type=Path,default=ROOT/'build/paper/manuscript.docx');ap.add_argument('--pdf',type=Path,default=ROOT/'build/paper/manuscript.pdf');ap.add_argument('--images',type=Path);a=ap.parse_args()
     exe=shutil.which('libreoffice') or shutil.which('soffice')
     if not exe:raise SystemExit('LibreOffice is required. Do not pretend a DOCX has been rendered.')
     with tempfile.TemporaryDirectory() as td:

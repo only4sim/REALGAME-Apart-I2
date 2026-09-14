@@ -1,8 +1,2 @@
-# Core tests, worlds, API runner, and exact experiments: Python standard library.
-# Optional: plots and editable report build/verification.
-matplotlib>=3.6
-python-docx>=1.1
-lxml>=4.9
-PyMuPDF>=1.23
-# External executables: pandoc, LibreOffice.
-# Original template typeface must be installed externally; no fonts are bundled.
+# Python 3.10+ standard library is sufficient for make reproduce and make test.
+# Optional document dependencies: requirements-paper.txt.

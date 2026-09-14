@@ -1,0 +1,11 @@
+{
+  "status": "author_instruction_recorded",
+  "date": "2026-09-14",
+  "source": "User message in this conversation",
+  "instruction_english_translation": "Use the new paper PDF as authoritative for the author block and abstract, and revise other inconsistencies.",
+  "author_name": "Li Quan",
+  "author_affiliation": "The Pioneer Centre for Artificial Intelligence, Denmark",
+  "pdf": "paper/Certifying Behavior Without Hiding the Sandbox v1.pdf",
+  "pdf_sha256": "355c6c35f4723f202d2bb9fefb9ef8847bce810e7b8724d74e8aa3ea3f57a2f8",
+  "scope": "Manuscript metadata and source reconciliation; not independent identity verification, scientific review, or permission to publish."
+}
